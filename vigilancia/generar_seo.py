@@ -116,6 +116,16 @@ def plazo_texto(o, hoy):
     return f"El plazo de solicitud ya ha terminado (cerró aproximadamente el {f})."
 
 
+GC = None   # codigo de GoatCounter (estadisticas sin cookies); se fija en generar()
+
+
+def etiqueta_gc():
+    if not GC:
+        return ""
+    return ("<script>if(navigator.doNotTrack!=='1'&&!navigator.globalPrivacyControl){var s=document.createElement('script');s.async=1;s.src='/count.js';"
+            f"s.setAttribute('data-goatcounter','https://{GC}.goatcounter.com/count');document.head.appendChild(s)}}</script>")
+
+
 def pagina(ruta, titulo, desc, h1, cuerpo, migas, extra_ld=None, noindex=False):
     url = BASE + ruta
     ld = [{"@context": "https://schema.org", "@type": "BreadcrumbList",
@@ -130,7 +140,7 @@ def pagina(ruta, titulo, desc, h1, cuerpo, migas, extra_ld=None, noindex=False):
 <meta property="og:type" content="website"><meta property="og:locale" content="es_ES"><meta property="og:site_name" content="{MARCA}">
 <meta property="og:title" content="{e(titulo)}"><meta property="og:description" content="{e(corto(desc))}"><meta property="og:url" content="{e(url)}">
 <meta property="og:image" content="{BASE}/og.png"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#1D5A49">
-<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="alternate" type="application/atom+xml" title="Convocatorias de universidades andaluzas" href="/oposiciones/feed.xml">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 <style>{CSS}</style></head><body>
 <header><div class="w"><a class="brand" href="/"><i></i>{MARCA}</a><a href="/oposiciones/">Convocatorias</a><a class="btn acc" href="/">Entrar</a></div></header>
@@ -141,7 +151,7 @@ def pagina(ruta, titulo, desc, h1, cuerpo, migas, extra_ld=None, noindex=False):
 <footer><div class="w"><p>{MARCA} es un servicio independiente de preparación de oposiciones: no está vinculado a ninguna universidad ni administración.
 La información de las convocatorias se recoge del BOE y el BOJA y es orientativa: manda siempre el texto oficial.</p>
 <p><a href="/oposiciones/">Oposiciones en universidades de Andalucía</a> · <a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/cookies.html">Cookies</a> · <a href="/legal/condiciones.html">Condiciones</a></p></div></footer>
-{JS_ESTADO}</body></html>"""
+{JS_ESTADO}{etiqueta_gc()}</body></html>"""
 
 
 def tarjeta(o, proc, hoy):
@@ -153,7 +163,7 @@ def tarjeta(o, proc, hoy):
 def pag_proceso(o, opos, uni, proc, hoy, temario_ugr):
     n, org = o["nombre"], o["organismo"]
     anio = (o.get("publicado") or "2026")[:4]
-    titulo = corto(f"{org}: oposición {n} {anio}", 72)   # la universidad va primero: es lo que busca la gente y lo que no debe recortarse
+    titulo = corto(f"{org}: temario y examen de {n} {anio}" if o.get("programa") or o["estado"] == "disponible" else f"{org}: oposición {n} {anio}", 110)   # la universidad va primero: es lo que busca la gente y lo que no debe recortarse
     desc = (f"Oposición de {n} en la {org}: {o['plazas']}, {o['tipo'].lower()} por turno {o['turno'].lower()}. "
             f"{o['convocatoria']}. Plazo, programa del examen y enlace a la convocatoria oficial.")
     g = f", grupo {o['grupo'].replace('Grupo ', '')}" if o.get("grupo") else ""
@@ -181,6 +191,19 @@ def pag_proceso(o, opos, uni, proc, hoy, temario_ugr):
         cuerpo += (f'<h2>Temario de la oposición de {e(n)}</h2><p>En {MARCA} tienes preparados los {len(temario_ugr)} temas de esta oposición, con apuntes por artículos, '
                    f'tests con la cita literal de la norma, simulacros, plan de estudio y audio. Los dos primeros son gratuitos.</p>'
                    f'<ul class="l">{"".join("<li><strong>" + e(t["titulo"]) + "</strong> <span class=muted>— " + e(t["alcance"]) + "</span></li>" for t in temario_ugr)}</ul>')
+    if pr or o["estado"] == "disponible":
+        prep = ["Empieza por leer el programa completo y marca los temas que menos conoces.",
+                "Estudia cada tema con la norma delante: es lo que se pregunta en el examen.",
+                "Haz tests por temas desde el principio, no solo al final, y repasa cada fallo con su explicación."]
+        if o["estado"] == "disponible":
+            prep.append("Combina apuntes, tests con la cita de la norma y audio para repasar en cualquier sitio; los dos primeros temas son gratis.")
+        prep.append("Fija una fecha para cada bloque y guarda las últimas semanas para simulacros completos con tiempo.")
+        cuerpo += f'<h2>Cómo preparar esta oposición</h2><ol>{"".join("<li>" + e(x) + "</li>" for x in prep)}</ol>'
+    faq = [("¿Cuántas plazas tiene?", f"{o['plazas']}, de {o['tipo'].lower()}, por el turno {o['turno'].lower()}."),
+           ("¿Cuándo es el examen?", (o.get("examen") or "La fecha se publicará con la lista de personas admitidas.") + " La fecha exacta la fija la universidad y se publica en su portal de personal."),
+           ("¿Dónde está la convocatoria oficial?", f"En el {'BOE' if 'BOE' in o['convocatoria'] else 'BOJA'}: {o['convocatoria']}. Aquí tienes el enlace directo a la publicación oficial."),
+           ("¿Puedo enterarme de los cambios?", "Sí: suscríbete a la oposición y te avisamos por correo de correcciones, listas de admitidos y fecha del examen.")]
+    cuerpo += "<h2>Preguntas frecuentes</h2>" + "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in faq)
     cuerpo += (f'<div class="card"><h2 style="margin-top:0">{"Estudia esta oposición" if o["estado"] == "disponible" else "Sigue esta convocatoria"}</h2>'
                f'<p>{"Empieza gratis con los dos primeros temas, haz tests con la cita de la norma y sigue un plan de estudio hasta el examen." if o["estado"] == "disponible" else "Todavía no tenemos el temario de esta oposición. Suscríbete y te avisamos por correo de los cambios que se publiquen en el BOE o el BOJA y de cuándo esté el temario."}</p>'
                f'<div class="row"><a class="btn acc" href="/#/oposicion/{e(o["id"])}">{"Ver el temario" if o["estado"] == "disponible" else "Avisarme de las novedades"}</a>'
@@ -197,7 +220,7 @@ def pag_uni(nombre, ciudad, opos, uni, proc, hoy):
     lista = [o for o in opos if o["organismo"] == nombre]
     ab = [o for o in lista if abierta(o, hoy)]
     ce = [o for o in lista if not abierta(o, hoy)]
-    titulo = f"Oposiciones {nombre} 2026: convocatorias del PAS"
+    titulo = f"Oposiciones {nombre} 2026: convocatorias PAS/PTGAS"
     desc = (f"Convocatorias de oposiciones del personal de administración y servicios (PAS) de la {nombre}: "
             f"{len(ab)} con plazo abierto y {len(ce)} cerradas. Plazas, plazos, programa y temario.") if lista else \
            f"Oposiciones del personal de administración y servicios (PAS) de la {nombre}: estado de las convocatorias de 2026."
@@ -217,28 +240,28 @@ def pag_uni(nombre, ciudad, opos, uni, proc, hoy):
                f'(correcciones, listas de admitidos, fecha del examen).</p><div class="row"><a class="btn acc" href="/#/oposiciones">Ver oposiciones y suscribirme</a></div></div>'
                f'<p><a href="/oposiciones/">Oposiciones en todas las universidades de Andalucía</a></p>')
     migas = [("Inicio", "/"), ("Oposiciones", "/oposiciones/"), (nombre, uni[nombre])]
-    return pagina(uni[nombre], titulo, desc, f"Oposiciones de la {nombre}: convocatorias del PAS", cuerpo, migas)
+    return pagina(uni[nombre], titulo, desc, f"Oposiciones de la {nombre}: convocatorias del PTGAS (PAS)", cuerpo, migas)
 
 
 def pag_hub(opos, uni, proc, hoy):
     ab = [o for o in opos if abierta(o, hoy)]
     escalas = sorted({re.sub(r"^Escala (?:de |de los |de las )?", "", o["nombre"]).split(" · ")[0] for o in opos if o["tipo"] == "Personal funcionario"})[:8]
-    titulo = "Oposiciones universidades de Andalucía 2026: convocatorias PAS"
-    desc = (f"Convocatorias de oposiciones del personal de administración y servicios de las 10 universidades públicas andaluzas: "
+    titulo = "Oposiciones PTGAS universidades de Andalucía 2026: convocatorias"
+    desc = (f"Convocatorias de oposiciones PTGAS (PAS) de las 10 universidades públicas andaluzas: "
             f"{len(ab)} con plazo abierto. Granada, Sevilla, Málaga, Cádiz, Córdoba, Almería, Huelva, Jaén, UPO y UNIA.")
     cuerpo = (f'<p class="lead">Todas las <strong>convocatorias de oposiciones de las universidades públicas de Andalucía</strong> para el personal de administración y servicios (PAS), '
               f'recogidas del BOE y el BOJA: Universidad de Granada, de Sevilla, de Málaga, de Cádiz, de Córdoba, de Almería, de Huelva, de Jaén, Pablo de Olavide e Internacional de Andalucía. '
               f'Ahora mismo hay <strong>{len(ab)} con el plazo de solicitud abierto</strong> y {len(opos)} en el listado.</p>')
     if ab:
-        cuerpo += "<h2>Convocatorias con plazo de solicitud abierto</h2>" + "".join(tarjeta(o, proc, hoy) for o in ab)
+        cuerpo += "<h2>Convocatorias con plazo de solicitud abierto</h2>" + "".join(tarjeta(o, proc, hoy) for o in ab) + '<p><a href="/oposiciones/abiertas/">Ver solo las oposiciones abiertas ahora</a></p>'
     cuerpo += '<h2>Oposiciones por universidad</h2><div class="grid">'
     for n, c in UNIVERSIDADES:
         k = [o for o in opos if o["organismo"] == n]
         a = sum(1 for o in k if abierta(o, hoy))
         cuerpo += (f'<div class="card"><h3 style="margin:.1em 0"><a href="{e(uni[n])}">Oposiciones {e(n)}</a></h3>'
                    f'<p class="muted" style="margin:0">{len(k)} convocatorias · {a} abiertas</p></div>')
-    cuerpo += '</div><h2>Qué es el personal de administración y servicios (PAS)</h2>'
-    cuerpo += ('<p>El personal técnico, de gestión y de administración y servicios (PTGAS, o PAS) de las universidades es el que se ocupa de la gestión, la administración, '
+    cuerpo += '</div><h2>Qué es el PTGAS (antes PAS): personal técnico, de gestión y de administración y servicios</h2>'
+    cuerpo += ('<p>El personal técnico, de gestión y de administración y servicios (PTGAS, sigla que usa la Ley Orgánica del Sistema Universitario y que sustituye a la antigua PAS) de las universidades es el que se ocupa de la gestión, la administración, '
                'las bibliotecas, los archivos, los laboratorios y los servicios técnicos. Se accede mediante procesos selectivos de concurso-oposición '
                '(o por promoción interna) que cada universidad convoca y publica en el BOE y el BOJA.</p>')
     if escalas:
@@ -255,8 +278,36 @@ def pag_hub(opos, uni, proc, hoy):
                '<div class="row"><a class="btn acc" href="/#/oposiciones">Ver oposiciones y empezar</a></div></div>')
     ld = {"@context": "https://schema.org", "@type": "ItemList", "name": "Universidades públicas de Andalucía",
           "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "url": BASE + uni[n]} for i, (n, _) in enumerate(UNIVERSIDADES)]}
-    return pagina("/oposiciones/", titulo, desc, "Oposiciones en las universidades de Andalucía: convocatorias del PAS", cuerpo,
+    return pagina("/oposiciones/", titulo, desc, "Oposiciones PTGAS (PAS) en las universidades de Andalucía: convocatorias", cuerpo,
                   [("Inicio", "/"), ("Oposiciones", "/oposiciones/")], ld)
+
+
+def pag_abiertas(opos, uni, proc, hoy):
+    ab = [o for o in opos if abierta(o, hoy)]
+    ab.sort(key=lambda o: o.get("plazoFin") or "9999")
+    titulo = "Oposiciones abiertas ahora en universidades de Andalucía"
+    desc = f"{len(ab)} oposiciones PTGAS (PAS) con el plazo de solicitud abierto en las universidades andaluzas: plazas, plazo, programa y enlace oficial." if ab else \
+           "Oposiciones PTGAS (PAS) con el plazo de solicitud abierto en las universidades andaluzas. Ahora mismo no hay ninguna abierta."
+    cuerpo = (f'<p class="lead">Convocatorias del personal técnico, de gestión y de administración y servicios (PTGAS o PAS) de las universidades públicas de Andalucía '
+              f'con el <strong>plazo de solicitud abierto</strong>, ordenadas por la fecha en que termina. Ahora mismo hay <strong>{len(ab)}</strong>.</p>')
+    cuerpo += "".join(tarjeta(o, proc, hoy) for o in ab) if ab else "<p>Ahora mismo no hay ninguna convocatoria con el plazo abierto. Suscríbete a tu universidad y te avisamos cuando salga una.</p>"
+    cuerpo += ('<div class="card"><h2 style="margin-top:0">¿No ves la tuya?</h2><p>Mira todas las convocatorias, también las cerradas, o suscríbete a una oposición para recibir los cambios oficiales por correo.</p>'
+               '<div class="row"><a class="btn acc" href="/oposiciones/">Todas las convocatorias</a><a class="btn ghost" href="/#/oposiciones">Suscribirme</a></div></div>')
+    return pagina("/oposiciones/abiertas/", titulo, desc, "Oposiciones abiertas ahora en las universidades de Andalucía", cuerpo,
+                  [("Inicio", "/"), ("Oposiciones", "/oposiciones/"), ("Abiertas ahora", "/oposiciones/abiertas/")])
+
+
+def feed_atom(opos, uni, proc):
+    ult = sorted(opos, key=lambda o: o.get("publicado", ""), reverse=True)
+    ahora = (ult[0].get("publicado") or "2026-01-01") + "T00:00:00Z"
+    items = ""
+    for o in ult:
+        resumen = f"{o['organismo']}: {o['plazas']}, {o['tipo'].lower()}, turno {o['turno'].lower()}. {o['convocatoria']}."
+        items += (f"<entry><id>{BASE}{proc[o['id']]}</id><title>{e(o['organismo'] + ': ' + o['nombre'])}</title>"
+                  f"<link href=\"{BASE}{proc[o['id']]}\"/><updated>{(o.get('publicado') or '2026-01-01')}T00:00:00Z</updated><summary>{e(resumen)}</summary></entry>")
+    return (f'<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Oposiciones PTGAS de las universidades de Andalucía · {MARCA}</title>'
+            f'<id>{BASE}/oposiciones/</id><link href="{BASE}/oposiciones/"/><link rel="self" href="{BASE}/oposiciones/feed.xml"/><updated>{ahora}</updated>'
+            f'<author><name>{MARCA}</name></author>{items}</feed>')
 
 
 def bloque_inicio(opos, uni, proc, hoy):
@@ -268,7 +319,7 @@ def bloque_inicio(opos, uni, proc, hoy):
             '<p>Convocatorias del personal de administración y servicios (PAS) de las universidades públicas andaluzas, con apuntes por artículos, tests con la cita literal de la norma, '
             'simulacros y plan de estudio. Disponible: Escala de Auxiliares de Archivos, Bibliotecas y Museos de la Universidad de Granada, con 2 temas gratis.</p>'
             f'<h2>Oposiciones por universidad</h2><ul>{li}</ul><h2>Convocatorias con plazo abierto</h2><ul>{la}</ul>'
-            '<p><a href="/oposiciones/">Ver todas las convocatorias</a></p><noscript><p>Para estudiar los temas necesitas activar JavaScript.</p></noscript></section>')
+            '<p><a href="/oposiciones/abiertas/">Oposiciones abiertas ahora</a> · <a href="/oposiciones/">Ver todas las convocatorias</a></p><noscript><p>Para estudiar los temas necesitas activar JavaScript.</p></noscript></section>')
 
 
 def imagenes(docs):
@@ -304,12 +355,24 @@ def pag_404():
 <div class="row"><a class="btn acc" href="/">Ir al inicio</a><a class="btn ghost" href="/oposiciones/">Ver convocatorias</a></div></main></body></html>"""
 
 
-def generar(opos, docs, hoy=None, temario_ugr=None):
+def codigo_gc(docs):
+    """Lee el codigo de GoatCounter de docs/config.js (lo usa el proceso diario, que no tiene la configuracion local)."""
+    try:
+        m = re.search(r'"goatcounter":\s*"([a-z0-9-]+)"', open(os.path.join(docs, "config.js"), encoding="utf8").read())
+        return m.group(1) if m else None
+    except OSError:
+        return None
+
+
+def generar(opos, docs, hoy=None, temario_ugr=None, goatcounter=None):
+    global GC
+    GC = goatcounter if goatcounter is not None else codigo_gc(docs)
     hoy = hoy or dt.date.today()
     uni, proc = rutas(opos)
     destino = os.path.join(docs, "oposiciones")
     shutil.rmtree(destino, ignore_errors=True)
     paginas = {"/oposiciones/": pag_hub(opos, uni, proc, hoy)}
+    paginas["/oposiciones/abiertas/"] = pag_abiertas(opos, uni, proc, hoy)
     for n, c in UNIVERSIDADES:
         paginas[uni[n]] = pag_uni(n, c, opos, uni, proc, hoy)
     for o in opos:
@@ -319,6 +382,7 @@ def generar(opos, docs, hoy=None, temario_ugr=None):
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "index.html"), "w", encoding="utf8").write(contenido)
     open(os.path.join(docs, "404.html"), "w", encoding="utf8").write(pag_404())
+    open(os.path.join(docs, "oposiciones", "feed.xml"), "w", encoding="utf8").write(feed_atom(opos, uni, proc))
     urls = ["/"] + sorted(paginas) + [f"/legal/{x}.html" for x in ("aviso-legal", "privacidad", "cookies", "condiciones", "desistimiento")]
     open(os.path.join(docs, "sitemap.xml"), "w", encoding="utf8").write(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
