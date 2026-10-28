@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' https://*.supabase.co; connect-src 'self' https://*.supabase.co; base-uri 'self'; form-action 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.goatcounter.com; media-src 'self' https://*.supabase.co; connect-src 'self' https://*.supabase.co https://*.goatcounter.com; base-uri 'self'; form-action 'self'">
 <title>Ruta a la Plaza: oposiciones en universidades de Andalucía</title>
 <meta name="description" content="Convocatorias del PAS de las universidades de Andalucía (Granada, Sevilla, Málaga…) con temario, tests con cita de la norma y plan de estudio. Gratis.">
 <link rel="canonical" href="https://rutaalaplaza.com/">
@@ -815,6 +815,24 @@ window.addEventListener('hashchange',()=>{if(!location.hash.startsWith('#/test/'
 $('#borrar').onclick=()=>{if(confirm('¿Borrar el progreso guardado en este dispositivo?')){paraCron();T=null;S=Object.assign(nuevoS(),{examDate:S.examDate});try{localStorage.removeItem(KEY)}catch(e){}if(SES){S.upd=Date.now();subir().catch(()=>{})}toast('Progreso borrado');render()}};
 const pp=$('#pie-pagos');if(pp&&PAGOS_ON)pp.innerHTML=' · <a href="legal/condiciones.html">Condiciones de contratación</a> · <a href="legal/desistimiento.html">Desistimiento</a>';
 capturaEnlace();render();if(SES)sincroniza();
+
+/* ---------- Estadísticas de visitas sin cookies (GoatCounter): solo si hay código en la configuración ---------- */
+// Las direcciones con datos personales o secretos (enlaces de los correos, tokens, facturas) se cuentan SIN esa parte.
+function rutaContable(h){
+  h=String(h||'').replace(/^#\/?/,'');
+  if(/access_token=|refresh_token=|error_description=|error_code=|type=recovery|type=signup/.test(h))return '#/cuenta';
+  const p=h.split('?')[0].split('/').filter(Boolean);
+  if(['confirmar','baja','factura','cuenta','comprar','gracias'].includes(p[0]))return '#/'+p[0];
+  return '#/'+p.slice(0,2).join('/');
+}
+(function(){const c=CFG.goatcounter;
+  if(!c||!/^[a-z0-9-]{2,40}$/.test(c)||navigator.doNotTrack==='1'||navigator.globalPrivacyControl)return;   // respeta «no rastrear»
+  window.goatcounter={no_onload:true,endpoint:'https://'+c+'.goatcounter.com/count'};
+  const cuenta=()=>{try{window.goatcounter.count({path:location.pathname+rutaContable(location.hash),title:document.title})}catch(e){}};
+  const sc=document.createElement('script');sc.async=true;sc.src='count.js';sc.setAttribute('data-goatcounter','https://'+c+'.goatcounter.com/count');
+  sc.onload=()=>{cuenta();window.addEventListener('hashchange',cuenta)};
+  document.head.appendChild(sc)})();
+
 </script>
 </body>
 </html>
