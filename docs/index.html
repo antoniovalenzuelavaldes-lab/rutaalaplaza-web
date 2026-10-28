@@ -257,7 +257,8 @@ function msgError(e){const c=e.code||'';
   if(c==='weak_password')return'La contraseña es demasiado débil. Usa al menos '+MINPASS+' caracteres, con letras y números.';
   if(c==='same_password')return'La nueva contraseña debe ser distinta de la anterior.';
   if(c==='over_email_send_rate_limit'||e.status===429)return'Demasiados intentos seguidos. Espera unos minutos y vuelve a probar.';
-  return'No se ha podido completar la operación. Inténtalo de nuevo en unos minutos.'}
+  if(c==='unexpected_failure'||e.status>=500)return'No hemos podido enviar el correo. Inténtalo en unos minutos o escríbenos a '+DATOS.contacto+'.';
+  return'No se ha podido completar la operación. Inténtalo de nuevo en unos minutos.'+(c?' (código: '+c+')':'')}
 function vCuenta(app){
   const volver='<p><a href="#/">← Inicio</a></p>';
   if(!AUTH_ON){app.innerHTML=volver+`<section class="card stack"><h1>Cuenta</h1><p>El registro se abrirá en breve. Mientras tanto puedes estudiar los temas abiertos sin cuenta: tu progreso se guarda en este dispositivo.</p></section>`;return}
