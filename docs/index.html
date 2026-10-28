@@ -143,6 +143,8 @@ details.sub>.week{margin-top:6px}
 .dots i.on{background:var(--pine);border-color:var(--pine)}
 .dots i.now{outline:2px solid var(--accent)}
 select,input[type=date]{font:inherit;padding:8px 10px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);max-width:100%}
+.factura table{width:100%}
+@media print{.top,.tabs,footer,.noprint,.toast{display:none!important}body{background:#fff;color:#000;padding:0}.card{border:0;padding:0}.aviso{border:2px solid #000}}
 </style>
 </head>
 <body>
@@ -673,10 +675,12 @@ function vCuenta(app){
   if(SES){app.innerHTML=volver+`<section class="card stack"><h1>Mi cuenta</h1>${ok}
     <p>Has entrado como <strong>${esc(SES.email||'…')}</strong>. Tu progreso se sincroniza entre tus dispositivos <span class="muted">(${nube==='ok'?'al día':nube==='error'?'sin conexión ahora':'conectando…'})</span>.</p>
     ${PAGOS_ON?(ACC?`<p><strong>Temario completo activo${ACCHASTA?' hasta el '+ACCHASTA:''}.</strong></p>`:`<p>Tu cuenta es gratuita. <a href="#/comprar">Desbloquear el temario completo</a>.</p>`):''}
+    ${PAGOS_ON&&ACC?`<section class="stack" aria-labelledby="facturas"><h2 id="facturas" style="font-size:1.15rem">Facturas</h2><div id="lista-fact"><p class="muted">Cargando…</p></div></section>`:''}
     <div class="row"><label for="nom"><b>Tu nombre</b> <span class="muted">(opcional, para saludarte)</span></label><input type="text" id="nom" maxlength="40" value="${esc(S.nombre||'')}" autocomplete="given-name" style="width:auto"><button type="button" class="btn ghost sm" id="nomb">Guardar nombre</button></div>
     <div class="row"><button type="button" class="btn" id="salir">Cerrar sesión</button><button type="button" class="btn ghost" id="cambiar">Cambiar contraseña</button>
     <a class="btn ghost" href="mailto:${esc(CONTACTO)}?subject=${encodeURIComponent('Eliminar mi cuenta de Ruta a la Plaza')}&amp;body=${encodeURIComponent('Solicito la supresión de mi cuenta y de mis datos. Correo de la cuenta: '+(SES.email||''))}">Pedir que eliminen mi cuenta</a></div>
     <p class="muted">Más información en la <a href="legal/privacidad.html">política de privacidad</a>.</p></section>`;
+    if(PAGOS_ON&&ACC)cargaFacturas();
     $('#nomb').onclick=()=>{S.nombre=$('#nom').value.trim().slice(0,40);guardar();toast(S.nombre?'Nombre guardado':'Nombre borrado');render()};
     $('#salir').onclick=async()=>{window.__ok=null;await salir();location.hash='#/'};
     $('#cambiar').onclick=()=>{window.__modo='nueva';window.__ok=null;render()};return}
@@ -711,6 +715,46 @@ function vCuenta(app){
       else{await entrar(em,pw);window.__ok=window.__err=null;sincroniza();render()}}
     catch(e){b.disabled=false;b.textContent=txt;err(msgError(e))}}}
 
+
+/* ---------- Facturas (bajo petición, desde Mi cuenta) ---------- */
+const eur=c=>(c/100).toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2})+' €';
+function formFactura(){return `<form id="ffac" class="stack" novalidate>
+  <p class="muted" style="margin:0">Si necesitas factura, indícanos tus datos fiscales y la generamos al instante. Se emite una por compra y podrás verla e imprimirla cuando quieras.</p>
+  <label for="fa-nom"><strong>Nombre o razón social</strong></label><input type="text" id="fa-nom" maxlength="150" autocomplete="name" required>
+  <label for="fa-nif"><strong>NIF, NIE o CIF</strong></label><input type="text" id="fa-nif" maxlength="15" autocomplete="off" required>
+  <label for="fa-dom"><strong>Domicilio fiscal</strong> <span class="muted">(calle, número, código postal y localidad)</span></label><input type="text" id="fa-dom" maxlength="250" autocomplete="street-address" required>
+  <p class="err" id="fa-msg" role="alert" hidden></p>
+  <div class="row"><button class="btn acc" type="submit" id="fa-env">Generar mi factura</button></div></form>`}
+async function cargaFacturas(){const c=$('#lista-fact');if(!c)return;
+  try{const t=await tokenValido();const f=await api('/rest/v1/facturas?select=id,numero,fecha,total_centimos,prueba&order=creada.desc',{token:t});
+    if(f&&f.length){c.innerHTML=`<ul style="margin:0;padding-left:1.2em;display:grid;gap:6px">${f.map(x=>`<li><a href="#/factura/${x.id}">Factura ${esc(x.numero)}</a> · ${esc(fechaLarga(x.fecha))} · ${eur(x.total_centimos)}${x.prueba?' <span class="pill">de prueba</span>':''}</li>`).join('')}</ul>`;return}
+    c.innerHTML=formFactura();const fo=$('#ffac');if(!fo)return;
+    fo.onsubmit=async ev=>{ev.preventDefault();const b=$('#fa-env'),m=$('#fa-msg'),txt=b.textContent;m.hidden=true;
+      const nom=($('#fa-nom').value||'').trim(),nif=($('#fa-nif').value||'').trim(),dom=($('#fa-dom').value||'').trim();
+      if(nom.length<2||dom.length<5||nif.length<8){m.textContent='Rellena los tres datos.';m.hidden=false;return}
+      b.disabled=true;b.textContent='Generando…';
+      try{const r=await api('/rest/v1/rpc/pedir_factura',{method:'POST',token:await tokenValido(),body:{p_nombre:nom,p_nif:nif,p_domicilio:dom}});
+        location.hash='#/factura/'+r.id}
+      catch(e){b.disabled=false;b.textContent=txt;m.textContent=e.message==='nif_invalido'?'El NIF, NIE o CIF no parece válido. Revísalo.':e.message==='sin_pago'?'No encontramos ninguna compra pagada con esta cuenta.':e.message==='datos'?'Revisa los datos: alguno es demasiado corto o largo.':'No hemos podido generar la factura. Inténtalo de nuevo o escríbenos a '+CONTACTO+'.';m.hidden=false}}}
+  catch(e){c.innerHTML='<p class="err">No hemos podido cargar tus facturas. Inténtalo de nuevo en unos minutos.</p>'}}
+async function vFactura(app,id){
+  if(!SES){location.hash='#/cuenta';return}
+  if(!/^\d{1,12}$/.test(id||'')){location.hash='#/cuenta';return}
+  app.innerHTML='<p>Cargando la factura…</p>';
+  try{const t=await tokenValido();const r=await api('/rest/v1/facturas?id=eq.'+id+'&select=*',{token:t});const f=r&&r[0];
+    if(!f){location.hash='#/cuenta';return}
+    app.innerHTML=`<p class="noprint"><a href="#/cuenta">← Mi cuenta</a></p>
+    <section class="card factura stack">${f.prueba?'<div class="aviso"><strong>FACTURA DE PRUEBA.</strong> Corresponde a un pago de prueba: no tiene validez fiscal.</div>':''}
+      <div class="row" style="justify-content:space-between;align-items:start"><h1 style="font-size:1.8rem">Factura</h1><div style="text-align:right"><div class="mono"><strong>${esc(f.numero)}</strong></div><div class="muted">${esc(fechaLarga(f.fecha))}</div></div></div>
+      <div class="grid2"><div><div class="eyebrow">Emisor</div><p><strong>${esc(f.emisor_nombre)}</strong><br>NIF ${esc(f.emisor_nif)}<br>${esc(f.emisor_domicilio)}<br>${esc(f.emisor_email)}</p></div>
+        <div><div class="eyebrow">Cliente</div><p><strong>${esc(f.receptor_nombre)}</strong><br>NIF ${esc(f.receptor_nif)}<br>${esc(f.receptor_domicilio)}</p></div></div>
+      <table style="display:table"><tr><th>Concepto</th><th style="text-align:right">Base</th><th style="text-align:right">IVA</th><th style="text-align:right">Total</th></tr>
+        <tr><td>${esc(f.concepto)}</td><td style="text-align:right">${eur(f.base_centimos)}</td><td style="text-align:right">${esc(String(Number(f.tipo_iva)).replace('.',','))} % · ${eur(f.iva_centimos)}</td><td style="text-align:right"><strong>${eur(f.total_centimos)}</strong></td></tr></table>
+      <p class="muted" style="font-size:.88rem;margin:0">Importe total pagado con IVA incluido. Factura emitida automáticamente a petición del cliente.</p></section>
+    <div class="row noprint"><button type="button" class="btn acc" id="fprint">Imprimir o guardar como PDF</button><a class="btn ghost" href="#/cuenta">Volver</a></div>`;
+    const pb=$('#fprint');if(pb)pb.onclick=()=>window.print()}
+  catch(e){app.innerHTML='<section class="card stack"><h1>Factura</h1><p>No hemos podido cargarla. Inténtalo de nuevo en unos minutos.</p><div class="row"><a class="btn ghost" href="#/cuenta">Volver</a></div></section>'}}
+
 /* ---------- Compra ---------- */
 const avisoPrueba=()=>CFG.prueba?`<div class="aviso"><strong>Modo de prueba.</strong> La compra todavía no está abierta al público: no se cobra nada. Puedes recorrer todo el proceso con la tarjeta de prueba <span class="mono">4242 4242 4242 4242</span> (cualquier fecha futura y cualquier CVC) para revisarlo.</div>`:'';
 function vComprar(app){
@@ -720,19 +764,20 @@ function vComprar(app){
   if(ACC){app.innerHTML=volver+`<section class="card stack"><h1>Ya tienes el temario completo</h1><p>Acceso activo${ACCHASTA?' hasta el '+esc(ACCHASTA):''}.</p><div class="row"><a class="btn acc" href="#temario">Ir al temario</a></div></section>`;return}
   if(!SES){app.innerHTML=volver+`<section class="card stack"><h1>Temario completo · ${esc(PRECIO)}</h1>${lista}<p>Pago único, sin suscripción. Para comprar necesitas una cuenta gratuita (así el acceso queda ligado a tu correo).</p><div class="row"><a class="btn acc" href="#/cuenta">Crear cuenta o entrar</a></div></section>`;return}
   app.innerHTML=volver+`<section class="card stack"><h1>Temario completo · ${esc(PRECIO)}</h1>${avisoPrueba()}${lista}
-    <p class="muted">Pago único con tarjeta a través de Stripe, sin suscripción. Acceso digital a tu cuenta (<strong>${esc(SES.email||'')}</strong>) durante ${esc(DATOS.acceso||'el periodo indicado en las condiciones')}. Nosotros no vemos ni guardamos los datos de tu tarjeta.</p>
+    <p class="muted">Pago único con tarjeta a través de Stripe, sin suscripción. Acceso digital a tu cuenta (<strong>${esc(SES.email||'')}</strong>) durante ${esc(DATOS.acceso||'el periodo indicado en las condiciones')}. Nosotros no vemos ni guardamos los datos de tu tarjeta. Puedes pedir tu factura desde «Mi cuenta» una vez comprado.</p>
     <form id="frm" class="stack" novalidate>
       <label class="row" style="align-items:flex-start;gap:8px"><input type="checkbox" id="c1"><span>He leído y acepto las <a href="legal/condiciones.html" target="_blank" rel="noopener">condiciones de contratación</a> y la <a href="legal/privacidad.html" target="_blank" rel="noopener">política de privacidad</a>.</span></label>
+      <label class="row" style="align-items:flex-start;gap:8px"><input type="checkbox" id="c3"><span>Declaro que <strong>resido en España</strong>: solo vendemos a clientes con domicilio en España.</span></label>
       <label class="row" style="align-items:flex-start;gap:8px"><input type="checkbox" id="c2"><span>Solicito el acceso inmediato al contenido digital y reconozco que, una vez comenzado, <strong>pierdo el derecho de desistimiento</strong>.</span></label>
       <p class="err" id="msg" role="alert" hidden></p>
       <div class="row"><button class="btn acc" type="submit" id="env">Pagar ${esc(PRECIO)}</button></div></form></section>`;
   const err=t=>{const m=$('#msg');m.textContent=t;m.hidden=false};
   $('#frm').onsubmit=async ev=>{ev.preventDefault();const b=$('#env');
-    if(!$('#c1').checked||!$('#c2').checked){err('Marca las dos casillas para continuar.');return}
+    if(!$('#c1').checked||!$('#c2').checked||!$('#c3').checked){err('Marca las tres casillas para continuar.');return}
     b.disabled=true;b.textContent='Un momento…';
     try{const t=await tokenValido();if(!t)throw new Error('sesion');
       const r=await fetch(CFG.url+'/functions/v1/crear-pago',{method:'POST',headers:{apikey:CFG.key,Authorization:'Bearer '+t,'Content-Type':'application/json'},
-        body:JSON.stringify({acepta_condiciones:true,acepta_inicio_inmediato:true,version_condiciones:VCOND})});
+        body:JSON.stringify({acepta_condiciones:true,acepta_inicio_inmediato:true,residente_espana:true,version_condiciones:VCOND})});
       const j=await r.json().catch(()=>({}));
       if(r.status===409){await cargaAcceso();render();return}
       if(r.status===403&&j.error==='correo_sin_confirmar'){b.disabled=false;b.textContent='Pagar '+PRECIO;err('Confirma primero tu correo con el enlace que te enviamos.');return}
@@ -752,9 +797,9 @@ function render(){const app=$('#app'),h=location.hash.replace(/^#\/?/,'').split(
   if(h[0]==='tema')vTema(app,h[1]);else if(h[0]==='test')vTest(app,h[1]);else if(h[0]==='cuenta')vCuenta(app);else if(h[0]==='comprar')vComprar(app);else if(h[0]==='gracias')vGracias(app);
   else if(h[0]==='hoy')vHoy(app);else if(h[0]==='temario')vTemario(app);else if(h[0]==='tests')vTests(app);else if(h[0]==='plan')vPlan(app);else if(h[0]==='proceso')vProceso(app,h[1]);
   else if(h[0]==='oposiciones')vOposiciones(app);else if(h[0]==='oposicion')vOpo(app,h[1]);
-  else if(h[0]==='confirmar'||h[0]==='baja')vToken(app,h[1],h[0]);
+  else if(h[0]==='confirmar'||h[0]==='baja')vToken(app,h[1],h[0]);else if(h[0]==='factura')vFactura(app,h[1]);
   else if(SES&&!h[0])vHoy(app);else vInicio(app);
-  const ancla=!['tema','test','tests','cuenta','comprar','gracias','hoy','temario','plan','proceso','oposiciones','oposicion','confirmar','baja'].includes(h[0])&&h[0]&&document.getElementById(h[0]);   // enlaces internos: #gratis, #temario
+  const ancla=!['tema','test','tests','cuenta','comprar','gracias','hoy','temario','plan','proceso','oposiciones','oposicion','confirmar','baja','factura'].includes(h[0])&&h[0]&&document.getElementById(h[0]);   // enlaces internos: #gratis, #temario
   if(ancla)ancla.scrollIntoView();else if(h[0]!=='test'||!T)window.scrollTo(0,0)}
 window.addEventListener('hashchange',()=>{if(!location.hash.startsWith('#/test/')){paraCron();T=null}render()});
 $('#borrar').onclick=()=>{if(confirm('¿Borrar el progreso guardado en este dispositivo?')){paraCron();T=null;S=Object.assign(nuevoS(),{examDate:S.examDate});try{localStorage.removeItem(KEY)}catch(e){}if(SES){S.upd=Date.now();subir().catch(()=>{})}toast('Progreso borrado');render()}};
