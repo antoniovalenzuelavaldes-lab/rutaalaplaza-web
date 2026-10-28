@@ -1,0 +1,739 @@
+[
+ {
+  "id": "ugr-auxiliares-archivos-bibliotecas",
+  "nombre": "Escala de Auxiliares de Archivos, Bibliotecas y Museos",
+  "organismo": "Universidad de Granada",
+  "ambito": "Andalucía",
+  "estado": "disponible",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "C1",
+  "plazas": "13 plazas (1 reservada a discapacidad)",
+  "convocatoria": "BOE del 6 de octubre de 2026",
+  "publicado": "2026-10-06",
+  "plazoFin": "2026-10-28",
+  "examen": "Primer ejercicio: no antes del 1 de marzo de 2027",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20786"
+  },
+  "claves": [
+   "auxiliares de archivos, bibliotecas y museos"
+  ]
+ },
+ {
+  "id": "ugr-auxiliar-servicios-generales-discapacidad",
+  "nombre": "Escala Auxiliar de Servicios Generales (personas con discapacidad intelectual)",
+  "organismo": "Universidad de Granada",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre (reservado a discapacidad intelectual)",
+  "grupo": "C2",
+  "plazas": "3 plazas",
+  "convocatoria": "BOE del 12 de octubre de 2026",
+  "publicado": "2026-10-12",
+  "plazoFin": "2026-11-02",
+  "examen": "Primer ejercicio: no antes del 1 de marzo de 2027",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21196"
+  },
+  "programa": {
+   "nota": "Programa del Anexo I de la convocatoria (9 temas).",
+   "bloques": [
+    {
+     "titulo": "Programa",
+     "temas": [
+      "Derechos y deberes de los ciudadanos establecidos en los capítulos Primero y Segundo del Título I de la Constitución Española de 1978.",
+      "Derechos y deberes de los empleados públicos establecidos en el Título III del Texto refundido de la ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre.",
+      "Control de acceso, edificios y dependencias. Ubicación de Facultades, Escuelas, Institutos y otros edificios de la Universidad de Granada.",
+      "Productos y servicios postales. Conocimientos básicos de distribución de documentos, paquetería y correspondencia.",
+      "Atención al usuario. Atención e información telefónica. Técnicas asertivas de atención al público.",
+      "Información general y conocimiento del manejo de la página web de la Universidad de Granada.",
+      "Trabajo en equipo. Estructura de los equipos de trabajo en las conserjerías de los Centros y Servicios de la Universidad de Granada. Principales tareas.",
+      "Conocimientos básicos de informática a nivel de usuario. Componentes de un ordenador personal: Unidad central, periféricos de entrada, salida y almacenamiento.",
+      "Aplicaciones ofimáticas a nivel básico. Internet y correo electrónico a nivel básico. Seguridad informática básica a nivel usuario."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Un único ejercicio teórico-práctico, obligatorio y eliminatorio: cuestionario tipo test de 30 preguntas con 3 respuestas, solo una correcta.",
+    "Duración: 120 minutos. Se califica de 0 a 70 puntos.",
+    "Para superarlo hace falta al menos el 25 % de respuestas correctas (el tribunal puede fijarlo hasta el 20 %). Las respuestas erróneas no penalizan."
+   ]
+  },
+  "claves": [
+   "auxiliar de servicios generales"
+  ]
+ },
+ {
+  "id": "ugr-gestion-relaciones-internacionales",
+  "nombre": "Escala de Gestión de Relaciones Internacionales",
+  "organismo": "Universidad de Granada",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Promoción interna",
+  "grupo": "A2",
+  "plazas": "3 plazas",
+  "convocatoria": "BOJA del 6 de octubre de 2026",
+  "publicado": "2026-10-06",
+  "plazoFin": "2026-10-28",
+  "examen": "Primer ejercicio: no antes del 1 de marzo de 2027",
+  "enlace": {
+   "t": "Convocatoria en el BOJA",
+   "u": "https://www.juntadeandalucia.es/boja/2026/194/36"
+  },
+  "programa": {
+   "nota": "Programa del Anexo I de la convocatoria: 39 temas. Algunos títulos aparecen abreviados aquí; el texto completo está en el anexo oficial.",
+   "bloques": [
+    {
+     "titulo": "Bloque general",
+     "temas": [
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título Preliminar, Título I…",
+      "Proyecto de Estatutos de la Universidad de Granada, aprobado en la sesión extraordinaria del Claustro…",
+      "Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015… (incluye la Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía)",
+      "Reglamento de actuación y funcionamiento del sector público por medios electrónicos…",
+      "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales.",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Título Preliminar… (incluye la Ley 4/2023, de 28 de febrero, para la igualdad de las personas trans y LGTBI)"
+     ]
+    },
+    {
+     "titulo": "Bloque específico",
+     "temas": [
+      "Estrategia Europea para las Universidades, publicada por la Comisión Europea el 18 de enero de 2022",
+      "Decisión de Ejecución (UE) 2021/173 de la Comisión de 12 de febrero de 2021 por la que se crea la Agencia…",
+      "Real Decreto 903/2007, de 6 de julio, por el que se aprueba el Estatuto del Servicio Español…",
+      "Reglamento (UE) 2021/817 del Parlamento Europeo y del Consejo de 20 de mayo de 2021…",
+      "Programa Erasmus+: objetivos, prioridades, características, estructura…",
+      "Programa Erasmus+: Iniciativa «Universidades Europeas».",
+      "Programa Erasmus+: Asociaciones para la cooperación",
+      "Programa Erasmus+: Alianzas para la innovación",
+      "Programa Erasmus+: Desarrollo de Capacidades en el ámbito de la educación superior",
+      "Programa Erasmus+: Acciones Jean Monnet.",
+      "Programa Erasmus+: Acción Erasmus Mundus: medidas de diseño y másteres conjuntos",
+      "Programa Erasmus+: Acción Clave 1 (KA131) - Movilidad para estudiantes y personal de educación superior…",
+      "Programa Erasmus+: Acción Clave 1 (KA171) - Movilidad internacional para estudiantes…",
+      "Estrategia de Inclusión y Diversidad en el programa Erasmus+: Guía para la implementación…",
+      "Estrategia Digital de los programas Erasmus+ y del cuerpo Europeo de Solidaridad. Directrices de aplicación…",
+      "La Estrategia de Cooperación e Inversión Internacional Global Gateway de la Unión Europea.",
+      "El Portal de Financiación y Licitaciones de la Comisión Europea (EU Funding & Tenders Portal)…",
+      "La Carta Erasmus de Educación Superior y la Declaración de la política Erasmus…",
+      "El programa Europa Creativa: Proyectos de Cooperación Europea del subprograma Cultura…",
+      "El Plan Estratégico 2031 de la Universidad de Granada, aprobado en la sesión extraordinaria…",
+      "Plan Director de la UGR 2026 aprobado en la sesión ordinaria de Consejo de Gobierno…",
+      "Estrategia de Internacionalización 2026-2031 de la Universidad de Granada, aprobada en la sesión ordinaria…",
+      "Plan Propio de Internacionalización de la UGR 2026, aprobado en la sesión ordinaria…",
+      "Reglamento de movilidad internacional de estudiantes, aprobado en sesión ordinaria…",
+      "Reglamento para la solicitud, participación y gestión de Proyectos Internacionales de Cooperación Académica…",
+      "Redacción y gestión de convenios internacionales en la UGR: acuerdos interinstitucionales Erasmus+…",
+      "El grupo Coimbra de Universidades: Carta fundacional, firmada el 15 de octubre de 1987…",
+      "Redes y asociaciones universitarias a nivel internacional: Asociación Internacional de Universidades…",
+      "La Alianza Universitaria Europea Arqus: Declaración de Misión de Arqus…",
+      "Política Lingüística de la UGR, aprobada en la sesión ordinaria del Consejo de Gobierno de 31 de enero de 2017",
+      "Convenio de las Universidades Públicas Andaluzas para la acreditación de lenguas extranjeras…",
+      "Estrategia de la Universidad de Granada para el fomento del español académico y científico internacional…",
+      "Manual Sistema Universitario de Gestión Integrada (SUGI), aprobado por Resolución del Rector…"
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Concurso-oposición. Los ejercicios se describen en el Anexo II de la convocatoria."
+   ]
+  },
+  "claves": [
+   "gestion de relaciones internacionales"
+  ]
+ },
+ {
+  "id": "ugr-administrativa-2026",
+  "nombre": "Escala Administrativa",
+  "organismo": "Universidad de Granada",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "C1",
+  "plazas": "46 plazas (40 Granada, 4 Melilla y 2 Ceuta; 4 reservadas a discapacidad)",
+  "convocatoria": "BOE del 4 de julio de 2026",
+  "publicado": "2026-07-04",
+  "plazoFin": "2026-07-24",
+  "examen": "Primer ejercicio: no antes del 1 de marzo de 2027",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14538"
+  },
+  "claves": [
+   "escala administrativa"
+  ]
+ },
+ {
+  "id": "ugr-apoyo-docencia-bellas-artes",
+  "nombre": "Escala Básica de Apoyo a la Docencia y a la Investigación · Técnico/a de Laboratorio (Creación Audiovisual, Bellas Artes)",
+  "organismo": "Universidad de Granada",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "C1",
+  "plazas": "1 plaza",
+  "convocatoria": "BOE del 3 de julio de 2026",
+  "publicado": "2026-07-03",
+  "plazoFin": "2026-07-24",
+  "examen": "Primer ejercicio: no antes del 1 de octubre de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14468"
+  },
+  "claves": [
+   "apoyo a la docencia y a la investigacion",
+   "bellas artes"
+  ]
+ },
+ {
+  "id": "ugr-apoyo-docencia-mecanica-estructuras",
+  "nombre": "Escala Básica de Apoyo a la Docencia y a la Investigación · Técnico/a de Laboratorio (Mecánica de Estructuras e Ingeniería Hidráulica)",
+  "organismo": "Universidad de Granada",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "C1",
+  "plazas": "1 plaza",
+  "convocatoria": "BOE del 6 de julio de 2026",
+  "publicado": "2026-07-06",
+  "plazoFin": "2026-07-27",
+  "examen": "Primer ejercicio: no antes del 1 de noviembre de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14623"
+  },
+  "claves": [
+   "apoyo a la docencia y a la investigacion",
+   "mecanica de estructuras"
+  ]
+ },
+ {
+  "id": "uca-tecnica-gestion-universitaria",
+  "nombre": "Escala Técnica de Gestión Universitaria",
+  "organismo": "Universidad de Cádiz",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "",
+  "plazas": "1 plaza",
+  "convocatoria": "BOJA del 15 de octubre y BOE del 16 de octubre de 2026 (con corrección de errores)",
+  "publicado": "2026-10-16",
+  "plazoFin": "2026-11-06",
+  "plazoNota": "Quince días hábiles desde la publicación en el BOE. La corrección de errores de los días 20 y 21 puede retrasar el cierre unos días: confírmalo en la convocatoria.",
+  "examen": "Primer ejercicio: no antes del 1 de diciembre de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOJA",
+   "u": "https://www.juntadeandalucia.es/boja/2026/200/23.html"
+  },
+  "programa": {
+   "nota": "Programa del Anexo II de la convocatoria: 82 temas en 6 bloques. Aquí se resume cada bloque; los títulos exactos de los temas están en el anexo oficial.",
+   "bloques": [
+    {
+     "titulo": "Bloque I. Gerencia pública y organización de la administración",
+     "n": 10,
+     "resumen": "Dirección por objetivos, calidad y modelos de gestión, Sistema de Dirección Estratégica de la UCA, liderazgo y equipos, toma de decisiones y cambio organizacional, gestión por competencias, comunicación interna, transparencia, Política Antifraude de la UCA, protección de datos e igualdad efectiva entre mujeres y hombres."
+    },
+    {
+     "titulo": "Bloque II. Derecho Constitucional. Comunidad Autónoma de Andalucía. Unión Europea",
+     "n": 17,
+     "resumen": "Constitución de 1978 (valores, derechos, poderes del Estado, Corona, Cortes, Gobierno, partidos y sistema electoral, organización territorial), Estatuto de Autonomía y Administración andaluza, y Derecho e instituciones de la Unión Europea (libertades básicas y política regional)."
+    },
+    {
+     "titulo": "Bloque III. Derecho Administrativo",
+     "n": 13,
+     "resumen": "Fuentes del Derecho Administrativo, servicio público, Ley 40/2015 (régimen jurídico del sector público), Ley 39/2015 (procedimiento administrativo común) y jurisdicción contencioso-administrativa."
+    },
+    {
+     "titulo": "Bloque IV. Gestión de personal y seguridad social",
+     "n": 13,
+     "resumen": "Régimen del personal al servicio de las Administraciones (TREBEP y Ley de Función Pública andaluza), situaciones administrativas, derechos y deberes, régimen disciplinario, personal docente e investigador y de administración y servicios, derecho del trabajo y convenios colectivos, derecho sindical, Seguridad Social y prevención de riesgos laborales."
+    },
+    {
+     "titulo": "Bloque V. Gestión financiera y contratación administrativa",
+     "n": 15,
+     "resumen": "Régimen económico-financiero y presupuestario de la Universidad, créditos, gasto e ingresos, contabilidad pública, tesorería, IRPF e IVA aplicados a la UCA, contratación del sector público (Ley 9/2017), subvenciones y patrimonio."
+    },
+    {
+     "titulo": "Bloque VI. Gestión universitaria",
+     "n": 14,
+     "resumen": "Espacio Europeo de Educación Superior y Horizonte Europa, ciencia e innovación, Ley Orgánica 2/2023 del Sistema Universitario, Ley 1/2026 universitaria de Andalucía, normativa de doctorado y matrícula, Reglamento de Gobierno de la UCA y código ético."
+    }
+   ],
+   "ejercicios": [
+    "1.º Teórico: cuestionario de hasta 90 preguntas de respuesta múltiple (una correcta), máximo 90 minutos. De 0 a 20 puntos; mínimo 10.",
+    "2.º Teórico: desarrollo de 2 temas elegidos entre 4 propuestos (bloques II a VI), máximo 150 minutos. De 0 a 20 puntos; mínimo 10.",
+    "3.º Práctico: supuesto práctico o prueba situacional a elegir entre 2, máximo 240 minutos. De 0 a 20 puntos; mínimo 10.",
+    "4.º Exposición del ejercicio anterior: 20 minutos y 10 de preguntas del tribunal. De 0 a 10 puntos; mínimo 5.",
+    "Se necesitan al menos 35 puntos entre los cuatro ejercicios. La oposición vale el 65 % y el concurso de méritos el 35 %."
+   ]
+  },
+  "claves": [
+   "tecnica de gestion universitaria"
+  ]
+ },
+ {
+  "id": "uca-auxiliar-administrativa",
+  "nombre": "Escala Auxiliar Administrativa",
+  "organismo": "Universidad de Cádiz",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "",
+  "plazas": "11 plazas (2 reservadas a discapacidad)",
+  "convocatoria": "BOE del 2 de mayo de 2026",
+  "publicado": "2026-05-02",
+  "plazoFin": "2026-05-22",
+  "examen": "Primer ejercicio: no antes del 1 de junio de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9563"
+  },
+  "claves": [
+   "auxiliar administrativa"
+  ]
+ },
+ {
+  "id": "uca-laboral-titulado-superior-apoyo",
+  "nombre": "Titulado Superior de Apoyo a la Docencia e Investigación",
+  "organismo": "Universidad de Cádiz",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal laboral",
+  "turno": "Promoción interna (y libre si queda desierta)",
+  "grupo": "Grupo I",
+  "plazas": "1 plaza",
+  "convocatoria": "BOE del 21 de mayo de 2026",
+  "publicado": "2026-05-21",
+  "plazoFin": "2026-06-11",
+  "examen": "Primer ejercicio: no antes del 1 de junio de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10956"
+  },
+  "claves": [
+   "titulado superior de apoyo a la docencia"
+  ]
+ },
+ {
+  "id": "uca-laboral-titulado-superior",
+  "nombre": "Titulado Superior (perfiles Emprendimiento y Prácticas de Empresa)",
+  "organismo": "Universidad de Cádiz",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal laboral",
+  "turno": "Libre",
+  "grupo": "Grupo 1",
+  "plazas": "2 plazas",
+  "convocatoria": "BOE del 15 de julio de 2026",
+  "publicado": "2026-07-15",
+  "plazoFin": "2026-08-10",
+  "plazoNota": "El plazo fue ampliado por una resolución posterior; la fecha de cierre es aproximada.",
+  "examen": "Primer ejercicio: no antes del 1 de octubre de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15436"
+  },
+  "claves": [
+   "titulado superior"
+  ]
+ },
+ {
+  "id": "uco-administrativa",
+  "nombre": "Escala Administrativa",
+  "organismo": "Universidad de Córdoba",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "C1",
+  "plazas": "34 plazas (4 reservadas a discapacidad)",
+  "convocatoria": "BOE del 2 de mayo de 2026",
+  "publicado": "2026-05-02",
+  "plazoFin": "2026-05-29",
+  "examen": "Fecha por anunciar en el Portal del Personal",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9560"
+  },
+  "claves": [
+   "escala administrativa"
+  ]
+ },
+ {
+  "id": "uco-laboral-stoem",
+  "nombre": "Técnico Especialista de Servicios Técnicos de Obras, Equipamiento y Mantenimiento",
+  "organismo": "Universidad de Córdoba",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal laboral",
+  "turno": "Libre",
+  "grupo": "Grupo III",
+  "plazas": "12 plazas (1 reservada a discapacidad)",
+  "convocatoria": "BOE del 8 de mayo de 2026",
+  "publicado": "2026-05-08",
+  "plazoFin": "2026-06-05",
+  "examen": "Fecha por anunciar en el Portal del Personal",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10010"
+  },
+  "claves": [
+   "servicios tecnicos de obras"
+  ]
+ },
+ {
+  "id": "ual-auxiliar-administrativa",
+  "nombre": "Escala Auxiliar Administrativa",
+  "organismo": "Universidad de Almería",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "C2",
+  "plazas": "21 plazas (1 reservada a discapacidad)",
+  "convocatoria": "BOE del 7 de julio de 2026",
+  "publicado": "2026-07-07",
+  "plazoFin": "2026-07-30",
+  "plazoNota": "Veinte días naturales desde la publicación en el BOJA (10 de julio de 2026).",
+  "examen": "Primer ejercicio: no antes del 1 de septiembre de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14723"
+  },
+  "claves": [
+   "auxiliar administrativa"
+  ]
+ },
+ {
+  "id": "ual-tecnica-gestion-sistemas",
+  "nombre": "Escala Técnica de Gestión de Sistemas e Informática",
+  "organismo": "Universidad de Almería",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "A2",
+  "plazas": "6 plazas",
+  "convocatoria": "BOE del 10 de junio de 2026",
+  "publicado": "2026-06-10",
+  "plazoFin": "2026-07-10",
+  "plazoNota": "Veinte días naturales desde la publicación en el BOJA; la fecha de cierre es aproximada.",
+  "examen": "Primer ejercicio: no antes del 1 de septiembre de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12576"
+  },
+  "claves": [
+   "gestion de sistemas e informatica"
+  ]
+ },
+ {
+  "id": "uhu-ayudantes-archivos-bibliotecas",
+  "nombre": "Escala de Ayudantes de Archivos, Bibliotecas y Museos",
+  "organismo": "Universidad de Huelva",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "A2",
+  "plazas": "3 plazas",
+  "convocatoria": "BOE del 24 de marzo de 2026",
+  "publicado": "2026-03-24",
+  "plazoFin": "2026-04-24",
+  "plazoNota": "Veinte días hábiles desde la publicación en el BOJA; la fecha de cierre es aproximada.",
+  "examen": "Primer ejercicio: no antes del 1 de octubre de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6833"
+  },
+  "claves": [
+   "ayudantes de archivos, bibliotecas y museos"
+  ]
+ },
+ {
+  "id": "uhu-auxiliar-administrativa",
+  "nombre": "Escala Auxiliar Administrativa",
+  "organismo": "Universidad de Huelva",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "C2",
+  "plazas": "45 plazas (7 reservadas a discapacidad)",
+  "convocatoria": "BOE del 1 de diciembre de 2025",
+  "publicado": "2025-12-01",
+  "plazoFin": "2026-01-15",
+  "plazoNota": "Veinte días hábiles desde la publicación en el BOJA; la fecha de cierre es aproximada.",
+  "examen": "Primer ejercicio: no antes del 31 de marzo de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24332"
+  },
+  "claves": [
+   "auxiliar administrativa"
+  ]
+ },
+ {
+  "id": "uja-laboral-conserjeria",
+  "nombre": "Técnico/a Auxiliar de Conserjería",
+  "organismo": "Universidad de Jaén",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal laboral",
+  "turno": "Libre",
+  "grupo": "Grupo IV",
+  "plazas": "9 plazas (2 reservadas a discapacidad intelectual)",
+  "convocatoria": "BOE del 4 de julio de 2026",
+  "publicado": "2026-07-04",
+  "plazoFin": "2026-07-31",
+  "examen": "Fecha por anunciar con la lista de admitidos",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14535"
+  },
+  "claves": [
+   "conserjeria"
+  ]
+ },
+ {
+  "id": "upo-administrativa",
+  "nombre": "Escala Administrativa (FC1/26)",
+  "organismo": "Universidad Pablo de Olavide",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "C1",
+  "plazas": "25 plazas (4 reservadas a discapacidad)",
+  "convocatoria": "BOE del 13 de enero de 2026",
+  "publicado": "2026-01-13",
+  "plazoFin": "2026-02-03",
+  "examen": "Primer ejercicio: no antes del 30 de junio de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-714"
+  },
+  "claves": [
+   "escala administrativa"
+  ]
+ },
+ {
+  "id": "upo-laboral-grupos-3-4",
+  "nombre": "Técnicos Especialistas y Auxiliar de Laboratorio y de Mantenimiento (Grupos III y IV)",
+  "organismo": "Universidad Pablo de Olavide",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal laboral",
+  "turno": "Libre",
+  "grupo": "Grupos III y IV",
+  "plazas": "5 plazas",
+  "convocatoria": "BOE del 22 de julio de 2026",
+  "publicado": "2026-07-22",
+  "plazoFin": "2026-08-19",
+  "examen": "Fecha por anunciar",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15993"
+  },
+  "claves": [
+   "grupos iii y iv"
+  ]
+ },
+ {
+  "id": "us-ayudantes-archivos-bibliotecas",
+  "nombre": "Escala de Ayudantes de Archivos, Bibliotecas y Museos",
+  "organismo": "Universidad de Sevilla",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "A2",
+  "plazas": "9 plazas",
+  "convocatoria": "BOE del 31 de marzo de 2026",
+  "publicado": "2026-03-31",
+  "plazoFin": "2026-04-20",
+  "examen": "Proceso en curso: ya se han publicado calificaciones del segundo ejercicio",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7320"
+  },
+  "claves": [
+   "ayudantes de archivos, bibliotecas y museos"
+  ]
+ },
+ {
+  "id": "unia-auxiliar-administrativa",
+  "nombre": "Escala Auxiliar Administrativa (Sede Antonio Machado, Baeza)",
+  "organismo": "Universidad Internacional de Andalucía",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Libre",
+  "grupo": "C2",
+  "plazas": "3 plazas (1 reservada a discapacidad)",
+  "convocatoria": "BOE del 8 de julio de 2026",
+  "publicado": "2026-07-08",
+  "plazoFin": "2026-07-29",
+  "examen": "Primer ejercicio: no antes del 1 de octubre de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOE",
+   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14830"
+  },
+  "claves": [
+   "auxiliar administrativa"
+  ]
+ },
+ {
+  "id": "unia-gestion-universitaria-pi",
+  "nombre": "Escala de Gestión Universitaria",
+  "organismo": "Universidad Internacional de Andalucía",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Promoción interna",
+  "grupo": "A2",
+  "plazas": "1 plaza",
+  "convocatoria": "BOJA del 2 de octubre de 2026",
+  "publicado": "2026-10-02",
+  "plazoFin": "2026-10-26",
+  "examen": "Primer ejercicio: no antes del 15 de noviembre de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOJA",
+   "u": "https://www.juntadeandalucia.es/boja/2026/192/43.html"
+  },
+  "claves": [
+   "gestion universitaria"
+  ]
+ },
+ {
+  "id": "uhu-administrativa-pi",
+  "nombre": "Escala Administrativa",
+  "organismo": "Universidad de Huelva",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal funcionario",
+  "turno": "Promoción interna",
+  "grupo": "C1",
+  "plazas": "25 plazas (4 reservadas a discapacidad)",
+  "convocatoria": "BOJA del 9 de octubre de 2026",
+  "publicado": "2026-10-09",
+  "plazoFin": "2026-10-26",
+  "plazoNota": "Diez días hábiles desde la publicación en el BOJA; la fecha de cierre es aproximada.",
+  "examen": "Curso selectivo: no antes del 3 de noviembre de 2026",
+  "enlace": {
+   "t": "Convocatoria en el BOJA",
+   "u": "https://www.juntadeandalucia.es/boja/2026/197/20"
+  },
+  "claves": [
+   "escala administrativa"
+  ]
+ },
+ {
+  "id": "uja-laboral-laboratorio-pi",
+  "nombre": "Técnico/a Especialista de Laboratorio (producción, videoconferencias, servicios web y medios audiovisuales)",
+  "organismo": "Universidad de Jaén",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal laboral",
+  "turno": "Promoción interna",
+  "grupo": "Grupo III",
+  "plazas": "1 plaza",
+  "convocatoria": "BOJA del 7 de octubre de 2026",
+  "publicado": "2026-10-07",
+  "plazoFin": "2026-11-05",
+  "plazoNota": "Veinte días hábiles desde la publicación en el BOJA; la fecha de cierre es aproximada.",
+  "examen": "Fecha por anunciar con la lista definitiva de admitidos",
+  "enlace": {
+   "t": "Convocatoria en el BOJA",
+   "u": "https://www.juntadeandalucia.es/boja/2026/195/30"
+  },
+  "programa": {
+   "nota": "Programa del Anexo II de la convocatoria (15 temas, sin bloques).",
+   "bloques": [
+    {
+     "titulo": "Programa",
+     "temas": [
+      "El sonido y sus fundamentos. Principios de acústica arquitectónica en aulas y espacios comunes. Proceso de digitalización del sonido.",
+      "Sistemas de grabación y reproducción del sonido. Los micrófonos y sus patrones polares. Sistemas de amplificación y altavoces.",
+      "Tratamiento y procesamiento del sonido. Mesas de mezclas. Procesamiento de sonido: ecualización, filtros, efectos, compresores, limitadores.",
+      "La señal de vídeo digital. Resolución, framerate, relación de aspecto, profundidad de color, muestreo de crominancia. Diferencias entre vídeo entrelazado y progresivo.",
+      "Sistemas de grabación y reproducción de vídeo. La cámara de vídeo, características y tipos. Sistemas de proyección de vídeo. Tipos de pantallas de vídeo.",
+      "Streaming de vídeo. Fundamentos del streaming de vídeo. Estándares de transmisión de audio y vídeo sobre IP. Plataformas de distribución de vídeo.",
+      "Realización y producción de eventos en directo. Hardware para streaming. Software de realización y codificación. Gestión de escenas, incrustación de gráficos (rótulos, moscas) y «Picture in Picture».",
+      "Edición y postproducción de vídeo. Flujo de trabajo en edición digital. Software profesional (Adobe Premiere).",
+      "Sistemas de videoconferencia por software (Soft-codecs). Arquitectura y funcionamiento de Google Meet. La teledocencia y el aula híbrida. Concepto de aula híbrida.",
+      "Infraestructura audiovisual en espacios docentes y salas comunes. Equipamiento estándar para diferentes tipologías: aulas híbridas, salones de grados, aula magna y salas de juntas. Sistemas de control y automatización de salas (paneles táctiles, botoneras).",
+      "Interfaces, conectores y cableado audiovisual estándar. Tipos y características.",
+      "Gestión y mantenimiento de incidencias. Mantenimiento preventivo. Mantenimiento correctivo. Gestión de cableado. Gestión de inventario. Conocimiento del uso de aplicaciones Portal de Autoservicio TIC (Murphy) y Econs.",
+      "Redes de datos aplicadas al audiovisual. Conceptos básicos de redes para técnicos AV. Direccionamiento IP, VLANs, ancho de banda y latencia.",
+      "Sistema Integrado de Gestión de la Calidad de los Servicios y Unidades de la Universidad de Jaén (Servicio de Informática): Misión y visión. Cartas de servicios. Manual de procesos: PC04 Gestión del Mantenimiento (Subprocesos: PC04.11, PC04.12 y PC04.13); PC08 Gestión de la Prestación de Servicios de Apoyo Científico/Técnico (Subprocesos: PC08.1 y PC08.3).",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Título V: El principio de igualdad en el empleo público."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "1.º Test teórico con tres o cuatro respuestas alternativas, solo una válida, de 60 a 70 preguntas. Vale 40 puntos.",
+    "2.º Prueba o supuesto práctico, a elegir entre dos. Vale 25 puntos.",
+    "Los dos ejercicios son eliminatorios: la nota mínima la fija el tribunal sin superar el 50 % de la puntuación de cada ejercicio.",
+    "La convocatoria no indica la duración de los ejercicios."
+   ]
+  },
+  "claves": [
+   "especialista de laboratorio"
+  ]
+ },
+ {
+  "id": "uja-laboral-prl",
+  "nombre": "Técnico/a Especialista de Prevención de Riesgos Laborales, Medioambiente y Sostenibilidad",
+  "organismo": "Universidad de Jaén",
+  "ambito": "Andalucía",
+  "estado": "preparacion",
+  "tipo": "Personal laboral",
+  "turno": "Libre",
+  "grupo": "Grupo III",
+  "plazas": "1 plaza",
+  "convocatoria": "BOJA del 9 de octubre de 2026",
+  "publicado": "2026-10-09",
+  "plazoPorAbrir": true,
+  "plazoNota": "El plazo (veinte días hábiles) empieza al publicarse la convocatoria en el BOE, que todavía no consta.",
+  "examen": "Fecha por anunciar con la lista provisional de admitidos",
+  "enlace": {
+   "t": "Convocatoria en el BOJA",
+   "u": "https://www.juntadeandalucia.es/boja/2026/197/21"
+  },
+  "programa": {
+   "nota": "Programa del Anexo II de la convocatoria: 20 temas en 2 bloques. Aquí se resume cada bloque; los títulos exactos de los temas están en el anexo oficial.",
+   "bloques": [
+    {
+     "titulo": "Bloque A (parte general)",
+     "n": 5,
+     "resumen": "Convenio colectivo del personal laboral de las universidades públicas andaluzas, Ley Orgánica del Sistema Universitario, Estatutos de la Universidad de Jaén, Ley Orgánica 3/2007 de igualdad efectiva de mujeres y hombres, y el Sistema de Gestión de la Calidad de la Universidad (incluidos los residuos peligrosos y los procedimientos de riesgos laborales)."
+    },
+    {
+     "titulo": "Bloque B (parte específica)",
+     "n": 15,
+     "resumen": "Política de prevención, organización y comité de seguridad; normas mínimas de seguridad en el trabajo y emergencias; equipos de protección individual y coordinación de actividades empresariales; riesgos en oficinas y laboratorios (pantallas de visualización, exposición a agentes químicos y biológicos); riesgos psicosociales y prevención del acoso; y sostenibilidad ambiental (política y marco estratégico, gestión de residuos, movilidad sostenible, sensibilización y clasificaciones)."
+    }
+   ],
+   "ejercicios": [
+    "Concurso-oposición de 100 puntos: 60 de oposición y 40 de concurso de méritos. Los dos ejercicios de la oposición son eliminatorios.",
+    "1.º Cuestionario tipo test, con una respuesta correcta por pregunta, sobre todo el programa y sin material de consulta. Puntuación: aciertos menos errores entre 4; las respuestas en blanco no penalizan. Hasta 35 puntos.",
+    "2.º Ejercicio práctico sobre el bloque B (el tribunal decide si es test, escrito, informático o con instrumentos técnicos). Hasta 25 puntos.",
+    "Concurso de méritos (40 puntos): experiencia profesional hasta 19, antigüedad hasta 12,25 y formación hasta 8,75.",
+    "La convocatoria no fija el número de preguntas ni la duración; lo decide el tribunal."
+   ]
+  },
+  "claves": [
+   "prevencion de riesgos laborales"
+  ]
+ }
+]

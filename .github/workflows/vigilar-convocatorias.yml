@@ -1,0 +1,45 @@
+name: Vigilar convocatorias
+
+# Cada mañana revisa el BOE y el BOJA. Si hay convocatorias nuevas o cambios en las que seguimos, abre un aviso (issue)
+# asignado al titular del repositorio y, si está activado el envío, escribe a quienes se hayan suscrito a esa oposición.
+on:
+  schedule:
+    - cron: "17 5 * * *"   # 05:17 UTC (06:17 o 07:17 en España)
+  workflow_dispatch:
+    inputs:
+      enviar:
+        description: "Enviar los correos a los suscritos ahora (si/no)"
+        default: "no"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency: vigilancia
+
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Revisar BOE y BOJA
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          ENVIAR: ${{ github.event.inputs.enviar || vars.AVISOS_AUTOMATICOS }}
+        run: |
+          extra=""
+          if [ "$ENVIAR" = "si" ]; then extra="--avisar"; fi
+          python vigilancia/vigilar_convocatorias.py --opos docs/oposiciones.json --estado vigilancia/estado.json \
+            --issue --asignar antoniovalenzuelavaldes-lab --fecha-escaneo docs/ultimo-escaneo.json $extra
+      - name: Guardar estado y fecha del escaneo
+        run: |
+          git config user.name "vigilante"
+          git config user.email "vigilante@users.noreply.github.com"
+          git add vigilancia/estado.json docs/ultimo-escaneo.json
+          git diff --cached --quiet || (git commit -m "Vigilancia $(date -u +%F)" && git pull --rebase && git push)
