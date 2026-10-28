@@ -530,6 +530,7 @@ function vTema(app,id){let t=completo(id);
   <section class="card apunte">${t.apuntes.map(a=>`<h3>${esc(a.h)}</h3>${md(a.t)}`).join('')}</section>
   <section class="card clave stack"><h2>Para recordar</h2><ul style="margin:0;padding-left:1.2em">${t.clave.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></section>
   <p class="muted">Fuente: ${t.fuentes.map(esc).join('; ')}.</p>
+  ${t.fuentes.some(f=>/wikipedia/i.test(f))?'<div class="aviso"><strong>Licencia de este tema.</strong> Una parte de este tema está adaptada de textos de Wikipedia (con cambios, para facilitar el estudio) y se ofrece con la misma licencia, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noopener">Creative Commons Reconocimiento-CompartirIgual 4.0</a>: puedes copiarla y compartirla citando la fuente y manteniendo esa licencia. Las fuentes concretas figuran arriba y en cada pregunta.</div>':''}
   <div class="row"><a class="btn acc" href="#/test/${id}">Hacer el test (${t.preguntas.length} preguntas)</a><a class="btn ghost" href="#/">Volver</a></div>`;
   const a=t.audio===true&&$('#aud');if(a)audioUrl(id).then(u=>{a.src=u}).catch(()=>{a.outerHTML='<p class="muted">No se ha podido cargar el audio.</p>'})}
 
