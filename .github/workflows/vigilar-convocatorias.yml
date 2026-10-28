@@ -37,9 +37,11 @@ jobs:
           if [ "$ENVIAR" = "si" ]; then extra="--avisar"; fi
           python vigilancia/vigilar_convocatorias.py --opos docs/oposiciones.json --estado vigilancia/estado.json \
             --issue --asignar antoniovalenzuelavaldes-lab --fecha-escaneo docs/ultimo-escaneo.json $extra
-      - name: Guardar estado y fecha del escaneo
+      - name: Actualizar las páginas para buscadores (estados abierta/cerrada al día)
+        run: python vigilancia/generar_seo.py docs
+      - name: Guardar estado, fecha del escaneo y páginas
         run: |
           git config user.name "vigilante"
           git config user.email "vigilante@users.noreply.github.com"
-          git add vigilancia/estado.json docs/ultimo-escaneo.json
+          git add vigilancia/estado.json docs/ultimo-escaneo.json docs/oposiciones docs/sitemap.xml docs/404.html docs/index.html
           git diff --cached --quiet || (git commit -m "Vigilancia $(date -u +%F)" && git pull --rebase && git push)

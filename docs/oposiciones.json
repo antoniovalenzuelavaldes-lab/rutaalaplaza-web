@@ -19,6 +19,92 @@
   },
   "claves": [
    "auxiliares de archivos, bibliotecas y museos"
+  ],
+  "temario": [
+   {
+    "titulo": "G1. La Constitución Española",
+    "alcance": "Título Preliminar; Título I; Título IV"
+   },
+   {
+    "titulo": "G2. Ley Orgánica del Sistema Universitario (LOSU)",
+    "alcance": "Títulos Preliminar, I, II, III, IV y IX capítulo I"
+   },
+   {
+    "titulo": "G3. Proyecto de Estatutos de la Universidad de Granada",
+    "alcance": "Claustro de 25 de mayo de 2026"
+   },
+   {
+    "titulo": "G4. Empleo público: EBEP y Ley de la Función Pública de Andalucía",
+    "alcance": "TREBEP Títulos I y II; Ley 5/2023 Títulos I (caps. I y 3), IX, XI y XII"
+   },
+   {
+    "titulo": "G5. Prevención de Riesgos Laborales",
+    "alcance": "Ley 31/1995"
+   },
+   {
+    "titulo": "G6. Igualdad: Ley Orgánica 3/2007 y Ley 4/2023 (LGTBI)",
+    "alcance": "Títulos señalados de ambas leyes"
+   },
+   {
+    "titulo": "E1. Las bibliotecas universitarias y la Biblioteca de la UGR",
+    "alcance": "Misión, visión, valores, estrategia, historia, marco normativo y estructura"
+   },
+   {
+    "titulo": "E2. Organización espacial y equipamiento de las bibliotecas universitarias",
+    "alcance": "Bibliotecas de depósito, Bibliomakers, espacios Lab/CRAI"
+   },
+   {
+    "titulo": "E3. Gestión de la colección bibliográfica",
+    "alcance": "Selección, adquisición, tratamiento técnico, preservación, colecciones especiales"
+   },
+   {
+    "titulo": "E4. Biblioteca electrónica",
+    "alcance": "Recursos de información, accesibilidad y difusión"
+   },
+   {
+    "titulo": "E5. La descripción bibliográfica",
+    "alcance": "Normalización, ISBD, RDA, MARC, metadatos"
+   },
+   {
+    "titulo": "E6. Sistemas integrados de gestión bibliotecaria y catálogo",
+    "alcance": "SIGB y catálogo de la Biblioteca de la UGR (Granatensis)"
+   },
+   {
+    "titulo": "E7. Cooperación bibliotecaria",
+    "alcance": "Redes y consorcios: REBIUN y CBUA"
+   },
+   {
+    "titulo": "E8. Servicios y atención al usuario",
+    "alcance": "Tipología de usuarios, formación y servicios de la Biblioteca de la UGR"
+   },
+   {
+    "titulo": "E9. El servicio de préstamo",
+    "alcance": "Domicilio, intercampus, consorciado e interbibliotecario"
+   },
+   {
+    "titulo": "E10. La digitalización en bibliotecas",
+    "alcance": "Técnicas y procedimientos; digitalización en la UGR"
+   },
+   {
+    "titulo": "E11. Ciencia Abierta y repositorios institucionales",
+    "alcance": "Digibug y Portal de investigación"
+   },
+   {
+    "titulo": "E12. Calidad en la Biblioteca",
+    "alcance": "SUGI, procedimientos, cartas de servicios, EFQM"
+   },
+   {
+    "titulo": "E13. Códigos éticos",
+    "alcance": "Código ético de la Biblioteca y de la UGR"
+   },
+   {
+    "titulo": "E14. El Archivo de la Universidad de Granada",
+    "alcance": "Historia, normativa, estructura, fondos y colecciones"
+   },
+   {
+    "titulo": "E15. El documento de archivo y el ciclo documental",
+    "alcance": "Transferencias, instalación en depósitos, consulta, préstamo administrativo y reproducción"
+   }
   ]
  },
  {
