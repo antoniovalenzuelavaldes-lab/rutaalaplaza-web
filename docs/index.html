@@ -525,7 +525,7 @@ function vTema(app,id){let t=completo(id);
   <p><a href="#/">← Inicio</a></p>
   <header class="stack"><div class="eyebrow">Tema ${id.toUpperCase()} · bloque ${esc(t.bloque.toLowerCase())}</div><h1>${esc(t.titulo)}</h1><p class="muted">${esc(t.alcance)}</p></header>
   ${(t.notas||[]).map(n=>`<div class="nota">${esc(n)}</div>`).join('')}
-  ${t.audio?`<section class="card stack"><h2 style="margin:0">Escucha el tema</h2><audio controls preload="none" src="${esc(t.audio)}" style="width:100%"></audio><p class="muted" style="margin:0;font-size:.85em">Podcast de repaso con dos voces generadas por IA (Microsoft Azure AI Speech). No son personas reales.</p></section>`:''}
+  ${typeof t.audio==='string'?`<section class="card stack"><h2 style="margin:0">Escucha el tema</h2><audio controls preload="none" src="${esc(t.audio)}" style="width:100%"></audio><p class="muted" style="margin:0;font-size:.85em">Podcast de repaso con dos voces generadas por IA (Microsoft Azure AI Speech). No son personas reales.</p></section>`:''}
   ${t.audio===true?`<section class="card stack"><h2 style="margin:0">Escucha el tema</h2><audio controls preload="none" id="aud" style="width:100%"></audio><p class="muted" style="margin:0;font-size:.85em">Podcast de repaso con dos voces generadas por IA (Microsoft Azure AI Speech). No son personas reales.</p></section>`:''}
   <section class="card apunte">${t.apuntes.map(a=>`<h3>${esc(a.h)}</h3>${md(a.t)}`).join('')}</section>
   <section class="card clave stack"><h2>Para recordar</h2><ul style="margin:0;padding-left:1.2em">${t.clave.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></section>
