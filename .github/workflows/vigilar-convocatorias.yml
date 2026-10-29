@@ -36,7 +36,8 @@ jobs:
           extra=""
           if [ "$ENVIAR" = "si" ]; then extra="--avisar"; fi
           python vigilancia/vigilar_convocatorias.py --opos docs/oposiciones.json --estado vigilancia/estado.json \
-            --issue --asignar antoniovalenzuelavaldes-lab --fecha-escaneo docs/ultimo-escaneo.json \n            --auto docs/oposiciones-auto.json $extra
+            --issue --asignar antoniovalenzuelavaldes-lab --fecha-escaneo docs/ultimo-escaneo.json \
+            --auto docs/oposiciones-auto.json $extra
       - name: Actualizar las páginas para buscadores (estados abierta/cerrada al día)
         run: python vigilancia/generar_seo.py docs
       - name: Guardar estado, fecha del escaneo y páginas
