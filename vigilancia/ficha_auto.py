@@ -162,11 +162,11 @@ def programa_de(texto):
                 if re.match(r"(?:BLOQUE|PARTE|GRUPO|MATERIAS?|M[ÓO]DULO)\b", l, re.I) and len(l) < 160:
                     bloque = {"titulo": l.strip(" .:").title() if l.isupper() else l.strip(" .:"), "temas": []}
                     temas_b.append(bloque)
-                elif re.match(r"\d{1,3}\s*[.\-)]\s+\S", l):
+                elif re.match(r"(?:Tema\s+)?\d{1,3}\s*[.\-)]\s+\S", l):
                     if bloque is None:
                         bloque = {"titulo": "Programa", "temas": []}
                         temas_b.append(bloque)
-                    bloque["temas"].append(re.sub(r"^\d{1,3}\s*[.\-)]\s+", "", l)[:420])
+                    bloque["temas"].append(re.sub(r"^(?:Tema\s+)?\d{1,3}\s*[.\-)]\s+", "", l)[:420])
         elif re.search(r"ejercicios|valoraci[oó]n|fase de oposici", cab) and not ejercicios:
             for l in cuerpo:
                 if re.match(r"(?:Primer|Segundo|Tercer|Cuarto|[ÚU]nico) ejercicio", l, re.I):

@@ -187,10 +187,14 @@ def pag_proceso(o, opos, uni, proc, hoy, temario_ugr):
             else:
                 cuerpo += f'<details open><summary>{e(b["titulo"])} ({b["n"]} temas)</summary><p>{e(b["resumen"])}</p></details>'
         cuerpo += f'<h3>Cómo es el examen</h3><ul class="l">{"".join("<li>" + e(x) + "</li>" for x in pr["ejercicios"])}</ul>'
-    if o["estado"] == "disponible" and temario_ugr:
-        cuerpo += (f'<h2>Temario de la oposición de {e(n)}</h2><p>En {MARCA} tienes preparados los {len(temario_ugr)} temas de esta oposición, con apuntes por artículos, '
-                   f'tests con la cita literal de la norma, simulacros, plan de estudio y audio. Los dos primeros son gratuitos.</p>'
-                   f'<ul class="l">{"".join("<li><strong>" + e(t["titulo"]) + "</strong> <span class=muted>— " + e(t["alcance"]) + "</span></li>" for t in temario_ugr)}</ul>')
+    tem = o.get("temario") or (temario_ugr if o["estado"] == "disponible" else None)
+    if o["estado"] == "disponible" and tem:
+        propio = any("gratis" in t for t in tem)   # temarios nuevos: dos temas abiertos y el resto se publica al comprar
+        intro = (f'En {MARCA} tienes los dos primeros temas de esta oposición abiertos, con apuntes por artículos y tests con la cita literal de la norma. '
+                 f'El programa completo tiene {len(tem)} temas: el resto se desbloquea con la compra, con simulacros, plan de estudio y audio.') if propio else                 (f'En {MARCA} tienes preparados los {len(tem)} temas de esta oposición, con apuntes por artículos, '
+                 f'tests con la cita literal de la norma, simulacros, plan de estudio y audio. Los dos primeros son gratuitos.')
+        cuerpo += (f'<h2>Temario de la oposición de {e(n)}</h2><p>{e(intro)}</p>'
+                   f'<ul class="l">{"".join("<li><strong>" + e(t["titulo"]) + "</strong> <span class=muted>— " + e(t["alcance"][:240]) + "</span></li>" for t in tem)}</ul>')
     if pr or o["estado"] == "disponible":
         prep = ["Empieza por leer el programa completo y marca los temas que menos conoces.",
                 "Estudia cada tema con la norma delante: es lo que se pregunta en el examen.",

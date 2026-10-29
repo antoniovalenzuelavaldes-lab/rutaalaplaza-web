@@ -112,7 +112,7 @@
   "nombre": "Escala Auxiliar de Servicios Generales (personas con discapacidad intelectual)",
   "organismo": "Universidad de Granada",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre (reservado a discapacidad intelectual)",
   "grupo": "C2",
@@ -151,6 +151,71 @@
   },
   "claves": [
    "auxiliar de servicios generales"
+  ],
+  "temario": [
+   {
+    "id": "ugrasg-1",
+    "etq": "T1",
+    "titulo": "Derechos y deberes de los ciudadanos establecidos en los capítulos Primero y Segundo del Título I de la Constitución Española de 1978",
+    "alcance": "Derechos y deberes de los ciudadanos establecidos en los capítulos Primero y Segundo del Título I de la Constitución Española de 1978.",
+    "gratis": true
+   },
+   {
+    "id": "ugrasg-2",
+    "etq": "T2",
+    "titulo": "Derechos y deberes de los empleados públicos establecidos en el Título III del Texto refundido de la ley del Estatuto Básico del Empleado Pú",
+    "alcance": "Derechos y deberes de los empleados públicos establecidos en el Título III del Texto refundido de la ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre.",
+    "gratis": true
+   },
+   {
+    "id": "ugrasg-3",
+    "etq": "T3",
+    "titulo": "Control de acceso, edificios y dependencias",
+    "alcance": "Control de acceso, edificios y dependencias. Ubicación de Facultades, Escuelas, Institutos y otros edificios de la Universidad de Granada.",
+    "gratis": false
+   },
+   {
+    "id": "ugrasg-4",
+    "etq": "T4",
+    "titulo": "Productos y servicios postales",
+    "alcance": "Productos y servicios postales. Conocimientos básicos de distribución de documentos, paquetería y correspondencia.",
+    "gratis": false
+   },
+   {
+    "id": "ugrasg-5",
+    "etq": "T5",
+    "titulo": "Atención al usuario. Atención e información telefónica",
+    "alcance": "Atención al usuario. Atención e información telefónica. Técnicas asertivas de atención al público.",
+    "gratis": false
+   },
+   {
+    "id": "ugrasg-6",
+    "etq": "T6",
+    "titulo": "Información general y conocimiento del manejo de la página web de la Universidad de Granada",
+    "alcance": "Información general y conocimiento del manejo de la página web de la Universidad de Granada.",
+    "gratis": false
+   },
+   {
+    "id": "ugrasg-7",
+    "etq": "T7",
+    "titulo": "Trabajo en equipo. Estructura de los equipos de trabajo en las conserjerías de los Centros y Servicios de la Universidad de Granada",
+    "alcance": "Trabajo en equipo. Estructura de los equipos de trabajo en las conserjerías de los Centros y Servicios de la Universidad de Granada. Principales tareas.",
+    "gratis": false
+   },
+   {
+    "id": "ugrasg-8",
+    "etq": "T8",
+    "titulo": "Conocimientos básicos de informática a nivel de usuario",
+    "alcance": "Conocimientos básicos de informática a nivel de usuario. Componentes de un ordenador personal: Unidad central, periféricos de entrada, salida y almacenamiento.",
+    "gratis": false
+   },
+   {
+    "id": "ugrasg-9",
+    "etq": "T9",
+    "titulo": "Aplicaciones ofimáticas a nivel básico",
+    "alcance": "Aplicaciones ofimáticas a nivel básico. Internet y correo electrónico a nivel básico. Seguridad informática básica a nivel usuario.",
+    "gratis": false
+   }
   ]
  },
  {
