@@ -148,34 +148,48 @@ def examen_de(texto):
 
 
 def programa_de(texto):
-    """Temas del anexo de programa y descripción de los ejercicios del anexo de ejercicios, si se leen con claridad."""
+    """Temas del anexo de programa y descripción de los ejercicios del anexo de ejercicios, si se leen con claridad.
+    Se valoran todos los anexos que hablan de programa y se elige el que más temas numerados trae (otros anexos citan «materias»)."""
     lineas = [l.strip() for l in texto.split("\n") if l.strip()]
     anexos = [i for i, l in enumerate(lineas) if re.fullmatch(r"ANEXO\s+(?:[IVX]+|\d+|[ÚU]NICO)\.?", l, re.I)]
-    temas_b, ejercicios = [], []
+    candidatos, ejercicios = [], []
+    refs = {x.upper() for x in re.findall(r"programa[^.]{0,120}?Anexo\s+([IVX]+|\d+)", texto, re.I)}   # «el programa a que hace referencia el Anexo II»
     for k, i in enumerate(anexos):
         fin = anexos[k + 1] if k + 1 < len(anexos) else len(lineas)
         cuerpo = lineas[i + 1: fin]
         cab = " ".join(cuerpo[:3]).lower()
-        if re.search(r"programa|temario|materias", cab) and not temas_b:
-            bloque = None
-            for l in cuerpo:
-                if re.match(r"(?:BLOQUE|PARTE|GRUPO|MATERIAS?|M[ÓO]DULO)\b", l, re.I) and len(l) < 160:
-                    bloque = {"titulo": l.strip(" .:").title() if l.isupper() else l.strip(" .:"), "temas": []}
-                    temas_b.append(bloque)
-                elif re.match(r"(?:Tema\s+)?\d{1,3}\s*[.\-)]\s+\S", l):
-                    if bloque is None:
-                        bloque = {"titulo": "Programa", "temas": []}
-                        temas_b.append(bloque)
-                    bloque["temas"].append(re.sub(r"^(?:Tema\s+)?\d{1,3}\s*[.\-)]\s+", "", l)[:420])
-        elif re.search(r"ejercicios|valoraci[oó]n|fase de oposici", cab) and not ejercicios:
+        if re.search(r"programa|temario|materias", cab) or lineas[i].split()[-1].upper().rstrip(".") in refs:
+            for con_vinetas in (False, True):   # primero solo temas numerados; las viñetas («- ...») solo si no hay numerados (módulos con apartados)
+                bloques, bloque = [], None
+                punteado = sum(1 for l in cuerpo if re.match(r"\d{1,3}\.\d{1,3}\.?\s+\S", l)) >= 5   # numeración «1.», «1.1.»: los temas son los «1.1.» y los «1.» son bloques
+                for l in cuerpo:
+                    if punteado:
+                        if re.match(r"\d{1,3}\.\s+\S", l):
+                            bloque = {"titulo": re.sub(r"^\d{1,3}\.\s+", "", l).strip(" .:")[:150], "temas": []}
+                            bloques.append(bloque)
+                        elif re.match(r"\d{1,3}\.\d{1,3}\.?\s+\S", l) and bloque is not None:
+                            bloque["temas"].append(re.sub(r"^\d{1,3}\.\d{1,3}\.?\s+", "", l)[:420])
+                        continue
+                    if re.match(r"(?:BLOQUE|PARTE|GRUPO|MATERIAS?|M[ÓO]DULO|APARTADO)\b", l, re.I) and len(l) < 160:
+                        bloque = {"titulo": l.strip(" .:").title() if l.isupper() else l.strip(" .:"), "temas": []}
+                        bloques.append(bloque)
+                    elif re.match(r"(?:Tema\s+)?\d{1,3}\s*[.\-)]\s+\S", l) or (con_vinetas and bloque is not None and re.match(r"[-•–]\s+\S", l)):
+                        if bloque is None:
+                            bloque = {"titulo": "Programa", "temas": []}
+                            bloques.append(bloque)
+                        bloque["temas"].append(re.sub(r"^(?:Tema\s+)?(?:\d{1,3}\s*[.\-)]|[-•–])\s+", "", l)[:420])
+                bloques = [b for b in bloques if b["temas"]]
+                if sum(len(b["temas"]) for b in bloques) >= 5:
+                    break
+            candidatos.append((sum(len(b["temas"]) for b in bloques), bloques))
+        if re.search(r"ejercicios|valoraci[oó]n|fase de oposici", cab) and not ejercicios:
             for l in cuerpo:
                 if re.match(r"(?:Primer|Segundo|Tercer|Cuarto|[ÚU]nico) ejercicio", l, re.I):
                     if len(l) > 330:
                         corte = max(l.rfind(". ", 0, 330), -1)
                         l = l[: corte + 1] if corte > 120 else l[:330].rsplit(" ", 1)[0] + "…"
                     ejercicios.append(l.strip())
-    temas_b = [b for b in temas_b if b["temas"]]
-    n = sum(len(b["temas"]) for b in temas_b)
+    n, temas_b = max(candidatos, key=lambda c: c[0], default=(0, []))
     if n < 5:
         return None
     return {"nota": f"Programa del anexo de la convocatoria ({n} temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",

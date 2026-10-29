@@ -317,7 +317,71 @@
   },
   "claves": [
    "escala administrativa"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (35 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Bloque I",
+     "temas": [
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.",
+      "Proyecto de Estatutos de la Universidad de Granada, aprobado por el Claustro Universitario (BOUGR núm. 326, de 27 de mayo de 2026).",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía.",
+      "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+      "Real Decreto 99/2011, de 28 de enero, por el que se regulan las enseñanzas oficiales de doctorado.",
+      "Real Decreto 1002/2010, de 5 de agosto, sobre expedición de títulos universitarios oficiales.",
+      "Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, las características básicas de la prueba de acceso y la normativa básica de los procedimientos de admisión.",
+      "Reglamento de Permanencia de la UGR para el estudiantado de enseñanzas oficiales de Grado y Máster Universitario (BOUGR núm. 260, de 20 de diciembre de 2024). Modificación parcial del Reglamento de Permanencia de la UGR para el estudiantado de enseñanzas oficiales de Grado y Máster Universitario (BOUGR núm. 329, de 11 de junio de 2026).",
+      "Texto Consolidado del Reglamento de Gestión Académica de la Universidad de Granada (BOUGR núm. 183, de 6 de julio de 2022).",
+      "Texto consolidado de la Normativa de evaluación y de calificación de los estudiantes de la Universidad de Granada (BOUGR núm. 112, de 9 de noviembre de 2016); incluye las correcciones de errores de 19 de diciembre de 2016 y de 24 de mayo de 2017.",
+      "Texto consolidado del Reglamento de Régimen Económico-Financiero de la UGR (BOUGR núm. 301, de 3 de diciembre de 2025).",
+      "Resolución de 19 de diciembre de 2025, de la Universidad de Granada, por la que se acuerda la publicación del Presupuesto de la misma para el ejercicio 2026, una vez aprobado por el Consejo Social (BOJA núm. 249, de 29 de diciembre de 2025): Bases de ejecución del presupuesto para el ejercicio 2026. Normas para la Liquidación y Tramitación de Indemnizaciones por Razón de Servicio y de Gastos por Desplazamiento y Esta"
+     ]
+    },
+    {
+     "titulo": "Bloque II",
+     "temas": [
+      "Constitución Española: Título preliminar, Título I. De los derechos y deberes fundamentales y Título IV. Del Gobierno y de la Administración.",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+      "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Título Preliminar. Disposiciones generales, principios de actuación y funcionamiento del sector público, Título III. Relaciones interadministrativas.",
+      "Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Título I. Disposiciones generales, Título II. Principios de la protección de datos, Título III. Derechos de las personas, Título V. Responsable y encargado del tratamiento: Capítulo I. Disposiciones generales. Medidas de responsabilidad activa, Capítulo II. Encargado del tratamiento, Capítulo III. Delegado ",
+      "Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre.",
+      "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía: Título I, Capítulo I Objeto, ámbito de aplicación y principios, Capítulo 3 Personal al servicio de la Administración pública, Título IX Acceso al empleo público, adquisición y pérdida de la relación de servicio, Título XI Situaciones administrativas y Título XII Régimen disciplinario.",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Título Preliminar Objeto y ámbito de la ley, Título I El principio de igualdad y la tutela contra la discriminación, Título IV El derecho al trabajo en igualdad de oportunidades y Título V: Capítulo 1 Criterios de actuación de las Administraciones públicas. Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las persona",
+      "Ley 38/2003, de 17 de noviembre, General de Subvenciones: Título Preliminar, Título I Procedimientos de concesión y gestión de las subvenciones; Título II Del reintegro de subvenciones.",
+      "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, por la que se transponen al ordenamiento jurídico español las Directivas del Parlamento Europeo y del Consejo 2014/23/UE y 2014/24/UE, de 26 de febrero de 2014: Libro Segundo. De los contratos de las Administraciones públicas: Título II. De los distintos tipos de contratos de las Administraciones públicas: Capítulo I. Del contrato de obras, Capítulo IV. "
+     ]
+    },
+    {
+     "titulo": "Bloque III",
+     "temas": [
+      "Google Calendar: planificación y gestión de agendas.",
+      "Google Meet: videocomunicación.",
+      "Google Forms: recopilación de datos.",
+      "Google Drive: almacenamiento, organización y compartición."
+     ]
+    },
+    {
+     "titulo": "Bloque IV",
+     "temas": [
+      "Gestión de Documentos.",
+      "Automatización con Combinación de Correspondencia.",
+      "Edición Técnica y Tablas.",
+      "Impresión, exportación y accesibilidad.",
+      "Importación, limpieza de Datos y formato de celdas.",
+      "Funciones de Texto y Estadística Descriptiva.",
+      "Funciones Lógicas y Búsqueda.",
+      "Referencias.",
+      "Auditoría y Control de Cambios en Documentos."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Primer ejercicio",
+    "Segundo ejercicio"
+   ]
+  }
  },
  {
   "id": "ugr-apoyo-docencia-bellas-artes",
@@ -340,7 +404,50 @@
   "claves": [
    "apoyo a la docencia y a la investigacion",
    "bellas artes"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (24 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Bloque general",
+     "temas": [
+      "Constitución Española: Título Preliminar, Título I. De los derechos y deberes fundamentales, y Título IV. Del Gobierno y de la Administración.",
+      "Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre: Título I. Objeto y ámbito de aplicación y Título II. Personal al servicio de las Administraciones Públicas. Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título Preliminar, Título I. Funciones del sistema universitario y autonomía de las universidades, Título II. Creación y reconocimiento de las universidades y calidad del sistema universitario, Título III. Organización de enseñanzas, Título IV. Investigación y transferencia e intercambio del conocimiento e innovación y Título IX. Capítulo I. Régimen jurí",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Título Preliminar. Disposiciones generales, Título II. Comunidad universitaria: Capítulo I. Disposiciones generales y valores, Capítulo IV. Personal Técnico, de Gestión y de Administración y Servicios de las universidades públicas, Título IV. Estructura de las universidades: Capítulo I. Estructuras universitarias, Título V. Gobernanza de las universidades pú",
+      "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales.",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Título Preliminar. Objeto y ámbito de la Ley, Título I. El principio de igualdad y la tutela contra la discriminación, Título IV. El derecho al trabajo en igualdad de oportunidades. Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI. Título Pre"
+     ]
+    },
+    {
+     "titulo": "Bloque específico",
+     "temas": [
+      "Resolución de incidencias técnicas avanzadas: Diagnóstico de fallos: cámaras de video, equipos de video, equipos de sonido, equipos de iluminación y equipos informáticos de edición no lineal (EDL). Mantenimiento preventivo y resolución de incidencias. Resolución de problemas de incompatibilidad y optimización de software en entornos Windows y MacOS.",
+      "Electricidad y electrónica aplicada. Soldadura de baja potencia para aplicaciones de electrónica. Reparaciones básicas de equipos electrónicos. Elaboración y reparación de cableado estructural y conectores del área audiovisual.",
+      "Cámaras de video digitales y sistemas de captura de imagen: Clasificación y características de cámaras de video. Formatos de grabación. Configuración para rodaje en HD, 4K, flujos RAW y perfiles logarítmicos. Configuración para grabación multicámara. Capturadoras de Audio/video. Sistemas de estabilización de imagen.",
+      "Óptica, exposición y control de la imagen: Distancia focal, profundidad de campo, diafragma, velocidad de obturación, sensibilidad ISO, enfoque selectivo, sensor, balance de blancos. Herramientas de asistencia: Medición de luz, interpretación de histogramas, forma de onda, vectorscopio, focus peaking y falsos colores. Ajustes técnicos orientados a preservar la calidad nativa y la coherencia visual del material.",
+      "Iluminación y diseño de la luz: Fuentes de luz: continua, LED, gestión de luz natural. Esquemas de iluminación para vídeo e intervenciones expositivas. Temperatura de color, difusores, filtros de gelatina, accesorios de recorte y control de la luz. Montaje de equipos de iluminación, seguridad y organización del material de iluminación. Equipos de iluminación. Uso de DIMMER y control mediante protocolo DMX.",
+      "Sonido directo y Microfonía: Principios fundamentales del sonido. Características del sonido: frecuencia, fase, amplitud. Tipología de micrófonos: dinámicos, de condensador, lavalier, shotgun, estéreo, espacial/ambisónico. Captación de voz, ambiente y efectos sonoros. Operación y configuración de grabadoras de sonido portátiles.",
+      "Equipos de sonido y postproducción de audio: Tipos de señales de audio. Operación y configuración de equipos de sonido: Amplificadores, mezcladores analógicos y digitales, bafles, ecualizadores, procesadores digitales. Conexionado técnico mediante cableado específico. Control de niveles y monitorización. Interfaces de audio externas: configuración, drivers (ASIO, Core Audio), control de latencia y ruteo interno. Uso ",
+      "Equipos de video y postproducción de video: Conceptos fundamentales de video. Parámetros de la señal de video. Estándares de televisión y video digital. Operación y configuración de equipos de video: Reproductores, mezcladores de video, distribuidores, matrices de conmutación, conversores y adaptadores de señal, monitor de video. Conexionado técnico mediante cableado específico.",
+      "Montaje y edición no lineal: Organización de ingesta de material y arquitectura de proyectos audiovisuales. Técnicas de montaje: edición secuencial, edición multicámara y narrativas de montaje experimental. Compresión y formatos: códecs de edición y de entrega final (ProRes, H.264, H.265), compresión espacial/temporal y gestión de bitrate. Exportación y masterización de archivos orientados a diferentes soportes y pla",
+      "Color, corrección y etalonaje: Fundamentos del color aplicados al video y espacios cromáticos. (Rec. 709, Rec. 2020). Corrección de color primaria (balance de blancos, contraste, exposición) y secundaria (aislamiento de tonos, máscaras). Configuración de flujos de trabajo (Color Management), aplicación y creación de LUTs, y procesos de renderizado para entrega final.",
+      "Informática aplicada a la producción audiovisual: Configuración de hardware optimizado para edición no lineal (CPU, GPU, RAM, refrigeración) en Windows y MacOS. Gestión de almacenamiento externo y soluciones corporativas en red (NAS). Configuración de niveles de RAID (0, 1, 5, 10) para redundancia y velocidad de transferencia. Configuración de red en equipos informáticos orientada al flujo audiovisual, políticas de c",
+      "Tecnologías de proyección y mapping: Conceptos fundamentales de proyección. Tipos de proyectores de video (Lámpara, Láser, LED), ópticas de proyección y características técnicas. Ajustes ópticos, corrección trapezoidal (keystone) y calibración de color. Ajustes técnicos orientados a preservar la calidad nativa y la coherencia visual del material. Concepto de proyección expandida. Calibración geométrica (warping) y me",
+      "Sistemas de streaming y transmisión. Arquitectura de transmisión de contenidos audiovisuales por internet. Requisitos técnicos, codificación de video para directo (RTMP, SRT), uso de codificadores de hardware o software y gestión de ancho de banda. Configuración para presentaciones presenciales, híbridas o remotas.",
+      "Instalaciones audiovisuales en contexto expositivo: Integración de proyecciones, pantallas LED, monitores, pantallas, y sistemas audiovisuales. Coordinación técnica para obras instalativas y proyectos site-specific. Integración de vídeo, audio y luces en entornos inmersivos. Mezcladores para sistemas multicanal, sonido envolvente. Disposición estratégica de altavoces, calibración acústica y acondicionamiento de espac",
+      "Gestión y mantenimiento del equipamiento audiovisual: Inventario técnico, catalogación, revisión periódica, limpieza y trazabilidad de los equipos. Protocolos de préstamo, devolución, control de materiales. Atención técnica a usuarios. Priorización de recursos compartidos. Planificación del espacio de trabajo y registro sistemático de incidencias.",
+      "Seguridad, prevención y buenas prácticas en el laboratorio audiovisual: Normas de seguridad eléctrica, prevención de riesgos en alturas (montaje de focos/estructuras) y manipulación de cargas. transporte seguro de material delicado y almacenamiento climatizado. Orden, limpieza y sostenibilidad en el laboratorio. Buenas prácticas éticas y técnicas en entornos docentes, de investigación y de producción.",
+      "Sistema de calidad en los laboratorios de la Universidad de Granada. Manual del SUGI Apartados 1 y 5; Política SUGI.",
+      "Procedimientos de calidad en los laboratorios de la Universidad de Granada: PE35-01-APOY – Apoyo a la D y la Investigación; PE35-03-EQUI – Gestión de Equipos; PE35-04-GPER – Gestión de Personal."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Primer ejercicio: Tendrá carácter eliminatorio y consistirá en contestar un cuestionario de 100 preguntas, con cuatro respuestas alternativas, de las que solo una será correcta, basado en el contenido del programa que figura como anexo I de la presente convocatoria.",
+    "Segundo ejercicio: Tendrá carácter eliminatorio y consistirá en la resolución de uno o varios supuestos o pruebas prácticas propuestos por el Tribunal, basados en el contenido del bloque específico del programa que figura como anexo I de la presente convocatoria, en el tiempo y con los medios auxiliares que se determinen por el…"
+   ]
+  }
  },
  {
   "id": "ugr-apoyo-docencia-mecanica-estructuras",
@@ -363,7 +470,50 @@
   "claves": [
    "apoyo a la docencia y a la investigacion",
    "mecanica de estructuras"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (24 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Bloque general",
+     "temas": [
+      "Constitución Española: Título Preliminar, Título I. De los derechos y deberes fundamentales, y Título IV. Del Gobierno y de la Administración.",
+      "Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre: Título I. Objeto y ámbito de aplicación y Título II. Personal al servicio de las Administraciones Públicas. Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título Preliminar, Título I. Funciones del sistema universitario y autonomía de las universidades, Título II. Creación y reconocimiento de las universidades y calidad del sistema universitario, Título III. Organización de enseñanzas, Título IV. Investigación y transferencia e intercambio del conocimiento e innovación y Título IX. Capítulo I. Régimen jurí",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Título Preliminar. Disposiciones generales, Título II. Comunidad universitaria: Capítulo I. Disposiciones generales y valores, Capítulo IV. Personal Técnico, de Gestión y de Administración y Servicios de las universidades públicas, Título IV. Estructura de las universidades: Capítulo I. Estructuras universitarias, Título V. Gobernanza de las universidades pú",
+      "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales.",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Título Preliminar. Objeto y ámbito de la Ley, Título I. El principio de igualdad y la tutela contra la discriminación, Título IV. El derecho al trabajo en igualdad de oportunidades. Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI. Título Pre"
+     ]
+    },
+    {
+     "titulo": "Bloque específico",
+     "temas": [
+      "Materiales estructurales y de experimentación. Materiales metálicos, hormigón, morteros, madera, materiales compuestos, polímeros reforzados con fibras, mampostería, fábrica y tapia. Propiedades físicas, mecánicas y de durabilidad. Comportamiento resistente, deformacional y dinámico. Aplicaciones, limitaciones y criterios de selección de materiales para la fabricación de especímenes, montajes experimentales, elemento",
+      "Tecnología del hormigón y de otros materiales estructurales. Componentes, dosificación, amasado, transporte, vertido, compactación, vibrado, curado y control básico del hormigón. Preparación de morteros, fábricas, elementos de mampostería, tapia y otros geomateriales para investigación estructural. Ensayos de caracterización del material (resistencia y módulo de elasticidad). Armaduras pasivas: identificación, corte,",
+      "Procesos de fabricación y preparación de especímenes estructurales. Operaciones de corte, conformado, perforado, mecanizado, ajuste, unión y montaje de elementos metálicos, de madera y auxiliares de ensayo. Preparación de encofrados, armados, zapatas, vigas, pilares, forjados, muros, paneles, nudos y especímenes a escala o de gran formato. Manejo de adhesivos epoxi para la elaboración de polímeros reforzados con fibr",
+      "Ensayos dinámicos con mesa sísmica de estructuras de hormigón, acero y mixtas, con y sistemas de control dinámico (disipadores pasivos histeréticos y/o viscosos, aislamiento de base, sistemas inerciales…): Lectura, interpretación y desglose de planos de los proyectos a realizar. Replanteo, acondicionamiento y aprovechamiento del espacio de trabajo, para optimización del mismo. Instrumentación general, fijadores bicom",
+      "Soldadura y uniones en montajes experimentales. Fundamentos, equipos y aplicaciones de soldadura. Uniones atornilladas, anclajes mecánicos, anclajes químicos, tornillería pasante, fijadores bicomponentes y sistemas mixtos de unión. Criterios básicos de ejecución, inspección visual, seguridad y adecuación al uso en montajes estructurales y bastidores auxiliares de ensayo.",
+      "Herramientas manuales y máquinas-herramienta convencionales. Sierras, taladros, taladro vertical, esmeriladoras, lijadoras, radiales, sierras de sable y circulares, dobladoras, hormigoneras, amasadoras, vibradores eléctricos y equipos auxiliares. Tipos, partes principales, útiles y accesorios. Operaciones básicas, condiciones de uso, mantenimiento preventivo y correctivo y seguridad asociada.",
+      "Fabricación y montaje de ensayos de grandes elementos estructurales. Lectura, interpretación y desglose de planos y documentación técnica. Replanteo, organización del espacio de trabajo y secuencia de montaje. Instalación de especímenes, marcos de carga, estructuras auxiliares, masas adicionales, planchas de sobrecarga, utillaje y sistemas de fijación. Nivelación, aplomado, anclaje y comprobaciones previas al ensayo.",
+      "Actuadores, pórticos de carga y sistemas hidráulicos. Principios de funcionamiento de actuadores estáticos y dinámicos. Pórticos de carga móviles. Centrales hidráulicas, acumuladores, aceite hidráulico, circuitos, conexiones y elementos auxiliares. Operaciones básicas de verificación, calentamiento, seguimiento del funcionamiento, detección de incidencias, mantenimiento preventivo y control de condiciones de segurida",
+      "Mesa sísmica y ensayos dinámicos. Fundamentos de la excitación dinámica y de la respuesta estructural. Operación básica de mesa sísmica biaxial. Preparación del espécimen, anclaje a bancada o mesa, sincronización con la adquisición de datos, comprobaciones previas, protocolos de seguridad, supervisión del ensayo, parada segura e inspección posterior. Campañas de caracterización dinámica y ensayos de resistencia sísmi",
+      "Instrumentación de ensayos estructurales. Principios de funcionamiento, instalación, protección y verificación de sensores de desplazamiento, LVDTs, acelerómetros, células de carga, galgas extensométricas, láseres, telémetros y otros dispositivos de medida. Criterios de selección según el objetivo del ensayo. Preparación de cableado, conectores, acondicionamiento de señal, soldadura electrónica básica y comprobación ",
+      "Adquisición, registro y gestión de datos experimentales. Sistemas de adquisición de datos aplicados a ensayos estructurales estáticos y dinámicos. Configuración básica de canales, sincronización, verificación previa, almacenamiento, organización, respaldo y trazabilidad de los datos. Incidencias habituales de adquisición, ruido, pérdida de señal, saturación y comprobaciones elementales de calidad del dato experimenta",
+      "Metrología y verificación en laboratorio estructural. Conceptos de medida, unidades, errores, incertidumbre y trazabilidad. Instrumentos de medida directa e indirecta aplicados al montaje experimental. Verificación geométrica, nivelación, alineación, perpendicularidad, paralelismo, tolerancias de montaje y control dimensional básico de elementos, útiles, anclajes y dispositivos de ensayo. Verificación, calibración y ",
+      "Mantenimiento de instalaciones experimentales. Tipología de averías en pórticos, actuadores, mesa sísmica, puentes grúa, máquinas de taller, sistemas hidráulicos y equipos de adquisición. Planificación del mantenimiento preventivo y correctivo. Control de repuestos, consumibles, accesorios y documentación técnica asociada. Revisión de anclajes, conexiones, cableado, niveles, engrase y estado general de los equipos e ",
+      "Seguridad en el laboratorio de estructuras. Riesgos asociados al manejo de cargas suspendidas, puente grúa, elementos pesados, sistemas hidráulicos, máquinas-herramienta, soldadura, electricidad, polvo, ruido, vibraciones y demolición de especímenes. Evaluación básica de riesgos, medidas preventivas, señalización, delimitación de zonas de trabajo, maniobras críticas, procedimientos de trabajo seguro, actuaciones en c",
+      "Gestión técnica del laboratorio. Organización operativa del espacio de ensayo. Inventario de equipos activos e inactivos. Gestión de proveedores, compras, averías, control de existencias y material fungible. Preparación logística de campañas experimentales. Coordinación básica con personal docente e investigador. Conservación del orden operativo del laboratorio y apoyo a actividades docentes, de investigación, transf",
+      "Gestión de residuos y sostenibilidad en el entorno experimental. Residuos metálicos, inertes, envases, restos de hormigón, madera, componentes eléctricos, consumibles de soldadura, aceites y otros residuos asociados a la actividad del laboratorio. Segregación, almacenamiento temporal, retirada y gestión conforme a normativa aplicable. Uso eficiente de materiales, reutilización de utillaje y buenas prácticas de sosten",
+      "Sistema de calidad en los laboratorios de la Universidad de Granada. Manual del SUGI Apartados 1 y 5; Política SUGI.",
+      "Procedimientos de calidad en los laboratorios de la Universidad de Granada: PE35-01-APOY-Apoyo a la D y la Investigación; PE35-03-EQUI-Gestión de Equipos; PE35-04-GPER-Gestión de Personal."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Primer ejercicio: Tendrá carácter eliminatorio y consistirá en contestar un cuestionario de 100 preguntas, con cuatro respuestas alternativas, de las que solo una será correcta, basado en el contenido del programa que figura como anexo I de la presente convocatoria.",
+    "Segundo ejercicio: Tendrá carácter eliminatorio y consistirá en el desarrollo y resolución de uno o varios supuestos o pruebas prácticas propuestos por el Tribunal, basados en el contenido del bloque específico del programa que figura como anexo I de la presente convocatoria, en el tiempo y con los medios auxiliares que se…"
+   ]
+  }
  },
  {
   "id": "uca-tecnica-gestion-universitaria",
@@ -1026,7 +1176,63 @@
   },
   "claves": [
    "auxiliar administrativa"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (27 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Bloque I. Organización de la administración",
+     "temas": [
+      "La Constitución Española de 1978. Estructura y contenido. Título preliminar. Título I. De los derecho y deberes fundamentales.",
+      "La Constitución de 1978: Título II. De la Corona. Título III. De las Cortes Generales. Título IV. Del Gobierno y de la Administración.",
+      "La Constitución de 1978: Título V. De las relaciones entre el Gobierno y las Cortes Generales. Título VI. Del Poder Judicial. Título VIII. De la Organización Territorial del Estado.",
+      "El Estatuto de Autonomía para Andalucía. Derechos y deberes. Principios rectores. Competencias de la Comunidad Autónoma.",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Objeto y ámbito de la Ley. El principio de igualdad y la tutela contra la discriminación. El principio de igualdad en el empleo público: Criterios de actuación de las Administraciones Públicas.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Disposiciones generales. Principios de protección de los datos. Derecho de las personas.",
+      "Sistema de Dirección Estratégica de la Universidad de Cádiz: misión, visión, valores, ámbitos estratégicos y objetivos generales."
+     ]
+    },
+    {
+     "titulo": "Bloque II. Derecho Administrativo",
+     "temas": [
+      "Las fuentes del Derecho Administrativo: concepto y clases. La Ley. El Reglamento: concepto, naturaleza y clases. Otras fuentes del Derecho Administrativo.",
+      "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. Disposiciones generales. Los órganos de las Administraciones Públicas.",
+      "La Ley 40/2015, de 1 de octubre. Funcionamiento electrónico del sector público.",
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. De los interesados en el procedimiento. De la actividad de las Administraciones Públicas.",
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. De los actos administrativos.",
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. De las disposiciones sobre el procedimiento administrativo común.",
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. De la revisión de los actos en vía administrativa."
+     ]
+    },
+    {
+     "titulo": "Bloque III. Gestión de personal",
+     "temas": [
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Personal al servicio de las Administraciones Públicas.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Derechos y deberes. Código de conducta de los empleados públicos.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Adquisición y pérdida de la relación de servicio.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Ordenación de la actividad profesional.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Régimen disciplinario."
+     ]
+    },
+    {
+     "titulo": "Bloque IV. Gestión universitaria",
+     "temas": [
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Funciones del sistema universitario y autonomía de las universidades. Creación y reconocimiento de las universidades.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Régimen jurídico y estructura de las universidades públicas. Gobernanza de las universidades públicas.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. El estudiantado en el Sistema Universitario. Personal docente e investigador de las universidades públicas. Personal técnico, de gestión y de administración y servicios de las universidades públicas.",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía. Sistema universitario andaluz. Régimen jurídico. Funciones, reserva de actividad y de denominación. Prerrogativas y potestades de las universidades públicas.",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía. Docencia, Investigación y Transferencia del Conocimiento.",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía. Régimen económico, financiero y patrimonial de las universidades públicas.",
+      "Normas de Ejecución del Presupuesto de la Universidad de Cádiz: el presupuesto de la Universidad de Cádiz, los créditos y sus modificaciones, ejecución del presupuesto.",
+      "Código ético de la Universidad de Cádiz (Código Peñalver)."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Primer ejercicio. De carácter teórico. Consistirá en contestar un cuestionario con un máximo de 90 preguntas, con respuestas múltiples, siendo solo una de ellas la correcta, basado en el contenido del programa. El tiempo máximo para la realización de este ejercicio será de 90 minutos.",
+    "Segundo ejercicio. De carácter práctico. Consistirá en la resolución de dos casos prácticos, desglosados cada uno de ellos en un cuestionario con un máximo de 15 preguntas, con respuestas múltiples, siendo sólo una de ellas la correcta, basado en el contenido del programa de estas pruebas en los bloques II al IV."
+   ]
+  }
  },
  {
   "id": "uca-laboral-titulado-superior-apoyo",
@@ -1048,7 +1254,85 @@
   },
   "claves": [
    "titulado superior de apoyo a la docencia"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (60 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Bloque general",
+     "temas": [
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Disposiciones Generales. Creación y Reconocimiento de Universidades. Docencia, Investigación y Transferencia de Conocimiento. Estudiantado. Personal Técnico, de Gestión y de Administración y Servicios. Estructura de las Universidades y Gobernanza de las Universidades Públicas.",
+      "Administración para la calidad. Modelos de gestión: el modelo EFQM. Los sistemas de certificación y acreditación.",
+      "El factor humano en la organización. El grupo en la organización. El trabajo en equipo. La comunicación interna en las organizaciones. Resolución de problemas.",
+      "Acceso a la información pública y transparencia: el Reglamento de Transparencia de la Universidad de Cádiz. Reclamaciones, quejas y peticiones.",
+      "Sistema de Dirección Estratégica de la Universidad de Cádiz: misión, visión, valores, ámbitos estratégicos y objetivos.",
+      "Código Ético de la Universidad de Cádiz (Código Peñalver).",
+      "Normativa de ejecución presupuestaria de la Universidad de Cádiz.",
+      "La Ley Orgánica del Sistema Universitario: funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; régimen jurídico y estructura de las universidades públicas; gobernanza de las universidades públicas.",
+      "La Ley Orgánica del Sistema Universitario: Organización de enseñanzas; Investigación y transferencia e intercambio del conocimiento e innovación.",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Disposiciones Generales. Creación y Reconocimiento de Universidades. Docencia, Investigación y Transferencia de Conocimiento. Estudiantado. Personal Técnico, de Gestión y de Administración y Servicios. Estructura de las Universidades y Gobernanza de las Universidades Públicas.",
+      "El Estatuto Básico del Empleado Público: deberes de los empleados públicos; código de conducta.",
+      "El IV Convenio colectivo del Personal Laboral de las Universidades Públicas de Andalucía: normas de organización del trabajo: principios generales y clasificación profesional; la regulación en el convenio de la prevención de riesgos laborales.",
+      "Administración para la calidad. Modelos de gestión: el modelo EFQM. Los sistemas de certificación y acreditación.",
+      "El factor humano en la organización. El grupo en la organización. El trabajo en equipo. La comunicación interna en las organizaciones. Resolución de problemas.",
+      "Acceso a la información pública y transparencia: el Reglamento de Transparencia de la Universidad de Cádiz. Reclamaciones, quejas y peticiones.",
+      "Sistema de Dirección Estratégica de la Universidad de Cádiz: misión, visión, valores, ámbitos estratégicos y objetivos.",
+      "Normativa de ejecución presupuestaria de la Universidad de Cádiz.",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Objeto y ámbito de la Ley. El principio de igualdad y la tutela contra la discriminación. El principio de igualdad en el empleo público: Criterios de actuación de las Administraciones Públicas.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Disposiciones generales. Principios de protección de los datos. Derecho de las personas.",
+      "Código Ético de la Universidad de Cádiz (Código Peñalver)."
+     ]
+    },
+    {
+     "titulo": "Bloque específico",
+     "temas": [
+      "Fundamentos de la espectrometría de masas. El espectrómetro de masas. Escala de masas. Cromatogramas de iones. Sensibilidad. Límite de detección. Relación señal/ruido.",
+      "Ionización Electrónica (EI). Proceso de ionización en EI. Relación masa-carga. El Espectro de masas. La fuente de iones. Aplicaciones.",
+      "Ionización Química (CI): Fundamento. Transferencia de protones en CI. Ionización química por transferencia de carga. Gases para CI. Iones negativos en CI. Aplicaciones.",
+      "Ionización de tipo Electrospray (ESI). Proceso de producción de iones en ESI. Interfases para ESI. Iones con múltiples cargas. Deconvolución. Supresión de la ionización (efecto matriz). Aplicaciones de ESI.",
+      "Ionización química a presión atmosférica (APCI). Formación de iones positivos en APCI. Formación de iones negativos en APCI. Aplicaciones de APCI.",
+      "Ionización fotoquímica a presión atmosférica (APPI). Formación de iones en APPI. Aplicaciones de APPI.",
+      "Ionización de tipo Electrospray mediante desorción (DESI). Condiciones experimentales para DESI. Parámetros de operación para DESI. Mecanismos de formación de iones en DESI. Aplicaciones de DESI.",
+      "Analizadores de masas de tipo cuadrupolo: Descripción. Ecuaciones de movimiento de iones. Diagrama de estabilidad. Resolución. Guías de iones y celda de colisión. Espectrómetros con varios cuadrupolos en tándem. Aplicaciones y limitaciones.",
+      "Analizadores de masas de tipo tiempo de vuelo. Espectrómetro de masas de tiempo de vuelo lineal. Extracción de iones pulsada y retrasada. Reflectrones. Transferencia de iones (modo z). StepWave. T-Wave. Espectrometría de masas en tándem con analizador de tiempo de vuelo. Instrumentos con analizador de tipo tiempo de vuelo con aceleración ortogonal.",
+      "Espectrometría de masas en tándem (QQQ). Espectrometría de masas en tándem en el espacio o en el tiempo. Modos de análisis en espectrometría de masas en tándem. Colisión inducida por colisiones o descomposición activada por colisiones. Energía de colisión. Magnitudes. Otros métodos de activación de iones.",
+      "Espectrometría de masas en Alta resolución. Métodos de adquisición (QTOF). Adquisición dependiente de datos. Adquisición independiente de datos.",
+      "Espectrometría de masas en tándem (QTOF). Aplicaciones: Reacciones estudiadas en espectrometría de masas en tándem. Elucidación estructural. Detección selectiva de tipos específicos de compuestos. Reacciones ion-molécula. Determinación de datos termoquímicos mediante el método cinético.",
+      "Formación y fragmentación de iones. Ionización electrónica y fotoionización a vacío. Ionización a baja presión o a presión atmosférica. Transferencia de protones. Formación de aductos. Formación de agregados. Reacciones en la interfase entre la fuente y el analizador.",
+      "Reacciones de fragmentación. Ionización electrónica y velocidades de fragmentación. Teorías de cuasi-equilibrio y RRKM (Rice, Rampsberger, Kassel and Marcus). Ionización y energías de aparición. Reacciones de fragmentación de iones positivos. Reacciones de fragmentación de iones negativos. Fragmentación remota de carga.",
+      "Iones metaestables y su uso en espectrometría de masas. Formación de iones metaestables. Abundancia de iones metaestables. Desventaja de la baja abundancia de los iones metaestables. Intensificación de la fragmentación. Uso de analizadores de tipo cuadrupolar para el análisis de iones metaestables. Acoplamiento de analizadores de triple cuadrupolo y adquisición de iones.",
+      "Patrones de fragmentación asociados a grupos funcionales (EI/ESI). Parte 1: Hidrocarburos. Alquenos y alcanos. Hidrocarburos aromáticos. Aminas. Alcoholes éteres y fenoles. Haluros de alquilo y arilo.",
+      "Patrones de fragmentación asociados a grupos funcionales (EI/ESI). Parte 2: Cetonas y aldehídos. Ácidos carboxílicos y derivados. Otros grupos funcionales: nitrocompuestos, grupos funcionales que contengan azufre y silanos.",
+      "Detección de iones. Conversión analógica-digital. Velocidad de digitalización. Conversión tiempo-digital. Multiplicadores electrónicos de tipo dínodo. Multiplicadores electrónicos de tipo canal. Placas de microcanales.",
+      "Movilidad iónica acoplada a espectrometría de masas. Espectrometría de movilidad iónica. Sección transversal de colisión. Tipos de instrumentación: movilidad iónica basada en dispersión temporal, movilidad iónica basada en onda viajera, movilidad iónica basada en dispersión espacial y movilidad iónica basada en confinamiento y liberación selectiva.",
+      "Movilidad iónica acoplada a espectrometría de masas. Aplicaciones: Separación de isómeros. Filtrado de señales. Identificación de componentes en mezclas complejas. Diseño del experimento en movilidad iónica.",
+      "Espectrometría de masas. Información analítica cualitativa. Iones típicos. Presencia del ion molecular. Neutros típicos. Alta resolución. Masa exacta. Determinación de la composición elemental. Abundancias isotópicas. Fragmentos y neutros. Número de anillos o insaturaciones. Multicarga. Análisis de péptidos.",
+      "Espectrometría de masas. Información analítica cuantitativa. Especificidad. Sensibilidad y límite de detección. Métodos con patrón externo. Fuentes de error. Métodos con patrón interno. Dilución isotópica.",
+      "Adquisición de datos y control instrumental en espectrometría de masas mediante el entorno MassLynx. Estructura general y arquitectura del entorno MassLynx. Configuración de métodos de adquisición para espectrometría de masas. Control de analizadores tipo QQQ, QTOF. Calibración del equipo. Programación y gestión (UHPLC y GC). Métodos de adquisición en modo MRM, TOF-MS, TOF-MS/MS y funciones combinadas. Gestión de las",
+      "Software de procesamiento de datos para análisis cuantitativo y cualitativo. Targetlynx. Chromalynx. Flujo de trabajo en TargetLynx: definición de compuestos, construcción de curvas de calibración. Parámetros críticos: linealidad, precisión, exactitud, S/N, LOQ y LOD. Cálculo automático de concentraciones y efecto matriz. Exportación de informes y datos brutos. Análisis cualitativo automatizado con ChromaLynx. Paráme",
+      "Procesamiento avanzado en espectrometría de masas. Progenesis QI, DriftScope y MassFragment. Procesamiento no dirigido con Progenesis QI. Análisis estadístico multivariante e identificación de biomarcadores. Integración con bases de datos metabolómicas y proteómicas. Visualización de datos tridimensionales en movilidad iónica con DriftScope. Interpretación estructural y predicción de fragmentación con MassFragment. A",
+      "Fundamentos de cromatografía líquida (HPLC/UHPLC): Principio de separación. Ecuación teórica. Cinética de separación. Fase móvil. Ventajas y limitaciones de UHPLC frente a HPLC. Cromatografía UHPLC 2D.",
+      "Columnas cromatográficas: fases estacionarias y empaquetado. Tipos de columnas: empaquetadas vs monolíticas vs capilares. Fases estacionarias para LC. Cromatografía HILIC. Cromatografía de exclusión por tamaño. Propiedades de partícula. Parámetros de columna. Mantenimiento y vida útil de la columna.",
+      "Selección de la columna cromatográfica según aplicación: Pautas de selección. Péptidos y proteínas. Ácidos nucleicos. Polifenoles en plantas y alimentos. Antioxidantes en fruta. Antibióticos en muestras de agua y purines.",
+      "UHPLC: diseño práctico y aspectos técnicos del sistema. Componentes del sistema UHPLC. Requisitos de la bomba y estabilidad de flujo a alta presión. Materiales y conexiones y su impacto en el rendimiento. Gestión de gradientes a alta presión. Efectos de la compresibilidad del solvente y mantenimiento preventivo. Integración con MS: consideraciones de flujo. Acoplamiento a PDA y TUV. Aditivos para la fase móvil.",
+      "Cromatografía de gases (GC) y acoplamiento GC–MS: Principios de GC. Columnas capilares vs empaquetadas. Selección de columnas. Detectores clásicos (FID, ECD) y su comparativa con MS. Acoplamiento GC–MS. APGC. Derivatización para GC–MS. Problemas comunes: degradación térmica, arrastre de solvente, ghost peaks.",
+      "Interfaces y acoplamientos cromatografía–espectrometría de masas UHPLC–MS. Requisitos y retos al acoplar LC a MS. Interfaces comunes (ESI, APCI, APPI). Sistemas de desolvatado y nebulización. Ajustes prácticos para optimizar sensibilidad. Problemas de compatibilidad y estrategias para solucionarlos.",
+      "Cromatografía de Fluidos Supercríticos (SFC), UltraPerformance Convergence Chromatography (UPC). Principios fundamentales. Fase móvil y selectividad. Instrumentación. Ventajas de la UPC. Interface al espectrómetro de masas, configuración. Tipos de columnas para cromatografía supercrítica. Aplicaciones.",
+      "Preparación de muestras y técnicas de limpieza para LC–MS/GC–MS. Extracción en fase sólida (SPE). Extracción líquido–líquido, protein precipitation, QuEChERS y microextracción en fase sólida. Concentración y reconstitución, elección de solventes compatibles con MS. Filtración, centrifugación y manejo de particulados para proteger columnas y fuente. Control de matriz y minimización de supresión de ionización. Uso de e",
+      "Desarrollo de métodos cromatográficos y estrategias de optimización y resolución de problemas. Estrategia de desarrollo de método. Criterios de robustez y validación. Optimización práctica del método. Resolución de problemas frecuentes. Escalado de método y transferencia entre equipos. Documentación y control de calidad en laboratorio.",
+      "Validación de métodos analíticos. Exactitud. Precisión. Especificidad. Límite de detección. Límite de cuantificación. Linealidad y rango. Robustez.",
+      "Quimiometría general: Estadística descriptiva y de comparación. Métodos de reconocimiento de pautas supervisado y no supervisado. Diseño estadístico de experimentos.",
+      "Conceptos básicos sobre vacío: Régimen de vacío, rango de presión. Tecnología. Bombas de vacío: motores del sistema. Medidores de vacío. Secuencia de actuación y control. Troubleshooting.",
+      "Troubleshooting en sistemas de masas y mantenimiento (QTOF, QQQ Y GC-MS): Problemas de la fuente de iones, problemas de calibración de masas y rendimiento analítico, problemas de comunicación y electrónica y problemas de contaminación.",
+      "Gestión de una red con virtualización (VMWARE) (Vsphere7 Essential). Conceptos fundamentales de virtualización y el Hypervisor ESXi. Componentes de una VM y gestión de recursos. Uso de la máquina virtual (VM). Gestión de datos e importancia de los Snapshots. Alta disponibilidad (HA). Vmotion.",
+      "Gestión de usuarios con Windows Server 2019. Mantenimiento y seguridad de cuentas de usuario. Automatización de tareas con PowerShell en Windows Server. Seguridad de red y firewall avanzado. Server Manager. Active Directory."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "uca-laboral-titulado-superior",
@@ -1071,7 +1355,95 @@
   },
   "claves": [
    "titulado superior"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (65 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Bloque general",
+     "temas": [
+      "La Ley Orgánica del Sistema Universitario: funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; régimen jurídico y estructura de las universidades públicas; gobernanza de las universidades públicas.",
+      "La Ley Orgánica del Sistema Universitario: Organización de enseñanzas; Investigación y transferencia e intercambio del conocimiento e innovación.",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Disposiciones Generales. Creación y Reconocimiento de Universidades. Docencia, Investigación y Transferencia de Conocimiento. Estudiantado. Personal Técnico, de Gestión y de Administración y Servicios. Estructura de las Universidades y Gobernanza de las Universidades Públicas.",
+      "El Estatuto Básico del Empleado Público: deberes de los empleados públicos; código de conducta.",
+      "El IV Convenio Colectivo del Personal Laboral de las Universidades Públicas de Andalucía: normas de organización del trabajo: principios generales y clasificación profesional; la regulación en el convenio de la prevención de riesgos laborales.",
+      "Administración para la calidad. Modelos de gestión: el modelo EFQM. Los sistemas de certificación y acreditación.",
+      "El factor humano en la organización. El grupo en la organización. El trabajo en equipo. La comunicación interna en las organizaciones. Resolución de problemas.",
+      "Acceso a la información pública y transparencia: el Reglamento de Transparencia de la Universidad de Cádiz. Reclamaciones, quejas y peticiones.",
+      "Sistema de Dirección Estratégica de la Universidad de Cádiz: misión, visión, valores, ámbitos estratégicos y objetivos.",
+      "Normativa de ejecución presupuestaria de la Universidad de Cádiz.",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Objeto y ámbito de la Ley. El principio de igualdad y la tutela contra la discriminación. El principio de igualdad en el empleo público: Criterios de actuación de las Administraciones Públicas.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Disposiciones generales. Principios de protección de los datos. Derecho de las personas.",
+      "Código Ético de la Universidad de Cádiz (Código Peñalver)."
+     ]
+    },
+    {
+     "titulo": "Bloque específico. Perfil emprendimiento",
+     "temas": [
+      "La Ley 14/2011, de la Ciencia, la Tecnología y la Innovación.",
+      "La Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+      "Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+      "Ley 3/2018 de 8 de mayo, Andaluza de Fomento del Emprendimiento.",
+      "El Plan General de Emprendimiento de Andalucía.",
+      "Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización.",
+      "Ley 28/2022, de 21 de diciembre, de fomento del ecosistema de las empresas emergentes.",
+      "Ley 18/2022, de 28 de septiembre, de creación y crecimiento de empresas.",
+      "Ley 20/2007, de 11 de julio, del Estatuto del trabajo autónomo.",
+      "Ley 5/2011, de 29 de marzo, de Economía Social.",
+      "Sociedades cooperativas y sociedades laborales. Requisitos y normativa reguladora.",
+      "Agentes impulsores del emprendimiento a nivel nacional, internacional y autonómico.",
+      "Fuentes de financiación para proyectos emprendedores.",
+      "La persona emprendedora. Marco europeo de competencias para el emprendimiento.",
+      "Ecosistemas emprendedores. El ecosistema emprendedor en España. Ecosistemas emprendedores internacionales de éxito. Tendencias del emprendimiento. Valores del emprendedor y cambio cultural.",
+      "La actividad emprendedora universitaria. Recursos para la creación y el desarrollo empresarial en la Universidad de Cádiz. Actividades de promoción, difusión y sensibilización de la cultura emprendedora desarrolladas por la Universidad de Cádiz.",
+      "Metodología de diseño de un proyecto empresarial: La Idea de Negocio. Modelos de negocio ágiles. Análisis de mercado y definición de un plan de negocio.",
+      "Metodología de desarrollo de un proyecto empresarial: Instrumentos de análisis de la viabilidad de la empresa. Instrumentos para la financiación de proyectos empresariales. Principales ratios económico-financieros de interés.",
+      "Formas de constitución y formas jurídicas de la empresa en España. Trámites legales y administrativos.",
+      "Agentes del Sistema Andaluz de Emprendimiento.",
+      "Concepto de startup . Métodos de valorización de startups . Formas jurídicas para la constitución de una startup . Trámites de constitución e inicio de actividad. Financiación de startups : alternativas y estrategias. Definición, características y tipología. La regulación en España.",
+      "Concepto y características de las de spin off académicas. Factores de éxito. Beneficios de la creación de spin off en los centros de investigación. Aspectos básicos de la creación de una spin off académica.",
+      "Creación de Empresas de base Tecnológica en el ámbito universitario. Regulación normativa y aplicación en la Universidad de Cádiz.",
+      "Derechos de propiedad industrial e intelectual. Protección de las invenciones: patentes y modelos de utilidad. Normativa de la Universidad de Cádiz sobre propiedad industrial e intelectual.",
+      "Nombres comerciales. Concepto. Características. Requisitos para la obtención de un nombre comercial.",
+      "Marcas registradas. Concepto. Diferencias con otros signos distintivos. Requisitos para la obtención de una marca. Tipos de marcas. Alcance y duración de la protección. Obligaciones del titular."
+     ]
+    },
+    {
+     "titulo": "Bloque específico. Perfil prácticas de empresa",
+     "temas": [
+      "La Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+      "Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+      "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+      "Real Decreto 1791/2010, de 30 de diciembre, por el que se aprueba el Estatuto del Estudiante Universitario.",
+      "Reglamento del Régimen Disciplinario de los estudiantes de la Universidad de Cádiz.",
+      "Reglamento UCA/CG09/2023, de 25 de julio, Normas de Convivencia de la Universidad de Cádiz.",
+      "Real Decreto 592/2014 de 11 de julio, por el que se regulan las prácticas académicas externas de los estudiantes universitarios.",
+      "Orden de 28 de julio de 2005, reguladora de subvenciones a las Universidades de Andalucía para la ejecución de programas de formación orientados a la inserción laboral del alumnado universitario en empresas e instituciones de Andalucía.",
+      "Reglamento UCA/CG08/2012, de 13 de julio, de prácticas académicas externas de los alumnos de la Universidad de Cádiz.",
+      "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social. Normas generales. Régimen General de la Seguridad Social. Especial referencia a las prácticas formativas y prácticas académicas externas.",
+      "Real Decreto 1493/2011, de 24 de octubre, por el que se regulan los términos y las condiciones de inclusión en el Régimen General de la Seguridad Social de las personas que participen en programas de formación, en desarrollo de lo previsto en la disposición adicional tercera de la Ley 27/2011, de 1 de agosto, sobre actualización, adecuación y modernización del sistema de la Seguridad Social.",
+      "Orden ISM/386/2024, de 29 de abril, por la que se regula la suscripción de convenio especial con la Seguridad Social a efectos del cómputo de la cotización por los períodos de prácticas formativas y de prácticas académicas externas reguladas en la disposición adicional quincuagésima segunda del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre,",
+      "Orden PJC/297/2026, de 30 de marzo, por la que se desarrollan las normas legales de cotización a la Seguridad Social, desempleo, protección por cese de actividad, Fondo de Garantía Salarial y formación profesional para el ejercicio 2026.",
+      "Reglamento UCA/CG08/2018, de 25 de julio, por el que se regula la realización de convenios en la Universidad de Cádiz.",
+      "Convenio específico de cooperación educativa entre la Universidad de Cádiz y las entidades colaboradoras para la realización de prácticas externas.",
+      "Prácticas en la Universidad de Cádiz: definición, modalidades, características y tramitación.",
+      "Portales de Gestión de prácticas curriculares en la Universidad de Cádiz: ICARO y GADES.",
+      "Programa de becas Prácticas Fundación ONCE-CRUE.",
+      "Programa ICEX de prácticas académicas para estudiantes universitarios.",
+      "Programa Campus Rural para la realización de prácticas universitarias en entornos rurales.",
+      "Prácticas Internacionales en Instituciones Europeas.",
+      "Orden de 29 de abril de 2024, por la que se aprueba el modelo de convenio tipo de colaboración para la realización de la fase de formación en empresas u organismos equiparados de las enseñanzas de formación profesional.",
+      "Instrucción 1/2025 de la Secretaría General de Formación Profesional de la Consejería de Desarrollo Educativo y Formación Profesional para el desarrollo, en las universidades públicas andaluzas, del módulo de Formación en Centros de Trabajo y del período de formación en empresa u organismo equiparado de las ofertas de los grados D y E del Sistema de Formación Profesional.",
+      "Definición de objetivos de aprendizaje y competencias a desarrollar en las prácticas.",
+      "Diseño de planes de acogida y seguimiento para los estudiantes en prácticas.",
+      "Ética y calidad de las prácticas universitarias."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "uco-administrativa",
@@ -1093,7 +1465,67 @@
   },
   "claves": [
    "escala administrativa"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (41 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Bloque I",
+     "temas": [
+      "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno. Título I. Transparencia de la actividad pública: capítulo III.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Título I: disposiciones generales. Título II: principios de protección de datos. Título III: derechos de las personas. Título V: responsable y encargado del tratamiento: capítulo III.",
+      "Constitución Española: Título I. De los derechos y deberes fundamentales. Título III de las cortes generales: Capítulo Segundo. De la elaboración de las leyes.",
+      "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil: Título Preliminar. De las normas jurídicas, su aplicación y eficacia: Capítulos I, II y III.",
+      "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Título Preliminar: Disposiciones generales, principios de actuación y funcionamiento del sector público: Capítulos I y II, III, IV, V y VI.",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Título I: De los interesados en el procedimiento. Título II: De la actividad de las Administraciones públicas. Título III: de los actos administrativos. Título IV: de las disposiciones sobre el procedimiento administrativo común. Título V: de la revisión de los actos en vía administrativa. Título VI: de la iniciativ",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Título preliminar. Título I: el principio de igualdad y la tutela contra la discriminación. Título IV: el derecho al trabajo en igualdad de oportunidades: capítulo I y II. Título V: el principio de igualdad en el empleo público: capítulo I. Ley 15/2022, de 12 de julio, Integral para la Igualdad de trato y la no discriminación. Título",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Título I: Objeto y ámbito de aplicación. Título II: personal al servicio de las Administraciones públicas. Título III: derechos y deberes. Código de conducta de los empleados públicos. Título IV: adquisición y pérdida de la relación de servicio. Título V: Ordenación de la act",
+      "Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto de los Trabajadores. Título I: de la relación individual de trabajo: capítulo I, capítulo II (sección 1.ª) y capítulo III (sección 3.ª y 4.ª). Título II: de los derechos de representación colectiva y de reunión de los trabajadores en la empresa: capítulo I (sección 1.ª).",
+      "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía. Título I: disposiciones generales: Capítulo I y III.",
+      "Reglamento 2/2025 por el que se regula la Evaluación del Desempeño y la Carrera Profesional Horizontal del PTGAS de la Universidad de Córdoba.",
+      "Decreto 212/2017, de 26 de diciembre, por el que se aprueba la modificación de los Estatutos de la Universidad de Córdoba, aprobados por Decreto 280/2003, de 7 de octubre. Título I: naturaleza, fines y competencias. Emblemas, honores y ceremonias. Título II: de la comunidad universitaria. Título III: funciones de la universidad. Título IV: estructura de la Universidad. Título V: gobierno, administración y representac",
+      "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales. Capítulo I: objeto, ámbito de aplicación y definiciones. Capítulo III: derechos y obligaciones. Capítulo IV: servicios de prevención.",
+      "La Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título I: funciones del sistema universitario y autonomía de las universidades. Título II: creación y reconocimiento de las universidades y calidad del sistema universitarios. Título III: organización de enseñanzas. Título IV: investigación y transferencia e intercambio del conocimiento e innovación. Título V: cooperación, coordinación y participación",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía. Título II: comunidad universitaria: capítulo III y IV. Título VI: régimen económico, financiero y patrimonial de las universidades públicas: capítulo II (Financiación de las Universidades Públicas).",
+      "Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación. Título Preliminar: disposiciones generales. Título II: recursos humanos dedicados a la investigación: capítulos I y III.",
+      "Reglamento 25/2022 de ingreso, provisión de puestos de trabajo y promoción profesional del Personal de Administración y Servicios de la Universidad de Córdoba: excepto preámbulo y anexos.",
+      "Reglamento 17/2023 sobre jornada de trabajo, horario, vacaciones, permisos y licencias del personal de administración y servicios de la Universidad de Córdoba.",
+      "El Personal Docente e Investigador al Servicio de la Universidad de Córdoba: Reglamento de concurso de acceso a cuerpos docentes universitarios, promociones internas y provisión de plazas docentes vacantes en la Universidad de Córdoba. Reglamento para el ingreso de profesorado contratado doctor. Reglamento para el ingreso de profesorado contratado no estable.",
+      "Plan propio de investigación Enrique Aguilar Benítez de Lugo en la Universidad de Córdoba.",
+      "Ley 38/2003, de 17 de noviembre, General de Subvenciones. Título Preliminar. Disposiciones generales.",
+      "Reglamento 33/2022 por el que se regulan los procedimientos de gestión de las subvenciones otorgadas por la Universidad de Córdoba: artículos del 1 al 5 y del 8 al 10.",
+      "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+      "Real Decreto 99/2011, de 28 de enero, por el que se regulan las enseñanzas oficiales de Doctorado.",
+      "Real Decreto 1002/2010, de 5 de agosto, sobre expedición de títulos universitarios oficiales. Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, las características básicas de la prueba de acceso y la normativa básica de los procedimientos de admisión.",
+      "Reglamento 24/2019 de Régimen Académico de los Estudios Oficiales de Grado de la Universidad de Córdoba.",
+      "Reglamento 35/2019 de los Estudios de Máster Universitario.",
+      "Reglamento 30/2024 por el que se regulan los Estudios de Doctorado de la Universidad de Córdoba.",
+      "El Presupuesto de la Universidad de Córdoba: texto articulado: capítulo I al IV.",
+      "El Presupuesto de la Universidad de Córdoba: texto articulado: capítulo V al X.",
+      "El Presupuesto de la Universidad de Córdoba. Anexos: indemnizaciones por razón de servicio. Fórmula de reparto presupuestario: asignación presupuestaria a los centros (introducción del apartado 3.13.1).",
+      "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público. Título Preliminar: capítulo II, sección 1.ª"
+     ]
+    },
+    {
+     "titulo": "Bloque Ii",
+     "temas": [
+      "Gestión de Documentos.",
+      "Automatización con Combinación de Correspondencia.",
+      "Edición Técnica y Tablas.",
+      "Impresión, exportación y accesibilidad.",
+      "Importación, limpieza de Datos y formato de celdas.",
+      "Funciones de Texto y Estadística Descriptiva.",
+      "Funciones Lógicas y Búsqueda.",
+      "Referencias.",
+      "Auditoría y Control de Cambios en Documentos."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Primer ejercicio:",
+    "Segundo ejercicio:"
+   ]
+  }
  },
  {
   "id": "uco-laboral-stoem",
@@ -1115,7 +1547,117 @@
   },
   "claves": [
    "servicios tecnicos de obras"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (91 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Bloque I",
+     "temas": [
+      "La Constitución Española de 1978: el reconocimiento constitucional de la autonomía universitaria.",
+      "La Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Título I. Funciones del Sistema Universitario y autonomía de las Universidades. Título II. Creación y reconocimiento de las Universidades y calidad del sistema universitario.",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Título Preliminar. De las disposiciones generales. Título II. Comunidad universitaria: Capítulo IV.",
+      "Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto de los Trabajadores: Título I. De la relación individual de trabajo: Capítulo I (sección 2.ª), Capítulo II (Sección 2.ª). Título II. De los derechos de representación colectiva y de reunión de los trabajadores en la empresa.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Título III. Derechos y deberes. Código de conducta de los empleados públicos. Título VII. Régimen disciplinario.",
+      "Estatutos de la Universidad de Córdoba: Título I. Naturaleza, fines y competencias. Emblemas, honores y ceremonias: Capítulo I. Naturales, fines y competencias. Título II. De la comunidad universitaria: Sección 5.ª del Capítulo 4. Título IV. Estructura de la Universidad. Título V. Gobierno, administración y representación de la Universidad: Capítulos del 2 al 8.",
+      "IV Convenio Colectivo del Personal Laboral de las Universidades andaluzas: Título Preliminar. Objeto, ámbito y vigencia. Título I. Garantías. Título II. Normas de organización del trabajo. Anexo III: Régimen disciplinario.",
+      "Reglamento 25/2022 de ingreso, provisión de puestos de trabajo y promoción profesional del Personal de Administración y Servicios de la Universidad de Córdoba: Título I. Selección, nombramiento y contratación.",
+      "Reglamento 17/2023 sobre jornada de trabajo, horario, vacaciones, permisos y licencias del Personal de Administración y Servicios de la Universidad de Córdoba.",
+      "Ley 36/2011, de 10 de octubre, reguladora de la jurisdicción social: Título V. De la evitación del proceso.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales: Títulos I. Disposiciones generales. Título II. Principios de protección de datos. Título III. Derechos de las personas. Título IV. Disposiciones aplicables a tratamientos concretos. Título V. Responsable y encargado del tratamiento: Capítulo III.",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Título Preliminar. Objeto y ámbito de la ley. Título I. El principio de igualdad y la tutela contra la discriminación. Título II. Políticas públicas para la igualdad: Capítulo II, artículo 25. Título IV. El derecho al trabajo en igualdad de oportunidades: Capítulo II. Título V. El principio de igualdad en el empleo público: Capítulo ",
+      "Ley 15/2022, de 12 de julio, Integral para la Igualdad de trato y la no discriminación. Título Preliminar. Título I. Derecho a la igualdad de tramo y no discriminación: Capítulo I. Título II. Defensa y promoción del derecho a la igualdad de trato y no discriminación: Capítulo I. Título IV. Infracciones y sanciones en materia de igualdad de trato y no discriminación.",
+      "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales. Capítulo III. Derechos y obligaciones. Capítulo V. Consulta y participación de los trabajadores.",
+      "Disposiciones mínimas de seguridad y salud en las obras de construcción: Agentes intervinientes, estudio y plan de seguridad y salud, documentación preventiva básica. Coordinación de actividades empresariales en centros universitarios con concurrencia de contratas, subcontratas y personal propio.",
+      "Organismos de control, inspecciones reglamentarias y verificaciones periódicas. Concepto, funciones y relación con las instalaciones y equipos de la Universidad.",
+      "Documentación técnica de obras e instalaciones: Código Técnico de la Edificación (estructura general, documentos básicos y alcance en conservación, mantenimiento y pequeñas intervenciones), memorias, planos, esquemas, mediciones, presupuestos, pliegos, manuales de uso y mantenimiento y certificados.",
+      "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, predictivo y basado en condición, Sistemas informatizados de gestión del mantenimiento (GMAO: estructura funcional, órdenes de trabajo, inventario, históricos, indicadores, niveles de servicio y trazabilidad).",
+      "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaciones universitarias.",
+      "Mantenimiento de instalaciones térmicas conforme al Reglamento de Instalaciones Térmicas en los Edificios (RITE): estructura, IT 1 a IT 4, exigencias de bienestar, eficiencia energética y seguridad, operaciones preventivas, registros, periodicidades, control de rendimiento y documentación.",
+      "Eficiencia energética en instalaciones térmicas: rendimientos, regulación, recuperación de energía, optimización de horarios y control de consumos, automatización y control, diagnóstico de averías en instalaciones térmicas y frigoríficas.",
+      "Instalaciones de climatización, sistemas de expansión directa, enfriadoras y bombas de calor, calderas y salas de calderas, unidades terminales y de tratamiento de aire, redes hidráulicas en climatización y calefacción, ventilación y calidad de aire interior.",
+      "Legionelosis. Instalaciones con riesgo, normativa aplicable, programas de mantenimiento higiénico-sanitario, registros y controles.",
+      "Cámaras frigoríficas y recintos refrigerados: reglamento de seguridad para instalaciones frigoríficas. Clasificación de instalaciones, requisitos técnicos y de seguridad. Aislamiento, control térmico, conservación, mantenimiento y averías habituales.",
+      "Refrigerantes fluorados y otros refrigerantes: tipología, seguridad, impacto ambiental, recuperación y control de fugas. Control de fugas, estanqueidad, recuperación de refrigerante y buenas prácticas de mantenimiento en instalaciones frigoríficas.",
+      "Aparatos elevadores y ascensores. Componentes principales, seguridad, mantenimiento e inspecciones reglamentarias.",
+      "Instalaciones de protección contra incendios. Sistemas de detección, alarma, abastecimiento, extinción y señalización. Mantenimiento conforme al RIPCI.",
+      "Equipos a presión y aire comprimido. Clasificación, elementos principales, revisiones, inspecciones y operaciones de mantenimiento.",
+      "Instalaciones receptoras de combustibles gaseosos. Conceptos básicos, seguridad, puesta en servicio, mantenimiento y actuaciones en caso de incidencia.",
+      "Soldadura blanda, uniones, estanqueidad, aislamiento y pequeñas operaciones auxiliares habituales en el mantenimiento de instalaciones.",
+      "Seguridad específica en trabajos de mantenimiento mecánico y térmico: trabajos en altura, manipulación de cargas, espacios técnicos y bloqueo-etiquetado.",
+      "Disposiciones mínimas de seguridad y salud en las obras de construcción: Agentes intervinientes, estudio y plan de seguridad y salud, documentación preventiva básica. Coordinación de actividades empresariales en centros universitarios con concurrencia de contratas, subcontratas y personal propio.",
+      "Organismos de control, inspecciones reglamentarias y verificaciones periódicas. Concepto, funciones y relación con las instalaciones y equipos de la Universidad.",
+      "Documentación técnica de obras e instalaciones: Código Técnico de la Edificación (estructura general, documentos básicos y alcance en conservación, mantenimiento y pequeñas intervenciones), memorias, planos, esquemas, mediciones, presupuestos, pliegos, manuales de uso y mantenimiento y certificados.",
+      "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, predictivo y basado en condición, Sistemas informatizados de gestión del mantenimiento (GMAO: estructura funcional, órdenes de trabajo, inventario, históricos, indicadores, niveles de servicio y trazabilidad).",
+      "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaciones universitarias.",
+      "Instrumentación y medida eléctrica. Equipos de medida, procedimientos básicos y seguridad en las comprobaciones. Simbología y esquemas eléctricos. Interpretación de planos, cuadros, esquemas unifilares y multifilares.",
+      "Reglamento Electrotécnico para Baja Tensión: estructura general, campo de aplicación y documentación técnica de las instalaciones.",
+      "Instalaciones interiores o receptoras de baja tensión: conductores, canalizaciones, mecanismos y condiciones generales de ejecución. Protecciones contra sobreintensidades, sobretensiones y contactos eléctricos: selección básica, funcionamiento y mantenimiento. Puesta a tierra y continuidad de las masas. Esquemas de conexión, comprobaciones y conservación.",
+      "Instalaciones de alumbrado interior y exterior: niveles de iluminación, eficiencia energética, alumbrado de emergencia y mantenimiento. Instalaciones en locales de pública concurrencia y locales con características especiales: requisitos específicos y verificaciones.",
+      "Infraestructura para la recarga de vehículos eléctricos. Esquemas de instalación, protecciones, modos de carga y mantenimiento básico.",
+      "Motores eléctricos de corriente alterna: tipología, arranque, inversión de giro, protecciones y maniobra. Cuadros eléctricos y centros de mando: componentes, embarrados, cableado, rotulación, verificación y conservación.",
+      "Centros de transformación: configuración general, celdas, transformadores, protecciones, maniobras y seguridad. Grupos electrógenos: tipologías, sistemas de conmutación, auxiliares, mantenimiento y pruebas de funcionamiento. Sistemas de alimentación ininterrumpida (SAI/UPS): arquitecturas, baterías, explotación y mantenimiento.",
+      "Instalaciones básicas de telecomunicaciones y cableado estructurado en edificios: elementos principales y mantenimiento básico.",
+      "Automatismos eléctricos: contactores, relés, temporizadores, finales de carrera, enclavamientos y esquemas de maniobra. Variadores de frecuencia y arrancadores: principios de funcionamiento, parametrización básica y seguridad. Autómatas programables (PLC): entradas y salidas, arquitectura básica, programación elemental y comunicaciones industriales.",
+      "Riesgo eléctrico: Real Decreto 614/2001, trabajos con o sin tensión, zonas de trabajo y medidas preventivas.",
+      "Verificaciones e inspecciones reglamentarias en baja tensión: ITC-BT-05, continuidad, aislamiento, bucle, diferenciales y documentación. Condiciones técnicas y de seguridad en alta tensión e ITC-RAT: conceptos generales aplicables a centros de transformación e instalaciones hasta 30 kV.",
+      "Eficiencia energética en instalaciones eléctricas: factor de potencia, calidad de suministro, monitorización y estrategias de reducción de consumo. Instalaciones fotovoltaicas conectadas a baja tensión: paneles, inversores, protecciones, monitorización y mantenimiento básico.",
+      "Disposiciones mínimas de seguridad y salud en las obras de construcción: Agentes intervinientes, estudio y plan de seguridad y salud, documentación preventiva básica. Coordinación de actividades empresariales en centros universitarios con concurrencia de contratas, subcontratas y personal propio.",
+      "Organismos de control, inspecciones reglamentarias y verificaciones periódicas. Concepto, funciones y relación con las instalaciones y equipos de la Universidad.",
+      "Documentación técnica de obras e instalaciones: Código Técnico de la Edificación (estructura general, documentos básicos y alcance en conservación, mantenimiento y pequeñas intervenciones), memorias, planos, esquemas, mediciones, presupuestos, pliegos, manuales de uso y mantenimiento y certificados.",
+      "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, predictivo y basado en condición, Sistemas informatizados de gestión del mantenimiento (GMAO: estructura funcional, órdenes de trabajo, inventario, históricos, indicadores, niveles de servicio y trazabilidad).",
+      "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaciones universitarias.",
+      "Elementos constructivos de los edificios. Cimentaciones y contención: tipologías, patologías habituales y criterios de observación y conservación. Estructuras de hormigón, acero y madera: tipologías, comportamiento básico, lesiones frecuentes y mantenimiento. Fachadas y cerramientos verticales: soluciones constructivas, puntos singulares, conservación y reparación. Cubiertas: impermeabilización, evacuación de aguas, ",
+      "Aislamiento térmico y acústico en edificios: materiales, transmitancia, puentes térmicos y mejora de prestaciones. Sistemas de aislamiento térmico por el exterior (SATE), fachadas ventiladas y otras envolventes ligeras: Principios básicos y mantenimiento.",
+      "Inspección técnica de edificios. Patología de la edificación y diagnóstico básico: humedades, filtraciones, condensaciones y fisuración. Identificación, toma de datos, causas probables, criterios básicos de reparación y apoyo a informes técnicos.",
+      "Abastecimiento y saneamiento. Redes de saneamiento y drenaje en edificios y urbanización: tuberías, arquetas, sumideros, pendientes y operaciones de mantenimiento. Instalaciones de suministro y abastecimiento de agua en edificios: elementos, instalación, averías habituales y mantenimiento.",
+      "Urbanización exterior: pavimentación, firmes, bordillos, drenajes, señalización y conservación. Accesibilidad y supresión de barreras arquitectónicas: condiciones básicas de uso y adaptación en edificios universitarios.",
+      "Seguridad en caso de incendio en edificación: sectorización, resistencia al fuego de los elementos constructivos, criterios constructivos para garantizar la seguridad contra incendios.",
+      "Organización básica de obras: agentes intervinientes, secuencia de ejecución, tajos, acopios, replanteo y control elemental. Control de calidad en obras y recepción de materiales: ensayos, comprobaciones documentales, tolerancias y registros. Andamios, escaleras, medios auxiliares y plataformas de trabajo: tipología, condiciones de uso y seguridad.",
+      "Mediciones y presupuestos: unidades de obra, medición, precios unitarios, descompuestos y apoyo técnico a la valoración económica.",
+      "Gestión ambiental en obras: ruido, polvo, vertidos, consumo de recursos y medidas correctoras. Gestión de residuos de construcción y demolición: clasificación, separación, almacenamiento y retirada conforme a normativa.",
+      "Revestimientos continuos y discontinuos interiores: enlucidos, yesos, morteros, alicatados y aplacados. Pavimentos interiores y exteriores: cerámicos, pétreos, hormigón, vinílicos, laminados y pavimentos técnicos. Tabiquería seca y sistemas de cartón-yeso: componentes, tipologías, ejecución, refuerzos y reparación. Techos desmontables y falsos techos: tipos, subestructuras, registros y mantenimiento.",
+      "Pinturas interiores: preparación de soportes, tipologías, sistemas de aplicación y conservación. Pinturas exteriores y revestimientos de fachada: prestaciones, durabilidad, patologías y mantenimiento.",
+      "Carpintería de madera: puertas, armarios, revestimientos, herrajes y operaciones de ajuste y conservación. Carpintería metálica, de aluminio y PVC: huecos, cerramientos, vidrios, juntas y mantenimiento. Cerrajería y elementos metálicos auxiliares: barandillas, rejas, protecciones, anclajes y conservación.",
+      "Disposiciones mínimas de seguridad y salud en las obras de construcción: Agentes intervinientes, estudio y plan de seguridad y salud, documentación preventiva básica. Coordinación de actividades empresariales en centros universitarios con concurrencia de contratas, subcontratas y personal propio.",
+      "Organismos de control, inspecciones reglamentarias y verificaciones periódicas. Concepto, funciones y relación con las instalaciones y equipos de la Universidad.",
+      "Documentación técnica de obras e instalaciones: Código Técnico de la Edificación (estructura general, documentos básicos y alcance en conservación, mantenimiento y pequeñas intervenciones), memorias, planos, esquemas, mediciones, presupuestos, pliegos, manuales de uso y mantenimiento y certificados.",
+      "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, predictivo y basado en condición, Sistemas informatizados de gestión del mantenimiento (GMAO: estructura funcional, órdenes de trabajo, inventario, históricos, indicadores, niveles de servicio y trazabilidad).",
+      "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaciones universitarias.",
+      "Marco general de la gestión energética y de agua en edificios públicos: principios de eficiencia, control de consumos y mejora continua. Auditoría energética básica y toma de datos en edificios e instalaciones: indicadores, perfiles de consumo y análisis elemental.",
+      "Eficiencia energética en la edificación: envolvente, instalaciones, uso y explotación eficiente del edificio. Eficiencia energética en instalaciones eléctricas: factor de potencia, calidad de suministro, monitorización y estrategias de reducción de consumo. Certificación energética de edificios: fundamentos, toma de datos y apoyo técnico en mantenimiento y mejora del comportamiento energético.",
+      "Contabilidad energética y seguimiento de consumos: lecturas, balance energético, indicadores y cuadros de mando. Sistemas de monitorización, telemedida y telegestión: variables energéticas y de consumo de agua, alarmas y explotación de datos.",
+      "Sistemas de gestión técnica de edificios (BMS/GTB): arquitectura básica, integración de instalaciones, supervisión y apoyo a la explotación. Norma ISO 50001 y sistemas de gestión de la energía: conceptos generales y aplicación orientativa al entorno universitario.",
+      "Energía solar fotovoltaica para autoconsumo: componentes, configuraciones básicas, seguridad, monitorización y mantenimiento. Energía solar térmica: principios de funcionamiento, acumulación, intercambio, explotación y mantenimiento. Biomasa y otras energías renovables térmicas: conceptos básicos, equipos y condicionantes de operación.",
+      "Calidad del suministro energético y optimización de la demanda: potencia, picos de carga y estrategias de uso racional. Almacenamiento energético: baterías, acumulación térmica y criterios básicos de seguridad y explotación.",
+      "Agua en edificios e instalaciones universitarias. Captación, suministro interior, consumo, ahorro y control de fugas. Redes de agua fría, agua caliente sanitaria y retornos: componentes, materiales, averías frecuentes y mantenimiento. Saneamiento, drenaje y evacuación de aguas: redes interiores y exteriores, elementos de registro y conservación.",
+      "Prevención y control del consumo de agua: sectorización, contadores, telegestión y medidas de eficiencia hídrica.",
+      "Relación entre energía, agua, mantenimiento y sostenibilidad en campus universitarios. Enfoque integral de explotación técnica.",
+      "Digitalización aplicada a energía y agua: sensores, mantenimiento predictivo, alarmas, históricos y soporte a la toma de decisiones.",
+      "Riesgo eléctrico. Real Decreto 614/2001, trabajos con o sin tensión, zonas de trabajo y medidas preventivas.",
+      "Automatización y control: variables de proceso, sensores, actuadores, lazos de control y estrategias de regulación. Autómatas programables (PLC): Entradas y salidas, arquitectura básica, programación elemental y comunicaciones industriales."
+     ]
+    },
+    {
+     "titulo": "Bloque II",
+     "temas": [
+      "Gestión de Documentos.",
+      "Automatización con Combinación de Correspondencia.",
+      "Edición Técnica y Tablas.",
+      "Impresión, exportación y accesibilidad.",
+      "Importación, limpieza de Datos y formato de celdas.",
+      "Funciones de Texto y Estadística Descriptiva.",
+      "Funciones Lógicas y Búsqueda.",
+      "Referencias.",
+      "Auditoría y Control de Cambios en Documentos."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Primer ejercicio",
+    "Segundo ejercicio"
+   ]
+  }
  },
  {
   "id": "ual-auxiliar-administrativa",
@@ -1138,7 +1680,44 @@
   },
   "claves": [
    "auxiliar administrativa"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (24 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Programa",
+     "temas": [
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+      "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Título Preliminar. Disposiciones generales, principios de actuación y funcionamiento del sector público.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Título I. Disposiciones generales. Título II. Principios de Protección de Datos. Título III. Derechos de las personas. Título V. Responsable y encargado del tratamiento. Título X. Garantía de los derechos digitales.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público.",
+      "Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas.",
+      "Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía: Título I. Disposiciones Generales: Principios básicos, Derechos y Obligaciones. Título II. La Publicidad Activa. Título III. El Derecho de Acceso a la Información Pública: Normas generales.",
+      "Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres. Título Preliminar: Objeto y ámbito de la ley. Título I: El principio de igualdad y la tutela contra la discriminación. Título II. Capítulo II: La igualdad en el ámbito de la educación superior. Título IV. Capítulo II: Igualdad y conciliación. Título V. El principio de igualdad en el empleo público: Capítulos I, II y III.",
+      "La Ley 31/1995, de Prevención de Riesgos Laborales. Derechos y obligaciones. El Delegado de Prevención. El Comité de Seguridad y Salud. Normativa interna del Comité de Seguridad y Salud laboral de la Universidad de Almería.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía. Título V: Gobernanza de las Universidades Públicas.",
+      "El Presupuesto 2026 de la Universidad de Almería: Bases de ejecución presupuestaria.",
+      "El Personal Docente e Investigador: El Reglamento de la Universidad de Almería que regula el procedimiento de los concursos de acceso a los cuerpos docentes universitarios.",
+      "El personal Docente e Investigador: Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación: Sección 2.ª Contratación del personal investigador de carácter laboral.",
+      "El Personal Técnico, de Gestión y de Administración y Servicios Funcionario: El Reglamento de provisión de puestos de trabajo del Personal Técnico, de Gestión y de Administración y Servicios de la Universidad de Almería.",
+      "El Reglamento de Cartas de Servicio de la Universidad de Almería.",
+      "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad: del Capítulo I al Capítulo VI y Capítulo VIII. Real Decreto 99/2011, de 28 enero, por el que se regulan las enseñanzas oficiales de doctorado.",
+      "Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, las características básicas de la prueba de acceso y la normativa básica de los procedimientos de admisión.",
+      "Resolución sobre Matricula Oficial de los Estudios de Grado y Máster en la Universidad de Almería. Resolución sobre Matrícula en estudios de Doctorado en la Universidad de Almería. Resolución que regula los aspectos económicos de las matrículas en estudios oficiales en la Universidad de Almería.",
+      "Normativa de permanencia de estudiantes en enseñanzas oficiales de la Universidad de Almería.",
+      "Real Decreto 1002/2010, de 5 de agosto, sobre expedición de títulos Oficiales, Real Decreto 22/2015, de 23 de enero, por los que se establecen los requisitos de expedición por las Universidades del Suplemento Europeo al Título.",
+      "Real Decreto 1125/2003, de 5 de septiembre, por el que se establece el sistema europeo de créditos y el sistema de calificaciones en las titulaciones universitarias de carácter oficial y validez en todo el territorio nacional.",
+      "Protección de datos: Política de Seguridad de la Información en la Universidad de Almería (Aprobada en Consejo de Gobierno de 5 de noviembre de 2025). Normas de uso de los sistemas de información de la Universidad de Almería (Aprobada en Consejo de Gobierno de 15 de julio de 2024). Normas de información en materia de protección de datos en procesos de concurrencia competitiva de la Universidad de Almería (Aprobada en",
+      "Reglamento de Administración Electrónica de la Universidad de Almería.",
+      "Microsoft 365: Excel y Word."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "ual-tecnica-gestion-sistemas",
@@ -1161,7 +1740,105 @@
   },
   "claves": [
    "gestion de sistemas e informatica"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (60 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Bloque I. Normativa general y universitaria",
+     "temas": [
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Título preliminar. Disposiciones generales. Título I. De los interesados en el procedimiento.",
+      "Ley 40/2015 de Régimen Jurídico del Sector Público: Título Preliminar. Disposiciones generales. De los órganos de las Administraciones Públicas. Funcionamiento electrónico del sector público.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantías de los Derechos Digitales. Título I. Disposiciones generales. Título II. Principios de Protección de Datos. Título III. Derechos de las personas. Título V. Responsable y encargado del tratamiento. Título X. Garantía de los derechos digitales.",
+      "Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre: Título I. Objeto y ámbito de aplicación, Título II. Personal al servicio de las Administraciones Públicas: Capítulo I. Clases de personal, Título III. Derechos y deberes. Código de conducta de los empleados públicos, Título VII. Régimen disciplinario.",
+      "Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía: Título I. Disposiciones Generales: Principios básicos, Derechos y Obligaciones. Título II. La Publicidad Activa. Título III. El Derecho de Acceso a la Información Pública: Normas generales.",
+      "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía: Título I: Disposiciones Generales. Título V: Promoción profesional. Título X: Provisión de puestos de trabajo y movilidad. Título XI: Situaciones Administrativas, Título XII: Régimen disciplinario.",
+      "Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres. Título Preliminar: Objeto y ámbito de la Ley. Título I: El principio de igualdad y la tutela contra la discriminación. Título II. Capítulo II: La igualdad en el ámbito de la educación superior. Título IV. Capítulo II: Igualdad y conciliación. Título V. El principio de igualdad en el empleo público: Capítulos I, II y III.",
+      "La Ley 31/1995, de Prevención de Riesgos Laborales. Derechos y obligaciones. El Delegado de Prevención. El Comité de Seguridad y Salud. Normativa interna del Comité de Seguridad y Salud laboral de la Universidad de Almería.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.",
+      "Política de Seguridad de la Información en la Universidad de Almería. Normas de uso de los sistemas de información de la Universidad de Almería. Normas de información en materia de protección de datos en procesos de concurrencia competitiva de la Universidad de Almería."
+     ]
+    },
+    {
+     "titulo": "Bloque II. Tecnología básica",
+     "temas": [
+      "Tecnologías actuales de ordenadores: Base tecnológica. Componentes, funcionalidades y capacidades.",
+      "Conceptos de sistemas operativos. Estructuras, componentes y funciones. Características y evolución. Administración de memoria. Procesos y subprocesos. Entrada/salida. Sistemas de archivo. Sistemas operativos multiprocesador.",
+      "Lenguajes actuales de programación: Características técnicas.",
+      "El modelo TCP/IP: Arquitectura, capas, interfaces, protocolos, direccionamiento y encaminamiento.",
+      "Modelos de cloud computing.",
+      "Fundamentos de la inteligencia artificial y aprendizaje automático. IA Generativa.",
+      "Seguridad informática: principios básicos, ataques y protección de sistemas y redes."
+     ]
+    },
+    {
+     "titulo": "Bloque III. Administración electrónica",
+     "temas": [
+      "Administración electrónica. Sede electrónica. Características, requisitos y componentes técnicos basados en las Leyes 39/2015 y 40/2015.",
+      "Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza. El Reglamento eIDAS.",
+      "Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad. Normativa propia de la Universidad de Almería en relación al cumplimiento del Esquema Nacional de Seguridad.",
+      "Esquema Nacional de Interoperabilidad, normas técnicas de interoperabilidad. Datos abiertos. Transparencia y acceso a la información pública. Reutilización de la información del sector público.",
+      "Archivo electrónico de documentos. Política de gestión de documentos electrónicos. Documento y expediente electrónico.",
+      "Las plataformas de tramitación. Herramientas de administración electrónica que la Administración General del Estado pone a disposición de las administraciones públicas.",
+      "La protección de datos personales y su normativa reguladora. Las Agencias de Protección de Datos: competencias y funciones. Normativa propia de la Universidad de Almería en relación a la protección de datos personales.",
+      "Transparencia. Ley 19/2013 de transparencia, acceso a la información pública y buen gobierno."
+     ]
+    },
+    {
+     "titulo": "Bloque IV. Gestión de servicios TIC",
+     "temas": [
+      "El marco de referencia ITIL.",
+      "El sistema de gestión de la calidad ISO 9001:2015.",
+      "Gestión de proveedores y contratación TIC: licitaciones, compras y acuerdos de nivel de servicio (SLA)."
+     ]
+    },
+    {
+     "titulo": "Bloque V. Desarrollo de sistemas de información",
+     "temas": [
+      "Ingeniería del software. Fundamentos del análisis de requerimientos y métodos. Fundamentos del diseño software. Técnicas de prueba.",
+      "Metodologías de desarrollo ágiles. SCRUM.",
+      "Diseño de estructuras de datos en bases de datos relacionales. El Modelo Entidad-Relación. El lenguaje SQL y PL/SQL.",
+      "Modelos de almacenamiento no relacionales.",
+      "Programación estructurada y programación orientada a objetos.",
+      "La arquitectura J2EE. Características de funcionamiento. Elementos constitutivos. Productos y herramientas.",
+      "Aplicaciones web. Tecnologías de programación: html5, css3, javascript/typescript y PHP.",
+      "Accesibilidad, diseño universal y usabilidad.",
+      "Servicios Web: SOAP y REST. Estándares y protocolos asociados. Interoperabilidad y Seguridad en Servicios Web.",
+      "Desarrollo de aplicaciones para dispositivos móviles: Desarrollo nativo, híbrido y Progressive Web Apps (PWA).",
+      "Datawarehouse, Datamarts y minería de datos.",
+      "Desarrollo de aplicaciones basadas en contenedores.",
+      "Aplicaciones escalables.",
+      "Control de versiones de software. Manejo de releases. Git.",
+      "Seguridad en el desarrollo de software: OWASP, buenas prácticas y testing de seguridad.",
+      "Inteligencia de negocio y analítica de datos: herramientas y estrategias."
+     ]
+    },
+    {
+     "titulo": "Bloque VI. Sistemas y comunicaciones",
+     "temas": [
+      "Administración de Sistemas operativos MacOS, Linux y windows. Funciones y responsabilidades.",
+      "Administración de Sistemas de Gestión de Bases de Datos. Funciones y Responsabilidades. BD Documentales, NoSQL y Relacionales.",
+      "El Sistema Gestor de Bases de Datos ORACLE.",
+      "Planificación física y mantenimiento de un Centro de Proceso de Datos. Vulnerabilidad, riesgo y protección.",
+      "Virtualización de sistemas de información.",
+      "Almacenamiento masivo de datos. Sistemas SAN, NAS y DAS: Componentes, protocolos, gestión y administración. Virtualización del almacenamiento. Gestión de volúmenes.",
+      "Redes locales: conceptos, administración, seguridad y dispositivos.",
+      "La red Internet: arquitectura de red. Principios de funcionamiento. Servicios: evolución, estado actual y perspectivas de futuro.",
+      "Telecomunicaciones de voz. Tecnologías VoIP.",
+      "Comunicaciones de voz y datos para dispositivos móviles.",
+      "Redes inalámbricas: Protocolos de redes inalámbricas. Características funcionales y técnicas. Sistemas de acceso. Modos de operación. Seguridad. Normativa reguladora.",
+      "Servidores web y servidores de aplicaciones. Gestores de contenidos web.",
+      "Integración y despliegue continuo CI/CD.",
+      "Infraestructura como código.",
+      "Plataformas escalables basadas en contenedores.",
+      "IoT y entornos inteligentes en universidades."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "uhu-ayudantes-archivos-bibliotecas",
@@ -1184,7 +1861,78 @@
   },
   "claves": [
    "ayudantes de archivos, bibliotecas y museos"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (48 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Módulo de Biblioteca Universitaria: Gestión, cooperación y redes. Servicios de apoyo a la investigación",
+     "temas": [
+      "Legislación en materia de bibliotecas. La Ley 10/2007, de 22 de junio, de la lectura, del libro y de las bibliotecas.",
+      "Bibliotecas universitarias. Concepto, función. Misión, visión y valores. La organización de las bibliotecas universitarias. Modelos de organización bibliotecaria.",
+      "La planificación estratégica en las bibliotecas universitarias.",
+      "El sistema español de bibliotecas. La Red Española de Bibliotecas Universitarias (REBIUN).",
+      "El sistema andaluz de bibliotecas. El Consorcio de Bibliotecas Universitarias de Andalucía (CBUA).",
+      "La Biblioteca de la Universidad de Huelva. Evolución histórica, modelo organizativo y normativo actual, órganos de dirección y de gestión, los recursos de información, espacios e instalaciones.",
+      "Normativa de la Biblioteca de la Universidad de Huelva.",
+      "La gestión de la calidad y su evaluación. La calidad en la Biblioteca de la Universidad de Huelva: sistema de gestión de calidad (ISO 9001) y carta de servicios.",
+      "Marketing en bibliotecas universitarias. Herramientas de gestión y canales de comunicación. Medios sociales.",
+      "Concepto de comunicación científica. Evolución y tendencias. Situación actual de la edición científico-técnica. Principales tipos de publicaciones científicas.",
+      "Servicios de apoyo al personal investigador y a la gestión de la investigación. Las unidades de evaluación científica y bibliometría.",
+      "La producción científica de las universidades. Indicadores bibliométricos clásicos y métricas alternativas. El Portal de Producción Científica de la Universidad de Huelva.",
+      "Criterios para la evaluación de la carrera científica del personal investigador los investigadores: principales convocatorias nacionales. Recursos de información para la acreditación y evaluación científica.",
+      "Los Objetivos de Desarrollo Sostenible y la Agenda 2030: Situación actual en las Bibliotecas Universitarias. El desempeño ambiental en la Biblioteca Universitaria de Huelva.",
+      "Búsqueda y recuperación de información. Concepto, herramientas y recursos, estrategias de búsqueda y evaluación de resultados.",
+      "Fuentes de información. Concepto, tipología y características. Fuentes de Información Especializadas.",
+      "Los recursos de información en Ciencias Sociales. Recursos existentes en la Universidad de Huelva.",
+      "Los recursos de información en Ciencias Jurídicas. Recursos existentes en la Universidad de Huelva.",
+      "Los recursos de información en Economía y Empresa. Recursos existentes en la Universidad de Huelva.",
+      "Los recursos de información en Humanidades. Recursos existentes en la Universidad de Huelva.",
+      "Los recursos de información en Ciencia y Tecnología. Recursos existentes en la Universidad de Huelva.",
+      "El movimiento Acceso Abierto: concepto, orígenes y tipos de acceso abierto.",
+      "El Repositorio institucional en acceso abierto de la Universidad de Huelva (Arias Montano). Organización de sus colecciones. Gestión y administración. Políticas de los editores de revistas científicas en materia de autoarchivo.",
+      "Los servicios a usuarios en las bibliotecas universitarias y su organización en los entornos presenciales y virtuales.",
+      "Los servicios y métodos de acceso y consulta de la colección y los documentos. Consulta presencial y remota. Obtención de documentos. Préstamo y préstamo interbibliotecario en bibliotecas universitarias.",
+      "El servicio de formación de usuarios. La Alfabetización en Información y la formación en Competencia Digital. El Marco DIGCOMP. Modelos de implementación de planes de formación y actividades formativas. Metodologías, contenidos y evaluación."
+     ]
+    },
+    {
+     "titulo": "Módulo de Gestión de la Colección y Proceso Técnico",
+     "temas": [
+      "Gestión de la colección: selección y adquisición en las bibliotecas universitarias. Criterios, fuentes y métodos para su formación, mantenimiento y evaluación. Adquisición compartida y cooperativa.",
+      "Gestión de la colección: mantenimiento, control y seguridad de las colecciones. Inventario. Expurgo. Donaciones. La Política de Donaciones de la Universidad de Huelva.",
+      "Las colecciones de publicaciones seriadas. Características de las publicaciones periódicas y de las revistas científicas en particular. Gestión de las colecciones de revistas electrónicas.",
+      "Preservación, conservación y restauración del fondo documental. Medidas de seguridad y prevención de agentes degradantes ambientales. Políticas de preservación en un entorno digital y electrónico.",
+      "El proceso técnico. La catalogación. Normalización de la descripción bibliográfica automatizada. Estándares de descripción bibliográfica: ISBD y formato MARC. Esquemas de metadatos. Modelo FRBR y RDA.",
+      "Metadatos. Modelo RDF. Principales modelos de metadatos: Dublin Core. Los lenguajes de marcado.",
+      "Lenguajes documentales. Principales sistemas de clasificación bibliográfica. Encabezamientos de materia, términos, descriptores y tesauros. UNE-ISO 25964.",
+      "Los catálogos como herramientas de descubrimiento: diseño, prestaciones actuales, accesos, evolución. Los catálogos colectivos.",
+      "El catálogo de la Biblioteca de la Universidad de Huelva: funcionalidades y prestaciones.",
+      "La automatización de las actividades y de los servicios bibliotecarios. Los sistemas integrados de gestión de bibliotecas y las plataformas de servicios bibliotecarios. El caso de la Biblioteca de la Universidad de Huelva.",
+      "Evaluación de recursos electrónicos: principales estándares para su medición (COUNTER, e_Metrics).",
+      "Real Decreto Legislativo 1/1996, de 12 de abril, por el que se aprueba el texto refundido de la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia: Libro Primero. De los derechos de autor. El movimiento Copyleft. Las licencias Creative Commons."
+     ]
+    },
+    {
+     "titulo": "Bloque II. Módulo de Normativa",
+     "temas": [
+      "Constitución Española de 1978: Derechos y deberes fundamentales. Las Cortes Generales. El Gobierno y la Administración. El Poder Judicial. La organización territorial del Estado.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Objeto y ámbito de aplicación. Personal al servicio de las Administraciones Públicas. Derechos individuales de los empleados públicos y derechos individuales ejercidos colectivamente. Derecho a la jornada de trabajo, permisos y vacaciones. Deberes de los empleados públicos y ",
+      "Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía: Disposiciones generales. Integración de la perspectiva de género en las políticas públicas. Enseñanza universitaria. Igualdad en el sector público.",
+      "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público.",
+      "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno: Título Preliminar. Título I: Transparencia de la actividad pública. Título II: Buen Gobierno.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Disposiciones generales. Principios de protección de los datos. Derechos de las personas. Responsable y encargado de tratamiento.",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: De los interesados en el procedimiento. De la actividad de las Administraciones Públicas.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Funciones del sistema universitario y autonomía de las universidades. Organización de enseñanzas. Investigación y transferencia e intercambio del conocimiento e innovación. Universidad, sociedad y cultura.",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Docencia, investigación y transferencia de conocimiento. Personal docente e investigador de las universidades públicas. Personal técnico, de gestión y de administración y servicios de las universidades públicas. Estructuras universitarias. Gobernanza de las universidades públicas.",
+      "Estatutos de la Universidad de Huelva: Concepto, naturaleza, fines, funciones, autonomía, capacidad, denominación, ámbito y normas reguladoras."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "uhu-auxiliar-administrativa",
@@ -1207,7 +1955,37 @@
   },
   "claves": [
    "auxiliar administrativa"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (17 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Programa",
+     "temas": [
+      "La Constitución Española de 1978. Estructura y contenido. Título Preliminar. Título I: Derechos y deberes fundamentales. Título IV: El Gobierno y la Administración.",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (I). Disposiciones generales. La capacidad de obrar y los interesados: capacidad de obrar, concepto de interesado, pluralidad de interesados y nuevos interesados en el procedimiento. La actividad de las Administraciones Públicas: normas generales de actuación, términos y plazos.",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (II). El procedimiento administrativo común: iniciación, ordenación, instrucción y finalización.",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (III). Recursos administrativos: recurso de alzada, recurso potestativo de reposición y recurso extraordinario de revisión.",
+      "La Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público. Título Preliminar: Disposiciones generales, principios de actuación y funcionamiento del sector público.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Objeto y ámbito de aplicación. Personal al Servicio de las Administraciones Públicas. Adquisición y pérdida de la relación de servicio. Derechos individuales de los empleados públicos y derechos individuales ejercidos colectivamente. Derecho a la jornada de trabajo, permisos ",
+      "Ley Orgánica 3/2018 de 5 de diciembre, de Protección de Datos Personales y Garantías de los Derechos Digitales. Título II: Principios de Protección de Datos. Título III: Derechos de las personas.",
+      "La Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno. Derecho de acceso a la información pública.",
+      "Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía. Enseñanza universitaria. Igualdad en el sector público.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Funciones del sistema universitario y autonomía de las universidades. Creación y reconocimiento de las universidades y calidad del sistema universitario. Régimen jurídico y estructura de las universidades públicas. Gobernanza de las universidades públicas. Personal técnico, de gestión y de administración y servicios de las universidades públicas.",
+      "Estatutos de la Universidad de Huelva. Concepto, naturaleza, fines, funciones, autonomía, capacidad, denominación, ámbito y normas reguladoras.",
+      "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad. Disposiciones generales. Organización de las enseñanzas universitarias. Organización básica de las enseñanzas universitarias oficiales de Grado. Organización básica de las enseñanzas universitarias oficiales de Máster. Organización básica de las enseñ",
+      "Información general relativa a la Universidad de Huelva. Estructura del Gobierno. Centros, Departamentos. Catálogo de Titulaciones de Grado.",
+      "Bases de ejecución presupuestaria de la Universidad de Huelva. El presupuesto. Los créditos y sus modificaciones. Gestión de los gastos.",
+      "Reglamento de permanencia y progreso en las enseñanzas oficiales de Grado y Máster en la Universidad de Huelva.",
+      "Microsoft 365: Word. Creación y estructuración del documento. Gestión, grabación, recuperación, impresión y control de versiones de documentos. Tablas. Objetos. Columnas. Encabezado y pie de página. Viñetas, numeración y esquema numerado. Creación de estilos. Formato de fuente, párrafo y página. Tabulaciones. Diseño de impresión.",
+      "Microsoft 365: Excel. Libros, hojas y celdas. Configuración. Introducción y edición de datos. Fórmulas, funciones y referencias a hojas y celdas. Gráficos. Gestión de datos. Personalización del entorno de trabajo. Formato de celdas. Formatos condicionales. Protección de la hoja de cálculo por contraseña. Diseño de impresión."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "uja-laboral-conserjeria",
@@ -1229,7 +2007,34 @@
   },
   "claves": [
    "conserjeria"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (14 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Programa",
+     "temas": [
+      "IV Convenio Colectivo del Personal Laboral de las Universidades Públicas de Andalucía:",
+      "Decreto 230/2003, de 29 de julio, por el que se aprueban los Estatutos de la Universidad de Jaén, reformados mediante Decreto 235/2011, de 12 de julio.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público:",
+      "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, en su redacción actual:",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres:",
+      "Códigos éticos sectoriales de la Universidad de Jaén (https://www.ujaen.es/).",
+      "Sistema de Dirección Estratégica de la Universidad de Jaén (https://www.ujaen.es/).",
+      "El Sistema Integrado de Gestión de la Calidad de los Servicios y Unidades Administrativas de la Universidad de Jaén (SIGC-SUA) (https://www.ujaen.es/).",
+      "Instrucciones Técnicas de la Unidad de Conserjerías de la Universidad de Jaén (https://www.ujaen.es/).",
+      "Carta de servicios de la Unidad de Conserjerías de la Universidad de Jaén (https://www.ujaen.es/).",
+      "Las infraestructuras de la Universidad de Jaén: denominación, ubicación y tipología de los edificios, centros y departamentos (https://www.ujaen.es/).",
+      "Google GSuite UJA:",
+      "Unidad de Conserjerías de la Universidad de Jaén: Protocolos de emergencia (https://www.ujaen.es/)."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "upo-administrativa",
@@ -1251,7 +2056,51 @@
   },
   "claves": [
    "escala administrativa"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (30 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Programa",
+     "temas": [
+      "La Constitución Española de 1978. Estructura y contenido. Título I: De los derechos y deberes fundamentales. Título III, capítulo segundo: De la elaboración de las leyes. Título IV: Del Gobierno y la Administración. Título V: De las relaciones entre el Gobierno y las Cortes Generales. Título VI: Del Poder Judicial. Título IX: Del Tribunal Constitucional.",
+      "Las fuentes del Derecho Administrativo. La jerarquía de las fuentes. La Constitución. La Ley. Disposiciones normativas con fuerza de Ley. El Reglamento.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Título I: Disposiciones generales. Título II: Principios de protección de datos. Título III: Derechos de las personas.",
+      "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno. Título I: Transparencia de la Actividad Pública. Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía. Título I: Disposiciones generales. Título II: La publicidad activa. Título III: El derecho de acceso a la información pública. Título V, capítulo II: Consejo de Transparencia y Protección de Datos de Andal",
+      "Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía. Título Preliminar. Título I, capítulo I: integración de la perspectiva de género en las políticas públicas. Título II, capítulo I, sección 2.ª: Enseñanza universitaria. Capítulo II: Igualdad de oportunidades en el acceso al empleo. Capítulo III: Conciliación de la vida laboral, familiar y personal.",
+      "Normas de Convivencia de la Universidad Pablo de Olavide, de Sevilla, aprobadas por Consejo de Gobierno de 24 de noviembre de 2023 (BUPO de 14 de diciembre de 2023).",
+      "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas. Título Preliminar: Disposiciones generales. Título I: De los interesados en el procedimiento. Título II: De la actividad de las Administraciones Públicas. Título III: De los actos administrativos. Título IV: De las disposiciones sobre el procedimiento administrativo común. Título V: De la revisión de los actos en vía administrativa.",
+      "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. Título Preliminar: Capítulo I. Disposiciones generales. Capítulo II. De los Órganos de las Administraciones Públicas. Capítulo III: Principios de la potestad sancionadora. Capítulo IV: De la responsabilidad Patrimonial de las Administraciones Públicas. Capítulo V: Funcionamiento electrónico del Sector público. Capítulo VI: Los convenios. Título III",
+      "Reglamento por el que se regula el uso y funcionamiento del Registro Electrónico General de la Universidad Pablo de Olavide, de Sevilla (Resolución de 9 de mayo de 2022, de la Universidad Pablo de Olavide. BOJA de 13 de mayo de 2022).",
+      "El Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Título I: Objeto y Ámbito de aplicación. Título II: Personal al servicio de las Administraciones Públicas. Título III: Derechos y deberes. Código de conducta de los empleados públicos. Título IV: Adquisición y pérdida de la relación de servicios. Título V: Ordenación de la acti",
+      "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía. Título IV. La formación, el aprendizaje permanente y la acreditación de competencias. Título V. Promoción Profesional. Título XI. Situaciones administrativas.",
+      "Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas.",
+      "Reglamento de Ingreso del Personal Técnico, de Gestión y de Administración y Servicios Funcionario de la Universidad Pablo de Olavide de Sevilla. Reglamento de Provisión de puestos de trabajo del Personal Técnico, de Gestión y de Administración y Servicios Funcionario de la Universidad Pablo de Olavide de Sevilla (BUPO de 15 de diciembre de 2025).",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título I: Funciones del sistema universitario y autonomía de las universidades. Título II: Creación y reconocimiento de las universidades y calidad del sistema universitario. Título III: Organización de enseñanzas. Título VIII: El estudiantado en el Sistema Universitario. Título IX: Régimen específico de las universidades públicas.",
+      "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad. Capítulo II. Organización de las enseñanzas universitarias. Capítulo III. Organización básica de las enseñanzas universitarias oficiales de Grado. Capítulo IV: Organización básica de las enseñanzas universitarias oficiales de Máster. Capítulo V. Organ",
+      "Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, las características básicas de la prueba de acceso y la normativa básica de los procedimientos de admisión.",
+      "Real Decreto 1125/2003, de 5 de septiembre, por el que se establece el sistema europeo de créditos y el sistema de calificaciones en las titulaciones universitarias de carácter oficial y validez en todo el territorio nacional.",
+      "Real Decreto 99/2011, de 28 de enero, por el que se regulan las enseñanzas oficiales de doctorado.",
+      "Normativa de matrícula oficial de Grado de la Universidad Pablo de Olavide (CG de 25 de junio de 2021, BUPO de 29 de junio de 2021). Normativa sobre progreso y permanencia de estudiantes de Grado en la Universidad Pablo de Olavide, de Sevilla (BUPO de 11 de septiembre de 2013).",
+      "Normativa de acceso y matrícula de las enseñanzas oficiales de Máster Universitario de la Universidad Pablo de Olavide aprobada por Consejo de Gobierno de 29 de julio de 2013 y modificada por Consejo de Gobierno de 16 de julio de 2015. Instrucción por la que se desarrolla la adaptación de la Normativa de acceso y matrícula de las enseñanzas oficiales de Máster Universitario de la UPO, de 19 de junio de 2020.",
+      "Normativa de progreso y permanencia para los estudios de Máster Universitario y Doctorado de la Universidad Pablo de Olavide (BOJA de 1 de abril de 2014). Capítulo I: De los estudios de Máster Universitario.",
+      "Normativa de estudios de Doctorado de la Universidad Pablo de Olavide (Acuerdo de Consejo de Gobierno de 29 de noviembre de 2024): Organización de la formación doctoral. Duración de la formación doctoral. Requisitos de acceso al doctorado. Requisitos de admisión: Compromiso de Dirección y tutorización. Criterios de admisión. Matrícula anual y Registro personalizado de la doctoranda o doctorando. Seguimiento y evaluac",
+      "Normativa de Permanencia y Progreso en los estudios de Doctorado de la Universidad Pablo de Olavide, de Sevilla (Consejo de Gobierno de 28 de marzo de 2025. BUPO de 28 de julio de 2025).",
+      "Reglamento de movilidad de estudiantes de la Universidad Pablo de Olavide (BUPO de 26 de julio de 2023).",
+      "Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación. Título II. Capítulo I: Personal investigador al servicio de las universidades públicas, de los organismos públicos de investigación y de los organismos de investigación de otras Administraciones públicas.",
+      "El presupuesto de la Universidad Pablo de Olavide, de Sevilla. Normas de ejecución presupuestaria.",
+      "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público: Título preliminar, capítulo II. Contratos del sector público. Delimitación de los tipos contractuales. Contratos sujetos a una regulación armonizada. Contratos administrativos y contratos privados. Libro primero, título I: Racionalidad y consistencia de la contratación del sector público. Libertad de pactos y contenido mínimo del contrato. Perfección y f",
+      "Ley 38/2003, de 17 de noviembre, General de Subvenciones: Objeto. Concepto de subvención. Régimen jurídico de las subvenciones. Requisitos para el otorgamiento de las subvenciones. Beneficiarios. Título I. Procedimientos de concesión y gestión de las subvenciones.",
+      "Office 365, Sharepoint y Teams.",
+      "Internet y correo electrónico."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Primer ejercicio:",
+    "Segundo ejercicio:"
+   ]
+  }
  },
  {
   "id": "upo-laboral-grupos-3-4",
@@ -1273,7 +2122,96 @@
   },
   "claves": [
    "grupos iii y iv"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (75 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Programa",
+     "temas": [
+      "La Constitución: Título preliminar. Título I: De los derecho y deberes fundamentales.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título I: Funciones del sistema universitario y autonomía de las universidades. Título II: Creación y reconocimiento de las universidades y calidad del sistema universitario. Capítulo V. Personal técnico, de gestión y de administración y servicios de las universidades públicas.",
+      "Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre: Título II. Personal al servicio de las Administraciones Públicas: Capítulo I. Clases de personal, Título III. Derechos y deberes. Código de conducta de los empleados públicos, Título VII. Régimen disciplinario.",
+      "IV Convenio Colectivo de Personal laboral de las Universidades Públicas de Andalucía.",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Título preliminar. Objeto y ámbito de la ley. Título I. El principio de igualdad y la tutela contra la discriminación. Título IV. El derecho al trabajo en igualdad de oportunidades: Capítulo I. Igualdad de trato y oportunidades en el ámbito laboral. Capítulo II. Igualdad y conciliación. Título V. El principio de igualdad en el empleo",
+      "Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía. Título preliminar. Título I, capítulo I: Integración de la perspectiva de género en las políticas públicas. Título II, capítulo I, sección 2.ª: Enseñanza universitaria. Capítulo II: Igualdad de oportunidades en el acceso al empleo. Capítulo III: Conciliación de la vida laboral, familiar y personal.",
+      "Normas de Convivencia de la Universidad Pablo de Olavide, de Sevilla, aprobadas por Consejo de Gobierno de 24 de noviembre de 2023 (BUPO de 14 de diciembre de 2023).",
+      "La Ley 31/1995, de Prevención de Riesgos Laborales modificada por la Ley 54/2003 de 12 de Diciembre de reforma del marco normativo de la prevención de riesgos laborales. Capítulo III: Derechos y obligaciones. Capítulo V: Consulta y participación de los trabajadores.",
+      "La Ley 31/1995, de Prevención de Riesgos Laborales. Derechos y obligaciones. El Delegado de Prevención. El Comité de Seguridad y Salud. Riesgos generales y específicos de su puesto de trabajo.",
+      "Real Decreto 487/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas que entrañe riesgos, en particular dorso lumbares, para los trabajadores.",
+      "Mantenimiento de edificios: concepto y objetivos. Tipos de mantenimiento. Organización y gestión del mantenimiento en edificios. Normativa básica de aplicación.",
+      "Evaluación de riesgos laborales y medidas de seguridad y salud en el trabajo de mantenimiento de las instalaciones de los edificios: Clasificación de riesgos e Identificación y medidas de prevención. Legislación básica.",
+      "Mantenimiento de la urbanización y de los espacios exteriores. Concepto y alcance de la urbanización. Seguridad, accesibilidad y planificación del mantenimiento de los espacios exteriores.",
+      "Instalaciones eléctricas en los edificios: tipos y descripción. Requisitos básicos y normativa de aplicación. Control de calidad, conservación y mantenimiento.",
+      "Instalaciones de fontanería y gas en los edificios: tipos y descripción. Requisitos básicos y normativa de aplicación. Control de calidad, conservación y mantenimiento.",
+      "Instalaciones de climatización y ventilación en los edificios: tipos y descripción. Requisitos básicos y normativa de aplicación. Control de calidad, conservación y mantenimiento.",
+      "Instalaciones de protección contra incendios en los edificios: tipos y descripción. Requisitos básicos y normativa de aplicación. Control de calidad, conservación y mantenimiento.",
+      "Sistemas de saneamiento en los edificios: tipos y descripción. Requisitos básicos y normativa de aplicación. Control de calidad, conservación y mantenimiento.",
+      "Control y supervisión de las instalaciones en los edificios: concepto y objetivos. Sistemas de control y regulación. Automatización y sistemas de gestión técnica de edificios. Detección y gestión de averías e incidencias. Importancia del control de instalaciones en la seguridad, el mantenimiento y la eficiencia energética.",
+      "La Ley de Contratos del Sector Público. Principios generales de la contratación pública. Tipos de contratos del sector público. Los Pliegos en la contratación pública.",
+      "El Código Técnico de la Edificación: objeto, ámbito de aplicación, contenido y documentos básicos.",
+      "La seguridad y salud en el trabajo en las obras de edificación. Normativa de aplicación. El estudio de seguridad y salud, el estudio básico y el plan de seguridad y salud.",
+      "La accesibilidad y la eliminación de barreras arquitectónicas y urbanísticas. Normativa de la Junta de Andalucía Decreto 293/2009, de 7 de julio, por el que se aprueba el reglamento que regula las normas para la accesibilidad en las infraestructuras, el urbanismo, la edificación y el transporte en Andalucía: Ámbito de aplicación, definiciones, Clasificación de las barreras y pliegos.",
+      "Decreto 293/2009, de 7 de julio, por el que se aprueba el reglamento que regula las normas para la accesibilidad en las infraestructuras, el urbanismo, la edificación y el transporte en Andalucía. Accesibilidad en los edificios, establecimientos e instalaciones fijos de concurrencia pública: Normas generales, espacios exteriores, espacios interiores al mismo nivel, espacios interiores al mismo nivel y espacios interi",
+      "Metodología BIM: concepto y principios básicos. Evolución del diseño asistido por ordenador (CAD) a BIM. Objetivos y ventajas de la implantación de BIM en proyectos de edificación y obra civil. Dimensiones BIM (3D, 4D, 5D, 6D y 7D). Aplicación de BIM a lo largo del ciclo de vida del edificio, desde el diseño hasta la fase de mantenimiento y operación.",
+      "Eficiencia energética en la edificación: concepto y objetivos. Consumo energético en los edificios. Medidas de mejora de la eficiencia energética: envolvente térmica, instalaciones y sistemas de iluminación. Incorporación de energías renovables en la edificación. Certificación energética de edificios.",
+      "Obras en edificios existentes: tipos y características. Estudios previos, análisis e investigaciones. Trabajos preparatorios. Procesos de ejecución. Evaluación de riesgos laborales y medidas de seguridad y salud.",
+      "Concepto y clasificación de los daños y defectos en la edificación. Humedades y fisuras: tipos, características y principales causas. Efectos sobre los elementos constructivos. Medidas preventivas y criterios generales de diagnóstico y tratamiento. Patologías de la madera en los edificios: tipos, causas, efectos y tratamientos. Otros daños habituales y sus consecuencias sobre la seguridad, funcionalidad y durabilidad",
+      "Seguridad y salud en los laboratorios docentes. Clasificación de riesgos. Identificación y medidas de prevención.",
+      "Gestión de residuos y sustancias químicas y biológicas en laboratorios docentes de la UPO. Manipulación. Etiquetado. Almacenamiento. Eliminación de residuos peligrosos.",
+      "Calidad en los laboratorios. Buenas prácticas. Norma ISO 17025.",
+      "Montaje y manejo de equipos para el transporte de fluidos. Bombas centrífugas. Bombas volumétricas.",
+      "Montaje y manejo de equipos para la transmisión de calor. Calderas. Intercambiadores de calor.",
+      "Montaje y manejo de equipos de laboratorio. Reactores químicos y biológicos. Sedimentación, filtración y centrifugación. Destilación, extracción líquido-líquido y sólido-líquido. Medidas de caudal, presión, temperatura y pH.",
+      "Mantenimiento y limpieza de equipos de laboratorio. Calibrado. Electricidad, electrónica y electromecánica. Soldadura de materiales férreos y plásticos. Mecánica básica.",
+      "Equipos auxiliares de laboratorio. Producción de agua destilada, desionizada y/o ultrapura. Medidas de conductividad eléctrica en agua. Gases y servicios asociados.",
+      "Magnitudes, unidades y sistemas de medidas en los laboratorios. Sistema internacional de medidas. Factores de conversión.",
+      "Reactivos químicos, reacciones, equilibrios. Fundamentos teóricos. Estequiometría. Constantes de equilibrio.",
+      "Cinética química y biológica. Velocidad de reacción. Cinética de reacciones biológicas. Determinación experimental de la cinética de una reacción química o biológica.",
+      "Disoluciones y propiedades coligativas. Formas de expresar la concentración. Preparaciones de disoluciones.",
+      "Técnicas de muestreo. Manipulación. Conservación. Transporte. Preparación de muestras.",
+      "Nociones específicas en muestreo y gestión de materiales de fisiología vegetal: Recolección. Cultivo de plantas y microorganismos fotosintético. Preparación de tampones y medios para ensayos enzimáticos. Funcionamiento y mantenimiento de cámaras de cultivo.",
+      "Nociones específicas en muestreo y gestión de materiales botánicos. Muestreo botánico. Uso y mantenimiento de invernaderos. Gestión, conservación, digitalización y divulgación de herbarios.",
+      "Nociones específicas en muestreo y análisis en ecología. Muestreo y análisis de aguas. Muestreo y análisis de suelos y sedimentos. Manejo y mantenimiento de equipos de intercambio de gases.",
+      "Nociones específicas en muestreo y gestión de materiales geológicos: Levigados para separación de microfósiles. Tamizado para granulometrías. Preparación de láminas delgadas. Tinción.",
+      "Nociones específicas en muestreo y gestión de materiales zoológicos: Identificación a nivel Orden o Familia. Conservación de animales. Organización de colecciones zoológicas para uso docente.",
+      "Fundamentos de análisis químico. Preparación de muestras. Métodos volumétricos y gravimétricos.",
+      "Análisis instrumental. Técnicas instrumentales de análisis. Espectroscopía UV e IR. Cromatografía.",
+      "La Constitución: Título preliminar. Título I: De los derecho y deberes fundamentales.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título I: Funciones del sistema universitario y autonomía de las universidades. Título II: Creación y reconocimiento de las universidades y calidad del sistema universitario. Capítulo V. Personal técnico, de gestión y de administración y servicios de las universidades públicas.",
+      "Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre: Título II. Personal al servicio de las Administraciones Públicas: Capítulo I. Clases de personal, título III. Derechos y deberes. Título VII. Régimen disciplinario.",
+      "IV Convenio Colectivo de Personal laboral de las Universidades Públicas de Andalucía.",
+      "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Título preliminar. Objeto y ámbito de la ley. Título I. El principio de igualdad y la tutela contra la discriminación. Título IV. El derecho al trabajo en igualdad de oportunidades. Capítulo I. Igualdad de trato y oportunidades en el ámbito laboral. Capítulo II. Igualdad y conciliación. Título V. El principio de igualdad en el empleo",
+      "La Ley 31/1995, de Prevención de Riesgos Laborales modificada por la Ley 54/2003 de 12 de Diciembre de reforma del marco normativo de la prevención de riesgos laborales. Capítulo III: Derechos y obligaciones. Capítulo V: consulta y participación de los trabajadores.",
+      "La Ley 31/1995, de Prevención de Riesgos Laborales. Derechos y obligaciones. El Delegado de Prevención. El Comité de Seguridad y Salud. Riesgos generales y específicos de su puesto de trabajo.",
+      "Real Decreto 487/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas que entrañe riesgos, en particular dorso lumbares, para los trabajadores.",
+      "Organización y normas generales de trabajo en el laboratorio docente. Espacios, materiales y equipos de uso común. Normas básicas de funcionamiento y organización de los laboratorios docentes UPO.",
+      "Magnitudes, unidades y expresión de resultados. Sistema Internacional de Unidades y factores de conversión. Expresión de resultados y cifras significativas.",
+      "Material de laboratorio: clasificación, utilización y conservación. Clasificación y utilización del material de laboratorio. Limpieza, mantenimiento y conservación.",
+      "Pesada, medida de volúmenes y preparación de disoluciones. Balanzas y material volumétrico. Concentración, diluciones y preparación de soluciones.",
+      "Muestreo, acondicionamiento y conservación de muestras. Obtención y preparación de muestras. Homogeneización y conservación.",
+      "Operaciones básicas de separación. Métodos físicos de separación. Fundamentos y aplicaciones básicas.",
+      "Microscopía y técnicas de observación. Fundamentos y tipos de microscopios. Técnicas de observación y tinción.",
+      "Limpieza, desinfección, esterilización y bioseguridad. Métodos de limpieza, desinfección y esterilización; Riesgos químicos y biológicos. Gestión de residuos y medidas de prevención.",
+      "Conceptos básicos de química general. Estructura de la materia y enlace químico. Elementos, compuestos y mezclas.",
+      "Formulación y nomenclatura química básica. Normas generales de formulación y nomenclatura. Compuestos químicos más habituales.",
+      "Propiedades físicas y fisicoquímicas de las sustancias. Densidad, viscosidad y tensión superficial. Calor y cambios de estado.",
+      "Fundamentos de química analítica. Análisis cualitativo y cuantitativo. Tipos de análisis y conceptos básicos. (Conceptos de exactitud, precisión, sensibilidad y error analítico).",
+      "Técnicas básicas de análisis químico. Métodos volumétricos y gravimétricos. Material y operaciones básicas.",
+      "Fundamentos de las técnicas instrumentales de análisis. Principios generales. Clasificación y aplicaciones básicas.",
+      "Microorganismos de interés sanitario. Características generales y clasificación. Principales grupos de microorganismos.",
+      "Obtención y preparación de muestras microbiológicas. Toma, transporte y conservación de muestras. Preparación de muestras y diluciones.",
+      "Medios de cultivo. Clasificación y preparación de medios. Conservación y eliminación.",
+      "Técnicas microbiológicas básicas. Siembra y aislamiento. Recuento de microorganismos.",
+      "Biología celular y biomoléculas. Organización celular. Glúcidos, lípidos, proteínas y ácidos nucleicos."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Primer ejercicio: Tendrá carácter eliminatorio y consistirá en contestar un cuestionario de preguntas con cuatro respuestas alternativas, de las que solo una será correcta, basado en el contenido de las funciones determinadas en el anexo I y del programa que figura como anexo III de esta convocatoria.",
+    "Segundo ejercicio: Tendrá carácter eliminatorio y consistirá en resolver uno o varios supuestos o pruebas prácticas propuestas por el Tribunal, basado en el contenido de las funciones determinadas en el anexo I y de la parte específica del programa que figura como anexo III de esta convocatoria, en el tiempo y con los medios…"
+   ]
+  }
  },
  {
   "id": "us-ayudantes-archivos-bibliotecas",
@@ -1290,12 +2228,81 @@
   "plazoFin": "2026-04-20",
   "examen": "Proceso en curso: ya se han publicado calificaciones del segundo ejercicio",
   "enlace": {
-   "t": "Convocatoria en el BOE",
-   "u": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7320"
+   "t": "Convocatoria en el BOJA (bases completas)",
+   "u": "https://www.juntadeandalucia.es/boja/2026/55/35"
   },
   "claves": [
    "ayudantes de archivos, bibliotecas y museos"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (46 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Biblioteconomía y Documentación",
+     "temas": [
+      "Bibliotecas universitarias: concepto, función y servicios. Nuevas tendencias.",
+      "La Biblioteca de la Universidad de Sevilla (BUS).",
+      "Fondo Antiguo y colecciones especiales. Formación, conservación, restauración y difusión en la BUS. Archivo Histórico de la Universidad de Sevilla.",
+      "Planificación estratégica y dirección por objetivos en las bibliotecas universitarias. Mecanismos de seguimiento y evaluación. Plan Director de la Biblioteca de la Universidad de Sevilla.",
+      "La gestión por procesos y el cuadro de mando. Aplicación en bibliotecas universitarias.",
+      "La gestión de la calidad. Modelo EFQM y estándar ISO de calidad. La gestión de la calidad en la BUS. Cartas de Servicios.",
+      "Evaluación de impacto y del valor social y económico de las bibliotecas universitarias.",
+      "La Experiencia de Usuario (UX) en el proceso de gestión y diseño de la biblioteca universitaria.",
+      "El nuevo rol del bibliotecario: habilidades, perfiles y competencias como gestor de la información y documentación. Ética profesional.",
+      "Planificación, organización espacial y equipamiento de bibliotecas universitarias: nuevos espacios para nuevos servicios.",
+      "Gestión y desarrollo de la colección impresa y electrónica. Criterios, fuentes, métodos para su formación y modelos de comercialización, mantenimiento y evaluación. Estado actual del mercado.",
+      "Preservación, conservación y restauración del fondo documental. Políticas de preservación en un entorno digital y electrónico. La digitalización de documentos: técnicas, procedimientos y estándares. Principales directrices a nivel nacional e internacional.",
+      "La catalogación. Principios y estándares de descripción bibliográfica: ISBD, FRBR y RDA. Codificación de la información bibliográfica: MARC21 y BIBFRAME.",
+      "Gestión y control de autoridades. Fundamentos teóricos e implementación práctica: FRAD y FRSAD, VIAF y SKOS.",
+      "Análisis documental. Proceso y tipología. Lenguajes documentales: encabezamientos de materia y thesaurus. Sistema de clasificación bibliográfica.",
+      "Metadatos. Modelo RDF. Principales modelos de metadatos: Dublin Core, METS, PREMIS. Los lenguajes de marcado.",
+      "La web semántica: ontologías, datos enlazados y minería de datos en bibliotecas.",
+      "Los catálogos como herramientas de descubrimiento. Los catálogos colectivos. Técnicas de evaluación.",
+      "Automatización de las actividades y de los servicios bibliotecarios. Sistemas de gestión y plataformas de servicios bibliotecarios. Situación actual y tendencias en las bibliotecas universitarias.",
+      "Aplicación de la Inteligencia Artificial en los procesos y servicios bibliotecarios.",
+      "Los servicios de acceso en las bibliotecas universitarias: servicio de atención y orientación, información bibliográfica, préstamo.",
+      "La formación de usuarios en competencias digitales: DIGCOMP. Nuevas tendencias en metodologías docentes aplicadas en bibliotecas. Los Recursos Educativos en Abierto.",
+      "Servicios de apoyo a investigadores y a la gestión de la investigación en las bibliotecas universitarias.",
+      "Gestión de datos de investigación. Principios FAIR. Plan de Gestión de Datos y las principales herramientas facilitadoras.",
+      "Sistemas de Gestión de Contenidos. Portales web, intranets. Accesibilidad, usabilidad y estándares.",
+      "Marketing y promoción de servicios bibliotecarios. Herramientas de gestión y canales de comunicación. Redes sociales.",
+      "Cooperación bibliotecaria en el ámbito universitario: Tendencias actuales. La cooperación en la BUS.",
+      "La responsabilidad social de la biblioteca universitaria. Servicios de extensión cultural. La Biblioteca de la Universidad de Sevilla y su implicación con la sociedad."
+     ]
+    },
+    {
+     "titulo": "Recursos de Información y Nuevas Tecnologías",
+     "temas": [
+      "La comunicación científica: evolución, tendencias y situación actual. La edición científico-técnica en la actualidad: tipología de publicaciones científicas.",
+      "Ciencia abierta: situación actual y perspectivas de futuro. Políticas de ciencia abierta en España.",
+      "Repositorios institucionales y temáticos. idUS: Depósito de investigación de la Universidad de Sevilla. Agregadores: Recolecta, Hispana, Europeana, OpenAire.",
+      "Bibliometría: Concepto y aplicaciones bibliométricas. Los portales de investigación y los CRIS. PRISMA.",
+      "Criterios para la evaluación de la carrera científica de los investigadores. Recursos de información para la acreditación y evaluación científica. Agencias de calidad.",
+      "Definición y objetivos de la bibliografía. Clases de bibliografías. Gestores bibliográficos. Evolución y nuevas tendencias.",
+      "Recursos de información de carácter general y multidisciplinares.",
+      "Recursos de información en Ciencias Sociales, Jurídicas y Humanidades.",
+      "Recursos de información en Ciencia, Tecnología e Ingeniería.",
+      "Recursos de información en Biomedicina."
+     ]
+    },
+    {
+     "titulo": "Legislación",
+     "temas": [
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Personal Técnico, de Gestión y de Administración y Servicios de las universidades públicas.",
+      "Los Estatutos de la Universidad de Sevilla: La Biblioteca de la Universidad de Sevilla y el Archivo Universitario. Impulso a la Ciencia Abierta, a la Ciencia Ciudadana y a la divulgación científica. Patrimonio histórico, artístico y cultural universitario.",
+      "Legislación en materia de propiedad intelectual y sus implicaciones en la gestión de bibliotecas. Los derechos de autor. Las licencias Creative Commons.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Titulo I. Disposiciones generales. Título II. Principios de protección de datos. Título X. Garantía de los derechos digitales. Derechos de los interesados en la Universidad de Sevilla.",
+      "Ley de la Ciencia, la Tecnología y la Innovación. El sistema español de I+D +I.",
+      "El funcionario público: Concepto y clases. Situaciones, deberes y derechos.",
+      "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno: Título Preliminar: Objeto. Título I. Capítulo I: Ámbito subjetivo de aplicación. Capítulo II: Publicidad activa. Capítulo III: Derecho de acceso a la información pública. Título III: El Consejo de Transparencia y Buen Gobierno.",
+      "Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía: Objeto, ámbito de aplicación, definiciones y principios generales (artículos 1, 2, 3 y 4); integración de la perspectiva de género en las políticas públicas (Título I Capítulo I), igualdad en la educación (enseñanza universitaria) (Título II, Capítulo I, Sección 2.ª). Normativa para la prevención, evaluación e intervención en si"
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "unia-auxiliar-administrativa",
@@ -1317,7 +2324,71 @@
   },
   "claves": [
    "auxiliar administrativa"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (46 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Apartado A",
+     "temas": [
+      "La Constitución Española de 1978: Derechos y deberes fundamentales. Las Cortes Generales. El Gobierno y la Administración.",
+      "Las fuentes del Derecho Administrativo: concepto y clases. La ley. El reglamento: concepto, naturaleza y clases. Otras fuentes del Derecho Administrativo.",
+      "El Estatuto de Autonomía para Andalucía. Derechos y deberes. Principios rectores. Competencias de la Comunidad Autónoma.",
+      "Plan Estratégico Universidad Internacional de Andalucía 2025-2027.",
+      "La Ley orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la ley. El principio de igualdad y la tutela contra la discriminación.",
+      "Reglamento (UE) 2016/679 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos. Ámbito de aplicación material. Ámbito territorial. Principios. Derechos del interesado. Responsable del tratamiento y encargado del tratamiento. Delegado de protección de datos.",
+      "Código Ético de la Universidad Internacional de Andalucía, aprobado en Consejo de Gobierno el 15 de junio de 2022, y modificado por Acuerdo 9/2023, del Consejo de Gobierno de la Universidad Internacional de Andalucía de 22 de febrero de 2023.",
+      "Protocolo para la prevención y actuación frente al acoso sexual, por razón de sexo, por orientación sexual y por expresión o identidad de género, aprobado por Acuerdo 55/2025, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 21 de julio de 2025.",
+      "Protocolo para la prevención y gestión del acoso moral y discriminatorio en la Universidad Internacional de Andalucía, aprobado por Acuerdo 10/2023, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 22 de febrero de 2023.",
+      "Reglamento sobre utilización de recursos digitales y sistemas de información de la Universidad Internacional de Andalucía, aprobada la modificación por Acuerdo 101/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 28 de noviembre de 2024: Principios generales; Actividades y usos prohibidos; Del uso del correo electrónico corporativo; Del acceso y uso de internet corporativo; Sobre el cert",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. De los interesados en el procedimiento.",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: De la actividad de las Administraciones Públicas.",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: De los actos administrativos.",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: De las disposiciones sobre el procedimiento administrativo común.",
+      "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: De la revisión de los actos en vía administrativa.",
+      "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público.",
+      "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Relaciones interadministrativas.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Objeto y ámbito de aplicación. Personal al servicio de las Administraciones Públicas.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Derechos y deberes. Código de conducta de los empleados públicos.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Adquisición y pérdida de la relación de servicio.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Provisión de puestos de trabajo y movilidad. Situaciones administrativas. Régimen disciplinario.",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Disposiciones generales. Funciones del sistema universitario y autonomía de las universidades. Creación y reconocimiento de las universidades y calidad del sistema universitario. Organización de enseñanzas. Régimen jurídico y estructura de las universidades públicas. Gobernanza de las universidades públicas.",
+      "Decreto Legislativo 2/2013, de 8 de enero, por el que se aprueba el texto refundido de la Ley de creación de la Universidad Internacional de Andalucía.",
+      "Decreto 236/2011, de 12 de julio, por el que se aprueban los Estatutos de la Universidad Internacional de Andalucía.",
+      "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+      "Reglamento de Régimen Académico de la Universidad Internacional de Andalucía, aprobada la modificación por Acuerdo 71/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 24 de julio de 2024.",
+      "Reglamento de Enseñanzas de Formación Permanente General y Extensión Universitaria de la Universidad Internacional de Andalucía, aprobado por Acuerdo 59/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 21 de junio de 2024.",
+      "Reglamento de Enseñanzas de Posgrado de la Universidad Internacional de Andalucía, aprobado por Acuerdo 42/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 25 de abril de 2024.",
+      "Texto Refundido del Reglamento de Becas y Ayudas al Estudio de la Universidad Internacional de Andalucía, aprobado por Acuerdo 3/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 11 de enero de 2024.",
+      "Reglamento de Gestión de Prácticas Externas de la Universidad Internacional de Andalucía, aprobada la modificación por Acuerdo 72/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 24 de julio de 2024.",
+      "Régimen Económico y Financiero de la UNIA. Patrimonio. Programación y Presupuesto. Contratación.",
+      "El Presupuesto de la UNIA. Elaboración y aprobación. Estructura. Operaciones corrientes y operaciones de capital. Limitación cualitativa, cuantitativa y temporal de los créditos. Vinculación de los créditos. Modificaciones presupuestarias. Transferencias de crédito. Incorporación de crédito. Generación de crédito. Créditos extraordinarios y suplementos de créditos.",
+      "El Presupuesto de la UNIA. Fases de ejecución presupuestaria. Autorización y disposición del gasto. Reconocimiento de la obligación. Ordenación y ejecución material del pago. Control Interno. Cuenta de liquidación y prórroga del Presupuesto.",
+      "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público: Delimitación de los tipos contractuales."
+     ]
+    },
+    {
+     "titulo": "Apartado B",
+     "temas": [
+      "Introducción a la ofimática y al sistema operativo Windows. Conceptos básicos de ofimática y sus aplicaciones en la Administración Pública. Elementos de un equipo informático: hardware y software. Sistema operativo Windows: características, escritorio, ventanas, menús e iconos. Operaciones básicas: crear, copiar, mover y eliminar archivos y carpetas.",
+      "Configuración y mantenimiento básico de Windows. Panel de control y configuración. Personalización del entorno. Instalación y desinstalación sencilla de programas. Gestión de usuarios. Actualizaciones automáticas. Medidas básicas de seguridad y protección frente a virus. Copias de seguridad y recuperación.",
+      "Procesador de textos: Microsoft Word 2016 o versiones posteriores. El entorno de trabajo. Creación, guardado y apertura de documentos. Edición de texto. Formato de caracteres y párrafos. Listas y sangrías. Configuración de página e impresión. Revisión ortográfica y gramatical.",
+      "Herramientas prácticas de Word. Tablas, imágenes y objetos gráficos. Encabezados, pies de página y numeración. Uso de plantillas. Combinar correspondencia. Inserción de índices y tablas de contenido. Protección y guardado seguro de documentos.",
+      "Hojas de cálculo: Microsoft Excel 2016 o versiones posteriores. El entorno de trabajo. Libros, hojas y celdas. Introducción y edición de datos. Formatos numéricos y de texto. Formato de fórmulas. Funciones básicas matemáticas, de texto y búsqueda. Configuración de impresión.",
+      "Gestión y presentación de datos en Excel. Gráficos básicos. Ordenación y filtrado de datos. Protección de celdas y hojas. Plantillas de uso frecuente. Elaboración de cuadros y listados administrativos. Impresión de informes.",
+      "Presentaciones con Microsoft PowerPoint. Conceptos generales. Creación y guardado de presentaciones. Uso de plantillas y temas. Inserción de texto, imágenes y gráficos. Animaciones y transiciones. Revisión y proyección de la presentación.",
+      "Herramientas ofimáticas de Google: Google Workspace. Introducción a la nube. Google Drive: almacenamiento y organización de archivos. Google Docs, Sheets y Slides: funciones básicas y trabajo colaborativo. Compartir documentos y asignar permisos. Ventajas del uso institucional de Google Workspace.",
+      "Formularios y colaboración en línea. Google Forms: creación de formularios, tipos de preguntas y recopilación de respuestas. Exportación de datos a hojas de cálculo. Trabajo en equipo en documentos compartidos. Recomendaciones de seguridad en el uso de herramientas en línea.",
+      "Internet y navegación web. Conceptos básicos de Internet. Navegadores (Microsoft Edge, Chrome y Firefox): funciones principales. Gestión de favoritos, historial y descargas. Búsquedas eficientes en la web. Precauciones de seguridad y protección de datos al navegar.",
+      "Correo electrónico y comunicación digital. Conceptos fundamentales. Microsoft Outlook y Gmail: entorno, configuración de cuentas, carpetas y contactos. Envío, recepción y organización de mensajes. Adjuntar archivos. Reglas de mensaje. Netiqueta y buenas prácticas en la comunicación institucional.",
+      "Seguridad informática y protección de la información. Principios básicos de seguridad digital. Contraseñas seguras. Protección frente a virus, spam y phishing. Copias de seguridad. Buenas prácticas en el uso del correo y los servicios en la nube. Introducción al Reglamento General de Protección de Datos (RGPD) y la LOPDGDD en el entorno administrativo."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "unia-gestion-universitaria-pi",
@@ -1339,7 +2410,61 @@
   },
   "claves": [
    "gestion universitaria"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (41 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Programa",
+     "temas": [
+      "Normas de Convivencia de la Universidad Internacional de Andalucía, aprobadas por Acuerdo 11/2023, de 22 de febrero, del Consejo de Gobierno de la UNIA (BOUNIA, núm. 5/2023).",
+      "Protocolo para la prevención y actuación frente al acoso sexual, por razón de sexo, por orientación sexual y por expresión o identidad de género, aprobado por Acuerdo 55/2025, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 21 de julio de 2025.",
+      "Protocolo para la Prevención y gestión del Acoso moral y discriminatorio en la Universidad Internacional de Andalucía, aprobado por Acuerdo 10/2023, de 22 de febrero de 2023, del Consejo de Gobierno de la UNIA (BOUNIA, núm. 5/2023).",
+      "Reglamento sobre utilización de recursos digitales y sistemas de información de la Universidad Internacional de Andalucía, aprobada la modificación por Acuerdo 101/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 28 de noviembre de 2024: Principios generales; Actividades y usos prohibidos; Del uso del correo electrónico corporativo; Del acceso y uso de internet corporativo; Sobre el cert",
+      "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas: Título Preliminar: Disposiciones generales. Título I: Los interesados en el procedimiento. Título III. Los actos administrativos: Requisitos. Eficacia. Nulidad y anulabilidad.",
+      "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas: Título II. La actividad de las Administraciones Públicas.",
+      "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas: Título IV: Las disposiciones sobre el procedimiento administrativo común: Garantías del Procedimiento. Iniciación. Ordenación. Instrucción. Finalización. Tramitación simplificada del procedimiento administrativo común. Ejecución.",
+      "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas: Título V. Revisión de los actos en vía administrativa. Revisión de oficio. Recursos administrativos.",
+      "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas: Título VI. De la iniciativa legislativa y de la potestad para dictar reglamentos y otras disposiciones.",
+      "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Título Preliminar: Capítulo I. Disposiciones generales. Capítulo II. De los Órganos de las Administraciones Públicas: de los Órganos administrativos, competencia, funcionamiento, abstención y recusación.",
+      "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Capítulo III: Principios de la potestad sancionadora. Capítulo IV: Responsabilidad patrimonial de las Administraciones Públicas. Capítulo V: Funcionamiento electrónico del sector público. Capítulo VI: Los convenios.",
+      "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Título III. Relaciones Interadministrativas.",
+      "Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos. Título II. Procedimiento administrativo por medios electrónicos. Título III. Expediente administrativo electrónico.",
+      "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos de personales y garantía de los derechos digitales: Disposiciones generales, Principios de protección de datos, Derechos de las personas.",
+      "Reglamento (UE) 2016/679 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos: Definiciones. Principios. Derechos del interesado. Responsable del tratamiento y encargado del tratamiento. Delegado de protección de datos.",
+      "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público.",
+      "La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la ley. El principio de igualdad y la tutela contra la discriminación.",
+      "La Ley 12/2007, de 26 de noviembre, de promoción para la promoción de la igualdad de género en Andalucía.",
+      "Reglamento de funcionamiento de la Comisión de Igualdad de la Universidad Internacional de Andalucía, aprobado por Acuerdo de Consejo de Gobierno de 11 de julio de 2018.",
+      "Ley 38/2003, de 17 de noviembre, General de Subvenciones. Principios generales. Procedimiento y gestión de las subvenciones. Las bases reguladoras y la convocatoria. La concesión.",
+      "Ley 38/2003, de 17 de noviembre, General de Subvenciones. La justificación y El reintegro de subvenciones. El control financiero. Infracciones y Clases de sanciones.",
+      "Plan Estratégico de Subvenciones de la Universidad Internacional de Andalucía para el Período 2025-2027. Aprobado por Acuerdo 105/2024, de 28 de noviembre, del Consejo de Gobierno de la Universidad Internacional de Andalucía.",
+      "Acuerdo 70/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 24 de julio de 2024, por el que se modifica la Normativa para la creación de Cátedras y Aulas UNIA de Empresa e Instituciones (BOUNIA, núm. 16/2024).",
+      "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título I. Funciones del sistema universitario y autonomía de las universidades. Título II. Creación y reconocimiento de las universidades y calidad del sistema universitario. Título III. Organización de enseñanzas. Título VII. Internacionalización del sistema universitario. Título VIII. El estudiantado en el Sistema Universitario. Título IX. Régimen espe",
+      "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía. Título preliminar. disposiciones generales. Título II. comunidad universitaria. Título III. coordinación universitaria. Título VI. régimen económico, financiero y patrimonial de las universidades públicas.",
+      "El Presupuesto de la UNIA. Aprobación. Estructura general de los estados de ingresos y gastos. Normas de ejecución presupuestaria: Normas Generales, Presupuesto, Créditos y sus Modificaciones, Auditoría y Control Interno, Liquidación y Cierre del Presupuesto.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el Texto Refundido de la Ley del Estatuto Básico del Empleado Público. Objeto y ámbito de aplicación. El personal al servicio de las administraciones públicas. Derechos y deberes. Código de conducta de los empleados públicos.",
+      "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el Texto Refundido de la ley del Estatuto Básico del Empleado Público. Adquisición y pérdida de la relación de servicio. Ordenación de la actividad profesional. Provisión de puestos de trabajo y movilidad. Situaciones Administrativas. Régimen disciplinario.",
+      "Convenio Colectivo del Personal Laboral de las Universidades Públicas de Andalucía. Objeto, ámbito y vigencia. Normas de organización del Trabajo. Régimen disciplinario. Estructura salarial.",
+      "Ley 53/1984, de 26 de diciembre, de Incompatibilidades del Personal al Servicio de las Administraciones Públicas.",
+      "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+      "Real Decreto 1125/2003, de 5 de septiembre, por el que se establece el Sistema europeo de créditos y el sistema de calificaciones en las titulaciones universitarias de carácter oficial y validez en todo el territorio nacional.",
+      "Acuerdo 71/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 24 de julio de 2024, por el que se aprueba la modificación del Reglamento de Régimen Académico de la Universidad Internacional de Andalucía (BOUNIA, núm. 16/2024).",
+      "Acuerdo 59/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 21 de junio de 2024, por el que se aprueba el Reglamento de Enseñanzas de Formación Permanente General y Extensión Universitaria de la Universidad Internacional de Andalucía (BOUNIA núm. 13/2024).",
+      "Reglamento sobre enseñanzas de postgrado de la Universidad Internacional de Andalucía, aprobado por Acuerdo 42/2024, de 25 de abril de 2024, del Consejo de Gobierno de la UNIA (BOUNIA núm. 10/2024).",
+      "Reglamento de Enseñanzas de Doctorado de la Universidad Internacional de Andalucía, aprobado por Acuerdo 41/2024, de 25 de abril de 2024, del Consejo de Gobierno de la UNIA (BOUNIA núm. 10/2024).",
+      "Acuerdo 73/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 24 de julio de 2024, por el que se aprueban las modificaciones operadas en el Reglamento de la Universidad Internacional de Andalucía, por el que se aprueban Instrucciones para la Emisión de Títulos, Diplomas y Certificaciones Académicas de la Universidad Internacional de Andalucía (BOUNIA núm. 16/2024).",
+      "Texto Refundido del Reglamento de Becas y Ayudas al Estudio de la Universidad Internacional de Andalucía, aprobado por Acuerdo 3/2024, de 11 de enero de 2024, del Consejo de Gobierno de la UNIA (BOUNIA núm. 1/2024)",
+      "Acuerdo 72/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 24 de julio de 2024, por el que se aprueba la modificación del Reglamento de Gestión de Prácticas Externas de la Universidad Internacional de Andalucía (BOUNIA núm. 16/2024).",
+      "Reglamento del «Boletín Oficial de la Universidad Internacional de Andalucía», aprobado por el Consejo de Gobierno de la Universidad Internacional de Andalucía en su sesión ordinaria celebrada el 11 de diciembre de 2025.",
+      "Normativa de Seguridad de la Información, aprobado por Consejo de Gobierno el 5 de febrero de 2019, modificado por Consejo de Gobierno el 28 de enero de 2022 (Suplemento Especial BOUNIA núm. 1/2022)."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "uhu-administrativa-pi",
@@ -1362,7 +2487,60 @@
   },
   "claves": [
    "escala administrativa"
-  ]
+  ],
+  "programa": {
+   "nota": "Programa del anexo de la convocatoria (20 temas), extraído automáticamente del texto oficial: consulta el anexo para ver el enunciado completo.",
+   "bloques": [
+    {
+     "titulo": "Módulo 1: Régimen jurídico de la universidad pública (8 horas)",
+     "temas": [
+      "Estructura y gobernanza de las universidades públicas.",
+      "Régimen de distribución de competencias en la Universidad de Huelva.",
+      "El procedimiento administrativo común.",
+      "Los recursos administrativos."
+     ]
+    },
+    {
+     "titulo": "Módulo 2: Gestión académica (8 horas)",
+     "temas": [
+      "Las enseñanzas universitarias. Estudios de grado, máster y doctorado. Las enseñanzas propias.",
+      "Acceso a la Universidad. La prueba de acceso a la Universidad. Otros procedimientos y pruebas de acceso a la Universidad.",
+      "La admisión a estudios universitarios. Admisión a estudios de Grado y Máster. El Distrito Único Universitario de Andalucía.",
+      "Matrícula en los estudios de Grado y Máster de la Universidad de Huelva."
+     ]
+    },
+    {
+     "titulo": "Módulo 3: Gestión económica (8 horas)",
+     "temas": [
+      "El régimen económico y financiero de las universidades públicas.",
+      "El presupuesto de la Universidad de Huelva.",
+      "El gasto público. Ordenación del gasto y ordenación del pago. Ingresos: reconocimiento y extinción del derecho.",
+      "Contratación administrativa: tipos de contrato, preparación y adjudicación de los contratos."
+     ]
+    },
+    {
+     "titulo": "Módulo 4: Gestión de recursos humanos (8 horas)",
+     "temas": [
+      "Régimen jurídico y clases de personal al servicio de las Universidades Públicas: Personal Docente e Investigador, Personal Investigador y Personal Técnico, de Gestión y de Administración y Servicios.",
+      "Carrera profesional, promoción interna y provisión de puestos en las universidades públicas andaluzas.",
+      "Incompatibilidades del personal al servicio de las Administraciones Públicas.",
+      "Situaciones administrativas del personal funcionario de carrera."
+     ]
+    },
+    {
+     "titulo": "Módulo 5: Gestión de la investigación (8 horas)",
+     "temas": [
+      "Conceptos generales. Régimen jurídico básico de la gestión de la I+D+i.",
+      "Instrumentos de financiación.",
+      "Procedimiento de concesión y gestión de subvenciones.",
+      "La carrera investigadora."
+     ]
+    }
+   ],
+   "ejercicios": [
+    "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
+   ]
+  }
  },
  {
   "id": "uja-laboral-laboratorio-pi",
