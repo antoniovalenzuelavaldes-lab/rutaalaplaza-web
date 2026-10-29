@@ -150,7 +150,7 @@ def pagina(ruta, titulo, desc, h1, cuerpo, migas, extra_ld=None, noindex=False):
 </main>
 <footer><div class="w"><p>{MARCA} es un servicio independiente de preparación de oposiciones: no está vinculado a ninguna universidad ni administración.
 La información de las convocatorias se recoge del BOE y el BOJA y es orientativa: manda siempre el texto oficial.</p>
-<p><a href="/oposiciones/">Oposiciones en universidades de Andalucía</a> · <a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/cookies.html">Cookies</a> · <a href="/legal/condiciones.html">Condiciones</a></p></div></footer>
+<p><a href="/oposiciones/">Oposiciones en universidades de Andalucía</a> · <a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/cookies.html">Cookies</a> · <a href="/legal/condiciones.html">Condiciones</a></p><p>✦ Web desarrollada por <a href="https://valenprojects.online" rel="noopener">ValenProjects</a></p></div></footer>
 {JS_ESTADO}{etiqueta_gc()}</body></html>"""
 
 
