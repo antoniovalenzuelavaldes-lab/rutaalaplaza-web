@@ -677,7 +677,7 @@
     "etq": "T3",
     "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
     "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía.",
-    "gratis": false
+    "gratis": true
    },
    {
     "id": "ugradm-4",
@@ -2292,7 +2292,7 @@
   "nombre": "Titulado Superior de Apoyo a la Docencia e Investigación",
   "organismo": "Universidad de Cádiz",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal laboral",
   "turno": "Promoción interna (y libre si queda desierta)",
   "grupo": "Grupo I",
@@ -2385,14 +2385,436 @@
    "ejercicios": [
     "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "ucasa-1",
+    "etq": "T1",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Disposiciones Generales. Creación y Reconocimiento de Universidades. Docencia, Investigación y Transferencia de Conocimiento. Estudiantado. Personal Técnico, de Gestión y de Administración y Servicios. Estructura de las Universidades y Gobernanza de las Universidades Públicas.",
+    "gratis": true
+   },
+   {
+    "id": "ucasa-2",
+    "etq": "T2",
+    "titulo": "Administración para la calidad",
+    "alcance": "Administración para la calidad. Modelos de gestión: el modelo EFQM. Los sistemas de certificación y acreditación.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-3",
+    "etq": "T3",
+    "titulo": "El factor humano en la organización",
+    "alcance": "El factor humano en la organización. El grupo en la organización. El trabajo en equipo. La comunicación interna en las organizaciones. Resolución de problemas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-4",
+    "etq": "T4",
+    "titulo": "Acceso a la información pública y transparencia",
+    "alcance": "Acceso a la información pública y transparencia: el Reglamento de Transparencia de la Universidad de Cádiz. Reclamaciones, quejas y peticiones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-5",
+    "etq": "T5",
+    "titulo": "Sistema de Dirección Estratégica de la Universidad de Cádiz",
+    "alcance": "Sistema de Dirección Estratégica de la Universidad de Cádiz: misión, visión, valores, ámbitos estratégicos y objetivos.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-6",
+    "etq": "T6",
+    "titulo": "Código Ético de la Universidad de Cádiz (Código Peñalver)",
+    "alcance": "Código Ético de la Universidad de Cádiz (Código Peñalver).",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-7",
+    "etq": "T7",
+    "titulo": "Normativa de ejecución presupuestaria de la Universidad de Cádiz",
+    "alcance": "Normativa de ejecución presupuestaria de la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-8",
+    "etq": "T8",
+    "titulo": "La Ley Orgánica del Sistema Universitario",
+    "alcance": "La Ley Orgánica del Sistema Universitario: funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; régimen jurídico y estructura de las universidades públicas; gobernanza de las universidades públicas.",
+    "gratis": true
+   },
+   {
+    "id": "ucasa-9",
+    "etq": "T9",
+    "titulo": "La Ley Orgánica del Sistema Universitario",
+    "alcance": "La Ley Orgánica del Sistema Universitario: Organización de enseñanzas; Investigación y transferencia e intercambio del conocimiento e innovación.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-10",
+    "etq": "T10",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Disposiciones Generales. Creación y Reconocimiento de Universidades. Docencia, Investigación y Transferencia de Conocimiento. Estudiantado. Personal Técnico, de Gestión y de Administración y Servicios. Estructura de las Universidades y Gobernanza de las Universidades Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-11",
+    "etq": "T11",
+    "titulo": "El Estatuto Básico del Empleado Público",
+    "alcance": "El Estatuto Básico del Empleado Público: deberes de los empleados públicos; código de conducta.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-12",
+    "etq": "T12",
+    "titulo": "El IV Convenio colectivo del Personal Laboral de las Universidades Públicas de Andalucía",
+    "alcance": "El IV Convenio colectivo del Personal Laboral de las Universidades Públicas de Andalucía: normas de organización del trabajo: principios generales y clasificación profesional; la regulación en el convenio de la prevención de riesgos laborales.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-13",
+    "etq": "T13",
+    "titulo": "Administración para la calidad",
+    "alcance": "Administración para la calidad. Modelos de gestión: el modelo EFQM. Los sistemas de certificación y acreditación.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-14",
+    "etq": "T14",
+    "titulo": "El factor humano en la organización",
+    "alcance": "El factor humano en la organización. El grupo en la organización. El trabajo en equipo. La comunicación interna en las organizaciones. Resolución de problemas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-15",
+    "etq": "T15",
+    "titulo": "Acceso a la información pública y transparencia",
+    "alcance": "Acceso a la información pública y transparencia: el Reglamento de Transparencia de la Universidad de Cádiz. Reclamaciones, quejas y peticiones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-16",
+    "etq": "T16",
+    "titulo": "Sistema de Dirección Estratégica de la Universidad de Cádiz",
+    "alcance": "Sistema de Dirección Estratégica de la Universidad de Cádiz: misión, visión, valores, ámbitos estratégicos y objetivos.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-17",
+    "etq": "T17",
+    "titulo": "Normativa de ejecución presupuestaria de la Universidad de Cádiz",
+    "alcance": "Normativa de ejecución presupuestaria de la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-18",
+    "etq": "T18",
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+    "alcance": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Objeto y ámbito de la Ley. El principio de igualdad y la tutela contra la discriminación. El principio de igualdad en el empleo público: Criterios de actuación de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-19",
+    "etq": "T19",
+    "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales",
+    "alcance": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Disposiciones generales. Principios de protección de los datos. Derecho de las personas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-20",
+    "etq": "T20",
+    "titulo": "Código Ético de la Universidad de Cádiz (Código Peñalver)",
+    "alcance": "Código Ético de la Universidad de Cádiz (Código Peñalver).",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-21",
+    "etq": "T21",
+    "titulo": "Fundamentos de la espectrometría de masas",
+    "alcance": "Fundamentos de la espectrometría de masas. El espectrómetro de masas. Escala de masas. Cromatogramas de iones. Sensibilidad. Límite de detección. Relación señal/ruido.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-22",
+    "etq": "T22",
+    "titulo": "Ionización Electrónica (EI)",
+    "alcance": "Ionización Electrónica (EI). Proceso de ionización en EI. Relación masa-carga. El Espectro de masas. La fuente de iones. Aplicaciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-23",
+    "etq": "T23",
+    "titulo": "Ionización Química (CI)",
+    "alcance": "Ionización Química (CI): Fundamento. Transferencia de protones en CI. Ionización química por transferencia de carga. Gases para CI. Iones negativos en CI. Aplicaciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-24",
+    "etq": "T24",
+    "titulo": "Ionización de tipo Electrospray (ESI)",
+    "alcance": "Ionización de tipo Electrospray (ESI). Proceso de producción de iones en ESI. Interfases para ESI. Iones con múltiples cargas. Deconvolución. Supresión de la ionización (efecto matriz). Aplicaciones de ESI.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-25",
+    "etq": "T25",
+    "titulo": "Ionización química a presión atmosférica (APCI)",
+    "alcance": "Ionización química a presión atmosférica (APCI). Formación de iones positivos en APCI. Formación de iones negativos en APCI. Aplicaciones de APCI.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-26",
+    "etq": "T26",
+    "titulo": "Ionización fotoquímica a presión atmosférica (APPI)",
+    "alcance": "Ionización fotoquímica a presión atmosférica (APPI). Formación de iones en APPI. Aplicaciones de APPI.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-27",
+    "etq": "T27",
+    "titulo": "Ionización de tipo Electrospray mediante desorción (DESI)",
+    "alcance": "Ionización de tipo Electrospray mediante desorción (DESI). Condiciones experimentales para DESI. Parámetros de operación para DESI. Mecanismos de formación de iones en DESI. Aplicaciones de DESI.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-28",
+    "etq": "T28",
+    "titulo": "Analizadores de masas de tipo cuadrupolo",
+    "alcance": "Analizadores de masas de tipo cuadrupolo: Descripción. Ecuaciones de movimiento de iones. Diagrama de estabilidad. Resolución. Guías de iones y celda de colisión. Espectrómetros con varios cuadrupolos en tándem. Aplicaciones y limitaciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-29",
+    "etq": "T29",
+    "titulo": "Analizadores de masas de tipo tiempo de vuelo",
+    "alcance": "Analizadores de masas de tipo tiempo de vuelo. Espectrómetro de masas de tiempo de vuelo lineal. Extracción de iones pulsada y retrasada. Reflectrones. Transferencia de iones (modo z). StepWave. T-Wave. Espectrometría de masas en tándem con analizador de tiempo de vuelo. Instrumentos con analizador de tipo tiempo de vuelo con aceleración ortogonal.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-30",
+    "etq": "T30",
+    "titulo": "Espectrometría de masas en tándem (QQQ)",
+    "alcance": "Espectrometría de masas en tándem (QQQ). Espectrometría de masas en tándem en el espacio o en el tiempo. Modos de análisis en espectrometría de masas en tándem. Colisión inducida por colisiones o descomposición activada por colisiones. Energía de colisión. Magnitudes. Otros métodos de activación de iones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-31",
+    "etq": "T31",
+    "titulo": "Espectrometría de masas en Alta resolución",
+    "alcance": "Espectrometría de masas en Alta resolución. Métodos de adquisición (QTOF). Adquisición dependiente de datos. Adquisición independiente de datos.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-32",
+    "etq": "T32",
+    "titulo": "Espectrometría de masas en tándem (QTOF)",
+    "alcance": "Espectrometría de masas en tándem (QTOF). Aplicaciones: Reacciones estudiadas en espectrometría de masas en tándem. Elucidación estructural. Detección selectiva de tipos específicos de compuestos. Reacciones ion-molécula. Determinación de datos termoquímicos mediante el método cinético.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-33",
+    "etq": "T33",
+    "titulo": "Formación y fragmentación de iones",
+    "alcance": "Formación y fragmentación de iones. Ionización electrónica y fotoionización a vacío. Ionización a baja presión o a presión atmosférica. Transferencia de protones. Formación de aductos. Formación de agregados. Reacciones en la interfase entre la fuente y el analizador.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-34",
+    "etq": "T34",
+    "titulo": "Reacciones de fragmentación",
+    "alcance": "Reacciones de fragmentación. Ionización electrónica y velocidades de fragmentación. Teorías de cuasi-equilibrio y RRKM (Rice, Rampsberger, Kassel and Marcus). Ionización y energías de aparición. Reacciones de fragmentación de iones positivos. Reacciones de fragmentación de iones negativos. Fragmentación remota de carga.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-35",
+    "etq": "T35",
+    "titulo": "Iones metaestables y su uso en espectrometría de masas",
+    "alcance": "Iones metaestables y su uso en espectrometría de masas. Formación de iones metaestables. Abundancia de iones metaestables. Desventaja de la baja abundancia de los iones metaestables. Intensificación de la fragmentación. Uso de analizadores de tipo cuadrupolar para el análisis de iones metaestables. Acoplamiento de analizadores de triple cuadrupolo y adquisición de iones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-36",
+    "etq": "T36",
+    "titulo": "Patrones de fragmentación asociados a grupos funcionales (EI/ESI)",
+    "alcance": "Patrones de fragmentación asociados a grupos funcionales (EI/ESI). Parte 1: Hidrocarburos. Alquenos y alcanos. Hidrocarburos aromáticos. Aminas. Alcoholes éteres y fenoles. Haluros de alquilo y arilo.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-37",
+    "etq": "T37",
+    "titulo": "Patrones de fragmentación asociados a grupos funcionales (EI/ESI)",
+    "alcance": "Patrones de fragmentación asociados a grupos funcionales (EI/ESI). Parte 2: Cetonas y aldehídos. Ácidos carboxílicos y derivados. Otros grupos funcionales: nitrocompuestos, grupos funcionales que contengan azufre y silanos.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-38",
+    "etq": "T38",
+    "titulo": "Detección de iones. Conversión analógica-digital",
+    "alcance": "Detección de iones. Conversión analógica-digital. Velocidad de digitalización. Conversión tiempo-digital. Multiplicadores electrónicos de tipo dínodo. Multiplicadores electrónicos de tipo canal. Placas de microcanales.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-39",
+    "etq": "T39",
+    "titulo": "Movilidad iónica acoplada a espectrometría de masas",
+    "alcance": "Movilidad iónica acoplada a espectrometría de masas. Espectrometría de movilidad iónica. Sección transversal de colisión. Tipos de instrumentación: movilidad iónica basada en dispersión temporal, movilidad iónica basada en onda viajera, movilidad iónica basada en dispersión espacial y movilidad iónica basada en confinamiento y liberación selectiva.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-40",
+    "etq": "T40",
+    "titulo": "Movilidad iónica acoplada a espectrometría de masas",
+    "alcance": "Movilidad iónica acoplada a espectrometría de masas. Aplicaciones: Separación de isómeros. Filtrado de señales. Identificación de componentes en mezclas complejas. Diseño del experimento en movilidad iónica.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-41",
+    "etq": "T41",
+    "titulo": "Espectrometría de masas",
+    "alcance": "Espectrometría de masas. Información analítica cualitativa. Iones típicos. Presencia del ion molecular. Neutros típicos. Alta resolución. Masa exacta. Determinación de la composición elemental. Abundancias isotópicas. Fragmentos y neutros. Número de anillos o insaturaciones. Multicarga. Análisis de péptidos.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-42",
+    "etq": "T42",
+    "titulo": "Espectrometría de masas",
+    "alcance": "Espectrometría de masas. Información analítica cuantitativa. Especificidad. Sensibilidad y límite de detección. Métodos con patrón externo. Fuentes de error. Métodos con patrón interno. Dilución isotópica.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-43",
+    "etq": "T43",
+    "titulo": "Adquisición de datos y control instrumental en espectrometría de masas mediante el entorno MassLynx",
+    "alcance": "Adquisición de datos y control instrumental en espectrometría de masas mediante el entorno MassLynx. Estructura general y arquitectura del entorno MassLynx. Configuración de métodos de adquisición para espectrometría de masas. Control de analizadores tipo QQQ, QTOF. Calibración del equipo. Programación y gestión (UHPLC y GC). Métodos de adquisición en modo MRM, TOF-MS, TOF-MS/MS y funciones combinadas. Gestión de las",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-44",
+    "etq": "T44",
+    "titulo": "Software de procesamiento de datos para análisis cuantitativo y cualitativo",
+    "alcance": "Software de procesamiento de datos para análisis cuantitativo y cualitativo. Targetlynx. Chromalynx. Flujo de trabajo en TargetLynx: definición de compuestos, construcción de curvas de calibración. Parámetros críticos: linealidad, precisión, exactitud, S/N, LOQ y LOD. Cálculo automático de concentraciones y efecto matriz. Exportación de informes y datos brutos. Análisis cualitativo automatizado con ChromaLynx. Paráme",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-45",
+    "etq": "T45",
+    "titulo": "Procesamiento avanzado en espectrometría de masas",
+    "alcance": "Procesamiento avanzado en espectrometría de masas. Progenesis QI, DriftScope y MassFragment. Procesamiento no dirigido con Progenesis QI. Análisis estadístico multivariante e identificación de biomarcadores. Integración con bases de datos metabolómicas y proteómicas. Visualización de datos tridimensionales en movilidad iónica con DriftScope. Interpretación estructural y predicción de fragmentación con MassFragment. A",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-46",
+    "etq": "T46",
+    "titulo": "Fundamentos de cromatografía líquida (HPLC/UHPLC)",
+    "alcance": "Fundamentos de cromatografía líquida (HPLC/UHPLC): Principio de separación. Ecuación teórica. Cinética de separación. Fase móvil. Ventajas y limitaciones de UHPLC frente a HPLC. Cromatografía UHPLC 2D.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-47",
+    "etq": "T47",
+    "titulo": "Columnas cromatográficas",
+    "alcance": "Columnas cromatográficas: fases estacionarias y empaquetado. Tipos de columnas: empaquetadas vs monolíticas vs capilares. Fases estacionarias para LC. Cromatografía HILIC. Cromatografía de exclusión por tamaño. Propiedades de partícula. Parámetros de columna. Mantenimiento y vida útil de la columna.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-48",
+    "etq": "T48",
+    "titulo": "Selección de la columna cromatográfica según aplicación",
+    "alcance": "Selección de la columna cromatográfica según aplicación: Pautas de selección. Péptidos y proteínas. Ácidos nucleicos. Polifenoles en plantas y alimentos. Antioxidantes en fruta. Antibióticos en muestras de agua y purines.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-49",
+    "etq": "T49",
+    "titulo": "UHPLC: diseño práctico y aspectos técnicos del sistema",
+    "alcance": "UHPLC: diseño práctico y aspectos técnicos del sistema. Componentes del sistema UHPLC. Requisitos de la bomba y estabilidad de flujo a alta presión. Materiales y conexiones y su impacto en el rendimiento. Gestión de gradientes a alta presión. Efectos de la compresibilidad del solvente y mantenimiento preventivo. Integración con MS: consideraciones de flujo. Acoplamiento a PDA y TUV. Aditivos para la fase móvil.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-50",
+    "etq": "T50",
+    "titulo": "Cromatografía de gases (GC) y acoplamiento GC–MS",
+    "alcance": "Cromatografía de gases (GC) y acoplamiento GC–MS: Principios de GC. Columnas capilares vs empaquetadas. Selección de columnas. Detectores clásicos (FID, ECD) y su comparativa con MS. Acoplamiento GC–MS. APGC. Derivatización para GC–MS. Problemas comunes: degradación térmica, arrastre de solvente, ghost peaks.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-51",
+    "etq": "T51",
+    "titulo": "Interfaces y acoplamientos cromatografía–espectrometría de masas UHPLC–MS",
+    "alcance": "Interfaces y acoplamientos cromatografía–espectrometría de masas UHPLC–MS. Requisitos y retos al acoplar LC a MS. Interfaces comunes (ESI, APCI, APPI). Sistemas de desolvatado y nebulización. Ajustes prácticos para optimizar sensibilidad. Problemas de compatibilidad y estrategias para solucionarlos.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-52",
+    "etq": "T52",
+    "titulo": "Cromatografía de Fluidos Supercríticos (SFC), UltraPerformance Convergence Chromatography (UPC)",
+    "alcance": "Cromatografía de Fluidos Supercríticos (SFC), UltraPerformance Convergence Chromatography (UPC). Principios fundamentales. Fase móvil y selectividad. Instrumentación. Ventajas de la UPC. Interface al espectrómetro de masas, configuración. Tipos de columnas para cromatografía supercrítica. Aplicaciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-53",
+    "etq": "T53",
+    "titulo": "Preparación de muestras y técnicas de limpieza para LC–MS/GC–MS",
+    "alcance": "Preparación de muestras y técnicas de limpieza para LC–MS/GC–MS. Extracción en fase sólida (SPE). Extracción líquido–líquido, protein precipitation, QuEChERS y microextracción en fase sólida. Concentración y reconstitución, elección de solventes compatibles con MS. Filtración, centrifugación y manejo de particulados para proteger columnas y fuente. Control de matriz y minimización de supresión de ionización. Uso de e",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-54",
+    "etq": "T54",
+    "titulo": "Desarrollo de métodos cromatográficos y estrategias de optimización y resolución de problemas",
+    "alcance": "Desarrollo de métodos cromatográficos y estrategias de optimización y resolución de problemas. Estrategia de desarrollo de método. Criterios de robustez y validación. Optimización práctica del método. Resolución de problemas frecuentes. Escalado de método y transferencia entre equipos. Documentación y control de calidad en laboratorio.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-55",
+    "etq": "T55",
+    "titulo": "Validación de métodos analíticos",
+    "alcance": "Validación de métodos analíticos. Exactitud. Precisión. Especificidad. Límite de detección. Límite de cuantificación. Linealidad y rango. Robustez.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-56",
+    "etq": "T56",
+    "titulo": "Quimiometría general",
+    "alcance": "Quimiometría general: Estadística descriptiva y de comparación. Métodos de reconocimiento de pautas supervisado y no supervisado. Diseño estadístico de experimentos.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-57",
+    "etq": "T57",
+    "titulo": "Conceptos básicos sobre vacío",
+    "alcance": "Conceptos básicos sobre vacío: Régimen de vacío, rango de presión. Tecnología. Bombas de vacío: motores del sistema. Medidores de vacío. Secuencia de actuación y control. Troubleshooting.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-58",
+    "etq": "T58",
+    "titulo": "Troubleshooting en sistemas de masas y mantenimiento (QTOF, QQQ Y GC-MS)",
+    "alcance": "Troubleshooting en sistemas de masas y mantenimiento (QTOF, QQQ Y GC-MS): Problemas de la fuente de iones, problemas de calibración de masas y rendimiento analítico, problemas de comunicación y electrónica y problemas de contaminación.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-59",
+    "etq": "T59",
+    "titulo": "Gestión de una red con virtualización (VMWARE) (Vsphere7 Essential)",
+    "alcance": "Gestión de una red con virtualización (VMWARE) (Vsphere7 Essential). Conceptos fundamentales de virtualización y el Hypervisor ESXi. Componentes de una VM y gestión de recursos. Uso de la máquina virtual (VM). Gestión de datos e importancia de los Snapshots. Alta disponibilidad (HA). Vmotion.",
+    "gratis": false
+   },
+   {
+    "id": "ucasa-60",
+    "etq": "T60",
+    "titulo": "Gestión de usuarios con Windows Server 2019",
+    "alcance": "Gestión de usuarios con Windows Server 2019. Mantenimiento y seguridad de cuentas de usuario. Automatización de tareas con PowerShell en Windows Server. Seguridad de red y firewall avanzado. Server Manager. Active Directory.",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "uca-laboral-titulado-superior",
   "nombre": "Titulado Superior (perfiles Emprendimiento y Prácticas de Empresa)",
   "organismo": "Universidad de Cádiz",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal laboral",
   "turno": "Libre",
   "grupo": "Grupo 1",
@@ -2496,7 +2918,464 @@
    "ejercicios": [
     "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "ucasup-1",
+    "etq": "T1",
+    "titulo": "La Ley Orgánica del Sistema Universitario",
+    "alcance": "La Ley Orgánica del Sistema Universitario: funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; régimen jurídico y estructura de las universidades públicas; gobernanza de las universidades públicas.",
+    "gratis": true
+   },
+   {
+    "id": "ucasup-2",
+    "etq": "T2",
+    "titulo": "La Ley Orgánica del Sistema Universitario",
+    "alcance": "La Ley Orgánica del Sistema Universitario: Organización de enseñanzas; Investigación y transferencia e intercambio del conocimiento e innovación.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-3",
+    "etq": "T3",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Disposiciones Generales. Creación y Reconocimiento de Universidades. Docencia, Investigación y Transferencia de Conocimiento. Estudiantado. Personal Técnico, de Gestión y de Administración y Servicios. Estructura de las Universidades y Gobernanza de las Universidades Públicas.",
+    "gratis": true
+   },
+   {
+    "id": "ucasup-4",
+    "etq": "T4",
+    "titulo": "El Estatuto Básico del Empleado Público",
+    "alcance": "El Estatuto Básico del Empleado Público: deberes de los empleados públicos; código de conducta.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-5",
+    "etq": "T5",
+    "titulo": "El IV Convenio Colectivo del Personal Laboral de las Universidades Públicas de Andalucía",
+    "alcance": "El IV Convenio Colectivo del Personal Laboral de las Universidades Públicas de Andalucía: normas de organización del trabajo: principios generales y clasificación profesional; la regulación en el convenio de la prevención de riesgos laborales.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-6",
+    "etq": "T6",
+    "titulo": "Administración para la calidad",
+    "alcance": "Administración para la calidad. Modelos de gestión: el modelo EFQM. Los sistemas de certificación y acreditación.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-7",
+    "etq": "T7",
+    "titulo": "El factor humano en la organización",
+    "alcance": "El factor humano en la organización. El grupo en la organización. El trabajo en equipo. La comunicación interna en las organizaciones. Resolución de problemas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-8",
+    "etq": "T8",
+    "titulo": "Acceso a la información pública y transparencia",
+    "alcance": "Acceso a la información pública y transparencia: el Reglamento de Transparencia de la Universidad de Cádiz. Reclamaciones, quejas y peticiones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-9",
+    "etq": "T9",
+    "titulo": "Sistema de Dirección Estratégica de la Universidad de Cádiz",
+    "alcance": "Sistema de Dirección Estratégica de la Universidad de Cádiz: misión, visión, valores, ámbitos estratégicos y objetivos.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-10",
+    "etq": "T10",
+    "titulo": "Normativa de ejecución presupuestaria de la Universidad de Cádiz",
+    "alcance": "Normativa de ejecución presupuestaria de la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-11",
+    "etq": "T11",
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+    "alcance": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Objeto y ámbito de la Ley. El principio de igualdad y la tutela contra la discriminación. El principio de igualdad en el empleo público: Criterios de actuación de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-12",
+    "etq": "T12",
+    "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales",
+    "alcance": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Disposiciones generales. Principios de protección de los datos. Derecho de las personas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-13",
+    "etq": "T13",
+    "titulo": "Código Ético de la Universidad de Cádiz (Código Peñalver)",
+    "alcance": "Código Ético de la Universidad de Cádiz (Código Peñalver).",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-14",
+    "etq": "T14",
+    "titulo": "La Ley 14/2011, de la Ciencia, la Tecnología y la Innovación",
+    "alcance": "La Ley 14/2011, de la Ciencia, la Tecnología y la Innovación.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-15",
+    "etq": "T15",
+    "titulo": "La Ley 38/2003, de 17 de noviembre, General de Subvenciones",
+    "alcance": "La Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-16",
+    "etq": "T16",
+    "titulo": "Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones",
+    "alcance": "Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-17",
+    "etq": "T17",
+    "titulo": "Ley 3/2018 de 8 de mayo, Andaluza de Fomento del Emprendimiento",
+    "alcance": "Ley 3/2018 de 8 de mayo, Andaluza de Fomento del Emprendimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-18",
+    "etq": "T18",
+    "titulo": "El Plan General de Emprendimiento de Andalucía",
+    "alcance": "El Plan General de Emprendimiento de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-19",
+    "etq": "T19",
+    "titulo": "Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización",
+    "alcance": "Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-20",
+    "etq": "T20",
+    "titulo": "Ley 28/2022, de 21 de diciembre, de fomento del ecosistema de las empresas emergentes",
+    "alcance": "Ley 28/2022, de 21 de diciembre, de fomento del ecosistema de las empresas emergentes.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-21",
+    "etq": "T21",
+    "titulo": "Ley 18/2022, de 28 de septiembre, de creación y crecimiento de empresas",
+    "alcance": "Ley 18/2022, de 28 de septiembre, de creación y crecimiento de empresas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-22",
+    "etq": "T22",
+    "titulo": "Ley 20/2007, de 11 de julio, del Estatuto del trabajo autónomo",
+    "alcance": "Ley 20/2007, de 11 de julio, del Estatuto del trabajo autónomo.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-23",
+    "etq": "T23",
+    "titulo": "Ley 5/2011, de 29 de marzo, de Economía Social",
+    "alcance": "Ley 5/2011, de 29 de marzo, de Economía Social.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-24",
+    "etq": "T24",
+    "titulo": "Sociedades cooperativas y sociedades laborales",
+    "alcance": "Sociedades cooperativas y sociedades laborales. Requisitos y normativa reguladora.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-25",
+    "etq": "T25",
+    "titulo": "Agentes impulsores del emprendimiento a nivel nacional, internacional y autonómico",
+    "alcance": "Agentes impulsores del emprendimiento a nivel nacional, internacional y autonómico.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-26",
+    "etq": "T26",
+    "titulo": "Fuentes de financiación para proyectos emprendedores",
+    "alcance": "Fuentes de financiación para proyectos emprendedores.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-27",
+    "etq": "T27",
+    "titulo": "La persona emprendedora",
+    "alcance": "La persona emprendedora. Marco europeo de competencias para el emprendimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-28",
+    "etq": "T28",
+    "titulo": "Ecosistemas emprendedores",
+    "alcance": "Ecosistemas emprendedores. El ecosistema emprendedor en España. Ecosistemas emprendedores internacionales de éxito. Tendencias del emprendimiento. Valores del emprendedor y cambio cultural.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-29",
+    "etq": "T29",
+    "titulo": "La actividad emprendedora universitaria",
+    "alcance": "La actividad emprendedora universitaria. Recursos para la creación y el desarrollo empresarial en la Universidad de Cádiz. Actividades de promoción, difusión y sensibilización de la cultura emprendedora desarrolladas por la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-30",
+    "etq": "T30",
+    "titulo": "Metodología de diseño de un proyecto empresarial",
+    "alcance": "Metodología de diseño de un proyecto empresarial: La Idea de Negocio. Modelos de negocio ágiles. Análisis de mercado y definición de un plan de negocio.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-31",
+    "etq": "T31",
+    "titulo": "Metodología de desarrollo de un proyecto empresarial",
+    "alcance": "Metodología de desarrollo de un proyecto empresarial: Instrumentos de análisis de la viabilidad de la empresa. Instrumentos para la financiación de proyectos empresariales. Principales ratios económico-financieros de interés.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-32",
+    "etq": "T32",
+    "titulo": "Formas de constitución y formas jurídicas de la empresa en España",
+    "alcance": "Formas de constitución y formas jurídicas de la empresa en España. Trámites legales y administrativos.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-33",
+    "etq": "T33",
+    "titulo": "Agentes del Sistema Andaluz de Emprendimiento",
+    "alcance": "Agentes del Sistema Andaluz de Emprendimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-34",
+    "etq": "T34",
+    "titulo": "Concepto de startup",
+    "alcance": "Concepto de startup . Métodos de valorización de startups . Formas jurídicas para la constitución de una startup . Trámites de constitución e inicio de actividad. Financiación de startups : alternativas y estrategias. Definición, características y tipología. La regulación en España.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-35",
+    "etq": "T35",
+    "titulo": "Concepto y características de las de spin off académicas",
+    "alcance": "Concepto y características de las de spin off académicas. Factores de éxito. Beneficios de la creación de spin off en los centros de investigación. Aspectos básicos de la creación de una spin off académica.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-36",
+    "etq": "T36",
+    "titulo": "Creación de Empresas de base Tecnológica en el ámbito universitario",
+    "alcance": "Creación de Empresas de base Tecnológica en el ámbito universitario. Regulación normativa y aplicación en la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-37",
+    "etq": "T37",
+    "titulo": "Derechos de propiedad industrial e intelectual",
+    "alcance": "Derechos de propiedad industrial e intelectual. Protección de las invenciones: patentes y modelos de utilidad. Normativa de la Universidad de Cádiz sobre propiedad industrial e intelectual.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-38",
+    "etq": "T38",
+    "titulo": "Nombres comerciales. Concepto",
+    "alcance": "Nombres comerciales. Concepto. Características. Requisitos para la obtención de un nombre comercial.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-39",
+    "etq": "T39",
+    "titulo": "Marcas registradas. Concepto",
+    "alcance": "Marcas registradas. Concepto. Diferencias con otros signos distintivos. Requisitos para la obtención de una marca. Tipos de marcas. Alcance y duración de la protección. Obligaciones del titular.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-40",
+    "etq": "T40",
+    "titulo": "La Ley 38/2003, de 17 de noviembre, General de Subvenciones",
+    "alcance": "La Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-41",
+    "etq": "T41",
+    "titulo": "Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones",
+    "alcance": "Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-42",
+    "etq": "T42",
+    "titulo": "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de",
+    "alcance": "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-43",
+    "etq": "T43",
+    "titulo": "Real Decreto 1791/2010, de 30 de diciembre, por el que se aprueba el Estatuto del Estudiante Universitario",
+    "alcance": "Real Decreto 1791/2010, de 30 de diciembre, por el que se aprueba el Estatuto del Estudiante Universitario.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-44",
+    "etq": "T44",
+    "titulo": "Reglamento del Régimen Disciplinario de los estudiantes de la Universidad de Cádiz",
+    "alcance": "Reglamento del Régimen Disciplinario de los estudiantes de la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-45",
+    "etq": "T45",
+    "titulo": "Reglamento UCA/CG09/2023, de 25 de julio, Normas de Convivencia de la Universidad de Cádiz",
+    "alcance": "Reglamento UCA/CG09/2023, de 25 de julio, Normas de Convivencia de la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-46",
+    "etq": "T46",
+    "titulo": "Real Decreto 592/2014 de 11 de julio, por el que se regulan las prácticas académicas externas de los estudiantes universitarios",
+    "alcance": "Real Decreto 592/2014 de 11 de julio, por el que se regulan las prácticas académicas externas de los estudiantes universitarios.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-47",
+    "etq": "T47",
+    "titulo": "Orden de 28 de julio de 2005, reguladora de subvenciones a las Universidades de Andalucía para la ejecución de programas de formación orient",
+    "alcance": "Orden de 28 de julio de 2005, reguladora de subvenciones a las Universidades de Andalucía para la ejecución de programas de formación orientados a la inserción laboral del alumnado universitario en empresas e instituciones de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-48",
+    "etq": "T48",
+    "titulo": "Reglamento UCA/CG08/2012, de 13 de julio, de prácticas académicas externas de los alumnos de la Universidad de Cádiz",
+    "alcance": "Reglamento UCA/CG08/2012, de 13 de julio, de prácticas académicas externas de los alumnos de la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-49",
+    "etq": "T49",
+    "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social",
+    "alcance": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social. Normas generales. Régimen General de la Seguridad Social. Especial referencia a las prácticas formativas y prácticas académicas externas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-50",
+    "etq": "T50",
+    "titulo": "Real Decreto 1493/2011, de 24 de octubre, por el que se regulan los términos y las condiciones de inclusión en el Régimen General de la Segu",
+    "alcance": "Real Decreto 1493/2011, de 24 de octubre, por el que se regulan los términos y las condiciones de inclusión en el Régimen General de la Seguridad Social de las personas que participen en programas de formación, en desarrollo de lo previsto en la disposición adicional tercera de la Ley 27/2011, de 1 de agosto, sobre actualización, adecuación y modernización del sistema de la Seguridad Social.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-51",
+    "etq": "T51",
+    "titulo": "Orden ISM/386/2024, de 29 de abril, por la que se regula la suscripción de convenio especial con la Seguridad Social a efectos del cómputo d",
+    "alcance": "Orden ISM/386/2024, de 29 de abril, por la que se regula la suscripción de convenio especial con la Seguridad Social a efectos del cómputo de la cotización por los períodos de prácticas formativas y de prácticas académicas externas reguladas en la disposición adicional quincuagésima segunda del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre,",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-52",
+    "etq": "T52",
+    "titulo": "Orden PJC/297/2026, de 30 de marzo, por la que se desarrollan las normas legales de cotización a la Seguridad Social, desempleo, protección",
+    "alcance": "Orden PJC/297/2026, de 30 de marzo, por la que se desarrollan las normas legales de cotización a la Seguridad Social, desempleo, protección por cese de actividad, Fondo de Garantía Salarial y formación profesional para el ejercicio 2026.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-53",
+    "etq": "T53",
+    "titulo": "Reglamento UCA/CG08/2018, de 25 de julio, por el que se regula la realización de convenios en la Universidad de Cádiz",
+    "alcance": "Reglamento UCA/CG08/2018, de 25 de julio, por el que se regula la realización de convenios en la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-54",
+    "etq": "T54",
+    "titulo": "Convenio específico de cooperación educativa entre la Universidad de Cádiz y las entidades colaboradoras para la realización de prácticas ex",
+    "alcance": "Convenio específico de cooperación educativa entre la Universidad de Cádiz y las entidades colaboradoras para la realización de prácticas externas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-55",
+    "etq": "T55",
+    "titulo": "Prácticas en la Universidad de Cádiz",
+    "alcance": "Prácticas en la Universidad de Cádiz: definición, modalidades, características y tramitación.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-56",
+    "etq": "T56",
+    "titulo": "Portales de Gestión de prácticas curriculares en la Universidad de Cádiz",
+    "alcance": "Portales de Gestión de prácticas curriculares en la Universidad de Cádiz: ICARO y GADES.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-57",
+    "etq": "T57",
+    "titulo": "Programa de becas Prácticas Fundación ONCE-CRUE",
+    "alcance": "Programa de becas Prácticas Fundación ONCE-CRUE.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-58",
+    "etq": "T58",
+    "titulo": "Programa ICEX de prácticas académicas para estudiantes universitarios",
+    "alcance": "Programa ICEX de prácticas académicas para estudiantes universitarios.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-59",
+    "etq": "T59",
+    "titulo": "Programa Campus Rural para la realización de prácticas universitarias en entornos rurales",
+    "alcance": "Programa Campus Rural para la realización de prácticas universitarias en entornos rurales.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-60",
+    "etq": "T60",
+    "titulo": "Prácticas Internacionales en Instituciones Europeas",
+    "alcance": "Prácticas Internacionales en Instituciones Europeas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-61",
+    "etq": "T61",
+    "titulo": "Orden de 29 de abril de 2024, por la que se aprueba el modelo de convenio tipo de colaboración para la realización de la fase de formación e",
+    "alcance": "Orden de 29 de abril de 2024, por la que se aprueba el modelo de convenio tipo de colaboración para la realización de la fase de formación en empresas u organismos equiparados de las enseñanzas de formación profesional.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-62",
+    "etq": "T62",
+    "titulo": "Instrucción 1/2025 de la Secretaría General de Formación Profesional de la Consejería de Desarrollo Educativo y Formación Profesional para e",
+    "alcance": "Instrucción 1/2025 de la Secretaría General de Formación Profesional de la Consejería de Desarrollo Educativo y Formación Profesional para el desarrollo, en las universidades públicas andaluzas, del módulo de Formación en Centros de Trabajo y del período de formación en empresa u organismo equiparado de las ofertas de los grados D y E del Sistema de Formación Profesional.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-63",
+    "etq": "T63",
+    "titulo": "Definición de objetivos de aprendizaje y competencias a desarrollar en las prácticas",
+    "alcance": "Definición de objetivos de aprendizaje y competencias a desarrollar en las prácticas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-64",
+    "etq": "T64",
+    "titulo": "Diseño de planes de acogida y seguimiento para los estudiantes en prácticas",
+    "alcance": "Diseño de planes de acogida y seguimiento para los estudiantes en prácticas.",
+    "gratis": false
+   },
+   {
+    "id": "ucasup-65",
+    "etq": "T65",
+    "titulo": "Ética y calidad de las prácticas universitarias",
+    "alcance": "Ética y calidad de las prácticas universitarias.",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "uco-administrativa",
@@ -2874,7 +3753,7 @@
   "nombre": "Técnico Especialista de Servicios Técnicos de Obras, Equipamiento y Mantenimiento",
   "organismo": "Universidad de Córdoba",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal laboral",
   "turno": "Libre",
   "grupo": "Grupo III",
@@ -2999,7 +3878,646 @@
     "Primer ejercicio",
     "Segundo ejercicio"
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "ucolab-1",
+    "etq": "T1",
+    "titulo": "La Constitución Española de 1978",
+    "alcance": "La Constitución Española de 1978: el reconocimiento constitucional de la autonomía universitaria.",
+    "gratis": true
+   },
+   {
+    "id": "ucolab-2",
+    "etq": "T2",
+    "titulo": "La Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "La Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Título I. Funciones del Sistema Universitario y autonomía de las Universidades. Título II. Creación y reconocimiento de las Universidades y calidad del sistema universitario.",
+    "gratis": true
+   },
+   {
+    "id": "ucolab-3",
+    "etq": "T3",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Título Preliminar. De las disposiciones generales. Título II. Comunidad universitaria: Capítulo IV.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-4",
+    "etq": "T4",
+    "titulo": "Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto de los Trabajadores",
+    "alcance": "Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto de los Trabajadores: Título I. De la relación individual de trabajo: Capítulo I (sección 2.ª), Capítulo II (Sección 2.ª). Título II. De los derechos de representación colectiva y de reunión de los trabajadores en la empresa.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-5",
+    "etq": "T5",
+    "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Públi",
+    "alcance": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Título III. Derechos y deberes. Código de conducta de los empleados públicos. Título VII. Régimen disciplinario.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-6",
+    "etq": "T6",
+    "titulo": "Estatutos de la Universidad de Córdoba",
+    "alcance": "Estatutos de la Universidad de Córdoba: Título I. Naturaleza, fines y competencias. Emblemas, honores y ceremonias: Capítulo I. Naturales, fines y competencias. Título II. De la comunidad universitaria: Sección 5.ª del Capítulo 4. Título IV. Estructura de la Universidad. Título V. Gobierno, administración y representación de la Universidad: Capítulos del 2 al 8.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-7",
+    "etq": "T7",
+    "titulo": "IV Convenio Colectivo del Personal Laboral de las Universidades andaluzas",
+    "alcance": "IV Convenio Colectivo del Personal Laboral de las Universidades andaluzas: Título Preliminar. Objeto, ámbito y vigencia. Título I. Garantías. Título II. Normas de organización del trabajo. Anexo III: Régimen disciplinario.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-8",
+    "etq": "T8",
+    "titulo": "Reglamento 25/2022 de ingreso, provisión de puestos de trabajo y promoción profesional del Personal de Administración y Servicios de la Univ",
+    "alcance": "Reglamento 25/2022 de ingreso, provisión de puestos de trabajo y promoción profesional del Personal de Administración y Servicios de la Universidad de Córdoba: Título I. Selección, nombramiento y contratación.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-9",
+    "etq": "T9",
+    "titulo": "Reglamento 17/2023 sobre jornada de trabajo, horario, vacaciones, permisos y licencias del Personal de Administración y Servicios de la Univ",
+    "alcance": "Reglamento 17/2023 sobre jornada de trabajo, horario, vacaciones, permisos y licencias del Personal de Administración y Servicios de la Universidad de Córdoba.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-10",
+    "etq": "T10",
+    "titulo": "Ley 36/2011, de 10 de octubre, reguladora de la jurisdicción social",
+    "alcance": "Ley 36/2011, de 10 de octubre, reguladora de la jurisdicción social: Título V. De la evitación del proceso.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-11",
+    "etq": "T11",
+    "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales",
+    "alcance": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales: Títulos I. Disposiciones generales. Título II. Principios de protección de datos. Título III. Derechos de las personas. Título IV. Disposiciones aplicables a tratamientos concretos. Título V. Responsable y encargado del tratamiento: Capítulo III.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-12",
+    "etq": "T12",
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+    "alcance": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Título Preliminar. Objeto y ámbito de la ley. Título I. El principio de igualdad y la tutela contra la discriminación. Título II. Políticas públicas para la igualdad: Capítulo II, artículo 25. Título IV. El derecho al trabajo en igualdad de oportunidades: Capítulo II. Título V. El principio de igualdad en el empleo público: Capítulo ",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-13",
+    "etq": "T13",
+    "titulo": "Ley 15/2022, de 12 de julio, Integral para la Igualdad de trato y la no discriminación",
+    "alcance": "Ley 15/2022, de 12 de julio, Integral para la Igualdad de trato y la no discriminación. Título Preliminar. Título I. Derecho a la igualdad de tramo y no discriminación: Capítulo I. Título II. Defensa y promoción del derecho a la igualdad de trato y no discriminación: Capítulo I. Título IV. Infracciones y sanciones en materia de igualdad de trato y no discriminación.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-14",
+    "etq": "T14",
+    "titulo": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales",
+    "alcance": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales. Capítulo III. Derechos y obligaciones. Capítulo V. Consulta y participación de los trabajadores.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-15",
+    "etq": "T15",
+    "titulo": "Disposiciones mínimas de seguridad y salud en las obras de construcción",
+    "alcance": "Disposiciones mínimas de seguridad y salud en las obras de construcción: Agentes intervinientes, estudio y plan de seguridad y salud, documentación preventiva básica. Coordinación de actividades empresariales en centros universitarios con concurrencia de contratas, subcontratas y personal propio.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-16",
+    "etq": "T16",
+    "titulo": "Organismos de control, inspecciones reglamentarias y verificaciones periódicas",
+    "alcance": "Organismos de control, inspecciones reglamentarias y verificaciones periódicas. Concepto, funciones y relación con las instalaciones y equipos de la Universidad.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-17",
+    "etq": "T17",
+    "titulo": "Documentación técnica de obras e instalaciones",
+    "alcance": "Documentación técnica de obras e instalaciones: Código Técnico de la Edificación (estructura general, documentos básicos y alcance en conservación, mantenimiento y pequeñas intervenciones), memorias, planos, esquemas, mediciones, presupuestos, pliegos, manuales de uso y mantenimiento y certificados.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-18",
+    "etq": "T18",
+    "titulo": "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, pred",
+    "alcance": "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, predictivo y basado en condición, Sistemas informatizados de gestión del mantenimiento (GMAO: estructura funcional, órdenes de trabajo, inventario, históricos, indicadores, niveles de servicio y trazabilidad).",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-19",
+    "etq": "T19",
+    "titulo": "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaci",
+    "alcance": "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaciones universitarias.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-20",
+    "etq": "T20",
+    "titulo": "Mantenimiento de instalaciones térmicas conforme al Reglamento de Instalaciones Térmicas en los Edificios (RITE)",
+    "alcance": "Mantenimiento de instalaciones térmicas conforme al Reglamento de Instalaciones Térmicas en los Edificios (RITE): estructura, IT 1 a IT 4, exigencias de bienestar, eficiencia energética y seguridad, operaciones preventivas, registros, periodicidades, control de rendimiento y documentación.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-21",
+    "etq": "T21",
+    "titulo": "Eficiencia energética en instalaciones térmicas",
+    "alcance": "Eficiencia energética en instalaciones térmicas: rendimientos, regulación, recuperación de energía, optimización de horarios y control de consumos, automatización y control, diagnóstico de averías en instalaciones térmicas y frigoríficas.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-22",
+    "etq": "T22",
+    "titulo": "Instalaciones de climatización, sistemas de expansión directa, enfriadoras y bombas de calor, calderas y salas de calderas, unidades termina",
+    "alcance": "Instalaciones de climatización, sistemas de expansión directa, enfriadoras y bombas de calor, calderas y salas de calderas, unidades terminales y de tratamiento de aire, redes hidráulicas en climatización y calefacción, ventilación y calidad de aire interior.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-23",
+    "etq": "T23",
+    "titulo": "Legionelosis. Instalaciones con riesgo, normativa aplicable, programas de mantenimiento higiénico-sanitario, registros y controles",
+    "alcance": "Legionelosis. Instalaciones con riesgo, normativa aplicable, programas de mantenimiento higiénico-sanitario, registros y controles.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-24",
+    "etq": "T24",
+    "titulo": "Cámaras frigoríficas y recintos refrigerados",
+    "alcance": "Cámaras frigoríficas y recintos refrigerados: reglamento de seguridad para instalaciones frigoríficas. Clasificación de instalaciones, requisitos técnicos y de seguridad. Aislamiento, control térmico, conservación, mantenimiento y averías habituales.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-25",
+    "etq": "T25",
+    "titulo": "Refrigerantes fluorados y otros refrigerantes",
+    "alcance": "Refrigerantes fluorados y otros refrigerantes: tipología, seguridad, impacto ambiental, recuperación y control de fugas. Control de fugas, estanqueidad, recuperación de refrigerante y buenas prácticas de mantenimiento en instalaciones frigoríficas.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-26",
+    "etq": "T26",
+    "titulo": "Aparatos elevadores y ascensores",
+    "alcance": "Aparatos elevadores y ascensores. Componentes principales, seguridad, mantenimiento e inspecciones reglamentarias.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-27",
+    "etq": "T27",
+    "titulo": "Instalaciones de protección contra incendios",
+    "alcance": "Instalaciones de protección contra incendios. Sistemas de detección, alarma, abastecimiento, extinción y señalización. Mantenimiento conforme al RIPCI.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-28",
+    "etq": "T28",
+    "titulo": "Equipos a presión y aire comprimido",
+    "alcance": "Equipos a presión y aire comprimido. Clasificación, elementos principales, revisiones, inspecciones y operaciones de mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-29",
+    "etq": "T29",
+    "titulo": "Instalaciones receptoras de combustibles gaseosos",
+    "alcance": "Instalaciones receptoras de combustibles gaseosos. Conceptos básicos, seguridad, puesta en servicio, mantenimiento y actuaciones en caso de incidencia.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-30",
+    "etq": "T30",
+    "titulo": "Soldadura blanda, uniones, estanqueidad, aislamiento y pequeñas operaciones auxiliares habituales en el mantenimiento de instalaciones",
+    "alcance": "Soldadura blanda, uniones, estanqueidad, aislamiento y pequeñas operaciones auxiliares habituales en el mantenimiento de instalaciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-31",
+    "etq": "T31",
+    "titulo": "Seguridad específica en trabajos de mantenimiento mecánico y térmico",
+    "alcance": "Seguridad específica en trabajos de mantenimiento mecánico y térmico: trabajos en altura, manipulación de cargas, espacios técnicos y bloqueo-etiquetado.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-32",
+    "etq": "T32",
+    "titulo": "Disposiciones mínimas de seguridad y salud en las obras de construcción",
+    "alcance": "Disposiciones mínimas de seguridad y salud en las obras de construcción: Agentes intervinientes, estudio y plan de seguridad y salud, documentación preventiva básica. Coordinación de actividades empresariales en centros universitarios con concurrencia de contratas, subcontratas y personal propio.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-33",
+    "etq": "T33",
+    "titulo": "Organismos de control, inspecciones reglamentarias y verificaciones periódicas",
+    "alcance": "Organismos de control, inspecciones reglamentarias y verificaciones periódicas. Concepto, funciones y relación con las instalaciones y equipos de la Universidad.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-34",
+    "etq": "T34",
+    "titulo": "Documentación técnica de obras e instalaciones",
+    "alcance": "Documentación técnica de obras e instalaciones: Código Técnico de la Edificación (estructura general, documentos básicos y alcance en conservación, mantenimiento y pequeñas intervenciones), memorias, planos, esquemas, mediciones, presupuestos, pliegos, manuales de uso y mantenimiento y certificados.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-35",
+    "etq": "T35",
+    "titulo": "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, pred",
+    "alcance": "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, predictivo y basado en condición, Sistemas informatizados de gestión del mantenimiento (GMAO: estructura funcional, órdenes de trabajo, inventario, históricos, indicadores, niveles de servicio y trazabilidad).",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-36",
+    "etq": "T36",
+    "titulo": "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaci",
+    "alcance": "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaciones universitarias.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-37",
+    "etq": "T37",
+    "titulo": "Instrumentación y medida eléctrica",
+    "alcance": "Instrumentación y medida eléctrica. Equipos de medida, procedimientos básicos y seguridad en las comprobaciones. Simbología y esquemas eléctricos. Interpretación de planos, cuadros, esquemas unifilares y multifilares.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-38",
+    "etq": "T38",
+    "titulo": "Reglamento Electrotécnico para Baja Tensión",
+    "alcance": "Reglamento Electrotécnico para Baja Tensión: estructura general, campo de aplicación y documentación técnica de las instalaciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-39",
+    "etq": "T39",
+    "titulo": "Instalaciones interiores o receptoras de baja tensión",
+    "alcance": "Instalaciones interiores o receptoras de baja tensión: conductores, canalizaciones, mecanismos y condiciones generales de ejecución. Protecciones contra sobreintensidades, sobretensiones y contactos eléctricos: selección básica, funcionamiento y mantenimiento. Puesta a tierra y continuidad de las masas. Esquemas de conexión, comprobaciones y conservación.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-40",
+    "etq": "T40",
+    "titulo": "Instalaciones de alumbrado interior y exterior",
+    "alcance": "Instalaciones de alumbrado interior y exterior: niveles de iluminación, eficiencia energética, alumbrado de emergencia y mantenimiento. Instalaciones en locales de pública concurrencia y locales con características especiales: requisitos específicos y verificaciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-41",
+    "etq": "T41",
+    "titulo": "Infraestructura para la recarga de vehículos eléctricos",
+    "alcance": "Infraestructura para la recarga de vehículos eléctricos. Esquemas de instalación, protecciones, modos de carga y mantenimiento básico.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-42",
+    "etq": "T42",
+    "titulo": "Motores eléctricos de corriente alterna",
+    "alcance": "Motores eléctricos de corriente alterna: tipología, arranque, inversión de giro, protecciones y maniobra. Cuadros eléctricos y centros de mando: componentes, embarrados, cableado, rotulación, verificación y conservación.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-43",
+    "etq": "T43",
+    "titulo": "Centros de transformación",
+    "alcance": "Centros de transformación: configuración general, celdas, transformadores, protecciones, maniobras y seguridad. Grupos electrógenos: tipologías, sistemas de conmutación, auxiliares, mantenimiento y pruebas de funcionamiento. Sistemas de alimentación ininterrumpida (SAI/UPS): arquitecturas, baterías, explotación y mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-44",
+    "etq": "T44",
+    "titulo": "Instalaciones básicas de telecomunicaciones y cableado estructurado en edificios",
+    "alcance": "Instalaciones básicas de telecomunicaciones y cableado estructurado en edificios: elementos principales y mantenimiento básico.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-45",
+    "etq": "T45",
+    "titulo": "Automatismos eléctricos",
+    "alcance": "Automatismos eléctricos: contactores, relés, temporizadores, finales de carrera, enclavamientos y esquemas de maniobra. Variadores de frecuencia y arrancadores: principios de funcionamiento, parametrización básica y seguridad. Autómatas programables (PLC): entradas y salidas, arquitectura básica, programación elemental y comunicaciones industriales.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-46",
+    "etq": "T46",
+    "titulo": "Riesgo eléctrico: Real Decreto 614/2001, trabajos con o sin tensión, zonas de trabajo y medidas preventivas",
+    "alcance": "Riesgo eléctrico: Real Decreto 614/2001, trabajos con o sin tensión, zonas de trabajo y medidas preventivas.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-47",
+    "etq": "T47",
+    "titulo": "Verificaciones e inspecciones reglamentarias en baja tensión",
+    "alcance": "Verificaciones e inspecciones reglamentarias en baja tensión: ITC-BT-05, continuidad, aislamiento, bucle, diferenciales y documentación. Condiciones técnicas y de seguridad en alta tensión e ITC-RAT: conceptos generales aplicables a centros de transformación e instalaciones hasta 30 kV.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-48",
+    "etq": "T48",
+    "titulo": "Eficiencia energética en instalaciones eléctricas",
+    "alcance": "Eficiencia energética en instalaciones eléctricas: factor de potencia, calidad de suministro, monitorización y estrategias de reducción de consumo. Instalaciones fotovoltaicas conectadas a baja tensión: paneles, inversores, protecciones, monitorización y mantenimiento básico.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-49",
+    "etq": "T49",
+    "titulo": "Disposiciones mínimas de seguridad y salud en las obras de construcción",
+    "alcance": "Disposiciones mínimas de seguridad y salud en las obras de construcción: Agentes intervinientes, estudio y plan de seguridad y salud, documentación preventiva básica. Coordinación de actividades empresariales en centros universitarios con concurrencia de contratas, subcontratas y personal propio.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-50",
+    "etq": "T50",
+    "titulo": "Organismos de control, inspecciones reglamentarias y verificaciones periódicas",
+    "alcance": "Organismos de control, inspecciones reglamentarias y verificaciones periódicas. Concepto, funciones y relación con las instalaciones y equipos de la Universidad.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-51",
+    "etq": "T51",
+    "titulo": "Documentación técnica de obras e instalaciones",
+    "alcance": "Documentación técnica de obras e instalaciones: Código Técnico de la Edificación (estructura general, documentos básicos y alcance en conservación, mantenimiento y pequeñas intervenciones), memorias, planos, esquemas, mediciones, presupuestos, pliegos, manuales de uso y mantenimiento y certificados.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-52",
+    "etq": "T52",
+    "titulo": "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, pred",
+    "alcance": "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, predictivo y basado en condición, Sistemas informatizados de gestión del mantenimiento (GMAO: estructura funcional, órdenes de trabajo, inventario, históricos, indicadores, niveles de servicio y trazabilidad).",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-53",
+    "etq": "T53",
+    "titulo": "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaci",
+    "alcance": "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaciones universitarias.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-54",
+    "etq": "T54",
+    "titulo": "Elementos constructivos de los edificios",
+    "alcance": "Elementos constructivos de los edificios. Cimentaciones y contención: tipologías, patologías habituales y criterios de observación y conservación. Estructuras de hormigón, acero y madera: tipologías, comportamiento básico, lesiones frecuentes y mantenimiento. Fachadas y cerramientos verticales: soluciones constructivas, puntos singulares, conservación y reparación. Cubiertas: impermeabilización, evacuación de aguas, ",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-55",
+    "etq": "T55",
+    "titulo": "Aislamiento térmico y acústico en edificios",
+    "alcance": "Aislamiento térmico y acústico en edificios: materiales, transmitancia, puentes térmicos y mejora de prestaciones. Sistemas de aislamiento térmico por el exterior (SATE), fachadas ventiladas y otras envolventes ligeras: Principios básicos y mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-56",
+    "etq": "T56",
+    "titulo": "Inspección técnica de edificios",
+    "alcance": "Inspección técnica de edificios. Patología de la edificación y diagnóstico básico: humedades, filtraciones, condensaciones y fisuración. Identificación, toma de datos, causas probables, criterios básicos de reparación y apoyo a informes técnicos.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-57",
+    "etq": "T57",
+    "titulo": "Abastecimiento y saneamiento",
+    "alcance": "Abastecimiento y saneamiento. Redes de saneamiento y drenaje en edificios y urbanización: tuberías, arquetas, sumideros, pendientes y operaciones de mantenimiento. Instalaciones de suministro y abastecimiento de agua en edificios: elementos, instalación, averías habituales y mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-58",
+    "etq": "T58",
+    "titulo": "Urbanización exterior",
+    "alcance": "Urbanización exterior: pavimentación, firmes, bordillos, drenajes, señalización y conservación. Accesibilidad y supresión de barreras arquitectónicas: condiciones básicas de uso y adaptación en edificios universitarios.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-59",
+    "etq": "T59",
+    "titulo": "Seguridad en caso de incendio en edificación",
+    "alcance": "Seguridad en caso de incendio en edificación: sectorización, resistencia al fuego de los elementos constructivos, criterios constructivos para garantizar la seguridad contra incendios.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-60",
+    "etq": "T60",
+    "titulo": "Organización básica de obras",
+    "alcance": "Organización básica de obras: agentes intervinientes, secuencia de ejecución, tajos, acopios, replanteo y control elemental. Control de calidad en obras y recepción de materiales: ensayos, comprobaciones documentales, tolerancias y registros. Andamios, escaleras, medios auxiliares y plataformas de trabajo: tipología, condiciones de uso y seguridad.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-61",
+    "etq": "T61",
+    "titulo": "Mediciones y presupuestos",
+    "alcance": "Mediciones y presupuestos: unidades de obra, medición, precios unitarios, descompuestos y apoyo técnico a la valoración económica.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-62",
+    "etq": "T62",
+    "titulo": "Gestión ambiental en obras",
+    "alcance": "Gestión ambiental en obras: ruido, polvo, vertidos, consumo de recursos y medidas correctoras. Gestión de residuos de construcción y demolición: clasificación, separación, almacenamiento y retirada conforme a normativa.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-63",
+    "etq": "T63",
+    "titulo": "Revestimientos continuos y discontinuos interiores",
+    "alcance": "Revestimientos continuos y discontinuos interiores: enlucidos, yesos, morteros, alicatados y aplacados. Pavimentos interiores y exteriores: cerámicos, pétreos, hormigón, vinílicos, laminados y pavimentos técnicos. Tabiquería seca y sistemas de cartón-yeso: componentes, tipologías, ejecución, refuerzos y reparación. Techos desmontables y falsos techos: tipos, subestructuras, registros y mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-64",
+    "etq": "T64",
+    "titulo": "Pinturas interiores: preparación de soportes, tipologías, sistemas de aplicación y conservación",
+    "alcance": "Pinturas interiores: preparación de soportes, tipologías, sistemas de aplicación y conservación. Pinturas exteriores y revestimientos de fachada: prestaciones, durabilidad, patologías y mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-65",
+    "etq": "T65",
+    "titulo": "Carpintería de madera",
+    "alcance": "Carpintería de madera: puertas, armarios, revestimientos, herrajes y operaciones de ajuste y conservación. Carpintería metálica, de aluminio y PVC: huecos, cerramientos, vidrios, juntas y mantenimiento. Cerrajería y elementos metálicos auxiliares: barandillas, rejas, protecciones, anclajes y conservación.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-66",
+    "etq": "T66",
+    "titulo": "Disposiciones mínimas de seguridad y salud en las obras de construcción",
+    "alcance": "Disposiciones mínimas de seguridad y salud en las obras de construcción: Agentes intervinientes, estudio y plan de seguridad y salud, documentación preventiva básica. Coordinación de actividades empresariales en centros universitarios con concurrencia de contratas, subcontratas y personal propio.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-67",
+    "etq": "T67",
+    "titulo": "Organismos de control, inspecciones reglamentarias y verificaciones periódicas",
+    "alcance": "Organismos de control, inspecciones reglamentarias y verificaciones periódicas. Concepto, funciones y relación con las instalaciones y equipos de la Universidad.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-68",
+    "etq": "T68",
+    "titulo": "Documentación técnica de obras e instalaciones",
+    "alcance": "Documentación técnica de obras e instalaciones: Código Técnico de la Edificación (estructura general, documentos básicos y alcance en conservación, mantenimiento y pequeñas intervenciones), memorias, planos, esquemas, mediciones, presupuestos, pliegos, manuales de uso y mantenimiento y certificados.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-69",
+    "etq": "T69",
+    "titulo": "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, pred",
+    "alcance": "Mantenimiento: terminología general del mantenimiento, tipos de mantenimiento según UNE-EN 13306, mantenimiento correctivo, preventivo, predictivo y basado en condición, Sistemas informatizados de gestión del mantenimiento (GMAO: estructura funcional, órdenes de trabajo, inventario, históricos, indicadores, niveles de servicio y trazabilidad).",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-70",
+    "etq": "T70",
+    "titulo": "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaci",
+    "alcance": "Sostenibilidad, uso racional de los recursos, economía circular y criterios ambientales aplicables al mantenimiento de edificios e instalaciones universitarias.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-71",
+    "etq": "T71",
+    "titulo": "Marco general de la gestión energética y de agua en edificios públicos",
+    "alcance": "Marco general de la gestión energética y de agua en edificios públicos: principios de eficiencia, control de consumos y mejora continua. Auditoría energética básica y toma de datos en edificios e instalaciones: indicadores, perfiles de consumo y análisis elemental.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-72",
+    "etq": "T72",
+    "titulo": "Eficiencia energética en la edificación",
+    "alcance": "Eficiencia energética en la edificación: envolvente, instalaciones, uso y explotación eficiente del edificio. Eficiencia energética en instalaciones eléctricas: factor de potencia, calidad de suministro, monitorización y estrategias de reducción de consumo. Certificación energética de edificios: fundamentos, toma de datos y apoyo técnico en mantenimiento y mejora del comportamiento energético.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-73",
+    "etq": "T73",
+    "titulo": "Contabilidad energética y seguimiento de consumos",
+    "alcance": "Contabilidad energética y seguimiento de consumos: lecturas, balance energético, indicadores y cuadros de mando. Sistemas de monitorización, telemedida y telegestión: variables energéticas y de consumo de agua, alarmas y explotación de datos.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-74",
+    "etq": "T74",
+    "titulo": "Sistemas de gestión técnica de edificios (BMS/GTB)",
+    "alcance": "Sistemas de gestión técnica de edificios (BMS/GTB): arquitectura básica, integración de instalaciones, supervisión y apoyo a la explotación. Norma ISO 50001 y sistemas de gestión de la energía: conceptos generales y aplicación orientativa al entorno universitario.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-75",
+    "etq": "T75",
+    "titulo": "Energía solar fotovoltaica para autoconsumo",
+    "alcance": "Energía solar fotovoltaica para autoconsumo: componentes, configuraciones básicas, seguridad, monitorización y mantenimiento. Energía solar térmica: principios de funcionamiento, acumulación, intercambio, explotación y mantenimiento. Biomasa y otras energías renovables térmicas: conceptos básicos, equipos y condicionantes de operación.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-76",
+    "etq": "T76",
+    "titulo": "Calidad del suministro energético y optimización de la demanda",
+    "alcance": "Calidad del suministro energético y optimización de la demanda: potencia, picos de carga y estrategias de uso racional. Almacenamiento energético: baterías, acumulación térmica y criterios básicos de seguridad y explotación.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-77",
+    "etq": "T77",
+    "titulo": "Agua en edificios e instalaciones universitarias",
+    "alcance": "Agua en edificios e instalaciones universitarias. Captación, suministro interior, consumo, ahorro y control de fugas. Redes de agua fría, agua caliente sanitaria y retornos: componentes, materiales, averías frecuentes y mantenimiento. Saneamiento, drenaje y evacuación de aguas: redes interiores y exteriores, elementos de registro y conservación.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-78",
+    "etq": "T78",
+    "titulo": "Prevención y control del consumo de agua",
+    "alcance": "Prevención y control del consumo de agua: sectorización, contadores, telegestión y medidas de eficiencia hídrica.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-79",
+    "etq": "T79",
+    "titulo": "Relación entre energía, agua, mantenimiento y sostenibilidad en campus universitarios",
+    "alcance": "Relación entre energía, agua, mantenimiento y sostenibilidad en campus universitarios. Enfoque integral de explotación técnica.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-80",
+    "etq": "T80",
+    "titulo": "Digitalización aplicada a energía y agua",
+    "alcance": "Digitalización aplicada a energía y agua: sensores, mantenimiento predictivo, alarmas, históricos y soporte a la toma de decisiones.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-81",
+    "etq": "T81",
+    "titulo": "Riesgo eléctrico. Real Decreto 614/2001, trabajos con o sin tensión, zonas de trabajo y medidas preventivas",
+    "alcance": "Riesgo eléctrico. Real Decreto 614/2001, trabajos con o sin tensión, zonas de trabajo y medidas preventivas.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-82",
+    "etq": "T82",
+    "titulo": "Automatización y control",
+    "alcance": "Automatización y control: variables de proceso, sensores, actuadores, lazos de control y estrategias de regulación. Autómatas programables (PLC): Entradas y salidas, arquitectura básica, programación elemental y comunicaciones industriales.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-83",
+    "etq": "T83",
+    "titulo": "Gestión de Documentos",
+    "alcance": "Gestión de Documentos.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-84",
+    "etq": "T84",
+    "titulo": "Automatización con Combinación de Correspondencia",
+    "alcance": "Automatización con Combinación de Correspondencia.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-85",
+    "etq": "T85",
+    "titulo": "Edición Técnica y Tablas",
+    "alcance": "Edición Técnica y Tablas.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-86",
+    "etq": "T86",
+    "titulo": "Impresión, exportación y accesibilidad",
+    "alcance": "Impresión, exportación y accesibilidad.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-87",
+    "etq": "T87",
+    "titulo": "Importación, limpieza de Datos y formato de celdas",
+    "alcance": "Importación, limpieza de Datos y formato de celdas.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-88",
+    "etq": "T88",
+    "titulo": "Funciones de Texto y Estadística Descriptiva",
+    "alcance": "Funciones de Texto y Estadística Descriptiva.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-89",
+    "etq": "T89",
+    "titulo": "Funciones Lógicas y Búsqueda",
+    "alcance": "Funciones Lógicas y Búsqueda.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-90",
+    "etq": "T90",
+    "titulo": "Referencias",
+    "alcance": "Referencias.",
+    "gratis": false
+   },
+   {
+    "id": "ucolab-91",
+    "etq": "T91",
+    "titulo": "Auditoría y Control de Cambios en Documentos",
+    "alcance": "Auditoría y Control de Cambios en Documentos.",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "ual-auxiliar-administrativa",
@@ -3952,7 +5470,7 @@
   "nombre": "Técnicos Especialistas y Auxiliar de Laboratorio y de Mantenimiento (Grupos III y IV)",
   "organismo": "Universidad Pablo de Olavide",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal laboral",
   "turno": "Libre",
   "grupo": "Grupos III y IV",
@@ -4056,7 +5574,534 @@
     "Primer ejercicio: Tendrá carácter eliminatorio y consistirá en contestar un cuestionario de preguntas con cuatro respuestas alternativas, de las que solo una será correcta, basado en el contenido de las funciones determinadas en el anexo I y del programa que figura como anexo III de esta convocatoria.",
     "Segundo ejercicio: Tendrá carácter eliminatorio y consistirá en resolver uno o varios supuestos o pruebas prácticas propuestas por el Tribunal, basado en el contenido de las funciones determinadas en el anexo I y de la parte específica del programa que figura como anexo III de esta convocatoria, en el tiempo y con los medios…"
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "upolab-1",
+    "etq": "T1",
+    "titulo": "La Constitución: Título preliminar",
+    "alcance": "La Constitución: Título preliminar. Título I: De los derecho y deberes fundamentales.",
+    "gratis": true
+   },
+   {
+    "id": "upolab-2",
+    "etq": "T2",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título I: Funciones del sistema universitario y autonomía de las universidades. Título II: Creación y reconocimiento de las universidades y calidad del sistema universitario. Capítulo V. Personal técnico, de gestión y de administración y servicios de las universidades públicas.",
+    "gratis": true
+   },
+   {
+    "id": "upolab-3",
+    "etq": "T3",
+    "titulo": "Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre",
+    "alcance": "Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre: Título II. Personal al servicio de las Administraciones Públicas: Capítulo I. Clases de personal, Título III. Derechos y deberes. Código de conducta de los empleados públicos, Título VII. Régimen disciplinario.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-4",
+    "etq": "T4",
+    "titulo": "IV Convenio Colectivo de Personal laboral de las Universidades Públicas de Andalucía",
+    "alcance": "IV Convenio Colectivo de Personal laboral de las Universidades Públicas de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-5",
+    "etq": "T5",
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+    "alcance": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Título preliminar. Objeto y ámbito de la ley. Título I. El principio de igualdad y la tutela contra la discriminación. Título IV. El derecho al trabajo en igualdad de oportunidades: Capítulo I. Igualdad de trato y oportunidades en el ámbito laboral. Capítulo II. Igualdad y conciliación. Título V. El principio de igualdad en el empleo",
+    "gratis": false
+   },
+   {
+    "id": "upolab-6",
+    "etq": "T6",
+    "titulo": "Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía",
+    "alcance": "Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía. Título preliminar. Título I, capítulo I: Integración de la perspectiva de género en las políticas públicas. Título II, capítulo I, sección 2.ª: Enseñanza universitaria. Capítulo II: Igualdad de oportunidades en el acceso al empleo. Capítulo III: Conciliación de la vida laboral, familiar y personal.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-7",
+    "etq": "T7",
+    "titulo": "Normas de Convivencia de la Universidad Pablo de Olavide, de Sevilla, aprobadas por Consejo de Gobierno de 24 de noviembre de 2023 (BUPO de",
+    "alcance": "Normas de Convivencia de la Universidad Pablo de Olavide, de Sevilla, aprobadas por Consejo de Gobierno de 24 de noviembre de 2023 (BUPO de 14 de diciembre de 2023).",
+    "gratis": false
+   },
+   {
+    "id": "upolab-8",
+    "etq": "T8",
+    "titulo": "La Ley 31/1995, de Prevención de Riesgos Laborales modificada por la Ley 54/2003 de 12 de Diciembre de reforma del marco normativo de la pre",
+    "alcance": "La Ley 31/1995, de Prevención de Riesgos Laborales modificada por la Ley 54/2003 de 12 de Diciembre de reforma del marco normativo de la prevención de riesgos laborales. Capítulo III: Derechos y obligaciones. Capítulo V: Consulta y participación de los trabajadores.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-9",
+    "etq": "T9",
+    "titulo": "La Ley 31/1995, de Prevención de Riesgos Laborales",
+    "alcance": "La Ley 31/1995, de Prevención de Riesgos Laborales. Derechos y obligaciones. El Delegado de Prevención. El Comité de Seguridad y Salud. Riesgos generales y específicos de su puesto de trabajo.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-10",
+    "etq": "T10",
+    "titulo": "Real Decreto 487/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas que ent",
+    "alcance": "Real Decreto 487/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas que entrañe riesgos, en particular dorso lumbares, para los trabajadores.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-11",
+    "etq": "T11",
+    "titulo": "Mantenimiento de edificios",
+    "alcance": "Mantenimiento de edificios: concepto y objetivos. Tipos de mantenimiento. Organización y gestión del mantenimiento en edificios. Normativa básica de aplicación.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-12",
+    "etq": "T12",
+    "titulo": "Evaluación de riesgos laborales y medidas de seguridad y salud en el trabajo de mantenimiento de las instalaciones de los edificios",
+    "alcance": "Evaluación de riesgos laborales y medidas de seguridad y salud en el trabajo de mantenimiento de las instalaciones de los edificios: Clasificación de riesgos e Identificación y medidas de prevención. Legislación básica.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-13",
+    "etq": "T13",
+    "titulo": "Mantenimiento de la urbanización y de los espacios exteriores",
+    "alcance": "Mantenimiento de la urbanización y de los espacios exteriores. Concepto y alcance de la urbanización. Seguridad, accesibilidad y planificación del mantenimiento de los espacios exteriores.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-14",
+    "etq": "T14",
+    "titulo": "Instalaciones eléctricas en los edificios",
+    "alcance": "Instalaciones eléctricas en los edificios: tipos y descripción. Requisitos básicos y normativa de aplicación. Control de calidad, conservación y mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-15",
+    "etq": "T15",
+    "titulo": "Instalaciones de fontanería y gas en los edificios",
+    "alcance": "Instalaciones de fontanería y gas en los edificios: tipos y descripción. Requisitos básicos y normativa de aplicación. Control de calidad, conservación y mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-16",
+    "etq": "T16",
+    "titulo": "Instalaciones de climatización y ventilación en los edificios",
+    "alcance": "Instalaciones de climatización y ventilación en los edificios: tipos y descripción. Requisitos básicos y normativa de aplicación. Control de calidad, conservación y mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-17",
+    "etq": "T17",
+    "titulo": "Instalaciones de protección contra incendios en los edificios",
+    "alcance": "Instalaciones de protección contra incendios en los edificios: tipos y descripción. Requisitos básicos y normativa de aplicación. Control de calidad, conservación y mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-18",
+    "etq": "T18",
+    "titulo": "Sistemas de saneamiento en los edificios",
+    "alcance": "Sistemas de saneamiento en los edificios: tipos y descripción. Requisitos básicos y normativa de aplicación. Control de calidad, conservación y mantenimiento.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-19",
+    "etq": "T19",
+    "titulo": "Control y supervisión de las instalaciones en los edificios",
+    "alcance": "Control y supervisión de las instalaciones en los edificios: concepto y objetivos. Sistemas de control y regulación. Automatización y sistemas de gestión técnica de edificios. Detección y gestión de averías e incidencias. Importancia del control de instalaciones en la seguridad, el mantenimiento y la eficiencia energética.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-20",
+    "etq": "T20",
+    "titulo": "La Ley de Contratos del Sector Público",
+    "alcance": "La Ley de Contratos del Sector Público. Principios generales de la contratación pública. Tipos de contratos del sector público. Los Pliegos en la contratación pública.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-21",
+    "etq": "T21",
+    "titulo": "El Código Técnico de la Edificación",
+    "alcance": "El Código Técnico de la Edificación: objeto, ámbito de aplicación, contenido y documentos básicos.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-22",
+    "etq": "T22",
+    "titulo": "La seguridad y salud en el trabajo en las obras de edificación",
+    "alcance": "La seguridad y salud en el trabajo en las obras de edificación. Normativa de aplicación. El estudio de seguridad y salud, el estudio básico y el plan de seguridad y salud.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-23",
+    "etq": "T23",
+    "titulo": "La accesibilidad y la eliminación de barreras arquitectónicas y urbanísticas",
+    "alcance": "La accesibilidad y la eliminación de barreras arquitectónicas y urbanísticas. Normativa de la Junta de Andalucía Decreto 293/2009, de 7 de julio, por el que se aprueba el reglamento que regula las normas para la accesibilidad en las infraestructuras, el urbanismo, la edificación y el transporte en Andalucía: Ámbito de aplicación, definiciones, Clasificación de las barreras y pliegos.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-24",
+    "etq": "T24",
+    "titulo": "Decreto 293/2009, de 7 de julio, por el que se aprueba el reglamento que regula las normas para la accesibilidad en las infraestructuras, el",
+    "alcance": "Decreto 293/2009, de 7 de julio, por el que se aprueba el reglamento que regula las normas para la accesibilidad en las infraestructuras, el urbanismo, la edificación y el transporte en Andalucía. Accesibilidad en los edificios, establecimientos e instalaciones fijos de concurrencia pública: Normas generales, espacios exteriores, espacios interiores al mismo nivel, espacios interiores al mismo nivel y espacios interi",
+    "gratis": false
+   },
+   {
+    "id": "upolab-25",
+    "etq": "T25",
+    "titulo": "Metodología BIM: concepto y principios básicos",
+    "alcance": "Metodología BIM: concepto y principios básicos. Evolución del diseño asistido por ordenador (CAD) a BIM. Objetivos y ventajas de la implantación de BIM en proyectos de edificación y obra civil. Dimensiones BIM (3D, 4D, 5D, 6D y 7D). Aplicación de BIM a lo largo del ciclo de vida del edificio, desde el diseño hasta la fase de mantenimiento y operación.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-26",
+    "etq": "T26",
+    "titulo": "Eficiencia energética en la edificación",
+    "alcance": "Eficiencia energética en la edificación: concepto y objetivos. Consumo energético en los edificios. Medidas de mejora de la eficiencia energética: envolvente térmica, instalaciones y sistemas de iluminación. Incorporación de energías renovables en la edificación. Certificación energética de edificios.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-27",
+    "etq": "T27",
+    "titulo": "Obras en edificios existentes",
+    "alcance": "Obras en edificios existentes: tipos y características. Estudios previos, análisis e investigaciones. Trabajos preparatorios. Procesos de ejecución. Evaluación de riesgos laborales y medidas de seguridad y salud.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-28",
+    "etq": "T28",
+    "titulo": "Concepto y clasificación de los daños y defectos en la edificación",
+    "alcance": "Concepto y clasificación de los daños y defectos en la edificación. Humedades y fisuras: tipos, características y principales causas. Efectos sobre los elementos constructivos. Medidas preventivas y criterios generales de diagnóstico y tratamiento. Patologías de la madera en los edificios: tipos, causas, efectos y tratamientos. Otros daños habituales y sus consecuencias sobre la seguridad, funcionalidad y durabilidad",
+    "gratis": false
+   },
+   {
+    "id": "upolab-29",
+    "etq": "T29",
+    "titulo": "Seguridad y salud en los laboratorios docentes",
+    "alcance": "Seguridad y salud en los laboratorios docentes. Clasificación de riesgos. Identificación y medidas de prevención.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-30",
+    "etq": "T30",
+    "titulo": "Gestión de residuos y sustancias químicas y biológicas en laboratorios docentes de la UPO",
+    "alcance": "Gestión de residuos y sustancias químicas y biológicas en laboratorios docentes de la UPO. Manipulación. Etiquetado. Almacenamiento. Eliminación de residuos peligrosos.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-31",
+    "etq": "T31",
+    "titulo": "Calidad en los laboratorios",
+    "alcance": "Calidad en los laboratorios. Buenas prácticas. Norma ISO 17025.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-32",
+    "etq": "T32",
+    "titulo": "Montaje y manejo de equipos para el transporte de fluidos",
+    "alcance": "Montaje y manejo de equipos para el transporte de fluidos. Bombas centrífugas. Bombas volumétricas.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-33",
+    "etq": "T33",
+    "titulo": "Montaje y manejo de equipos para la transmisión de calor",
+    "alcance": "Montaje y manejo de equipos para la transmisión de calor. Calderas. Intercambiadores de calor.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-34",
+    "etq": "T34",
+    "titulo": "Montaje y manejo de equipos de laboratorio",
+    "alcance": "Montaje y manejo de equipos de laboratorio. Reactores químicos y biológicos. Sedimentación, filtración y centrifugación. Destilación, extracción líquido-líquido y sólido-líquido. Medidas de caudal, presión, temperatura y pH.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-35",
+    "etq": "T35",
+    "titulo": "Mantenimiento y limpieza de equipos de laboratorio",
+    "alcance": "Mantenimiento y limpieza de equipos de laboratorio. Calibrado. Electricidad, electrónica y electromecánica. Soldadura de materiales férreos y plásticos. Mecánica básica.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-36",
+    "etq": "T36",
+    "titulo": "Equipos auxiliares de laboratorio",
+    "alcance": "Equipos auxiliares de laboratorio. Producción de agua destilada, desionizada y/o ultrapura. Medidas de conductividad eléctrica en agua. Gases y servicios asociados.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-37",
+    "etq": "T37",
+    "titulo": "Magnitudes, unidades y sistemas de medidas en los laboratorios",
+    "alcance": "Magnitudes, unidades y sistemas de medidas en los laboratorios. Sistema internacional de medidas. Factores de conversión.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-38",
+    "etq": "T38",
+    "titulo": "Reactivos químicos, reacciones, equilibrios",
+    "alcance": "Reactivos químicos, reacciones, equilibrios. Fundamentos teóricos. Estequiometría. Constantes de equilibrio.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-39",
+    "etq": "T39",
+    "titulo": "Cinética química y biológica",
+    "alcance": "Cinética química y biológica. Velocidad de reacción. Cinética de reacciones biológicas. Determinación experimental de la cinética de una reacción química o biológica.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-40",
+    "etq": "T40",
+    "titulo": "Disoluciones y propiedades coligativas",
+    "alcance": "Disoluciones y propiedades coligativas. Formas de expresar la concentración. Preparaciones de disoluciones.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-41",
+    "etq": "T41",
+    "titulo": "Técnicas de muestreo",
+    "alcance": "Técnicas de muestreo. Manipulación. Conservación. Transporte. Preparación de muestras.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-42",
+    "etq": "T42",
+    "titulo": "Nociones específicas en muestreo y gestión de materiales de fisiología vegetal",
+    "alcance": "Nociones específicas en muestreo y gestión de materiales de fisiología vegetal: Recolección. Cultivo de plantas y microorganismos fotosintético. Preparación de tampones y medios para ensayos enzimáticos. Funcionamiento y mantenimiento de cámaras de cultivo.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-43",
+    "etq": "T43",
+    "titulo": "Nociones específicas en muestreo y gestión de materiales botánicos",
+    "alcance": "Nociones específicas en muestreo y gestión de materiales botánicos. Muestreo botánico. Uso y mantenimiento de invernaderos. Gestión, conservación, digitalización y divulgación de herbarios.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-44",
+    "etq": "T44",
+    "titulo": "Nociones específicas en muestreo y análisis en ecología",
+    "alcance": "Nociones específicas en muestreo y análisis en ecología. Muestreo y análisis de aguas. Muestreo y análisis de suelos y sedimentos. Manejo y mantenimiento de equipos de intercambio de gases.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-45",
+    "etq": "T45",
+    "titulo": "Nociones específicas en muestreo y gestión de materiales geológicos",
+    "alcance": "Nociones específicas en muestreo y gestión de materiales geológicos: Levigados para separación de microfósiles. Tamizado para granulometrías. Preparación de láminas delgadas. Tinción.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-46",
+    "etq": "T46",
+    "titulo": "Nociones específicas en muestreo y gestión de materiales zoológicos",
+    "alcance": "Nociones específicas en muestreo y gestión de materiales zoológicos: Identificación a nivel Orden o Familia. Conservación de animales. Organización de colecciones zoológicas para uso docente.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-47",
+    "etq": "T47",
+    "titulo": "Fundamentos de análisis químico",
+    "alcance": "Fundamentos de análisis químico. Preparación de muestras. Métodos volumétricos y gravimétricos.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-48",
+    "etq": "T48",
+    "titulo": "Análisis instrumental",
+    "alcance": "Análisis instrumental. Técnicas instrumentales de análisis. Espectroscopía UV e IR. Cromatografía.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-49",
+    "etq": "T49",
+    "titulo": "La Constitución: Título preliminar",
+    "alcance": "La Constitución: Título preliminar. Título I: De los derecho y deberes fundamentales.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-50",
+    "etq": "T50",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título I: Funciones del sistema universitario y autonomía de las universidades. Título II: Creación y reconocimiento de las universidades y calidad del sistema universitario. Capítulo V. Personal técnico, de gestión y de administración y servicios de las universidades públicas.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-51",
+    "etq": "T51",
+    "titulo": "Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre",
+    "alcance": "Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre: Título II. Personal al servicio de las Administraciones Públicas: Capítulo I. Clases de personal, título III. Derechos y deberes. Título VII. Régimen disciplinario.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-52",
+    "etq": "T52",
+    "titulo": "IV Convenio Colectivo de Personal laboral de las Universidades Públicas de Andalucía",
+    "alcance": "IV Convenio Colectivo de Personal laboral de las Universidades Públicas de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-53",
+    "etq": "T53",
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+    "alcance": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Título preliminar. Objeto y ámbito de la ley. Título I. El principio de igualdad y la tutela contra la discriminación. Título IV. El derecho al trabajo en igualdad de oportunidades. Capítulo I. Igualdad de trato y oportunidades en el ámbito laboral. Capítulo II. Igualdad y conciliación. Título V. El principio de igualdad en el empleo",
+    "gratis": false
+   },
+   {
+    "id": "upolab-54",
+    "etq": "T54",
+    "titulo": "La Ley 31/1995, de Prevención de Riesgos Laborales modificada por la Ley 54/2003 de 12 de Diciembre de reforma del marco normativo de la pre",
+    "alcance": "La Ley 31/1995, de Prevención de Riesgos Laborales modificada por la Ley 54/2003 de 12 de Diciembre de reforma del marco normativo de la prevención de riesgos laborales. Capítulo III: Derechos y obligaciones. Capítulo V: consulta y participación de los trabajadores.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-55",
+    "etq": "T55",
+    "titulo": "La Ley 31/1995, de Prevención de Riesgos Laborales",
+    "alcance": "La Ley 31/1995, de Prevención de Riesgos Laborales. Derechos y obligaciones. El Delegado de Prevención. El Comité de Seguridad y Salud. Riesgos generales y específicos de su puesto de trabajo.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-56",
+    "etq": "T56",
+    "titulo": "Real Decreto 487/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas que ent",
+    "alcance": "Real Decreto 487/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas que entrañe riesgos, en particular dorso lumbares, para los trabajadores.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-57",
+    "etq": "T57",
+    "titulo": "Organización y normas generales de trabajo en el laboratorio docente",
+    "alcance": "Organización y normas generales de trabajo en el laboratorio docente. Espacios, materiales y equipos de uso común. Normas básicas de funcionamiento y organización de los laboratorios docentes UPO.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-58",
+    "etq": "T58",
+    "titulo": "Magnitudes, unidades y expresión de resultados",
+    "alcance": "Magnitudes, unidades y expresión de resultados. Sistema Internacional de Unidades y factores de conversión. Expresión de resultados y cifras significativas.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-59",
+    "etq": "T59",
+    "titulo": "Material de laboratorio",
+    "alcance": "Material de laboratorio: clasificación, utilización y conservación. Clasificación y utilización del material de laboratorio. Limpieza, mantenimiento y conservación.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-60",
+    "etq": "T60",
+    "titulo": "Pesada, medida de volúmenes y preparación de disoluciones",
+    "alcance": "Pesada, medida de volúmenes y preparación de disoluciones. Balanzas y material volumétrico. Concentración, diluciones y preparación de soluciones.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-61",
+    "etq": "T61",
+    "titulo": "Muestreo, acondicionamiento y conservación de muestras",
+    "alcance": "Muestreo, acondicionamiento y conservación de muestras. Obtención y preparación de muestras. Homogeneización y conservación.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-62",
+    "etq": "T62",
+    "titulo": "Operaciones básicas de separación",
+    "alcance": "Operaciones básicas de separación. Métodos físicos de separación. Fundamentos y aplicaciones básicas.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-63",
+    "etq": "T63",
+    "titulo": "Microscopía y técnicas de observación",
+    "alcance": "Microscopía y técnicas de observación. Fundamentos y tipos de microscopios. Técnicas de observación y tinción.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-64",
+    "etq": "T64",
+    "titulo": "Limpieza, desinfección, esterilización y bioseguridad",
+    "alcance": "Limpieza, desinfección, esterilización y bioseguridad. Métodos de limpieza, desinfección y esterilización; Riesgos químicos y biológicos. Gestión de residuos y medidas de prevención.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-65",
+    "etq": "T65",
+    "titulo": "Conceptos básicos de química general",
+    "alcance": "Conceptos básicos de química general. Estructura de la materia y enlace químico. Elementos, compuestos y mezclas.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-66",
+    "etq": "T66",
+    "titulo": "Formulación y nomenclatura química básica",
+    "alcance": "Formulación y nomenclatura química básica. Normas generales de formulación y nomenclatura. Compuestos químicos más habituales.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-67",
+    "etq": "T67",
+    "titulo": "Propiedades físicas y fisicoquímicas de las sustancias",
+    "alcance": "Propiedades físicas y fisicoquímicas de las sustancias. Densidad, viscosidad y tensión superficial. Calor y cambios de estado.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-68",
+    "etq": "T68",
+    "titulo": "Fundamentos de química analítica",
+    "alcance": "Fundamentos de química analítica. Análisis cualitativo y cuantitativo. Tipos de análisis y conceptos básicos. (Conceptos de exactitud, precisión, sensibilidad y error analítico).",
+    "gratis": false
+   },
+   {
+    "id": "upolab-69",
+    "etq": "T69",
+    "titulo": "Técnicas básicas de análisis químico",
+    "alcance": "Técnicas básicas de análisis químico. Métodos volumétricos y gravimétricos. Material y operaciones básicas.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-70",
+    "etq": "T70",
+    "titulo": "Fundamentos de las técnicas instrumentales de análisis",
+    "alcance": "Fundamentos de las técnicas instrumentales de análisis. Principios generales. Clasificación y aplicaciones básicas.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-71",
+    "etq": "T71",
+    "titulo": "Microorganismos de interés sanitario",
+    "alcance": "Microorganismos de interés sanitario. Características generales y clasificación. Principales grupos de microorganismos.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-72",
+    "etq": "T72",
+    "titulo": "Obtención y preparación de muestras microbiológicas",
+    "alcance": "Obtención y preparación de muestras microbiológicas. Toma, transporte y conservación de muestras. Preparación de muestras y diluciones.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-73",
+    "etq": "T73",
+    "titulo": "Medios de cultivo. Clasificación y preparación de medios",
+    "alcance": "Medios de cultivo. Clasificación y preparación de medios. Conservación y eliminación.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-74",
+    "etq": "T74",
+    "titulo": "Técnicas microbiológicas básicas",
+    "alcance": "Técnicas microbiológicas básicas. Siembra y aislamiento. Recuento de microorganismos.",
+    "gratis": false
+   },
+   {
+    "id": "upolab-75",
+    "etq": "T75",
+    "titulo": "Biología celular y biomoléculas",
+    "alcance": "Biología celular y biomoléculas. Organización celular. Glúcidos, lípidos, proteínas y ácidos nucleicos.",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "us-ayudantes-archivos-bibliotecas",
@@ -4254,7 +6299,7 @@
     "etq": "T3",
     "titulo": "El Estatuto de Autonomía para Andalucía",
     "alcance": "El Estatuto de Autonomía para Andalucía. Derechos y deberes. Principios rectores. Competencias de la Comunidad Autónoma.",
-    "gratis": false
+    "gratis": true
    },
    {
     "id": "uniaaux-4",
