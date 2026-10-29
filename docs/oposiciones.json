@@ -302,7 +302,7 @@
   "nombre": "Escala Administrativa",
   "organismo": "Universidad de Granada",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre",
   "grupo": "C1",
@@ -381,7 +381,254 @@
     "Primer ejercicio",
     "Segundo ejercicio"
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "ugradm-1",
+    "etq": "T1",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.",
+    "gratis": true
+   },
+   {
+    "id": "ugradm-2",
+    "etq": "T2",
+    "titulo": "Proyecto de Estatutos de la Universidad de Granada, aprobado por el Claustro Universitario (BOUGR núm",
+    "alcance": "Proyecto de Estatutos de la Universidad de Granada, aprobado por el Claustro Universitario (BOUGR núm. 326, de 27 de mayo de 2026).",
+    "gratis": true
+   },
+   {
+    "id": "ugradm-3",
+    "etq": "T3",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-4",
+    "etq": "T4",
+    "titulo": "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de",
+    "alcance": "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-5",
+    "etq": "T5",
+    "titulo": "Real Decreto 99/2011, de 28 de enero, por el que se regulan las enseñanzas oficiales de doctorado",
+    "alcance": "Real Decreto 99/2011, de 28 de enero, por el que se regulan las enseñanzas oficiales de doctorado.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-6",
+    "etq": "T6",
+    "titulo": "Real Decreto 1002/2010, de 5 de agosto, sobre expedición de títulos universitarios oficiales",
+    "alcance": "Real Decreto 1002/2010, de 5 de agosto, sobre expedición de títulos universitarios oficiales.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-7",
+    "etq": "T7",
+    "titulo": "Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, la",
+    "alcance": "Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, las características básicas de la prueba de acceso y la normativa básica de los procedimientos de admisión.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-8",
+    "etq": "T8",
+    "titulo": "Reglamento de Permanencia de la UGR para el estudiantado de enseñanzas oficiales de Grado y Máster Universitario (BOUGR núm",
+    "alcance": "Reglamento de Permanencia de la UGR para el estudiantado de enseñanzas oficiales de Grado y Máster Universitario (BOUGR núm. 260, de 20 de diciembre de 2024). Modificación parcial del Reglamento de Permanencia de la UGR para el estudiantado de enseñanzas oficiales de Grado y Máster Universitario (BOUGR núm. 329, de 11 de junio de 2026).",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-9",
+    "etq": "T9",
+    "titulo": "Texto Consolidado del Reglamento de Gestión Académica de la Universidad de Granada (BOUGR núm",
+    "alcance": "Texto Consolidado del Reglamento de Gestión Académica de la Universidad de Granada (BOUGR núm. 183, de 6 de julio de 2022).",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-10",
+    "etq": "T10",
+    "titulo": "Texto consolidado de la Normativa de evaluación y de calificación de los estudiantes de la Universidad de Granada (BOUGR núm",
+    "alcance": "Texto consolidado de la Normativa de evaluación y de calificación de los estudiantes de la Universidad de Granada (BOUGR núm. 112, de 9 de noviembre de 2016); incluye las correcciones de errores de 19 de diciembre de 2016 y de 24 de mayo de 2017.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-11",
+    "etq": "T11",
+    "titulo": "Texto consolidado del Reglamento de Régimen Económico-Financiero de la UGR (BOUGR núm",
+    "alcance": "Texto consolidado del Reglamento de Régimen Económico-Financiero de la UGR (BOUGR núm. 301, de 3 de diciembre de 2025).",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-12",
+    "etq": "T12",
+    "titulo": "Resolución de 19 de diciembre de 2025, de la Universidad de Granada, por la que se acuerda la publicación del Presupuesto de la misma para e",
+    "alcance": "Resolución de 19 de diciembre de 2025, de la Universidad de Granada, por la que se acuerda la publicación del Presupuesto de la misma para el ejercicio 2026, una vez aprobado por el Consejo Social (BOJA núm. 249, de 29 de diciembre de 2025): Bases de ejecución del presupuesto para el ejercicio 2026. Normas para la Liquidación y Tramitación de Indemnizaciones por Razón de Servicio y de Gastos por Desplazamiento y Esta",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-13",
+    "etq": "T13",
+    "titulo": "Constitución Española",
+    "alcance": "Constitución Española: Título preliminar, Título I. De los derechos y deberes fundamentales y Título IV. Del Gobierno y de la Administración.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-14",
+    "etq": "T14",
+    "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-15",
+    "etq": "T15",
+    "titulo": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público",
+    "alcance": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Título Preliminar. Disposiciones generales, principios de actuación y funcionamiento del sector público, Título III. Relaciones interadministrativas.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-16",
+    "etq": "T16",
+    "titulo": "Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios elect",
+    "alcance": "Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-17",
+    "etq": "T17",
+    "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales",
+    "alcance": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Título I. Disposiciones generales, Título II. Principios de la protección de datos, Título III. Derechos de las personas, Título V. Responsable y encargado del tratamiento: Capítulo I. Disposiciones generales. Medidas de responsabilidad activa, Capítulo II. Encargado del tratamiento, Capítulo III. Delegado ",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-18",
+    "etq": "T18",
+    "titulo": "Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre",
+    "alcance": "Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-19",
+    "etq": "T19",
+    "titulo": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía",
+    "alcance": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía: Título I, Capítulo I Objeto, ámbito de aplicación y principios, Capítulo 3 Personal al servicio de la Administración pública, Título IX Acceso al empleo público, adquisición y pérdida de la relación de servicio, Título XI Situaciones administrativas y Título XII Régimen disciplinario.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-20",
+    "etq": "T20",
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+    "alcance": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Título Preliminar Objeto y ámbito de la ley, Título I El principio de igualdad y la tutela contra la discriminación, Título IV El derecho al trabajo en igualdad de oportunidades y Título V: Capítulo 1 Criterios de actuación de las Administraciones públicas. Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las persona",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-21",
+    "etq": "T21",
+    "titulo": "Ley 38/2003, de 17 de noviembre, General de Subvenciones",
+    "alcance": "Ley 38/2003, de 17 de noviembre, General de Subvenciones: Título Preliminar, Título I Procedimientos de concesión y gestión de las subvenciones; Título II Del reintegro de subvenciones.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-22",
+    "etq": "T22",
+    "titulo": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, por la que se transponen al ordenamiento jurídico español las Directivas del",
+    "alcance": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, por la que se transponen al ordenamiento jurídico español las Directivas del Parlamento Europeo y del Consejo 2014/23/UE y 2014/24/UE, de 26 de febrero de 2014: Libro Segundo. De los contratos de las Administraciones públicas: Título II. De los distintos tipos de contratos de las Administraciones públicas: Capítulo I. Del contrato de obras, Capítulo IV. ",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-23",
+    "etq": "T23",
+    "titulo": "Google Calendar: planificación y gestión de agendas",
+    "alcance": "Google Calendar: planificación y gestión de agendas.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-24",
+    "etq": "T24",
+    "titulo": "Google Meet: videocomunicación",
+    "alcance": "Google Meet: videocomunicación.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-25",
+    "etq": "T25",
+    "titulo": "Google Forms: recopilación de datos",
+    "alcance": "Google Forms: recopilación de datos.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-26",
+    "etq": "T26",
+    "titulo": "Google Drive: almacenamiento, organización y compartición",
+    "alcance": "Google Drive: almacenamiento, organización y compartición.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-27",
+    "etq": "T27",
+    "titulo": "Gestión de Documentos",
+    "alcance": "Gestión de Documentos.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-28",
+    "etq": "T28",
+    "titulo": "Automatización con Combinación de Correspondencia",
+    "alcance": "Automatización con Combinación de Correspondencia.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-29",
+    "etq": "T29",
+    "titulo": "Edición Técnica y Tablas",
+    "alcance": "Edición Técnica y Tablas.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-30",
+    "etq": "T30",
+    "titulo": "Impresión, exportación y accesibilidad",
+    "alcance": "Impresión, exportación y accesibilidad.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-31",
+    "etq": "T31",
+    "titulo": "Importación, limpieza de Datos y formato de celdas",
+    "alcance": "Importación, limpieza de Datos y formato de celdas.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-32",
+    "etq": "T32",
+    "titulo": "Funciones de Texto y Estadística Descriptiva",
+    "alcance": "Funciones de Texto y Estadística Descriptiva.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-33",
+    "etq": "T33",
+    "titulo": "Funciones Lógicas y Búsqueda",
+    "alcance": "Funciones Lógicas y Búsqueda.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-34",
+    "etq": "T34",
+    "titulo": "Referencias",
+    "alcance": "Referencias.",
+    "gratis": false
+   },
+   {
+    "id": "ugradm-35",
+    "etq": "T35",
+    "titulo": "Auditoría y Control de Cambios en Documentos",
+    "alcance": "Auditoría y Control de Cambios en Documentos.",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "ugr-apoyo-docencia-bellas-artes",
@@ -1161,7 +1408,7 @@
   "nombre": "Escala Auxiliar Administrativa",
   "organismo": "Universidad de Cádiz",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre",
   "grupo": "",
@@ -1232,7 +1479,198 @@
     "Primer ejercicio. De carácter teórico. Consistirá en contestar un cuestionario con un máximo de 90 preguntas, con respuestas múltiples, siendo solo una de ellas la correcta, basado en el contenido del programa. El tiempo máximo para la realización de este ejercicio será de 90 minutos.",
     "Segundo ejercicio. De carácter práctico. Consistirá en la resolución de dos casos prácticos, desglosados cada uno de ellos en un cuestionario con un máximo de 15 preguntas, con respuestas múltiples, siendo sólo una de ellas la correcta, basado en el contenido del programa de estas pruebas en los bloques II al IV."
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "ucaaux-1",
+    "etq": "T1",
+    "titulo": "La Constitución Española de 1978",
+    "alcance": "La Constitución Española de 1978. Estructura y contenido. Título preliminar. Título I. De los derecho y deberes fundamentales.",
+    "gratis": true
+   },
+   {
+    "id": "ucaaux-2",
+    "etq": "T2",
+    "titulo": "La Constitución de 1978",
+    "alcance": "La Constitución de 1978: Título II. De la Corona. Título III. De las Cortes Generales. Título IV. Del Gobierno y de la Administración.",
+    "gratis": true
+   },
+   {
+    "id": "ucaaux-3",
+    "etq": "T3",
+    "titulo": "La Constitución de 1978",
+    "alcance": "La Constitución de 1978: Título V. De las relaciones entre el Gobierno y las Cortes Generales. Título VI. Del Poder Judicial. Título VIII. De la Organización Territorial del Estado.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-4",
+    "etq": "T4",
+    "titulo": "El Estatuto de Autonomía para Andalucía",
+    "alcance": "El Estatuto de Autonomía para Andalucía. Derechos y deberes. Principios rectores. Competencias de la Comunidad Autónoma.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-5",
+    "etq": "T5",
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+    "alcance": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Objeto y ámbito de la Ley. El principio de igualdad y la tutela contra la discriminación. El principio de igualdad en el empleo público: Criterios de actuación de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-6",
+    "etq": "T6",
+    "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales",
+    "alcance": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Disposiciones generales. Principios de protección de los datos. Derecho de las personas.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-7",
+    "etq": "T7",
+    "titulo": "Sistema de Dirección Estratégica de la Universidad de Cádiz",
+    "alcance": "Sistema de Dirección Estratégica de la Universidad de Cádiz: misión, visión, valores, ámbitos estratégicos y objetivos generales.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-8",
+    "etq": "T8",
+    "titulo": "Las fuentes del Derecho Administrativo",
+    "alcance": "Las fuentes del Derecho Administrativo: concepto y clases. La Ley. El Reglamento: concepto, naturaleza y clases. Otras fuentes del Derecho Administrativo.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-9",
+    "etq": "T9",
+    "titulo": "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público",
+    "alcance": "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. Disposiciones generales. Los órganos de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-10",
+    "etq": "T10",
+    "titulo": "La Ley 40/2015, de 1 de octubre",
+    "alcance": "La Ley 40/2015, de 1 de octubre. Funcionamiento electrónico del sector público.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-11",
+    "etq": "T11",
+    "titulo": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. De los interesados en el procedimiento. De la actividad de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-12",
+    "etq": "T12",
+    "titulo": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. De los actos administrativos.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-13",
+    "etq": "T13",
+    "titulo": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. De las disposiciones sobre el procedimiento administrativo común.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-14",
+    "etq": "T14",
+    "titulo": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. De la revisión de los actos en vía administrativa.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-15",
+    "etq": "T15",
+    "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Públi",
+    "alcance": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Personal al servicio de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-16",
+    "etq": "T16",
+    "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Públi",
+    "alcance": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Derechos y deberes. Código de conducta de los empleados públicos.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-17",
+    "etq": "T17",
+    "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Públi",
+    "alcance": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Adquisición y pérdida de la relación de servicio.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-18",
+    "etq": "T18",
+    "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Públi",
+    "alcance": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Ordenación de la actividad profesional.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-19",
+    "etq": "T19",
+    "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Públi",
+    "alcance": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público. Régimen disciplinario.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-20",
+    "etq": "T20",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Funciones del sistema universitario y autonomía de las universidades. Creación y reconocimiento de las universidades.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-21",
+    "etq": "T21",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Régimen jurídico y estructura de las universidades públicas. Gobernanza de las universidades públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-22",
+    "etq": "T22",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. El estudiantado en el Sistema Universitario. Personal docente e investigador de las universidades públicas. Personal técnico, de gestión y de administración y servicios de las universidades públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-23",
+    "etq": "T23",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía. Sistema universitario andaluz. Régimen jurídico. Funciones, reserva de actividad y de denominación. Prerrogativas y potestades de las universidades públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-24",
+    "etq": "T24",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía. Docencia, Investigación y Transferencia del Conocimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-25",
+    "etq": "T25",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía. Régimen económico, financiero y patrimonial de las universidades públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-26",
+    "etq": "T26",
+    "titulo": "Normas de Ejecución del Presupuesto de la Universidad de Cádiz",
+    "alcance": "Normas de Ejecución del Presupuesto de la Universidad de Cádiz: el presupuesto de la Universidad de Cádiz, los créditos y sus modificaciones, ejecución del presupuesto.",
+    "gratis": false
+   },
+   {
+    "id": "ucaaux-27",
+    "etq": "T27",
+    "titulo": "Código ético de la Universidad de Cádiz (Código Peñalver)",
+    "alcance": "Código ético de la Universidad de Cádiz (Código Peñalver).",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "uca-laboral-titulado-superior-apoyo",
@@ -2621,7 +3059,7 @@
   "nombre": "Escala Administrativa (FC1/26)",
   "organismo": "Universidad Pablo de Olavide",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre",
   "grupo": "C1",
@@ -2680,7 +3118,219 @@
     "Primer ejercicio:",
     "Segundo ejercicio:"
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "upoadm-1",
+    "etq": "T1",
+    "titulo": "La Constitución Española de 1978",
+    "alcance": "La Constitución Española de 1978. Estructura y contenido. Título I: De los derechos y deberes fundamentales. Título III, capítulo segundo: De la elaboración de las leyes. Título IV: Del Gobierno y la Administración. Título V: De las relaciones entre el Gobierno y las Cortes Generales. Título VI: Del Poder Judicial. Título IX: Del Tribunal Constitucional.",
+    "gratis": true
+   },
+   {
+    "id": "upoadm-2",
+    "etq": "T2",
+    "titulo": "Las fuentes del Derecho Administrativo",
+    "alcance": "Las fuentes del Derecho Administrativo. La jerarquía de las fuentes. La Constitución. La Ley. Disposiciones normativas con fuerza de Ley. El Reglamento.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-3",
+    "etq": "T3",
+    "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales",
+    "alcance": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Título I: Disposiciones generales. Título II: Principios de protección de datos. Título III: Derechos de las personas.",
+    "gratis": true
+   },
+   {
+    "id": "upoadm-4",
+    "etq": "T4",
+    "titulo": "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno",
+    "alcance": "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno. Título I: Transparencia de la Actividad Pública. Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía. Título I: Disposiciones generales. Título II: La publicidad activa. Título III: El derecho de acceso a la información pública. Título V, capítulo II: Consejo de Transparencia y Protección de Datos de Andal",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-5",
+    "etq": "T5",
+    "titulo": "Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía",
+    "alcance": "Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía. Título Preliminar. Título I, capítulo I: integración de la perspectiva de género en las políticas públicas. Título II, capítulo I, sección 2.ª: Enseñanza universitaria. Capítulo II: Igualdad de oportunidades en el acceso al empleo. Capítulo III: Conciliación de la vida laboral, familiar y personal.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-6",
+    "etq": "T6",
+    "titulo": "Normas de Convivencia de la Universidad Pablo de Olavide, de Sevilla, aprobadas por Consejo de Gobierno de 24 de noviembre de 2023 (BUPO de",
+    "alcance": "Normas de Convivencia de la Universidad Pablo de Olavide, de Sevilla, aprobadas por Consejo de Gobierno de 24 de noviembre de 2023 (BUPO de 14 de diciembre de 2023).",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-7",
+    "etq": "T7",
+    "titulo": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas. Título Preliminar: Disposiciones generales. Título I: De los interesados en el procedimiento. Título II: De la actividad de las Administraciones Públicas. Título III: De los actos administrativos. Título IV: De las disposiciones sobre el procedimiento administrativo común. Título V: De la revisión de los actos en vía administrativa.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-8",
+    "etq": "T8",
+    "titulo": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público",
+    "alcance": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. Título Preliminar: Capítulo I. Disposiciones generales. Capítulo II. De los Órganos de las Administraciones Públicas. Capítulo III: Principios de la potestad sancionadora. Capítulo IV: De la responsabilidad Patrimonial de las Administraciones Públicas. Capítulo V: Funcionamiento electrónico del Sector público. Capítulo VI: Los convenios. Título III",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-9",
+    "etq": "T9",
+    "titulo": "Reglamento por el que se regula el uso y funcionamiento del Registro Electrónico General de la Universidad Pablo de Olavide, de Sevilla (Res",
+    "alcance": "Reglamento por el que se regula el uso y funcionamiento del Registro Electrónico General de la Universidad Pablo de Olavide, de Sevilla (Resolución de 9 de mayo de 2022, de la Universidad Pablo de Olavide. BOJA de 13 de mayo de 2022).",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-10",
+    "etq": "T10",
+    "titulo": "El Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público",
+    "alcance": "El Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Título I: Objeto y Ámbito de aplicación. Título II: Personal al servicio de las Administraciones Públicas. Título III: Derechos y deberes. Código de conducta de los empleados públicos. Título IV: Adquisición y pérdida de la relación de servicios. Título V: Ordenación de la acti",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-11",
+    "etq": "T11",
+    "titulo": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía",
+    "alcance": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía. Título IV. La formación, el aprendizaje permanente y la acreditación de competencias. Título V. Promoción Profesional. Título XI. Situaciones administrativas.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-12",
+    "etq": "T12",
+    "titulo": "Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas",
+    "alcance": "Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-13",
+    "etq": "T13",
+    "titulo": "Reglamento de Ingreso del Personal Técnico, de Gestión y de Administración y Servicios Funcionario de la Universidad Pablo de Olavide de Sev",
+    "alcance": "Reglamento de Ingreso del Personal Técnico, de Gestión y de Administración y Servicios Funcionario de la Universidad Pablo de Olavide de Sevilla. Reglamento de Provisión de puestos de trabajo del Personal Técnico, de Gestión y de Administración y Servicios Funcionario de la Universidad Pablo de Olavide de Sevilla (BUPO de 15 de diciembre de 2025).",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-14",
+    "etq": "T14",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario. Título I: Funciones del sistema universitario y autonomía de las universidades. Título II: Creación y reconocimiento de las universidades y calidad del sistema universitario. Título III: Organización de enseñanzas. Título VIII: El estudiantado en el Sistema Universitario. Título IX: Régimen específico de las universidades públicas.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-15",
+    "etq": "T15",
+    "titulo": "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de",
+    "alcance": "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad. Capítulo II. Organización de las enseñanzas universitarias. Capítulo III. Organización básica de las enseñanzas universitarias oficiales de Grado. Capítulo IV: Organización básica de las enseñanzas universitarias oficiales de Máster. Capítulo V. Organ",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-16",
+    "etq": "T16",
+    "titulo": "Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, la",
+    "alcance": "Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, las características básicas de la prueba de acceso y la normativa básica de los procedimientos de admisión.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-17",
+    "etq": "T17",
+    "titulo": "Real Decreto 1125/2003, de 5 de septiembre, por el que se establece el sistema europeo de créditos y el sistema de calificaciones en las tit",
+    "alcance": "Real Decreto 1125/2003, de 5 de septiembre, por el que se establece el sistema europeo de créditos y el sistema de calificaciones en las titulaciones universitarias de carácter oficial y validez en todo el territorio nacional.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-18",
+    "etq": "T18",
+    "titulo": "Real Decreto 99/2011, de 28 de enero, por el que se regulan las enseñanzas oficiales de doctorado",
+    "alcance": "Real Decreto 99/2011, de 28 de enero, por el que se regulan las enseñanzas oficiales de doctorado.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-19",
+    "etq": "T19",
+    "titulo": "Normativa de matrícula oficial de Grado de la Universidad Pablo de Olavide (CG de 25 de junio de 2021, BUPO de 29 de junio de 2021)",
+    "alcance": "Normativa de matrícula oficial de Grado de la Universidad Pablo de Olavide (CG de 25 de junio de 2021, BUPO de 29 de junio de 2021). Normativa sobre progreso y permanencia de estudiantes de Grado en la Universidad Pablo de Olavide, de Sevilla (BUPO de 11 de septiembre de 2013).",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-20",
+    "etq": "T20",
+    "titulo": "Normativa de acceso y matrícula de las enseñanzas oficiales de Máster Universitario de la Universidad Pablo de Olavide aprobada por Consejo",
+    "alcance": "Normativa de acceso y matrícula de las enseñanzas oficiales de Máster Universitario de la Universidad Pablo de Olavide aprobada por Consejo de Gobierno de 29 de julio de 2013 y modificada por Consejo de Gobierno de 16 de julio de 2015. Instrucción por la que se desarrolla la adaptación de la Normativa de acceso y matrícula de las enseñanzas oficiales de Máster Universitario de la UPO, de 19 de junio de 2020.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-21",
+    "etq": "T21",
+    "titulo": "Normativa de progreso y permanencia para los estudios de Máster Universitario y Doctorado de la Universidad Pablo de Olavide (BOJA de 1 de a",
+    "alcance": "Normativa de progreso y permanencia para los estudios de Máster Universitario y Doctorado de la Universidad Pablo de Olavide (BOJA de 1 de abril de 2014). Capítulo I: De los estudios de Máster Universitario.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-22",
+    "etq": "T22",
+    "titulo": "Normativa de estudios de Doctorado de la Universidad Pablo de Olavide (Acuerdo de Consejo de Gobierno de 29 de noviembre de 2024)",
+    "alcance": "Normativa de estudios de Doctorado de la Universidad Pablo de Olavide (Acuerdo de Consejo de Gobierno de 29 de noviembre de 2024): Organización de la formación doctoral. Duración de la formación doctoral. Requisitos de acceso al doctorado. Requisitos de admisión: Compromiso de Dirección y tutorización. Criterios de admisión. Matrícula anual y Registro personalizado de la doctoranda o doctorando. Seguimiento y evaluac",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-23",
+    "etq": "T23",
+    "titulo": "Normativa de Permanencia y Progreso en los estudios de Doctorado de la Universidad Pablo de Olavide, de Sevilla (Consejo de Gobierno de 28 d",
+    "alcance": "Normativa de Permanencia y Progreso en los estudios de Doctorado de la Universidad Pablo de Olavide, de Sevilla (Consejo de Gobierno de 28 de marzo de 2025. BUPO de 28 de julio de 2025).",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-24",
+    "etq": "T24",
+    "titulo": "Reglamento de movilidad de estudiantes de la Universidad Pablo de Olavide (BUPO de 26 de julio de 2023)",
+    "alcance": "Reglamento de movilidad de estudiantes de la Universidad Pablo de Olavide (BUPO de 26 de julio de 2023).",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-25",
+    "etq": "T25",
+    "titulo": "Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación",
+    "alcance": "Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación. Título II. Capítulo I: Personal investigador al servicio de las universidades públicas, de los organismos públicos de investigación y de los organismos de investigación de otras Administraciones públicas.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-26",
+    "etq": "T26",
+    "titulo": "El presupuesto de la Universidad Pablo de Olavide, de Sevilla",
+    "alcance": "El presupuesto de la Universidad Pablo de Olavide, de Sevilla. Normas de ejecución presupuestaria.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-27",
+    "etq": "T27",
+    "titulo": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público",
+    "alcance": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público: Título preliminar, capítulo II. Contratos del sector público. Delimitación de los tipos contractuales. Contratos sujetos a una regulación armonizada. Contratos administrativos y contratos privados. Libro primero, título I: Racionalidad y consistencia de la contratación del sector público. Libertad de pactos y contenido mínimo del contrato. Perfección y f",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-28",
+    "etq": "T28",
+    "titulo": "Ley 38/2003, de 17 de noviembre, General de Subvenciones",
+    "alcance": "Ley 38/2003, de 17 de noviembre, General de Subvenciones: Objeto. Concepto de subvención. Régimen jurídico de las subvenciones. Requisitos para el otorgamiento de las subvenciones. Beneficiarios. Título I. Procedimientos de concesión y gestión de las subvenciones.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-29",
+    "etq": "T29",
+    "titulo": "Office 365, Sharepoint y Teams",
+    "alcance": "Office 365, Sharepoint y Teams.",
+    "gratis": false
+   },
+   {
+    "id": "upoadm-30",
+    "etq": "T30",
+    "titulo": "Internet y correo electrónico",
+    "alcance": "Internet y correo electrónico.",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "upo-laboral-grupos-3-4",
@@ -2889,7 +3539,7 @@
   "nombre": "Escala Auxiliar Administrativa (Sede Antonio Machado, Baeza)",
   "organismo": "Universidad Internacional de Andalucía",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre",
   "grupo": "C2",
@@ -2968,7 +3618,331 @@
    "ejercicios": [
     "Consulta los ejercicios y su valoración en el anexo correspondiente de la convocatoria."
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "uniaaux-1",
+    "etq": "T1",
+    "titulo": "La Constitución Española de 1978",
+    "alcance": "La Constitución Española de 1978: Derechos y deberes fundamentales. Las Cortes Generales. El Gobierno y la Administración.",
+    "gratis": true
+   },
+   {
+    "id": "uniaaux-2",
+    "etq": "T2",
+    "titulo": "Las fuentes del Derecho Administrativo",
+    "alcance": "Las fuentes del Derecho Administrativo: concepto y clases. La ley. El reglamento: concepto, naturaleza y clases. Otras fuentes del Derecho Administrativo.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-3",
+    "etq": "T3",
+    "titulo": "El Estatuto de Autonomía para Andalucía",
+    "alcance": "El Estatuto de Autonomía para Andalucía. Derechos y deberes. Principios rectores. Competencias de la Comunidad Autónoma.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-4",
+    "etq": "T4",
+    "titulo": "Plan Estratégico Universidad Internacional de Andalucía 2025-2027",
+    "alcance": "Plan Estratégico Universidad Internacional de Andalucía 2025-2027.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-5",
+    "etq": "T5",
+    "titulo": "La Ley orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+    "alcance": "La Ley orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la ley. El principio de igualdad y la tutela contra la discriminación.",
+    "gratis": true
+   },
+   {
+    "id": "uniaaux-6",
+    "etq": "T6",
+    "titulo": "Reglamento (UE) 2016/679 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre",
+    "alcance": "Reglamento (UE) 2016/679 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos. Ámbito de aplicación material. Ámbito territorial. Principios. Derechos del interesado. Responsable del tratamiento y encargado del tratamiento. Delegado de protección de datos.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-7",
+    "etq": "T7",
+    "titulo": "Código Ético de la Universidad Internacional de Andalucía, aprobado en Consejo de Gobierno el 15 de junio de 2022, y modificado por Acuerdo",
+    "alcance": "Código Ético de la Universidad Internacional de Andalucía, aprobado en Consejo de Gobierno el 15 de junio de 2022, y modificado por Acuerdo 9/2023, del Consejo de Gobierno de la Universidad Internacional de Andalucía de 22 de febrero de 2023.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-8",
+    "etq": "T8",
+    "titulo": "Protocolo para la prevención y actuación frente al acoso sexual, por razón de sexo, por orientación sexual y por expresión o identidad de gé",
+    "alcance": "Protocolo para la prevención y actuación frente al acoso sexual, por razón de sexo, por orientación sexual y por expresión o identidad de género, aprobado por Acuerdo 55/2025, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 21 de julio de 2025.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-9",
+    "etq": "T9",
+    "titulo": "Protocolo para la prevención y gestión del acoso moral y discriminatorio en la Universidad Internacional de Andalucía, aprobado por Acuerdo",
+    "alcance": "Protocolo para la prevención y gestión del acoso moral y discriminatorio en la Universidad Internacional de Andalucía, aprobado por Acuerdo 10/2023, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 22 de febrero de 2023.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-10",
+    "etq": "T10",
+    "titulo": "Reglamento sobre utilización de recursos digitales y sistemas de información de la Universidad Internacional de Andalucía, aprobada la modif",
+    "alcance": "Reglamento sobre utilización de recursos digitales y sistemas de información de la Universidad Internacional de Andalucía, aprobada la modificación por Acuerdo 101/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 28 de noviembre de 2024: Principios generales; Actividades y usos prohibidos; Del uso del correo electrónico corporativo; Del acceso y uso de internet corporativo; Sobre el cert",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-11",
+    "etq": "T11",
+    "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. De los interesados en el procedimiento.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-12",
+    "etq": "T12",
+    "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: De la actividad de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-13",
+    "etq": "T13",
+    "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: De los actos administrativos.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-14",
+    "etq": "T14",
+    "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: De las disposiciones sobre el procedimiento administrativo común.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-15",
+    "etq": "T15",
+    "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: De la revisión de los actos en vía administrativa.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-16",
+    "etq": "T16",
+    "titulo": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público",
+    "alcance": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-17",
+    "etq": "T17",
+    "titulo": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público",
+    "alcance": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Relaciones interadministrativas.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-18",
+    "etq": "T18",
+    "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Públi",
+    "alcance": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Objeto y ámbito de aplicación. Personal al servicio de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-19",
+    "etq": "T19",
+    "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Públi",
+    "alcance": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Derechos y deberes. Código de conducta de los empleados públicos.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-20",
+    "etq": "T20",
+    "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Públi",
+    "alcance": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Adquisición y pérdida de la relación de servicio.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-21",
+    "etq": "T21",
+    "titulo": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Públi",
+    "alcance": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público: Provisión de puestos de trabajo y movilidad. Situaciones administrativas. Régimen disciplinario.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-22",
+    "etq": "T22",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Disposiciones generales. Funciones del sistema universitario y autonomía de las universidades. Creación y reconocimiento de las universidades y calidad del sistema universitario. Organización de enseñanzas. Régimen jurídico y estructura de las universidades públicas. Gobernanza de las universidades públicas.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-23",
+    "etq": "T23",
+    "titulo": "Decreto Legislativo 2/2013, de 8 de enero, por el que se aprueba el texto refundido de la Ley de creación de la Universidad Internacional de",
+    "alcance": "Decreto Legislativo 2/2013, de 8 de enero, por el que se aprueba el texto refundido de la Ley de creación de la Universidad Internacional de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-24",
+    "etq": "T24",
+    "titulo": "Decreto 236/2011, de 12 de julio, por el que se aprueban los Estatutos de la Universidad Internacional de Andalucía",
+    "alcance": "Decreto 236/2011, de 12 de julio, por el que se aprueban los Estatutos de la Universidad Internacional de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-25",
+    "etq": "T25",
+    "titulo": "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de",
+    "alcance": "Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-26",
+    "etq": "T26",
+    "titulo": "Reglamento de Régimen Académico de la Universidad Internacional de Andalucía, aprobada la modificación por Acuerdo 71/2024, del Consejo de G",
+    "alcance": "Reglamento de Régimen Académico de la Universidad Internacional de Andalucía, aprobada la modificación por Acuerdo 71/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 24 de julio de 2024.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-27",
+    "etq": "T27",
+    "titulo": "Reglamento de Enseñanzas de Formación Permanente General y Extensión Universitaria de la Universidad Internacional de Andalucía, aprobado po",
+    "alcance": "Reglamento de Enseñanzas de Formación Permanente General y Extensión Universitaria de la Universidad Internacional de Andalucía, aprobado por Acuerdo 59/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 21 de junio de 2024.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-28",
+    "etq": "T28",
+    "titulo": "Reglamento de Enseñanzas de Posgrado de la Universidad Internacional de Andalucía, aprobado por Acuerdo 42/2024, del Consejo de Gobierno de",
+    "alcance": "Reglamento de Enseñanzas de Posgrado de la Universidad Internacional de Andalucía, aprobado por Acuerdo 42/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 25 de abril de 2024.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-29",
+    "etq": "T29",
+    "titulo": "Texto Refundido del Reglamento de Becas y Ayudas al Estudio de la Universidad Internacional de Andalucía, aprobado por Acuerdo 3/2024, del C",
+    "alcance": "Texto Refundido del Reglamento de Becas y Ayudas al Estudio de la Universidad Internacional de Andalucía, aprobado por Acuerdo 3/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 11 de enero de 2024.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-30",
+    "etq": "T30",
+    "titulo": "Reglamento de Gestión de Prácticas Externas de la Universidad Internacional de Andalucía, aprobada la modificación por Acuerdo 72/2024, del",
+    "alcance": "Reglamento de Gestión de Prácticas Externas de la Universidad Internacional de Andalucía, aprobada la modificación por Acuerdo 72/2024, del Consejo de Gobierno de la Universidad Internacional de Andalucía, de 24 de julio de 2024.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-31",
+    "etq": "T31",
+    "titulo": "Régimen Económico y Financiero de la UNIA",
+    "alcance": "Régimen Económico y Financiero de la UNIA. Patrimonio. Programación y Presupuesto. Contratación.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-32",
+    "etq": "T32",
+    "titulo": "El Presupuesto de la UNIA",
+    "alcance": "El Presupuesto de la UNIA. Elaboración y aprobación. Estructura. Operaciones corrientes y operaciones de capital. Limitación cualitativa, cuantitativa y temporal de los créditos. Vinculación de los créditos. Modificaciones presupuestarias. Transferencias de crédito. Incorporación de crédito. Generación de crédito. Créditos extraordinarios y suplementos de créditos.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-33",
+    "etq": "T33",
+    "titulo": "El Presupuesto de la UNIA",
+    "alcance": "El Presupuesto de la UNIA. Fases de ejecución presupuestaria. Autorización y disposición del gasto. Reconocimiento de la obligación. Ordenación y ejecución material del pago. Control Interno. Cuenta de liquidación y prórroga del Presupuesto.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-34",
+    "etq": "T34",
+    "titulo": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público",
+    "alcance": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público: Delimitación de los tipos contractuales.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-35",
+    "etq": "T35",
+    "titulo": "Introducción a la ofimática y al sistema operativo Windows",
+    "alcance": "Introducción a la ofimática y al sistema operativo Windows. Conceptos básicos de ofimática y sus aplicaciones en la Administración Pública. Elementos de un equipo informático: hardware y software. Sistema operativo Windows: características, escritorio, ventanas, menús e iconos. Operaciones básicas: crear, copiar, mover y eliminar archivos y carpetas.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-36",
+    "etq": "T36",
+    "titulo": "Configuración y mantenimiento básico de Windows",
+    "alcance": "Configuración y mantenimiento básico de Windows. Panel de control y configuración. Personalización del entorno. Instalación y desinstalación sencilla de programas. Gestión de usuarios. Actualizaciones automáticas. Medidas básicas de seguridad y protección frente a virus. Copias de seguridad y recuperación.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-37",
+    "etq": "T37",
+    "titulo": "Procesador de textos",
+    "alcance": "Procesador de textos: Microsoft Word 2016 o versiones posteriores. El entorno de trabajo. Creación, guardado y apertura de documentos. Edición de texto. Formato de caracteres y párrafos. Listas y sangrías. Configuración de página e impresión. Revisión ortográfica y gramatical.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-38",
+    "etq": "T38",
+    "titulo": "Herramientas prácticas de Word",
+    "alcance": "Herramientas prácticas de Word. Tablas, imágenes y objetos gráficos. Encabezados, pies de página y numeración. Uso de plantillas. Combinar correspondencia. Inserción de índices y tablas de contenido. Protección y guardado seguro de documentos.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-39",
+    "etq": "T39",
+    "titulo": "Hojas de cálculo: Microsoft Excel 2016 o versiones posteriores",
+    "alcance": "Hojas de cálculo: Microsoft Excel 2016 o versiones posteriores. El entorno de trabajo. Libros, hojas y celdas. Introducción y edición de datos. Formatos numéricos y de texto. Formato de fórmulas. Funciones básicas matemáticas, de texto y búsqueda. Configuración de impresión.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-40",
+    "etq": "T40",
+    "titulo": "Gestión y presentación de datos en Excel",
+    "alcance": "Gestión y presentación de datos en Excel. Gráficos básicos. Ordenación y filtrado de datos. Protección de celdas y hojas. Plantillas de uso frecuente. Elaboración de cuadros y listados administrativos. Impresión de informes.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-41",
+    "etq": "T41",
+    "titulo": "Presentaciones con Microsoft PowerPoint",
+    "alcance": "Presentaciones con Microsoft PowerPoint. Conceptos generales. Creación y guardado de presentaciones. Uso de plantillas y temas. Inserción de texto, imágenes y gráficos. Animaciones y transiciones. Revisión y proyección de la presentación.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-42",
+    "etq": "T42",
+    "titulo": "Herramientas ofimáticas de Google",
+    "alcance": "Herramientas ofimáticas de Google: Google Workspace. Introducción a la nube. Google Drive: almacenamiento y organización de archivos. Google Docs, Sheets y Slides: funciones básicas y trabajo colaborativo. Compartir documentos y asignar permisos. Ventajas del uso institucional de Google Workspace.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-43",
+    "etq": "T43",
+    "titulo": "Formularios y colaboración en línea",
+    "alcance": "Formularios y colaboración en línea. Google Forms: creación de formularios, tipos de preguntas y recopilación de respuestas. Exportación de datos a hojas de cálculo. Trabajo en equipo en documentos compartidos. Recomendaciones de seguridad en el uso de herramientas en línea.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-44",
+    "etq": "T44",
+    "titulo": "Internet y navegación web",
+    "alcance": "Internet y navegación web. Conceptos básicos de Internet. Navegadores (Microsoft Edge, Chrome y Firefox): funciones principales. Gestión de favoritos, historial y descargas. Búsquedas eficientes en la web. Precauciones de seguridad y protección de datos al navegar.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-45",
+    "etq": "T45",
+    "titulo": "Correo electrónico y comunicación digital",
+    "alcance": "Correo electrónico y comunicación digital. Conceptos fundamentales. Microsoft Outlook y Gmail: entorno, configuración de cuentas, carpetas y contactos. Envío, recepción y organización de mensajes. Adjuntar archivos. Reglas de mensaje. Netiqueta y buenas prácticas en la comunicación institucional.",
+    "gratis": false
+   },
+   {
+    "id": "uniaaux-46",
+    "etq": "T46",
+    "titulo": "Seguridad informática y protección de la información",
+    "alcance": "Seguridad informática y protección de la información. Principios básicos de seguridad digital. Contraseñas seguras. Protección frente a virus, spam y phishing. Copias de seguridad. Buenas prácticas en el uso del correo y los servicios en la nube. Introducción al Reglamento General de Protección de Datos (RGPD) y la LOPDGDD en el entorno administrativo.",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "unia-gestion-universitaria-pi",
