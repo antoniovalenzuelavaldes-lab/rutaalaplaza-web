@@ -395,14 +395,14 @@
     "etq": "T2",
     "titulo": "Proyecto de Estatutos de la Universidad de Granada, aprobado por el Claustro Universitario (BOUGR núm",
     "alcance": "Proyecto de Estatutos de la Universidad de Granada, aprobado por el Claustro Universitario (BOUGR núm. 326, de 27 de mayo de 2026).",
-    "gratis": true
+    "gratis": false
    },
    {
     "id": "ugradm-3",
     "etq": "T3",
     "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
     "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía.",
-    "gratis": false
+    "gratis": true
    },
    {
     "id": "ugradm-4",
@@ -3653,7 +3653,7 @@
     "etq": "T5",
     "titulo": "La Ley orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
     "alcance": "La Ley orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la ley. El principio de igualdad y la tutela contra la discriminación.",
-    "gratis": true
+    "gratis": false
    },
    {
     "id": "uniaaux-6",
