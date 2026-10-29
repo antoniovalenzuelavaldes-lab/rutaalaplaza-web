@@ -370,7 +370,7 @@
   "nombre": "Escala Técnica de Gestión Universitaria",
   "organismo": "Universidad de Cádiz",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre",
   "grupo": "",
@@ -428,6 +428,582 @@
   },
   "claves": [
    "tecnica de gestion universitaria"
+  ],
+  "temario": [
+   {
+    "id": "ucagtu-1",
+    "etq": "T1",
+    "titulo": "La administración por objetivos",
+    "alcance": "La administración por objetivos: Dirección por objetivos y programación de proyectos. Administración para la calidad. Modelos de gestión: el modelo EFQM. Los sistemas de certificación y acreditación.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-2",
+    "etq": "T2",
+    "titulo": "Sistema de Dirección Estratégica de la Universidad de Cádiz",
+    "alcance": "Sistema de Dirección Estratégica de la Universidad de Cádiz: misión, visión, valores, ámbitos estratégicos y objetivos.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-3",
+    "etq": "T3",
+    "titulo": "El factor humano en la organización",
+    "alcance": "El factor humano en la organización. El liderazgo: estilos y competencias del líder. El grupo en la organización: dinámicas de trabajo, el trabajo en equipo. La motivación.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-4",
+    "etq": "T4",
+    "titulo": "Definición y análisis de problemas",
+    "alcance": "Definición y análisis de problemas. El proceso de toma de decisiones. Gestión de los conflictos en las organizaciones. La negociación. El cambio organizacional.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-5",
+    "etq": "T5",
+    "titulo": "El análisis y descripción de puestos de trabajo",
+    "alcance": "El análisis y descripción de puestos de trabajo. La gestión por competencias: concepto y tipos de competencias. La evaluación del desempeño.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-6",
+    "etq": "T6",
+    "titulo": "El proceso de comunicación",
+    "alcance": "El proceso de comunicación: concepto, elementos y tipos. La comunicación interna en las organizaciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-7",
+    "etq": "T7",
+    "titulo": "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno",
+    "alcance": "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno: Transparencia de la actividad pública. Publicidad activa. El derecho de acceso a la información pública. Reglamento UCA/CG05/2019, de 17 de diciembre, de transparencia, acceso a la información y buen gobierno de la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-8",
+    "etq": "T8",
+    "titulo": "Política Antifraude de la Universidad de Cádiz",
+    "alcance": "Política Antifraude de la Universidad de Cádiz. La Comisión Antifraude.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-9",
+    "etq": "T9",
+    "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales",
+    "alcance": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Disposiciones generales. Principios de protección de los datos. Derecho de las personas. Responsable y encargado de tratamiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-10",
+    "etq": "T10",
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+    "alcance": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Objeto y ámbito de la Ley. El principio de igualdad y la tutela contra la discriminación. Políticas públicas para la igualdad: Principios generales y Acción administrativa para la igualdad. El derecho al trabajo en igualdad de oportunidades: Igualdad de trato y oportunidades en el ámbito laboral, Igualdad y conciliación y Los planes ",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-11",
+    "etq": "T11",
+    "titulo": "La Constitución Española de 1978",
+    "alcance": "La Constitución Española de 1978. Características Generales. Valor normativo. Reforma Constitucional.",
+    "gratis": true
+   },
+   {
+    "id": "ucagtu-12",
+    "etq": "T12",
+    "titulo": "Valores superiores y principios inspiradores de la Constitución Española",
+    "alcance": "Valores superiores y principios inspiradores de la Constitución Española. Derechos y deberes. Libertades públicas. Garantías y restricciones.",
+    "gratis": true
+   },
+   {
+    "id": "ucagtu-13",
+    "etq": "T13",
+    "titulo": "Los poderes del Estado en la Constitución de 1978",
+    "alcance": "Los poderes del Estado en la Constitución de 1978: su regulación.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-14",
+    "etq": "T14",
+    "titulo": "La Jefatura del Estado",
+    "alcance": "La Jefatura del Estado: la Corona. Funciones constitucionales del Rey. Sucesión y Regencia.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-15",
+    "etq": "T15",
+    "titulo": "Las Cortes Generales",
+    "alcance": "Las Cortes Generales: Congreso de los Diputados y Senado. Composición y funcionamiento. Órganos y funcionamiento de las cámaras. La función legislativa. La función de control del Gobierno. El Tribunal de Cuentas y el Defensor del Pueblo.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-16",
+    "etq": "T16",
+    "titulo": "El Gobierno del Estado",
+    "alcance": "El Gobierno del Estado. Composición. Funciones. Designación, remoción y responsabilidades de sus miembros y de su Presidente.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-17",
+    "etq": "T17",
+    "titulo": "La representación política en España",
+    "alcance": "La representación política en España: los partidos políticos. El sistema electoral español, Organización del sufragio y procedimiento electoral.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-18",
+    "etq": "T18",
+    "titulo": "La Administración pública",
+    "alcance": "La Administración pública: regulación constitucional. Tipología de la Administración pública en España.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-19",
+    "etq": "T19",
+    "titulo": "La Organización territorial del Estado en la Constitución Española",
+    "alcance": "La Organización territorial del Estado en la Constitución Española. Las organizaciones sindicales y empresariales en España.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-20",
+    "etq": "T20",
+    "titulo": "El Estatuto de Autonomía para Andalucía",
+    "alcance": "El Estatuto de Autonomía para Andalucía. Derechos y deberes. Principios rectores. Competencias de la Comunidad Autónoma.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-21",
+    "etq": "T21",
+    "titulo": "La Administración de la Comunidad Autónoma de Andalucía",
+    "alcance": "La Administración de la Comunidad Autónoma de Andalucía. Principios de organización y funcionamiento. Organización general. Tipos de órganos. Órganos centrales y territoriales. Estatuto de los altos cargos de la Administración.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-22",
+    "etq": "T22",
+    "titulo": "Organización institucional de la Comunidad Autónoma de Andalucía",
+    "alcance": "Organización institucional de la Comunidad Autónoma de Andalucía: El sistema electoral. Función legislativa y ejecutiva.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-23",
+    "etq": "T23",
+    "titulo": "La Administración de la Comunidad Autónoma de Andalucía",
+    "alcance": "La Administración de la Comunidad Autónoma de Andalucía. Organización y funcionamiento.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-24",
+    "etq": "T24",
+    "titulo": "La Unión Europea. Los tratados",
+    "alcance": "La Unión Europea. Los tratados. Instituciones comunitarias.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-25",
+    "etq": "T25",
+    "titulo": "El Derecho comunitario",
+    "alcance": "El Derecho comunitario. Tipología de fuentes. Aplicación y eficacia del Derecho Comunitario en los países miembros. El presupuesto de la Unión Europea y sus fuentes de financiación.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-26",
+    "etq": "T26",
+    "titulo": "Las libertades básicas del sistema Comunitario",
+    "alcance": "Las libertades básicas del sistema Comunitario. Libre circulación de mercancías y política comercial común. Libre circulación de trabajadores y política social y de empleo. Libertad de establecimiento y libre prestación de servicios. Libre circulación de capitales.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-27",
+    "etq": "T27",
+    "titulo": "La política regional comunitaria",
+    "alcance": "La política regional comunitaria. La cohesión económica y social: los fondos estructurales y sus objetivos prioritarios. Los demás instrumentos financieros.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-28",
+    "etq": "T28",
+    "titulo": "La Administración pública española",
+    "alcance": "La Administración pública española. Los principios constitucionales. Las fuentes del Derecho Administrativo: concepto y clases. La Constitución y las leyes: clases. Disposiciones normativas con fuerza de ley. El Reglamento: concepto, naturaleza y clases; límites a la potestad reglamentaria. Otras fuentes del Derecho Administrativo.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-29",
+    "etq": "T29",
+    "titulo": "La actividad del Sector Público",
+    "alcance": "La actividad del Sector Público. Del servicio público en sentido estricto al servicio de interés general. La gestión de los servicios públicos: gestión directa y gestión indirecta.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-30",
+    "etq": "T30",
+    "titulo": "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público",
+    "alcance": "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. Disposiciones generales. Los órganos de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-31",
+    "etq": "T31",
+    "titulo": "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público",
+    "alcance": "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. Principios de la potestad sancionadora. La responsabilidad patrimonial de las Administraciones Públicas. Regulación del procedimiento sancionador y de responsabilidad patrimonial en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-32",
+    "etq": "T32",
+    "titulo": "La Ley 40/2015, de 1 de octubre",
+    "alcance": "La Ley 40/2015, de 1 de octubre. Funcionamiento electrónico del sector público. Convenios. Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-33",
+    "etq": "T33",
+    "titulo": "La Ley 40/2015, de 1 de octubre",
+    "alcance": "La Ley 40/2015, de 1 de octubre. Organización y funcionamiento del sector público institucional.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-34",
+    "etq": "T34",
+    "titulo": "La Ley 40/2015, de 1 de octubre",
+    "alcance": "La Ley 40/2015, de 1 de octubre. Principios generales de las relaciones interadministrativas. La colaboración y cooperación entre Administraciones Públicas. Relaciones electrónicas entre Administraciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-35",
+    "etq": "T35",
+    "titulo": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas",
+    "alcance": "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. De los interesados. La actividad de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-36",
+    "etq": "T36",
+    "titulo": "La Ley 39/2015, de 1 de octubre",
+    "alcance": "La Ley 39/2015, de 1 de octubre. De los actos administrativos.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-37",
+    "etq": "T37",
+    "titulo": "La Ley 39/2015, de 1 de octubre",
+    "alcance": "La Ley 39/2015, de 1 de octubre. De las disposiciones sobre el procedimiento administrativo común.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-38",
+    "etq": "T38",
+    "titulo": "La Ley 39/2015, de 1 de octubre",
+    "alcance": "La Ley 39/2015, de 1 de octubre. Revisión de los actos en vía administrativa.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-39",
+    "etq": "T39",
+    "titulo": "La Ley 39/2015, de 1 de octubre",
+    "alcance": "La Ley 39/2015, de 1 de octubre. De la iniciativa legislativa y de la potestad para dictar reglamentos y otras disposiciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-40",
+    "etq": "T40",
+    "titulo": "Concepto de Administración Pública a efectos del recurso contencioso-administrativo",
+    "alcance": "Concepto de Administración Pública a efectos del recurso contencioso-administrativo. Los órganos del orden jurisdiccional contencioso-administrativo. Reglas determinantes de sus respectivas competencias: la distribución de competencias de las Salas de lo Contencioso Administrativo del Tribunal Superior de Justicia de Andalucía. El procedimiento contencioso administrativo. La sentencia y los recursos contra las mismas",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-41",
+    "etq": "T41",
+    "titulo": "Régimen jurídico del personal al servicio de las Administraciones Públicas",
+    "alcance": "Régimen jurídico del personal al servicio de las Administraciones Públicas. El TREBEP. La Ley de Función Pública de Andalucía. Planificación de recursos humanos en las Administraciones Públicas. La oferta de empleo pública. Las relaciones de puestos de trabajo. La formación del personal.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-42",
+    "etq": "T42",
+    "titulo": "Adquisición y pérdida de la condición de funcionario",
+    "alcance": "Adquisición y pérdida de la condición de funcionario. Ingreso en los cuerpos y escalas de las Administraciones Públicas. La provisión de puestos de trabajo.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-43",
+    "etq": "T43",
+    "titulo": "Situaciones del personal funcionarios",
+    "alcance": "Situaciones del personal funcionarios: supuestos y efectos de cada una de ellas.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-44",
+    "etq": "T44",
+    "titulo": "Derechos y deberes. Código de conducta de los empleados públicos",
+    "alcance": "Derechos y deberes. Código de conducta de los empleados públicos. Sistema de retribuciones e indemnizaciones. Las incompatibilidades: regulación general y excepciones.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-45",
+    "etq": "T45",
+    "titulo": "Régimen disciplinario",
+    "alcance": "Régimen disciplinario: faltas, sanciones y tramitación.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-46",
+    "etq": "T46",
+    "titulo": "Los funcionarios de los Cuerpos Docentes Universitarios",
+    "alcance": "Los funcionarios de los Cuerpos Docentes Universitarios: su regulación en la Ley Orgánica del Sistema Universitario y Ley Universitaria para Andalucía. El régimen del profesorado universitario. Los concursos para la provisión de plazas de Cuerpos Docentes Universitarios.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-47",
+    "etq": "T47",
+    "titulo": "El personal docente e investigador laboral",
+    "alcance": "El personal docente e investigador laboral: su regulación en la Ley Orgánica del Sistema Universitario, Ley Universitaria para Andalucía y I Convenio Colectivo del Personal Docente e Investigador Laboral de las Universidades Públicas de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-48",
+    "etq": "T48",
+    "titulo": "El personal técnico, de gestión y de administración y servicios",
+    "alcance": "El personal técnico, de gestión y de administración y servicios: su regulación en la Ley Orgánica del Sistema Universitario y en la Ley Universitaria para Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-49",
+    "etq": "T49",
+    "titulo": "Las fuentes del Derecho del Trabajo",
+    "alcance": "Las fuentes del Derecho del Trabajo. Los convenios colectivos de trabajo. Concepto, naturaleza y régimen jurídico. Especial referencia al IV Convenio Colectivo del PAS laboral de las Universidades Públicas de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-50",
+    "etq": "T50",
+    "titulo": "El contrato de trabajo",
+    "alcance": "El contrato de trabajo. Concepto y naturaleza. Sujetos. Forma. Contenido y régimen jurídico. Extinción. Modalidades del contrato de trabajo.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-51",
+    "etq": "T51",
+    "titulo": "Derecho sindical. La libertad sindical",
+    "alcance": "Derecho sindical. La libertad sindical: contenido. La participación del personal en la empresa. Representación sindical. Régimen electoral.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-52",
+    "etq": "T52",
+    "titulo": "El sistema español de seguridad social",
+    "alcance": "El sistema español de seguridad social. El Régimen General. Tipos y características de las prestaciones. Afiliación de trabajadores. Altas y bajas. Cotización. Acción protectora. Aspectos generales del Régimen Especial de la Seguridad Social de los Funcionarios Civiles del Estado.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-53",
+    "etq": "T53",
+    "titulo": "Prevención de riesgos laborales",
+    "alcance": "Prevención de riesgos laborales. Funciones y competencias de la Administración. Obligaciones de los empresarios.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-54",
+    "etq": "T54",
+    "titulo": "Ley Orgánica del Sistema Universitario, Ley Andaluza de Universidades y Estatutos de la Universidad de Cádiz",
+    "alcance": "Ley Orgánica del Sistema Universitario, Ley Andaluza de Universidades y Estatutos de la Universidad de Cádiz: Regulación básica de la actividad económico-financiera y presupuestaria. Rendición de cuentas, transparencia e integridad. Suficiencia y autonomía económica y financiera. Programación y sistema de financiación. Presupuestos. Colaboración con otras entidades o personas físicas. Entidades basadas en el conocimi",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-55",
+    "etq": "T55",
+    "titulo": "El Presupuesto de la Universidad de Cádiz",
+    "alcance": "El Presupuesto de la Universidad de Cádiz: Concepto y contenido. El ejercicio presupuestario. Principios generales. Estado de ingresos y de gastos del presupuesto: clasificación orgánica, funcional y económica. Reglas de vinculación de los créditos. Responsables de Unidades de Gasto y Unidades Tramitadoras. Liquidación del presupuesto y cierre del ejercicio. Prórroga presupuestaria.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-56",
+    "etq": "T56",
+    "titulo": "La Universidad de Cádiz",
+    "alcance": "La Universidad de Cádiz: Concepto y régimen de los derechos y obligaciones económicas. Ingresos y gastos de naturaleza afectada. Precios públicos de servicios universitarios. Ingresos patrimoniales. Exacción de ingresos de derecho público. Aplazamiento y fraccionamiento de los derechos. Devoluciones de ingreso. Prescripción de derechos y obligaciones. Prestación de servicios internos.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-57",
+    "etq": "T57",
+    "titulo": "La Universidad de Cádiz",
+    "alcance": "La Universidad de Cádiz: Créditos presupuestarios. Gastos plurianuales. Modificaciones de créditos y procedimientos. Transferencias de crédito. Generaciones de crédito. Ampliaciones de crédito. Créditos extraordinarios y suplementos de crédito. Incorporación de remanentes afectados y no afectados. Bajas por anulación. Redistribución de créditos. El Fondo de Contingencia.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-58",
+    "etq": "T58",
+    "titulo": "La Universidad de Cádiz",
+    "alcance": "La Universidad de Cádiz: Autorización de gastos y ordenación de pagos. Gastos fijos y domiciliados. Fases del procedimiento y documentos contables que intervienen en la gestión del gasto. Requisitos de las facturas. Procedimiento para la presentación de facturas por proveedores. La factura electrónica. El Registro Contable de facturas. El control interno: Formas y principios de actuación. Plan anual de Auditoría y Co",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-59",
+    "etq": "T59",
+    "titulo": "La Universidad de Cádiz",
+    "alcance": "La Universidad de Cádiz: Gastos de personal. Gastos en bienes y servicios corrientes. Gastos financieros. Transferencias y subvenciones: corrientes y de capital. Gastos de inversión y de investigación. Activos y Pasivos financieros.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-60",
+    "etq": "T60",
+    "titulo": "La Universidad de Cádiz",
+    "alcance": "La Universidad de Cádiz: Tesorería. Plazos y forma de pago. Cajas Habilitadas. Pagos a justificar. Conciliación bancaria. Periodo medio de pago a proveedores de las Administraciones Públicas. Operaciones de tesorería y endeudamiento. Operaciones de gestión de la liquidez de la Tesorería.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-61",
+    "etq": "T61",
+    "titulo": "El Plan General de Contabilidad Pública",
+    "alcance": "El Plan General de Contabilidad Pública: Ámbito de aplicación y estructura básica. Normas de reconocimiento y valoración. Las Cuentas Anuales. Balance. Cuenta del resultado económico patrimonial. Memoria. Rendición de cuentas: Cámara de Cuentas de Andalucía y Tribunal de Cuentas.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-62",
+    "etq": "T62",
+    "titulo": "Los impuestos directos e indirectos",
+    "alcance": "Los impuestos directos e indirectos. Obligaciones tributarias de la UCA: El Impuesto sobre la Renta de las Personas Físicas. Naturaleza, características, hecho imponible y sujetos pasivos. Rentas exentas. Tratamiento de las retribuciones de personal, becas y ayudas. Retenciones a cuenta del Impuesto. Gestión del IRPF: declaraciones fiscales de la UCA.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-63",
+    "etq": "T63",
+    "titulo": "Obligaciones tributarias de la UCA",
+    "alcance": "Obligaciones tributarias de la UCA: El Impuesto sobre el Valor añadido. Hecho imponible: entregas de bienes, prestaciones de servicios, adquisiciones intracomunitarias e importaciones. Sectores diferenciados de la actividad universitaria. Gestión del IVA: declaraciones fiscales de la UCA. Tasas y precios públicos de servicios universitarios: regulación básica.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-64",
+    "etq": "T64",
+    "titulo": "La Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público y su aplicación en el ámbito de la Universidad de Cádiz",
+    "alcance": "La Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público y su aplicación en el ámbito de la Universidad de Cádiz: Objeto y ámbito de aplicación. Negocios y contratos excluidos. Contratos administrativos y contratos privados. Contrato de obras. Contrato de concesión de obras. Contrato de concesión de servicios. Contrato de suministro. Contrato de servicios. Contratos mixtos. Contratos sujetos a regulación arm",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-65",
+    "etq": "T65",
+    "titulo": "La Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público y su aplicación en el ámbito de la Universidad de Cádiz",
+    "alcance": "La Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público y su aplicación en el ámbito de la Universidad de Cádiz: Necesidad, idoneidad y eficiencia en la contratación. Prohibiciones de contratar. Capacidad y solvencia del empresario. Órgano de contratación. Responsable del contrato. Mesa de Contratación. Objeto del contrato. Presupuesto base de licitación. Valor estimado y precio del contrato. Garantías exig",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-66",
+    "etq": "T66",
+    "titulo": "La Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público y su aplicación en el ámbito de la Universidad de Cádiz",
+    "alcance": "La Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público y su aplicación en el ámbito de la Universidad de Cádiz: Expediente de contratación. Pliegos de cláusulas administrativas y de prescripciones técnicas. Las consultas preliminares del mercado. Anuncio de información previa. Procedimientos para la adjudicación de los contratos. Proposiciones de los interesados. Criterios de adjudicación del contrato y de",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-67",
+    "etq": "T67",
+    "titulo": "Normativa general sobre subvenciones en el ámbito estatal y de la Comunidad Autónoma de Andalucía",
+    "alcance": "Normativa general sobre subvenciones en el ámbito estatal y de la Comunidad Autónoma de Andalucía. Conceptos generales. Gestión de subvenciones en la Universidad de Cádiz: modalidades, procedimientos, órganos competentes, obligaciones de los beneficiarios y justificación.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-68",
+    "etq": "T68",
+    "titulo": "La Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Públicas y la Ley 4/1986, de 5 de mayo, del Patrimonio de la Comun",
+    "alcance": "La Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Públicas y la Ley 4/1986, de 5 de mayo, del Patrimonio de la Comunidad Autónoma de Andalucía: conceptos básicos. Régimen patrimonial de la Universidad de Cádiz: disposiciones de la LOSU, TRLAU y Estatutos de la UCA. Bienes de dominio público y privado. Autorizaciones y concesiones. Procedimiento para la aceptación de donaciones y cesiones de us",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-69",
+    "etq": "T69",
+    "titulo": "El Espacio Europeo de Educación Superior",
+    "alcance": "El Espacio Europeo de Educación Superior. Horizonte Europa.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-70",
+    "etq": "T70",
+    "titulo": "La ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación",
+    "alcance": "La ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación. El Plan Propio de la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-71",
+    "etq": "T71",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Investigación y transferencia e intercambio del conocimiento e innovación. Reglamento UCA para la realización de trabajos de carácter científico, técnico o artístico, en colaboración con otras entidades o personas físicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-72",
+    "etq": "T72",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Funciones del sistema universitario y autonomía de las universidades. Creación y reconocimiento de las universidades y calidad del sistema universitario. Cooperación, coordinación y participación en el sistema universitario. Universidad, sociedad y cultura. Internacionalización del sistema universitario.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-73",
+    "etq": "T73",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Régimen jurídico, estructura y gobernanza de las universidades públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-74",
+    "etq": "T74",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: Organización de las enseñanzas. Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-75",
+    "etq": "T75",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario: El estudiantado en el Sistema Universitario. Normativa sobre admisión, matriculación y permanencia en la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-76",
+    "etq": "T76",
+    "titulo": "Normativa reguladora de los estudios de Doctorado",
+    "alcance": "Normativa reguladora de los estudios de Doctorado.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-77",
+    "etq": "T77",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Disposiciones Generales. Creación y Reconocimiento de Universidades.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-78",
+    "etq": "T78",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Docencia, Investigación y Transferencia de Conocimiento. Estudiantado.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-79",
+    "etq": "T79",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Coordinación Universitaria.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-80",
+    "etq": "T80",
+    "titulo": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía",
+    "alcance": "Ley 1/2026, de 20 de febrero, Universitaria para Andalucía: Estructura de las Universidades y Gobernanza de las Universidades Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-81",
+    "etq": "T81",
+    "titulo": "El Reglamento de Gobierno y Administración de la Universidad de Cádiz",
+    "alcance": "El Reglamento de Gobierno y Administración de la Universidad de Cádiz.",
+    "gratis": false
+   },
+   {
+    "id": "ucagtu-82",
+    "etq": "T82",
+    "titulo": "Código ético de la Universidad de Cádiz (Código Peñalver)",
+    "alcance": "Código ético de la Universidad de Cádiz (Código Peñalver).",
+    "gratis": false
+   }
   ]
  },
  {
@@ -847,7 +1423,7 @@
   "nombre": "Técnico/a Especialista de Prevención de Riesgos Laborales, Medioambiente y Sostenibilidad",
   "organismo": "Universidad de Jaén",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal laboral",
   "turno": "Libre",
   "grupo": "Grupo III",
@@ -885,6 +1461,148 @@
   },
   "claves": [
    "prevencion de riesgos laborales"
+  ],
+  "temario": [
+   {
+    "id": "ujaprl-1",
+    "etq": "T1",
+    "titulo": "El IV Convenio Colectivo del personal laboral de las Universidades Públicas de Andalucía",
+    "alcance": "El IV Convenio Colectivo del personal laboral de las Universidades Públicas de Andalucía.",
+    "gratis": true
+   },
+   {
+    "id": "ujaprl-2",
+    "etq": "T2",
+    "titulo": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario",
+    "alcance": "Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.",
+    "gratis": true
+   },
+   {
+    "id": "ujaprl-3",
+    "etq": "T3",
+    "titulo": "Decreto 230/2003, de 29 de julio, por el que se aprueban los Estatutos de la Universidad de Jaén, reformados mediante el Decreto 235/2011, d",
+    "alcance": "Decreto 230/2003, de 29 de julio, por el que se aprueban los Estatutos de la Universidad de Jaén, reformados mediante el Decreto 235/2011, de 12 de julio.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-4",
+    "etq": "T4",
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+    "alcance": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-5",
+    "etq": "T5",
+    "titulo": "El Sistema Integrado de Gestión de la Calidad de los Servicios y Unidades Administrativas de la Universidad de Jaén (SIGC-SUA) – PREMAS",
+    "alcance": "El Sistema Integrado de Gestión de la Calidad de los Servicios y Unidades Administrativas de la Universidad de Jaén (SIGC-SUA) – PREMAS. Gestión de los residuos peligrosos (PC 04.2) y Gestión integrada de los recursos humanos (PC 05.241 Evaluación de riesgos laborales, PC 05.242 Planes de emergencia, PC 05.243 Gestión de equipos de protección individual, PC 05.244 Vigilancia de la salud. PC 05.245 Seguimiento de acci",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-6",
+    "etq": "T6",
+    "titulo": "Política y Plan de prevención",
+    "alcance": "Política y Plan de prevención. Organización preventiva. Servicio de Prevención. Comité de Seguridad y Salud. Derecho de los trabajadores a la protección frente a los riesgos laborales. El deber empresarial de protección. Normativa y aplicación en la UJA.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-7",
+    "etq": "T7",
+    "titulo": "Integración de la prevención de los riesgos laborales",
+    "alcance": "Integración de la prevención de los riesgos laborales. Evaluación de riesgos laborales y planificación de la actividad preventiva. Formación e información. Vigilancia de la salud. Trabajadores especialmente sensibles. Normativa y aplicación en la UJA.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-8",
+    "etq": "T8",
+    "titulo": "Disposiciones mínimas de seguridad y salud en los lugares de trabajo",
+    "alcance": "Disposiciones mínimas de seguridad y salud en los lugares de trabajo. Normativa aplicable.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-9",
+    "etq": "T9",
+    "titulo": "Medidas de emergencia en los lugares de trabajo",
+    "alcance": "Medidas de emergencia en los lugares de trabajo. Normativa y aplicación en la UJA.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-10",
+    "etq": "T10",
+    "titulo": "Equipos de protección individual",
+    "alcance": "Equipos de protección individual. Normativa y aplicación en la UJA.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-11",
+    "etq": "T11",
+    "titulo": "Coordinación de actividades empresariales",
+    "alcance": "Coordinación de actividades empresariales. Normativa y aplicación en la UJA.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-12",
+    "etq": "T12",
+    "titulo": "Riesgos específicos en oficinas y despachos",
+    "alcance": "Riesgos específicos en oficinas y despachos. Trabajo con equipos que incluyen pantallas de visualización. Normativa aplicable.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-13",
+    "etq": "T13",
+    "titulo": "Riesgos específicos en laboratorios docentes y de investigación",
+    "alcance": "Riesgos específicos en laboratorios docentes y de investigación. Exposición laboral a riesgo químico y biológico. Normativa aplicable.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-14",
+    "etq": "T14",
+    "titulo": "Riesgos específicos derivados de las condiciones de trabajo relacionadas con la organización, el contenido del trabajo y la realización de l",
+    "alcance": "Riesgos específicos derivados de las condiciones de trabajo relacionadas con la organización, el contenido del trabajo y la realización de la tarea (riesgos psicosociales). Prevención del acoso. Normativa y aplicación en la UJA.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-15",
+    "etq": "T15",
+    "titulo": "Política en sostenibilidad ambiental en la UJA",
+    "alcance": "Política en sostenibilidad ambiental en la UJA. Estructura organizativa, estructura funcional. Aula Verde en la UJA.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-16",
+    "etq": "T16",
+    "titulo": "La Sostenibilidad ambiental en el marco estratégico actual de la UJA",
+    "alcance": "La Sostenibilidad ambiental en el marco estratégico actual de la UJA. Los Planes directores de carácter ambiental en la UJA (Sostenibilidad ambiental, Movilidad sostenible y Ahorro y eficiencia energética) como herramientas de despliegue. Indicadores de seguimiento.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-17",
+    "etq": "T17",
+    "titulo": "Gestión de residuos. Tipología de residuos generados en la UJA (peligrosos y no peligrosos)",
+    "alcance": "Gestión de residuos. Tipología de residuos generados en la UJA (peligrosos y no peligrosos). Normativa y aplicación en la UJA.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-18",
+    "etq": "T18",
+    "titulo": "Promoción de la movilidad sostenible",
+    "alcance": "Promoción de la movilidad sostenible. Portal de la movilidad. Programas y actividades de promoción de la movilidad en la UJA. Encuestas e informes de movilidad UJA.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-19",
+    "etq": "T19",
+    "titulo": "Actividades de sensibilización, educación y voluntariado ambiental en la UJA",
+    "alcance": "Actividades de sensibilización, educación y voluntariado ambiental en la UJA. Herramientas de difusión: Web Aula Verde, eventos UJA, redes sociales, SICODI, Boletín UJA Informa.",
+    "gratis": false
+   },
+   {
+    "id": "ujaprl-20",
+    "etq": "T20",
+    "titulo": "Participación de la UJA en Redes y Rankings nacionales e internaciones en Sostenibilidad",
+    "alcance": "Participación de la UJA en Redes y Rankings nacionales e internaciones en Sostenibilidad: UI GreenMetric World University Rankings, CRUE Sostenibilidad (Herramienta de autoevaluación de la sostenibilidad de las universidades españolas), MetaRed ESG. Contribución de la UJA a la Agenda 2030 (The Impact).",
+    "gratis": false
+   }
   ]
  }
 ]

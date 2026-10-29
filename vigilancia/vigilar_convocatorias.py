@@ -271,6 +271,12 @@ def informe(nuevas, filas, creadas=()):
             l += [f"- **{f['organismo']}** · {f['nombre']} · {f['tipo']} · {f['turno']} · {f['plazas']} · plazo hasta "
                   f"{f.get('plazoFin') or 'publicación en el BOE'} · {'con programa' if f.get('programa') else 'sin programa leído'}",
                   f"  {c['url']}"]
+            temas = [t for b in (f.get("programa") or {}).get("bloques", []) for t in b.get("temas", [])]
+            if temas:
+                l += ["  **Temario por preparar** (pídeselo a Claude: «prepara el temario de " + f["id"] + "»): los dos primeros temas abiertos y el resto de pago.",
+                      f"  1. {temas[0][:160]}"] + ([f"  2. {temas[1][:160]}"] if len(temas) > 1 else []) + [f"  (programa de {len(temas)} temas)"]
+            else:
+                l.append("  **Temario por preparar**: no se pudo leer el programa; revisa el anexo de la convocatoria.")
         l.append("")
     if nuevas:
         l += [f"## Convocatorias nuevas ({len(nuevas)})", ""]
