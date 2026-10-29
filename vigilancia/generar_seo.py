@@ -403,6 +403,9 @@ def actualiza_portada(docs, bloque):
 if __name__ == "__main__":
     docs = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
     opos = json.load(open(os.path.join(docs, "oposiciones.json"), encoding="utf8"))
+    _f = os.path.join(docs, "oposiciones-auto.json")   # fichas creadas solas por el proceso diario
+    if os.path.exists(_f):
+        opos += [o for o in json.load(open(_f, encoding="utf8")) if o["id"] not in {x["id"] for x in opos}]
     ugr = next((o.get("temario") for o in opos if o.get("temario")), None)
     paginas, bloque = generar(opos, docs, temario_ugr=ugr)
     actualiza_portada(docs, bloque)

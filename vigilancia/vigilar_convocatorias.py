@@ -18,6 +18,9 @@ Uso:
   python vigilar_convocatorias.py --opos docs/oposiciones.json --estado vigilancia/estado.json
   ... --issue --asignar USUARIO      abre un aviso en GitHub (gh) con lo encontrado
   ... --avisar                       envía los correos a los suscritos (sin esta opción solo cuenta a quién se enviaría)
+  ... --auto docs/oposiciones-auto.json   crea SOLA la ficha de cada convocatoria nueva (ficha_auto.py) y la guarda en ese fichero;
+                                     el listado público y las páginas la recogen sin que nadie la confirme. Lo que no se pueda
+                                     leer con fiabilidad queda en el aviso para revisarlo a mano.
   python vigilar_convocatorias.py --opos docs/oposiciones.json --sin-estado --desde 2026-10-01   # prueba, no guarda nada
 """
 import argparse
@@ -258,12 +261,23 @@ def procesar_cambios(eventos, avisar):
     return filas, pendientes
 
 
-def informe(nuevas, filas):
+def informe(nuevas, filas, creadas=()):
     l = []
+    if creadas:
+        l += [f"## Fichas creadas y publicadas automáticamente ({len(creadas)})", "",
+              "No hace falta hacer nada: ya están en el listado y con su página. Si quieres, comprueba los datos (plazas, plazo, programa) "
+              "en el enlace oficial; para corregir una, edítala en `docs/oposiciones-auto.json` o quítale `auto` y pásala a `oposiciones.json`.", ""]
+        for c, f in creadas:
+            l += [f"- **{f['organismo']}** · {f['nombre']} · {f['tipo']} · {f['turno']} · {f['plazas']} · plazo hasta "
+                  f"{f.get('plazoFin') or 'publicación en el BOE'} · {'con programa' if f.get('programa') else 'sin programa leído'}",
+                  f"  {c['url']}"]
+        l.append("")
     if nuevas:
         l += [f"## Convocatorias nuevas ({len(nuevas)})", ""]
         for c in sorted(nuevas, key=lambda c: (c["fecha"] or "", c["id"])):
             l += [f"- **{uni_de(c['titulo'])}** · {c['fuente']} del {c['fecha']}", f"  {c['titulo']}", f"  {c['url']}"]
+            if c.get("motivo"):
+                l.append(f"  _No se pudo crear la ficha sola: {c['motivo']}_")
         l += ["", "Siguiente paso: abre cada enlace, comprueba escala, plazas, turno y plazo, y añádela a `oposiciones.json` "
                   "(con sus `claves`). Si sale en BOE y BOJA, es la misma: una sola ficha.", ""]
     if filas:
@@ -287,11 +301,16 @@ def main():
     ap.add_argument("--asignar", default="", help="usuario de GitHub al que asignar el issue")
     ap.add_argument("--avisar", action="store_true", help="envía los correos a los suscritos")
     ap.add_argument("--salida", help="escribe el informe en este fichero")
+    ap.add_argument("--auto", help="fichero JSON donde se guardan las fichas creadas automáticamente (se crea si no existe)")
     ap.add_argument("--solo-estado", action="store_true", help="marca todo lo encontrado como visto, sin informar (para empezar de cero)")
     ap.add_argument("--fecha-escaneo", help="escribe {fecha: hoy} en este fichero JSON (lo lee la web)")
     a = ap.parse_args()
 
     opos = json.load(open(a.opos, encoding="utf8"))
+    auto = cargar(a.auto) if a.auto else []
+    if not isinstance(auto, list):
+        auto = []
+    opos = opos + [o for o in auto if o["id"] not in {x["id"] for x in opos}]
     hoy = dt.date.fromisoformat(a.hasta) if a.hasta else dt.date.today()
     est = {} if a.sin_estado else cargar(a.estado)
     vistos = set(est.get("vistos", []))
@@ -351,13 +370,34 @@ def main():
             eventos.append({**c, "tipo": clave, "texto": texto, "procesos": procesos})
     if a.solo_estado:
         nuevas, eventos = [], []
+    creadas = []
+    if a.auto and nuevas:
+        import ficha_auto
+        sin_crear = []
+        for c in sorted(nuevas, key=lambda c: (c["fecha"] or "", c["id"])):
+            if procesos_de(c["titulo"], opos):   # la misma convocatoria salió en BOE y BOJA: ya la hemos creado en esta vuelta
+                continue
+            try:
+                f = ficha_auto.crear(c, opos)
+            except Exception as e:
+                c["motivo"] = str(e)
+                sin_crear.append(c)
+                print(f"  ! no se pudo crear la ficha de {c['id']}: {e}", file=sys.stderr)
+                continue
+            auto.append(f)
+            opos.append(f)
+            creadas.append((c, f))
+        nuevas = sin_crear
+        if creadas:
+            os.makedirs(os.path.dirname(os.path.abspath(a.auto)), exist_ok=True)
+            json.dump(auto, open(a.auto, "w", encoding="utf8"), ensure_ascii=False, indent=1)
     filas, pendientes = procesar_cambios(eventos, a.avisar)
-    texto = informe(nuevas, filas)
+    texto = informe(nuevas, filas, creadas)
     print(texto)
     if a.salida:
         open(a.salida, "w", encoding="utf8").write(texto + "\n")
 
-    if (nuevas or filas) and a.issue:
+    if (nuevas or filas or creadas) and a.issue:
         titulo = f"Novedades de convocatorias PAS en universidades andaluzas ({hoy.isoformat()})"
         cmd = ["gh", "issue", "create", "--title", titulo, "--body", texto]
         if a.asignar:   # al asignarlo, GitHub avisa por correo a esa persona; si no se puede asignar, se crea igualmente

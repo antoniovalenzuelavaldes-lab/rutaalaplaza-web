@@ -4,7 +4,7 @@ name: Vigilar convocatorias
 # asignado al titular del repositorio y, si está activado el envío, escribe a quienes se hayan suscrito a esa oposición.
 on:
   schedule:
-    - cron: "17 5 * * *"   # 05:17 UTC (06:17 o 07:17 en España)
+    - cron: "43 4 * * *"   # 04:43 UTC (05:43 o 06:43 en España)
   workflow_dispatch:
     inputs:
       enviar:
@@ -36,14 +36,14 @@ jobs:
           extra=""
           if [ "$ENVIAR" = "si" ]; then extra="--avisar"; fi
           python vigilancia/vigilar_convocatorias.py --opos docs/oposiciones.json --estado vigilancia/estado.json \
-            --issue --asignar antoniovalenzuelavaldes-lab --fecha-escaneo docs/ultimo-escaneo.json $extra
+            --issue --asignar antoniovalenzuelavaldes-lab --fecha-escaneo docs/ultimo-escaneo.json \n            --auto docs/oposiciones-auto.json $extra
       - name: Actualizar las páginas para buscadores (estados abierta/cerrada al día)
         run: python vigilancia/generar_seo.py docs
       - name: Guardar estado, fecha del escaneo y páginas
         run: |
           git config user.name "vigilante"
           git config user.email "vigilante@users.noreply.github.com"
-          git add vigilancia/estado.json docs/ultimo-escaneo.json docs/oposiciones docs/sitemap.xml docs/404.html docs/index.html
+          git add vigilancia/estado.json docs/oposiciones-auto.json docs/ultimo-escaneo.json docs/oposiciones docs/sitemap.xml docs/404.html docs/index.html
           git diff --cached --name-only > cambios.txt
           git diff --cached --quiet || (git commit -m "Vigilancia $(date -u +%F)" && git pull --rebase && git push)
       - name: Avisar a los buscadores de las páginas que han cambiado (IndexNow)
