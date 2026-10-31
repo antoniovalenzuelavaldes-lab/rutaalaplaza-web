@@ -16,3 +16,28 @@ Hay también una página con las abiertas ahora (https://rutaalaplaza.com/oposic
 Si os resulta útil, ¿os importaría enlazarlo desde vuestra sección de oposiciones universitarias? Con gusto enlazamos vuestra web de vuelta o colaboramos en lo que os convenga.
 Gracias y un saludo,
 [nombre] · Ruta a la Plaza · contacto@rutaalaplaza.com
+
+## 4. Para las secciones sindicales del PAS de cada universidad (CCOO, UGT, CSIF, CGT…)
+Se envía desde contacto@rutaalaplaza.com, con el nombre de la marca. Cada sindicato publica en su web o sus boletines las convocatorias del personal de la universidad: el listado nuestro les ahorra trabajo.
+
+Asunto: Listado de convocatorias PAS de las universidades andaluzas, actualizado a diario
+
+Hola:
+En Ruta a la Plaza mantenemos un listado de las convocatorias del personal técnico, de gestión y de administración y servicios (PAS/PTGAS) de las 10 universidades públicas de Andalucía, con plazos, plazas, programa oficial y enlace al BOE o al BOJA. Se actualiza cada día de forma automática y es gratuito: https://rutaalaplaza.com/oposiciones/
+Hay una página solo con las abiertas ahora (https://rutaalaplaza.com/oposiciones/abiertas/), un canal de avisos en Telegram (t.me/rutaalaplaza) y un feed para que lo incorporéis a vuestra web si queréis: https://rutaalaplaza.com/oposiciones/feed.xml
+Si lo consideráis útil para vuestros afiliados o para vuestro boletín, os agradeceremos un enlace. Si detectáis algún dato erróneo, escribidnos y lo corregimos.
+Un saludo,
+Equipo de Ruta a la Plaza · contacto@rutaalaplaza.com
+
+Dónde encontrar el contacto de cada sección sindical: en la web de cada universidad (apartado «Representación del PAS» o «Comité de Empresa/Junta de Personal»), o buscando «CCOO PAS <universidad>», «UGT PAS <universidad>», «CSIF <universidad>».
+
+## 5. Directorios públicos de canales de Telegram (alta del canal)
+Nombre: Ruta a la Plaza · Oposiciones PTGAS
+Enlace: t.me/rutaalaplaza
+Categoría: Educación / Oposiciones / Empleo público
+Descripción corta (la misma del canal): Convocatorias de oposiciones del personal de administración y servicios (PTGAS) de las 10 universidades públicas de Andalucía: plazos, programa y cambios oficiales. Un test al día con la cita de la norma.
+Idioma: español · País: España
+Directorios a probar (comprobar su formulario de alta): TGStat, Telemetr, tlgrm.eu.
+
+## 6. Primer mensaje en un foro o en Reddit (con cuenta nueva con el nombre de la marca; primero aportar, luego enlazar)
+Responder a quien pregunte por plazos o convocatorias: «Ahora mismo hay abiertas estas: [lista del boletín]. Tenéis el listado con plazos y programa aquí: https://rutaalaplaza.com/oposiciones/abiertas/ (es gratuito, lo mantenemos al día con el BOE y el BOJA)». No publicar el mismo mensaje en varios hilos.
