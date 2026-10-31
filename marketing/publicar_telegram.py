@@ -91,8 +91,8 @@ def main():
     canal = canal or "@canal"
     if modo in ("pregunta", "respuesta"):
         n = int(args[1]) if len(args) > 1 else numero_hoy()
-        if n > 14:
-            print("Se acabaron los 14 tests del día preparados: no se publica nada (el boletín sale los lunes).")
+        if n > 30:
+            print("Se acabaron los 30 tests del día preparados: no se publica nada (el boletín sale los lunes).")
             return
         f = os.path.join(AQUI, "test-del-dia", f"dia-{n}-{modo}.png")
         pie = pie_del_dia(n) if modo == "pregunta" else f"✅ Respuesta del test del día #{n}. Más tests con la cita literal de la norma: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia"

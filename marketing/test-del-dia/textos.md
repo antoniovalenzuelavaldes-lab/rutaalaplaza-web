@@ -269,3 +269,307 @@ Los enlaces llevan marca de origen para ver en GoatCounter qué canal funciona.
 > Según el Anexo III, es falta leve:
 > A) La incorrección con el público y con los compañeros o subordinados B) La desobediencia manifiesta C) El acoso sexual D) La reincidencia de tres faltas graves en cuatro meses
 > Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 15 · La Ley 19/2013 de transparencia
+
+**Instagram (pie del carrusel):**
+
+> Test del día #15 · La Ley 19/2013 de transparencia. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #15: El solicitante de información pública (art. 17.3):
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #15
+> El solicitante de información pública (art. 17.3):
+> A) No está obligado a motivar su solicitud, aunque puede exponer los motivos B) Debe motivarla siempre C) Debe acreditar un interés legítimo D) Debe aportar un aval
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 16 · Derechos y deberes de los ciudadanos
+
+**Instagram (pie del carrusel):**
+
+> Test del día #16 · Derechos y deberes de los ciudadanos. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #16: Según el artículo 22 de la Constitución, las asociaciones solo podrán ser disueltas o suspendidas:
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #16
+> Según el artículo 22 de la Constitución, las asociaciones solo podrán ser disueltas o suspendidas:
+> A) Por decisión del Gobierno B) Por el Ministerio del Interior C) En virtud de resolución judicial motivada D) Por acuerdo del Parlamento
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 17 · La Constitución Española de 1978
+
+**Instagram (pie del carrusel):**
+
+> Test del día #17 · La Constitución Española de 1978. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #17: ¿Qué artículo de la Constitución reconoce la autonomía de las Universidades?
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #17
+> ¿Qué artículo de la Constitución reconoce la autonomía de las Universidades?
+> A) El artículo 20 B) El artículo 27 C) El artículo 44 D) El artículo 103
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 18 · La Ley 40/2015, de Régimen Jurídico del…
+
+**Instagram (pie del carrusel):**
+
+> Test del día #18 · La Ley 40/2015, de Régimen Jurídico del…. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #18: Es motivo de abstención el parentesco con los interesados de consanguinidad dentro del:
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #18
+> Es motivo de abstención el parentesco con los interesados de consanguinidad dentro del:
+> A) Cuarto grado o de afinidad dentro del segundo B) Primer grado de consanguinidad C) Sexto grado de consanguinidad D) Tercer grado de afinidad
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 19 · La Ley Orgánica 3/2018 de Protección de…
+
+**Instagram (pie del carrusel):**
+
+> Test del día #19 · La Ley Orgánica 3/2018 de Protección de…. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #19: El tratamiento de datos de un menor puede fundarse en su consentimiento cuando sea mayor de (art. 7.1):
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #19
+> El tratamiento de datos de un menor puede fundarse en su consentimiento cuando sea mayor de (art. 7.1):
+> A) Catorce años B) Doce años C) Dieciséis años D) Dieciocho años
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 20 · Legislación en materia de bibliotecas
+
+**Instagram (pie del carrusel):**
+
+> Test del día #20 · Legislación en materia de bibliotecas. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #20: ¿Entre qué porcentajes del precio fijo puede oscilar el precio de venta al público (art. 9.3)?
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #20
+> ¿Entre qué porcentajes del precio fijo puede oscilar el precio de venta al público (art. 9.3)?
+> A) Entre el 100 y el 105 por 100 B) Entre el 85 y el 100 por 100 C) Entre el 90 y el 100 por 100 D) Entre el 95 y el 100 por 100
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 21 · El Estatuto Básico del Empleado Público
+
+**Instagram (pie del carrusel):**
+
+> Test del día #21 · El Estatuto Básico del Empleado Público. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #21: Por exceso o acumulación de tareas, el nombramiento de interino tiene un plazo máximo de (art. 10.1.d):
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #21
+> Por exceso o acumulación de tareas, el nombramiento de interino tiene un plazo máximo de (art. 10.1.d):
+> A) Tres meses dentro de seis B) Seis meses dentro de doce C) Nueve meses, dentro de un periodo de dieciocho meses D) Doce meses dentro de veinticuatro
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 22 · La Constitución Española de 1978
+
+**Instagram (pie del carrusel):**
+
+> Test del día #22 · La Constitución Española de 1978. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #22: ¿En qué artículo de la Constitución se reconoce la autonomía de las Universidades?
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #22
+> ¿En qué artículo de la Constitución se reconoce la autonomía de las Universidades?
+> A) Artículo 20.1.c B) Artículo 27.10 C) Artículo 44.2 D) Artículo 149.1.30
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 23 · Ley Orgánica 2/2023, de 22 de marzo, del…
+
+**Instagram (pie del carrusel):**
+
+> Test del día #23 · Ley Orgánica 2/2023, de 22 de marzo, del…. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #23: Según el artículo 6.1 de la LOSU, la docencia universitaria, preferentemente presencial:
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #23
+> Según el artículo 6.1 de la LOSU, la docencia universitaria, preferentemente presencial:
+> A) Podrá impartirse también de manera virtual o híbrida B) Debe ser siempre presencial C) Solo puede ser virtual en las universidades privadas D) No puede ser híbrida
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 24 · IV Convenio Colectivo del Personal Laboral…
+
+**Instagram (pie del carrusel):**
+
+> Test del día #24 · IV Convenio Colectivo del Personal Laboral…. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #24: Los procesos selectivos de promoción interna del artículo 21.1 se realizarán, por regla general, por el sistema de:
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #24
+> Los procesos selectivos de promoción interna del artículo 21.1 se realizarán, por regla general, por el sistema de:
+> A) Oposición B) Concurso C) Concurso-oposición D) Libre designación
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 25 · La Constitución Española de 1978
+
+**Instagram (pie del carrusel):**
+
+> Test del día #25 · La Constitución Española de 1978. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #25: ¿Quién nombra y separa a los Ministros según el artículo 100 de la Constitución?
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #25
+> ¿Quién nombra y separa a los Ministros según el artículo 100 de la Constitución?
+> A) El Presidente del Gobierno B) El Rey, a propuesta del Presidente del Gobierno C) El Congreso de los Diputados D) El Presidente del Congreso
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 26 · La Ley 39/2015, del Procedimiento…
+
+**Instagram (pie del carrusel):**
+
+> Test del día #26 · La Ley 39/2015, del Procedimiento…. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #26: Si el último día del plazo es inhábil, el plazo (art. 30.5):
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #26
+> Si el último día del plazo es inhábil, el plazo (art. 30.5):
+> A) Se entiende prorrogado al primer día hábil siguiente B) Vence el día hábil anterior C) Se pierde D) Se amplía una semana
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 27 · La Ley Orgánica 3/2018 de Protección de…
+
+**Instagram (pie del carrusel):**
+
+> Test del día #27 · La Ley Orgánica 3/2018 de Protección de…. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #27: Los derechos de oposición y los relativos a decisiones individuales automatizadas, incluida la elaboración de perfiles (art. 18), se rigen por:
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #27
+> Los derechos de oposición y los relativos a decisiones individuales automatizadas, incluida la elaboración de perfiles (art. 18), se rigen por:
+> A) Los artículos 21 y 22 del Reglamento (UE) 2016/679 B) Los artículos 15 y 16 C) El artículo 18 de la Constitución solo D) La Ley 40/2015
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 28 · Ley 1/2026, Universitaria para Andalucía
+
+**Instagram (pie del carrusel):**
+
+> Test del día #28 · Ley 1/2026, Universitaria para Andalucía. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #28: Según el artículo 90.1, el rector o la rectora es la persona responsable de:
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #28
+> Según el artículo 90.1, el rector o la rectora es la persona responsable de:
+> A) La dirección, gobierno y gestión de la universidad, y ostenta la representación de esta B) La gestión económica exclusivamente C) La coordinación entre universidades D) La presidencia del Consejo Social
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 29 · Derechos y deberes de los empleados públicos
+
+**Instagram (pie del carrusel):**
+
+> Test del día #29 · Derechos y deberes de los empleados públicos. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #29: ¿Cuántas semanas dura el permiso por nacimiento para la madre biológica, según el artículo 49?
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #29
+> ¿Cuántas semanas dura el permiso por nacimiento para la madre biológica, según el artículo 49?
+> A) Dieciséis semanas B) Diecisiete semanas C) Diecinueve semanas D) Veintiséis semanas
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia
+
+
+## Día 30 · El IV Convenio Colectivo del personal…
+
+**Instagram (pie del carrusel):**
+
+> Test del día #30 · El IV Convenio Colectivo del personal…. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia
+
+**X (menos de 280 caracteres):**
+
+> Test del día #30: ¿Cuántas vacaciones retribuidas tienen los trabajadores por cada año completo de servicio activo según el artículo 32.1?
+> Respuesta y cita de la norma: https://rutaalaplaza.com/?utm_source=x&utm_campaign=test-del-dia
+
+**Telegram o WhatsApp (canal propio):**
+
+> 📚 Test del día #30
+> ¿Cuántas vacaciones retribuidas tienen los trabajadores por cada año completo de servicio activo según el artículo 32.1?
+> A) Un mes natural o veintidós días hábiles anuales B) Veinte días hábiles C) Veintiséis días hábiles D) Treinta días naturales
+> Respuesta con la cita de la norma mañana. Más tests: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia

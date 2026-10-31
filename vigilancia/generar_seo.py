@@ -150,7 +150,7 @@ def pagina(ruta, titulo, desc, h1, cuerpo, migas, extra_ld=None, noindex=False):
 </main>
 <footer><div class="w"><p>{MARCA} es un servicio independiente de preparación de oposiciones: no está vinculado a ninguna universidad ni administración.
 La información de las convocatorias se recoge del BOE y el BOJA y es orientativa: manda siempre el texto oficial.</p>
-<p><a href="/oposiciones/">Oposiciones en universidades de Andalucía</a> · <a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/cookies.html">Cookies</a> · <a href="/legal/condiciones.html">Condiciones</a></p><p>✦ Web desarrollada por <a href="https://valenprojects.online" rel="noopener">ValenProjects</a></p></div></footer>
+<p><a href="/oposiciones/">Oposiciones en universidades de Andalucía</a> · <a href="https://t.me/rutaalaplaza" rel="noopener">Canal de Telegram</a> · <a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/cookies.html">Cookies</a> · <a href="/legal/condiciones.html">Condiciones</a></p><p>✦ Web desarrollada por <a href="https://valenprojects.online" rel="noopener">ValenProjects</a></p></div></footer>
 {JS_ESTADO}{etiqueta_gc()}</body></html>"""
 
 
@@ -296,7 +296,7 @@ def pag_abiertas(opos, uni, proc, hoy):
               f'con el <strong>plazo de solicitud abierto</strong>, ordenadas por la fecha en que termina. Ahora mismo hay <strong>{len(ab)}</strong>.</p>')
     cuerpo += "".join(tarjeta(o, proc, hoy) for o in ab) if ab else "<p>Ahora mismo no hay ninguna convocatoria con el plazo abierto. Suscríbete a tu universidad y te avisamos cuando salga una.</p>"
     cuerpo += ('<div class="card"><h2 style="margin-top:0">¿No ves la tuya?</h2><p>Mira todas las convocatorias, también las cerradas, o suscríbete a una oposición para recibir los cambios oficiales por correo.</p>'
-               '<div class="row"><a class="btn acc" href="/oposiciones/">Todas las convocatorias</a><a class="btn ghost" href="/#/oposiciones">Suscribirme</a></div></div>')
+               '<div class="row"><a class="btn acc" href="/oposiciones/">Todas las convocatorias</a><a class="btn ghost" href="/#/oposiciones">Suscribirme</a><a class="btn ghost" href="https://t.me/rutaalaplaza" rel="noopener">Avisos en Telegram</a></div></div>')
     return pagina("/oposiciones/abiertas/", titulo, desc, "Oposiciones abiertas ahora en las universidades de Andalucía", cuerpo,
                   [("Inicio", "/"), ("Oposiciones", "/oposiciones/"), ("Abiertas ahora", "/oposiciones/abiertas/")])
 
