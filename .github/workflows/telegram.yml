@@ -1,0 +1,44 @@
+name: Publicar en Telegram
+
+# «Test del día» (pregunta por la mañana, respuesta por la tarde, 14 días desde marketing/inicio.txt) y boletín de convocatorias los lunes.
+# El token del bot está en el secreto TELEGRAM_BOT_TOKEN y el canal en la variable TELEGRAM_CANAL (nada de esto va en el código).
+on:
+  schedule:
+    - cron: "31 7 * * *"    # pregunta del día (08:31 hora peninsular en invierno)
+    - cron: "37 17 * * *"   # respuesta del día
+    - cron: "11 7 * * 1"    # boletín de los lunes
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "prueba (solo comprueba el bot), pregunta, respuesta o boletin"
+        default: "prueba"
+
+permissions:
+  contents: read
+
+concurrency: telegram
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CANAL: ${{ vars.TELEGRAM_CANAL }}
+      PYTHONIOENCODING: utf8
+      TZ: Europe/Madrid
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Decidir qué publicar
+        id: que
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "modo=${{ github.event.inputs.modo }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "31 7 * * *" ]; then echo "modo=pregunta" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "37 17 * * *" ]; then echo "modo=respuesta" >> "$GITHUB_OUTPUT"
+          else echo "modo=boletin" >> "$GITHUB_OUTPUT"; fi
+      - name: Publicar
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CANAL" ]; then echo "Falta el secreto TELEGRAM_BOT_TOKEN o la variable TELEGRAM_CANAL: no se publica nada."; exit 0; fi
+          python marketing/publicar_telegram.py "${{ steps.que.outputs.modo }}"
