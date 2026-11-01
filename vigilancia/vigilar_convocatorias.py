@@ -92,6 +92,23 @@ def es_junta(titulo):
     return bool(RE_JUNTA.search(titulo) and RE_JUNTA_CUERPO.search(titulo)) and not RE_NO_PAS.search(titulo)
 
 
+# Servicio Andaluz de Salud: concurso-oposición de las categorías administrativas y de servicios que cubrimos (Auxiliar Administrativo/a, Administrativo/a, Celador/a)
+RE_SAS_CAT = re.compile(r"Auxiliar Administrativ|Administrativo/a|Celador", re.I)
+
+
+def es_sas(titulo):
+    """Publicaciones del SAS sobre sus procesos selectivos de esas categorías (convocatoria, listas, resultados…); no los concursos de traslado ni de méritos."""
+    return ("Servicio Andaluz de Salud" in titulo and bool(RE_SAS_CAT.search(titulo))
+            and bool(re.search(r"concurso-oposici|pruebas selectivas|proceso selectivo|personas aspirantes", titulo, re.I))
+            and not re.search(r"concurso de traslado|concurso de m[eé]ritos|libre designaci|cargo intermedio|bolsa", titulo, re.I))
+
+
+def es_convocatoria_sas(titulo):
+    """Convocatoria de concurso-oposición de plazas básicas del SAS (no correcciones ni la reservada a personas con discapacidad intelectual)."""
+    return (es_sas(titulo) and bool(re.search(r"por la que se convoca concurso-oposici", titulo, re.I)) and "plazas b" in norm(titulo)
+            and not RE_CORRECCION.search(titulo) and "discapacidad intelectual" not in norm(titulo))
+
+
 def es_convocatoria_junta(titulo):
     """Convocatoria de ACCESO (libre o promoción interna) a cuerpos de la Administración General. Las de personal laboral (categorías
     profesionales, concursos) no se crean solas: salen en el informe para revisarlas."""
@@ -177,7 +194,7 @@ def boja_boletin(anio, n):
     out = []
     for m in re.finditer(r'<div class="item[^"]*">\s*<p>(.*?)</p>.*?href="(/boja/\d{4}/\d+/\d+)"', t, re.S):
         titulo = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", m.group(1)))).strip()
-        if es_pas(titulo) or es_junta(titulo):
+        if es_pas(titulo) or es_junta(titulo) or es_sas(titulo):
             out.append({"id": "BOJA " + m.group(2)[len("/boja/"):], "fuente": "BOJA", "fecha": fecha, "titulo": titulo,
                         "url": "https://www.juntadeandalucia.es" + m.group(2)})
     return True, fecha, out
@@ -386,8 +403,11 @@ def main():
         if c["id"] in vistos:
             continue
         procesos = procesos_de(c["titulo"], opos)
-        if es_convocatoria(c["titulo"]) or es_convocatoria_junta(c["titulo"]):
-            if not procesos:
+        if es_convocatoria(c["titulo"]) or es_convocatoria_junta(c["titulo"]) or es_convocatoria_sas(c["titulo"]):
+            if es_convocatoria_sas(c["titulo"]):   # una resolución del SAS convoca varias categorías: «procesos_de» confundiría Administrativo/a con Auxiliar Administrativo/a
+                if not any((o.get("enlace") or {}).get("u") == c["url"] for o in opos):
+                    nuevas.append(c)
+            elif not procesos:
                 nuevas.append(c)
         elif procesos:
             clave, texto = tipo_cambio(c["titulo"])
@@ -399,7 +419,7 @@ def main():
         import ficha_auto
         sin_crear = []
         for c in sorted(nuevas, key=lambda c: (c["fecha"] or "", c["id"])):
-            if procesos_de(c["titulo"], opos):   # la misma convocatoria salió en BOE y BOJA: ya la hemos creado en esta vuelta
+            if not es_convocatoria_sas(c["titulo"]) and procesos_de(c["titulo"], opos):   # la misma convocatoria salió en BOE y BOJA: ya la hemos creado en esta vuelta
                 continue
             if any((o.get("enlace") or {}).get("u") == c["url"] for o in opos):   # ya hay fichas de esa misma publicación (p. ej. la resolución que convoca varias especialidades)
                 continue
@@ -407,6 +427,9 @@ def main():
                 if es_convocatoria_junta(c["titulo"]):
                     import ficha_junta
                     fichas = ficha_junta.crear(c, opos)   # una ficha por especialidad de la misma resolución
+                elif es_convocatoria_sas(c["titulo"]):
+                    import ficha_sas
+                    fichas = ficha_sas.crear(c, opos)   # una ficha por categoría que cubrimos (Auxiliar, Administrativo/a, Celador/a, Celador/a-Conductor/a)
                 else:
                     fichas = [ficha_auto.crear(c, opos)]
             except Exception as e:

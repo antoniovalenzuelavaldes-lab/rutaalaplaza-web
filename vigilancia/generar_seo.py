@@ -31,7 +31,14 @@ UNIVERSIDADES = [  # (nombre completo, localidad para el texto)
     ("Universidad de Málaga", "Málaga"), ("Universidad Pablo de Olavide", "Sevilla"), ("Universidad de Sevilla", "Sevilla"),
     ("Universidad Internacional de Andalucía", "Andalucía"),
 ]
-OTROS = [("Junta de Andalucía", "Andalucía")]   # administraciones que no son universidades (fase 1: Administración General de la Junta)
+OTROS = [("Junta de Andalucía", "Andalucía"), ("Servicio Andaluz de Salud", "Andalucía")]   # tipos de oposición que no son universidades
+# Textos de cada uno: id para el ancla, qué cubrimos y cómo se llama en los títulos
+INFO_OTROS = {
+    "Junta de Andalucía": dict(id="junta", cubre="cuerpos de la Administración General", titulo="convocatorias de la Administración General",
+                               lead="oposiciones a los cuerpos de la Administración General"),
+    "Servicio Andaluz de Salud": dict(id="sas", cubre="administrativo, auxiliar y celador del SAS", titulo="convocatorias de Administrativo, Auxiliar y Celador",
+                                      lead="oposiciones del Servicio Andaluz de Salud (SAS): Auxiliar Administrativo, Administrativo y Celador"),
+}
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 # Universidades sin convocatoria publicada: lo que se sabe, con su fuente oficial.
 NOTA_UNI = {
@@ -226,15 +233,15 @@ def pag_uni(nombre, ciudad, opos, uni, proc, hoy):
     ab = [o for o in lista if abierta(o, hoy)]
     ce = [o for o in lista if not abierta(o, hoy)]
     es_uni = nombre.startswith("Universidad")
-    titulo = f"Oposiciones {nombre} 2026: convocatorias PAS/PTGAS" if es_uni else f"Oposiciones {nombre} 2026: convocatorias de la Administración General"
+    titulo = f"Oposiciones {nombre} 2026: convocatorias PAS/PTGAS" if es_uni else f"Oposiciones {nombre} 2026: {INFO_OTROS[nombre]['titulo']}"
     desc = (f"Convocatorias de oposiciones del personal de administración y servicios (PAS) de la {nombre}: "
             f"{len(ab)} con plazo abierto y {len(ce)} cerradas. Plazas, plazos, programa y temario." if es_uni else
-            f"Convocatorias de oposiciones de la {nombre} (cuerpos de la Administración General): "
+            f"Convocatorias de oposiciones de la {nombre} ({INFO_OTROS[nombre]['cubre']}): "
             f"{len(ab)} con plazo abierto y {len(ce)} cerradas. Plazas, plazos, programa y enlace oficial al BOJA.") if lista else \
            f"Oposiciones de la {nombre}: estado de las convocatorias de 2026."
     cuerpo = (f'<p class="lead">Convocatorias de oposiciones del <strong>personal técnico, de gestión y de administración y servicios (PAS o PTGAS)</strong> '
               f'de la {e(nombre)}. Aquí tienes los procesos selectivos publicados en el BOE y el BOJA, con sus plazas, su plazo de solicitud y su programa.</p>') if es_uni else \
-             (f'<p class="lead">Convocatorias de <strong>oposiciones a los cuerpos de la Administración General</strong> de la {e(nombre)}, publicadas en el BOJA: '
+             (f'<p class="lead">Convocatorias de <strong>{INFO_OTROS[nombre]["lead"]}</strong>, publicadas en el BOJA: '
               f'plazas, plazo de solicitud, programa de materias y ejercicios, con enlace a la convocatoria oficial.</p>')
     if lista:
         if ab:
@@ -256,11 +263,11 @@ def pag_uni(nombre, ciudad, opos, uni, proc, hoy):
 def pag_hub(opos, uni, proc, hoy):
     ab = [o for o in opos if abierta(o, hoy)]
     escalas = sorted({re.sub(r"^Escala (?:de |de los |de las )?", "", o["nombre"]).split(" · ")[0] for o in opos if o["tipo"] == "Personal funcionario"})[:8]
-    titulo = "Oposiciones PTGAS y Junta de Andalucía 2026: convocatorias"
-    desc = (f"Convocatorias de oposiciones de las 10 universidades públicas andaluzas (PTGAS o PAS) y de la Junta de Andalucía: "
+    titulo = "Oposiciones PTGAS, Junta de Andalucía y SAS 2026: convocatorias"
+    desc = (f"Convocatorias de oposiciones de las 10 universidades públicas andaluzas (PTGAS o PAS), de la Junta de Andalucía y del Servicio Andaluz de Salud: "
             f"{len(ab)} con plazo abierto. Plazas, plazos, programa y enlace oficial.")
-    cuerpo = ('<nav class="row" aria-label="Tipo de oposición" style="gap:8px;flex-wrap:wrap"><a class="btn acc" href="#universidades">Universidades</a><a class="btn ghost" href="#junta">Junta de Andalucía</a></nav>'
-              f'<p class="lead">Convocatorias de oposiciones de <strong>Andalucía</strong>: las del personal de administración y servicios (PAS) de las <strong>universidades públicas</strong> y las de la <strong>Junta de Andalucía</strong>. '
+    cuerpo = ('<nav class="row" aria-label="Tipo de oposición" style="gap:8px;flex-wrap:wrap"><a class="btn acc" href="#universidades">Universidades</a><a class="btn ghost" href="#junta">Junta de Andalucía</a><a class="btn ghost" href="#sas">Servicio Andaluz de Salud</a></nav>'
+              f'<p class="lead">Convocatorias de oposiciones de <strong>Andalucía</strong>: las del personal de administración y servicios (PAS) de las <strong>universidades públicas</strong> las de la <strong>Junta de Andalucía</strong> y las del <strong>Servicio Andaluz de Salud</strong> (SAS). '
               f'Recogidas del BOE y el BOJA. Universidades: Universidad de Granada, de Sevilla, de Málaga, de Cádiz, de Córdoba, de Almería, de Huelva, de Jaén, Pablo de Olavide e Internacional de Andalucía. '
               f'Ahora mismo hay <strong>{len(ab)} con el plazo de solicitud abierto</strong> y {len(opos)} en el listado.</p>')
     if ab:
@@ -276,8 +283,9 @@ def pag_hub(opos, uni, proc, hoy):
         k = [o for o in opos if o["organismo"] == n]
         if k:
             a = sum(1 for o in k if abierta(o, hoy))
-            cuerpo += (f'<h2 id="junta">Junta de Andalucía: oposiciones de la Administración General</h2><div class="grid"><div class="card"><h3 style="margin:.1em 0"><a href="{e(uni[n])}">Oposiciones {e(n)}</a></h3>'
-                       f'<p class="muted" style="margin:0">{len(k)} convocatorias · {a} abiertas · cuerpos de la Administración General</p></div></div>')
+            inf = INFO_OTROS[n]
+            cuerpo += (f'<h2 id="{inf["id"]}">{e(n)}: {e(inf["cubre"])}</h2><div class="grid"><div class="card"><h3 style="margin:.1em 0"><a href="{e(uni[n])}">Oposiciones {e(n)}</a></h3>'
+                       f'<p class="muted" style="margin:0">{len(k)} convocatorias · {a} abiertas · {e(inf["cubre"])}</p></div></div>')
     cuerpo += '<h2>Qué es el PTGAS (antes PAS): personal técnico, de gestión y de administración y servicios</h2>'
     cuerpo += ('<p>El personal técnico, de gestión y de administración y servicios (PTGAS, sigla que usa la Ley Orgánica del Sistema Universitario y que sustituye a la antigua PAS) de las universidades es el que se ocupa de la gestión, la administración, '
                'las bibliotecas, los archivos, los laboratorios y los servicios técnicos. Se accede mediante procesos selectivos de concurso-oposición '
