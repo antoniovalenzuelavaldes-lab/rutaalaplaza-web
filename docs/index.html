@@ -338,7 +338,7 @@ function vInicio(app){
   <section class="hero">
     <div class="eyebrow">Preparación de oposiciones</div>
     <h1>Te ayudamos con tu oposición</h1>
-    <p class="lead">Apuntes por artículos, tests con la <strong>cita literal</strong> de la norma, un plan de estudio hasta tu examen y simulacros. Estudias lo que dice la ley, no lo que alguien recuerda que dice.</p>
+    <p class="lead">Convocatorias de <strong>universidades</strong> y de la <strong>Junta de Andalucía</strong>, con su programa oficial. Prueba <strong>gratis los dos primeros temas</strong> de las oposiciones con temario: apuntes por artículos, tests con la <strong>cita literal</strong> de la norma y audio.</p>
     <div class="row"><a class="btn acc" href="#oposiciones">Ver las oposiciones</a>${AUTH_ON&&!SES?`<a class="btn ghost" href="#/cuenta">Registrarme gratis</a>`:''}</div>
     <p class="muted mono">${OPOS.length} procesos en el listado · ${OPOS.filter(o=>opoEstado(o)==='abierta').length} con plazo abierto · ${OPOS.filter(o=>o.estado==='disponible').length} con temario</p>
   </section>
