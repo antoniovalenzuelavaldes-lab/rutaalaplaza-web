@@ -401,6 +401,8 @@ def main():
         for c in sorted(nuevas, key=lambda c: (c["fecha"] or "", c["id"])):
             if procesos_de(c["titulo"], opos):   # la misma convocatoria salió en BOE y BOJA: ya la hemos creado en esta vuelta
                 continue
+            if any((o.get("enlace") or {}).get("u") == c["url"] for o in opos):   # ya hay fichas de esa misma publicación (p. ej. la resolución que convoca varias especialidades)
+                continue
             try:
                 if es_convocatoria_junta(c["titulo"]):
                     import ficha_junta
