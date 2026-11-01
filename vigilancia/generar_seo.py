@@ -141,7 +141,7 @@ def pagina(ruta, titulo, desc, h1, cuerpo, migas, extra_ld=None, noindex=False):
 <meta property="og:type" content="website"><meta property="og:locale" content="es_ES"><meta property="og:site_name" content="{MARCA}">
 <meta property="og:title" content="{e(titulo)}"><meta property="og:description" content="{e(corto(desc))}"><meta property="og:url" content="{e(url)}">
 <meta property="og:image" content="{BASE}/og.png"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#1D5A49">
-<link rel="icon" href="/favicon.png" type="image/png"><link rel="alternate" type="application/atom+xml" title="Convocatorias de universidades andaluzas" href="/oposiciones/feed.xml">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="alternate" type="application/atom+xml" title="Convocatorias de oposiciones en Andalucía" href="/oposiciones/feed.xml">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 <style>{CSS}</style></head><body>
 <header><div class="w"><a class="brand" href="/"><i></i>{MARCA}</a><a href="/oposiciones/">Convocatorias</a><a class="btn acc" href="/">Entrar</a></div></header>
@@ -151,7 +151,7 @@ def pagina(ruta, titulo, desc, h1, cuerpo, migas, extra_ld=None, noindex=False):
 </main>
 <footer><div class="w"><p>{MARCA} es un servicio independiente de preparación de oposiciones: no está vinculado a ninguna universidad ni administración.
 La información de las convocatorias se recoge del BOE y el BOJA y es orientativa: manda siempre el texto oficial.</p>
-<p><a href="/oposiciones/">Oposiciones en universidades de Andalucía</a> · <a href="https://t.me/rutaalaplaza" rel="noopener">Canal de Telegram</a> · <a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/cookies.html">Cookies</a> · <a href="/legal/condiciones.html">Condiciones</a></p><p>✦ Web desarrollada por <a href="https://valenprojects.online" rel="noopener">ValenProjects</a></p></div></footer>
+<p><a href="/oposiciones/">Oposiciones: universidades y Junta de Andalucía</a> · <a href="https://t.me/rutaalaplaza" rel="noopener">Canal de Telegram</a> · <a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/cookies.html">Cookies</a> · <a href="/legal/condiciones.html">Condiciones</a></p><p>✦ Web desarrollada por <a href="https://valenprojects.online" rel="noopener">ValenProjects</a></p></div></footer>
 {JS_ESTADO}{etiqueta_gc()}</body></html>"""
 
 
@@ -216,7 +216,7 @@ def pag_proceso(o, opos, uni, proc, hoy, temario_ugr):
     otras = [x for x in opos if x["organismo"] == org and x["id"] != o["id"]]
     if otras:
         cuerpo += f'<h2>Otras oposiciones de la {e(org)}</h2>' + "".join(tarjeta(x, proc, hoy) for x in otras[:6])
-    cuerpo += f'<p><a href="{e(uni[org])}">Todas las oposiciones de la {e(org)}</a> · <a href="/oposiciones/">Oposiciones en las universidades de Andalucía</a></p>'
+    cuerpo += f'<p><a href="{e(uni[org])}">Todas las oposiciones de la {e(org)}</a> · <a href="/oposiciones/">Oposiciones: universidades y Junta de Andalucía</a></p>'
     migas = [("Inicio", "/"), ("Oposiciones", "/oposiciones/"), (org, uni[org]), (n, proc[o["id"]])]
     return pagina(proc[o["id"]], titulo, desc, f"{n} · {org}: oposición {anio}", cuerpo, migas)
 
@@ -256,15 +256,16 @@ def pag_uni(nombre, ciudad, opos, uni, proc, hoy):
 def pag_hub(opos, uni, proc, hoy):
     ab = [o for o in opos if abierta(o, hoy)]
     escalas = sorted({re.sub(r"^Escala (?:de |de los |de las )?", "", o["nombre"]).split(" · ")[0] for o in opos if o["tipo"] == "Personal funcionario"})[:8]
-    titulo = "Oposiciones PTGAS universidades de Andalucía 2026: convocatorias"
-    desc = (f"Convocatorias de oposiciones PTGAS (PAS) de las 10 universidades públicas andaluzas: "
-            f"{len(ab)} con plazo abierto. Granada, Sevilla, Málaga, Cádiz, Córdoba, Almería, Huelva, Jaén, UPO y UNIA.")
-    cuerpo = (f'<p class="lead">Todas las <strong>convocatorias de oposiciones de las universidades públicas de Andalucía</strong> para el personal de administración y servicios (PAS), '
-              f'recogidas del BOE y el BOJA: Universidad de Granada, de Sevilla, de Málaga, de Cádiz, de Córdoba, de Almería, de Huelva, de Jaén, Pablo de Olavide e Internacional de Andalucía. '
+    titulo = "Oposiciones PTGAS y Junta de Andalucía 2026: convocatorias"
+    desc = (f"Convocatorias de oposiciones de las 10 universidades públicas andaluzas (PTGAS o PAS) y de la Junta de Andalucía: "
+            f"{len(ab)} con plazo abierto. Plazas, plazos, programa y enlace oficial.")
+    cuerpo = ('<nav class="row" aria-label="Tipo de oposición" style="gap:8px;flex-wrap:wrap"><a class="btn acc" href="#universidades">Universidades</a><a class="btn ghost" href="#junta">Junta de Andalucía</a></nav>'
+              f'<p class="lead">Convocatorias de oposiciones de <strong>Andalucía</strong>: las del personal de administración y servicios (PAS) de las <strong>universidades públicas</strong> y las de la <strong>Junta de Andalucía</strong>. '
+              f'Recogidas del BOE y el BOJA. Universidades: Universidad de Granada, de Sevilla, de Málaga, de Cádiz, de Córdoba, de Almería, de Huelva, de Jaén, Pablo de Olavide e Internacional de Andalucía. '
               f'Ahora mismo hay <strong>{len(ab)} con el plazo de solicitud abierto</strong> y {len(opos)} en el listado.</p>')
     if ab:
         cuerpo += "<h2>Convocatorias con plazo de solicitud abierto</h2>" + "".join(tarjeta(o, proc, hoy) for o in ab) + '<p><a href="/oposiciones/abiertas/">Ver solo las oposiciones abiertas ahora</a></p>'
-    cuerpo += '<h2>Oposiciones por universidad</h2><div class="grid">'
+    cuerpo += '<h2 id="universidades">Universidades: oposiciones por universidad</h2><div class="grid">'
     for n, c in UNIVERSIDADES:
         k = [o for o in opos if o["organismo"] == n]
         a = sum(1 for o in k if abierta(o, hoy))
@@ -275,7 +276,7 @@ def pag_hub(opos, uni, proc, hoy):
         k = [o for o in opos if o["organismo"] == n]
         if k:
             a = sum(1 for o in k if abierta(o, hoy))
-            cuerpo += (f'<h2>Oposiciones de la {e(n)}</h2><div class="grid"><div class="card"><h3 style="margin:.1em 0"><a href="{e(uni[n])}">Oposiciones {e(n)}</a></h3>'
+            cuerpo += (f'<h2 id="junta">Junta de Andalucía: oposiciones de la Administración General</h2><div class="grid"><div class="card"><h3 style="margin:.1em 0"><a href="{e(uni[n])}">Oposiciones {e(n)}</a></h3>'
                        f'<p class="muted" style="margin:0">{len(k)} convocatorias · {a} abiertas · cuerpos de la Administración General</p></div></div>')
     cuerpo += '<h2>Qué es el PTGAS (antes PAS): personal técnico, de gestión y de administración y servicios</h2>'
     cuerpo += ('<p>El personal técnico, de gestión y de administración y servicios (PTGAS, sigla que usa la Ley Orgánica del Sistema Universitario y que sustituye a la antigua PAS) de las universidades es el que se ocupa de la gestión, la administración, '
@@ -302,15 +303,15 @@ def pag_hub(opos, uni, proc, hoy):
 def pag_abiertas(opos, uni, proc, hoy):
     ab = [o for o in opos if abierta(o, hoy)]
     ab.sort(key=lambda o: o.get("plazoFin") or "9999")
-    titulo = "Oposiciones abiertas ahora en universidades de Andalucía"
-    desc = f"{len(ab)} oposiciones PTGAS (PAS) con el plazo de solicitud abierto en las universidades andaluzas: plazas, plazo, programa y enlace oficial." if ab else \
-           "Oposiciones PTGAS (PAS) con el plazo de solicitud abierto en las universidades andaluzas. Ahora mismo no hay ninguna abierta."
+    titulo = "Oposiciones abiertas ahora en Andalucía: universidades y Junta"
+    desc = f"{len(ab)} oposiciones PTGAS (PAS) con el plazo de solicitud abierto en las universidades andaluzas y la Junta de Andalucía: plazas, plazo, programa y enlace oficial." if ab else \
+           "Oposiciones PTGAS (PAS) con el plazo de solicitud abierto en las universidades andaluzas y la Junta de Andalucía. Ahora mismo no hay ninguna abierta."
     cuerpo = (f'<p class="lead">Convocatorias del personal técnico, de gestión y de administración y servicios (PTGAS o PAS) de las universidades públicas de Andalucía '
               f'con el <strong>plazo de solicitud abierto</strong>, ordenadas por la fecha en que termina. Ahora mismo hay <strong>{len(ab)}</strong>.</p>')
     cuerpo += "".join(tarjeta(o, proc, hoy) for o in ab) if ab else "<p>Ahora mismo no hay ninguna convocatoria con el plazo abierto. Suscríbete a tu universidad y te avisamos cuando salga una.</p>"
     cuerpo += ('<div class="card"><h2 style="margin-top:0">¿No ves la tuya?</h2><p>Mira todas las convocatorias, también las cerradas, o suscríbete a una oposición para recibir los cambios oficiales por correo.</p>'
                '<div class="row"><a class="btn acc" href="/oposiciones/">Todas las convocatorias</a><a class="btn ghost" href="/#/oposiciones">Suscribirme</a><a class="btn ghost" href="https://t.me/rutaalaplaza" rel="noopener">Avisos en Telegram</a></div></div>')
-    return pagina("/oposiciones/abiertas/", titulo, desc, "Oposiciones abiertas ahora en las universidades de Andalucía", cuerpo,
+    return pagina("/oposiciones/abiertas/", titulo, desc, "Oposiciones abiertas ahora en Andalucía: universidades y Junta", cuerpo,
                   [("Inicio", "/"), ("Oposiciones", "/oposiciones/"), ("Abiertas ahora", "/oposiciones/abiertas/")])
 
 
@@ -322,7 +323,7 @@ def feed_atom(opos, uni, proc):
         resumen = f"{o['organismo']}: {o['plazas']}, {o['tipo'].lower()}, turno {o['turno'].lower()}. {o['convocatoria']}."
         items += (f"<entry><id>{BASE}{proc[o['id']]}</id><title>{e(o['organismo'] + ': ' + o['nombre'])}</title>"
                   f"<link href=\"{BASE}{proc[o['id']]}\"/><updated>{(o.get('publicado') or '2026-01-01')}T00:00:00Z</updated><summary>{e(resumen)}</summary></entry>")
-    return (f'<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Oposiciones PTGAS de las universidades de Andalucía · {MARCA}</title>'
+    return (f'<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Oposiciones en Andalucía: universidades y Junta · {MARCA}</title>'
             f'<id>{BASE}/oposiciones/</id><link href="{BASE}/oposiciones/"/><link rel="self" href="{BASE}/oposiciones/feed.xml"/><updated>{ahora}</updated>'
             f'<author><name>{MARCA}</name></author>{items}</feed>')
 
@@ -332,10 +333,10 @@ def bloque_inicio(opos, uni, proc, hoy):
     ab = [o for o in opos if abierta(o, hoy)]
     li = "".join(f'<li><a href="{e(uni[n])}">Oposiciones {e(n)}</a></li>' for n, _ in UNIVERSIDADES)
     la = "".join(f'<li><a href="{e(proc[o["id"]])}">{e(o["nombre"])} · {e(o["organismo"])}</a></li>' for o in ab[:12])
-    return ('<section id="seo-inicial" style="max-width:880px;margin:0 auto;padding:24px 0"><h1>Oposiciones en las universidades de Andalucía: convocatorias, temario y tests</h1>'
-            '<p>Convocatorias del personal de administración y servicios (PAS) de las universidades públicas andaluzas, con apuntes por artículos, tests con la cita literal de la norma, '
+    return ('<section id="seo-inicial" style="max-width:880px;margin:0 auto;padding:24px 0"><h1>Oposiciones en Andalucía: universidades y Junta de Andalucía. Convocatorias, temario y tests</h1>'
+            '<p>Convocatorias del personal de administración y servicios (PAS) de las universidades públicas andaluzas y de los cuerpos de la Junta de Andalucía, con apuntes por artículos, tests con la cita literal de la norma, '
             'simulacros y plan de estudio. Disponible: Escala de Auxiliares de Archivos, Bibliotecas y Museos de la Universidad de Granada, con 2 temas gratis.</p>'
-            f'<h2>Oposiciones por universidad</h2><ul>{li}</ul><h2>Convocatorias con plazo abierto</h2><ul>{la}</ul>'
+            f'<h2>Universidades</h2><ul>{li}</ul><h2>Junta de Andalucía</h2><ul><li><a href="/oposiciones/junta-de-andalucia/">Oposiciones de la Junta de Andalucía</a></li></ul><h2>Convocatorias con plazo abierto</h2><ul>{la}</ul>'
             '<p><a href="/oposiciones/abiertas/">Oposiciones abiertas ahora</a> · <a href="/oposiciones/">Ver todas las convocatorias</a></p><noscript><p>Para estudiar los temas necesitas activar JavaScript.</p></noscript></section>')
 
 

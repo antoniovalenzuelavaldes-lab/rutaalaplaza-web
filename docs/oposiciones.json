@@ -8293,7 +8293,7 @@
   "nombre": "Cuerpo Técnico Facultativo, especialidad Enfermería (A2.2007)",
   "organismo": "Junta de Andalucía",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre",
   "grupo": "A2",
@@ -8402,14 +8402,506 @@
     "Primer ejercicio. Tendrá carácter obligatorio y eliminatorio. El tiempo concedido para la realización de este ejercicio, compuesto de tres partes, será de 210 minutos. La calificación final del ejercicio no podrá superar los 150 puntos y vendrá determinada por la suma de la puntuación obtenida en la segunda y tercera parte del ejercicio.",
     "Segundo ejercicio. Tendrá carácter obligatorio y eliminatorio y consistirá en desarrollar por escrito, durante un tiempo máximo de 90 minutos, un tema elegido por cada aspirante de entre dos extraídos al azar, de los comprendidos en el programa de materias específico del cuerpo y especialidad correspondiente al que hace referencia el apartado 6 de la base primera y que consta en el Anexo II de la presente resolución, tal como se…"
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "jtfenf-1",
+    "etq": "T1",
+    "titulo": "La Constitución Española de 1978",
+    "alcance": "La Constitución Española de 1978. Antecedentes. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. Derechos y deberes fundamentales. Los principios rectores de la política social y económica. Garantías y casos de suspensión. El procedimiento de reforma constitucional.",
+    "gratis": true
+   },
+   {
+    "id": "jtfenf-2",
+    "etq": "T2",
+    "titulo": "Los órganos constitucionales",
+    "alcance": "Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.",
+    "gratis": true
+   },
+   {
+    "id": "jtfenf-3",
+    "etq": "T3",
+    "titulo": "La organización territorial del Estado en la Constitución Española",
+    "alcance": "La organización territorial del Estado en la Constitución Española. Las Comunidades Autónomas: Fundamento constitucional. Los Estatutos de Autonomía. Delimitación de las funciones y competencias del Estado y las Comunidades Autónomas. Las potestades legislativas de las Comunidades Autónomas. La organización de las Comunidades Autónomas.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-4",
+    "etq": "T4",
+    "titulo": "La Administración Local",
+    "alcance": "La Administración Local: regulación constitucional. Tipología de los entes locales. Distribución de competencias entre el Estado y las Comunidades Autónomas sobre Administración Local. La organización territorial de la Comunidad Autónoma de Andalucía. El municipio: organización y competencias. La provincia: organización y competencias. Las relaciones entre la Comunidad Autónoma Andaluza y las Diputaciones provinciale",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-5",
+    "etq": "T5",
+    "titulo": "La Comunidad Autónoma de Andalucía",
+    "alcance": "La Comunidad Autónoma de Andalucía: Antecedentes histórico-culturales. El Estatuto de Autonomía para Andalucía: proceso de elaboración, fundamento, estructura y contenido básico. Competencias de la Comunidad Autónoma. Reforma del Estatuto.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-6",
+    "etq": "T6",
+    "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (I)",
+    "alcance": "Organización Institucional de la Comunidad Autónoma de Andalucía (I): El Parlamento de Andalucía. Composición, atribuciones y funcionamiento. El Tribunal Superior de Justicia de Andalucía. El Defensor del Pueblo de Andalucía. La Cámara de Cuentas de Andalucía. La Oficina Andaluza contra el Fraude y la Corrupción.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-7",
+    "etq": "T7",
+    "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (II)",
+    "alcance": "Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-8",
+    "etq": "T8",
+    "titulo": "La Administración de la Comunidad Autónoma de Andalucía",
+    "alcance": "La Administración de la Comunidad Autónoma de Andalucía. Principios de organización, actuación y atención ciudadana. Los Consejeros, Viceconsejeros, Directores Generales, Secretarios Generales Técnicos y órganos análogos. La organización central y territorial de la Administración de la Junta de Andalucía. Entidades instrumentales de la Administración de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-9",
+    "etq": "T9",
+    "titulo": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea",
+    "alcance": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea. Las instituciones de la Unión Europea. La representación de la Junta de Andalucía ante la Unión Europea. El Derecho de la UE y sus distintos tipos de fuentes.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-10",
+    "etq": "T10",
+    "titulo": "Las libertades fundamentales del mercado interior",
+    "alcance": "Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-11",
+    "etq": "T11",
+    "titulo": "La Administración Pública",
+    "alcance": "La Administración Pública: concepto, caracteres y clasificación. La Administración y el Derecho: El principio de legalidad. Las potestades administrativas. La actividad discrecional de la Administración. El Derecho Administrativo: Concepto y contenido. Autonomía del derecho Administrativo. Criterios de aplicación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-12",
+    "etq": "T12",
+    "titulo": "Fuentes del Derecho Administrativo",
+    "alcance": "Fuentes del Derecho Administrativo: Concepto y clasificación. Jerarquía normativa. La Ley: Concepto y clases. Disposiciones del Ejecutivo con fuerza de Ley. El Reglamento: Concepto y clasificación. La potestad reglamentaria: Fundamento, titularidad y límites. Procedimiento de elaboración de los Reglamentos. Fuentes subsidiarias e indirectas del Derecho Administrativo.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-13",
+    "etq": "T13",
+    "titulo": "Los órganos administrativos",
+    "alcance": "Los órganos administrativos: Concepto y clases. La competencia: Clases y criterios de delimitación. El acto administrativo: Concepto, clases y elementos. La forma de los actos: La motivación. La eficacia de los actos administrativos: la notificación y la publicación. El silencio administrativo: naturaleza y régimen jurídico. Su regulación en la Comunidad Autónoma. La invalidez y revisión de oficio de los actos admini",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-14",
+    "etq": "T14",
+    "titulo": "El procedimiento administrativo",
+    "alcance": "El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-15",
+    "etq": "T15",
+    "titulo": "La revisión de los actos administrativos",
+    "alcance": "La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-16",
+    "etq": "T16",
+    "titulo": "Los contratos de la Administración",
+    "alcance": "Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-17",
+    "etq": "T17",
+    "titulo": "La responsabilidad patrimonial de la Administración",
+    "alcance": "La responsabilidad patrimonial de la Administración. Competencias de la Junta de Andalucía. El procedimiento. La responsabilidad de las autoridades y del personal. Responsabilidad de la Administración por actos de sus concesionarios y contratistas. La potestad sancionadora de la Administración Pública: principios y procedimiento para su ejercicio.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-18",
+    "etq": "T18",
+    "titulo": "La expropiación forzosa",
+    "alcance": "La expropiación forzosa: regulación constitucional. Competencias de la Junta de Andalucía. Naturaleza y justificación de la potestad expropiatoria. Sujetos, objeto y causa. El procedimiento general. Peculiaridades del procedimiento de urgencia. Procedimientos especiales. La reversión de los bienes objeto de la expropiación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-19",
+    "etq": "T19",
+    "titulo": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias",
+    "alcance": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias. Concepto, naturaleza y clasificación de las subvenciones. Órganos competentes. El procedimiento de concesión y pago de las subvenciones. Justificación. Reintegro. Control financiero de las subvenciones. Infracciones y sanciones administrativas en materia de subvenciones. La Base de Datos de Subvenciones y Ayudas Públicas de la ",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-20",
+    "etq": "T20",
+    "titulo": "Regulación de la Función Pública de la Junta de Andalucía",
+    "alcance": "Regulación de la Función Pública de la Junta de Andalucía. Normas constitucionales. Carácter de la legislación estatal. La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía: Estructura y contenido. Clases de personal al servicio de la Junta de Andalucía. El personal funcionario: Provisión de puestos, carrera profesional, situaciones administrativas, régimen de incompatibilidades. Normas reguladoras del pe",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-21",
+    "etq": "T21",
+    "titulo": "El presupuesto de la Comunidad Autónoma de Andalucía",
+    "alcance": "El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-22",
+    "etq": "T22",
+    "titulo": "Los sistemas informáticos",
+    "alcance": "Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-23",
+    "etq": "T23",
+    "titulo": "Los sistemas operativos",
+    "alcance": "Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-24",
+    "etq": "T24",
+    "titulo": "La Administración Electrónica",
+    "alcance": "La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-25",
+    "etq": "T25",
+    "titulo": "Las Administraciones Públicas en su entorno y las políticas públicas",
+    "alcance": "Las Administraciones Públicas en su entorno y las políticas públicas. La evaluación de las políticas públicas. La ciudadanía en el centro de la actividad pública y el interés general. La calidad y la atención a la ciudadanía. Evaluación de la calidad de los servicios. Las cartas de servicios. Iniciativas en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-26",
+    "etq": "T26",
+    "titulo": "El régimen jurídico de la protección de los datos de carácter personal",
+    "alcance": "El régimen jurídico de la protección de los datos de carácter personal. Normativa europea y nacional.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-27",
+    "etq": "T27",
+    "titulo": "Transparencia y Gobierno Abierto",
+    "alcance": "Transparencia y Gobierno Abierto. Colaboración y Participación Ciudadana. La Ley de Transparencia Pública de Andalucía. Derechos y Obligaciones. Publicidad Activa. El Derecho de Acceso a la Información Pública. El Consejo de Transparencia y Protección de Datos de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-28",
+    "etq": "T28",
+    "titulo": "Prevención de riesgos laborales",
+    "alcance": "Prevención de riesgos laborales. Normativa estatal de Prevención de Riesgos Laborales: Derechos y obligaciones; Consulta y participación de los trabajadores. Organización de la prevención de riesgos laborales en la Administración de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-29",
+    "etq": "T29",
+    "titulo": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos",
+    "alcance": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos. Discriminación por razón de sexo: discriminación directa e indirecta, discriminación salarial. Acoso por razón de sexo. Discriminación en la publicidad y lenguaje sexista. Igualdad entre mujeres y hombres igualdad de derechos, de trato y de oportunidades. Transversalidad de género. Concepto de mainstreaming: enfoque integ",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-30",
+    "etq": "T30",
+    "titulo": "Normativa sobre igualdad",
+    "alcance": "Normativa sobre igualdad. La igualdad de género en la Constitución y en el Estatuto de Autonomía para Andalucía. Normativa para la promoción de la igualdad de género y para la prevención y protección integral contra la violencia de género en Andalucía. La unidad de igualdad y género: funciones. Pertinencia e impacto de género en la normativa: conceptos y objetivos. Comisión de Impacto de Género en los Presupuestos Pú",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-31",
+    "etq": "T31",
+    "titulo": "Ley 14/1986, de 25 de abril, General de Sanidad",
+    "alcance": "Ley 14/1986, de 25 de abril, General de Sanidad: Derecho a la protección de la Salud. Principios generales. Competencias de las Administraciones Públicas. Ley 2/1998, de 15 de junio, de Salud de Andalucía: disposiciones generales. Derechos y obligaciones de los ciudadanos con respecto a los servicios de salud. Efectividad de los derechos y deberes. De las administraciones públicas.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-32",
+    "etq": "T32",
+    "titulo": "La Ley de Salud Pública de Andalucía",
+    "alcance": "La Ley de Salud Pública de Andalucía: Objeto. Ámbito. Definiciones. Fines. Principios rectores y marco de actuación. Derechos y obligaciones con relación a la Salud Pública. La Ley General de Salud Pública: Sanidad exterior y salud internacional. Sistema de Información en Salud Pública.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-33",
+    "etq": "T33",
+    "titulo": "Estructura orgánica de la Consejería con competencias en Salud y del Servicio Andaluz de Salud",
+    "alcance": "Estructura orgánica de la Consejería con competencias en Salud y del Servicio Andaluz de Salud.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-34",
+    "etq": "T34",
+    "titulo": "Ley de Prevención de Riesgos Laborales",
+    "alcance": "Ley de Prevención de Riesgos Laborales: Objeto, ámbito de aplicación y definiciones. Política en materia de prevención de riesgos para proteger la seguridad y salud en el trabajo. Derechos y obligaciones. Servicios de prevención. Consulta y participación de los trabajadores.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-35",
+    "etq": "T35",
+    "titulo": "El Reglamento de los Servicios de Prevención",
+    "alcance": "El Reglamento de los Servicios de Prevención: Disposiciones generales. Integración de la actividad preventiva en la empresa. El plan de prevención de riesgos laborales. Evaluación de los riesgos y planificación de la actividad preventiva. Organización de recursos para las actividades preventivas. Estructura organizativa de prevención de riesgos laborales para el personal al servicio de la Administración de la Junta d",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-36",
+    "etq": "T36",
+    "titulo": "La prestación farmacéutica del Sistema Nacional de Sanidad, características, requisitos y aportación del usuario",
+    "alcance": "La prestación farmacéutica del Sistema Nacional de Sanidad, características, requisitos y aportación del usuario. Modelos oficiales de recetas. Oficinas de farmacia. Botiquines. Los servicios farmacéuticos hospitalarios. Competencias de la Comunidad Autónoma Andaluza.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-37",
+    "etq": "T37",
+    "titulo": "Plan Andaluz de Salud",
+    "alcance": "Plan Andaluz de Salud. Compromisos.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-38",
+    "etq": "T38",
+    "titulo": "El Contrato-Programa",
+    "alcance": "El Contrato-Programa. Consejería con competencias en materia de Salud. Servicio Andaluz de Salud. Empresas Públicas del Sistema Sanitario Público de Andalucía. El Contrato Programa con los Hospitales, los Distritos de Atención Primaria, las Áreas de Gestión Sanitaria y las Agencias de Empresas Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-39",
+    "etq": "T39",
+    "titulo": "Autonomía del paciente y derechos y obligaciones en materia de información y documentación clínica",
+    "alcance": "Autonomía del paciente y derechos y obligaciones en materia de información y documentación clínica. El derecho de información sanitaria; el derecho a la intimidad; el respeto de la autonomía del paciente; la historia clínica, su estructura. El consentimiento informado.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-40",
+    "etq": "T40",
+    "titulo": "Demografía sanitaria",
+    "alcance": "Demografía sanitaria. Fuentes de información e indicadores demográficos. Análisis de datos. Indicadores de salud: clasificación y utilidad. Análisis de las necesidades de salud. Indicadores demográficos: mortalidad, morbilidad, prevalencia, incidencia. Definición de Calidad de Vida relacionada con la Salud (CVRS).",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-41",
+    "etq": "T41",
+    "titulo": "Los sistemas de clasificación y codificación sanitaria",
+    "alcance": "Los sistemas de clasificación y codificación sanitaria. El Conjunto Mínimo Básico de Datos de Andalucía (CMBDA). La clasificación Internacional de enfermedades de la OMS (CIE). Los GRDs y APGs. El coste hospitalario y su contabilidad.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-42",
+    "etq": "T42",
+    "titulo": "Estadística descriptiva",
+    "alcance": "Estadística descriptiva. Tipos de distribución y parámetros que la definen. Estadística inferencial: intervalos de confianza. Fundamentos de la Investigación cuantitativa. Bioestadística. Tipos de variables, medidas de una distribución de frecuencias, distribución normal, inferencia estadística, contraste de hipótesis, cálculo de probabilidades, población y técnicas de muestreo. Odds-Ratio. NN T y NN D. Niveles de si",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-43",
+    "etq": "T43",
+    "titulo": "Vigilancia de la Salud",
+    "alcance": "Vigilancia de la Salud. Sistema de Vigilancia Epidemiológica de la Comunidad Autónoma de Andalucía y relación de Enfermedades de Declaración Obligatoria.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-44",
+    "etq": "T44",
+    "titulo": "Enfermería de prácticas avanzadas",
+    "alcance": "Enfermería de prácticas avanzadas.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-45",
+    "etq": "T45",
+    "titulo": "Modelo de Gestión de Casos en enfermería",
+    "alcance": "Modelo de Gestión de Casos en enfermería. Competencias.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-46",
+    "etq": "T46",
+    "titulo": "Calendario de vacunaciones en la infancia y adolescencia en Andalucía",
+    "alcance": "Calendario de vacunaciones en la infancia y adolescencia en Andalucía. Programa de vacunación en grupos de riesgo frente a hepatitis A y B. Recomendaciones de vacunación antigripal en Andalucía. Programa de vacunación frente al VPH en grupos de riesgo.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-47",
+    "etq": "T47",
+    "titulo": "Estrategia de cuidados de Andalucía (PiCuida)",
+    "alcance": "Estrategia de cuidados de Andalucía (PiCuida). Proyectos Estratégicos: Objetivos y Acciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-48",
+    "etq": "T48",
+    "titulo": "Programa de detección precoz del cáncer de mama",
+    "alcance": "Programa de detección precoz del cáncer de mama. Cribado del cáncer colorrectal en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-49",
+    "etq": "T49",
+    "titulo": "Red de cuidados paliativos de Andalucía",
+    "alcance": "Red de cuidados paliativos de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-50",
+    "etq": "T50",
+    "titulo": "Ordenación administrativa y funcional de los servicios de Salud Mental en el ámbito del Servicio Andaluz de Salud",
+    "alcance": "Ordenación administrativa y funcional de los servicios de Salud Mental en el ámbito del Servicio Andaluz de Salud.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-51",
+    "etq": "T51",
+    "titulo": "III Plan Andaluz sobre Drogas y Adicciones (2016-2021)",
+    "alcance": "III Plan Andaluz sobre Drogas y Adicciones (2016-2021). Líneas prioritarias. Principios rectores. Plan Integral de Tabaquismo de Andalucía. Objetivos. Promoción y prevención. Situaciones de especial atención.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-52",
+    "etq": "T52",
+    "titulo": "Determinantes de salud",
+    "alcance": "Determinantes de salud. Determinantes sociales. Activos de salud.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-53",
+    "etq": "T53",
+    "titulo": "Estrategia «Al Lado» ideas claves",
+    "alcance": "Estrategia «Al Lado» ideas claves. Censo de asociaciones de salud. Escuela de pacientes.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-54",
+    "etq": "T54",
+    "titulo": "Abordaje de la cronicidad en pacientes pluripatológicos",
+    "alcance": "Abordaje de la cronicidad en pacientes pluripatológicos.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-55",
+    "etq": "T55",
+    "titulo": "Protocolo del código Ictus",
+    "alcance": "Protocolo del código Ictus.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-56",
+    "etq": "T56",
+    "titulo": "Envejecimiento activo",
+    "alcance": "Envejecimiento activo. Examen para mayores de 65 años. Plataforma de envejecimiento saludable «En buena edad».",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-57",
+    "etq": "T57",
+    "titulo": "Estrategia del Alzheimer en Andalucía",
+    "alcance": "Estrategia del Alzheimer en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-58",
+    "etq": "T58",
+    "titulo": "Planificación Anticipada de Decisiones",
+    "alcance": "Planificación Anticipada de Decisiones. Registro de Voluntades Vitales Anticipadas. Derechos, garantías y dignidad de la persona en el proceso de muerte.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-59",
+    "etq": "T59",
+    "titulo": "Especialidades de enfermería",
+    "alcance": "Especialidades de enfermería.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-60",
+    "etq": "T60",
+    "titulo": "Plan de Calidad del Sistema Sanitario Público de Andalucía",
+    "alcance": "Plan de Calidad del Sistema Sanitario Público de Andalucía. Profesionales.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-61",
+    "etq": "T61",
+    "titulo": "Estrategia de Bioética del Sistema Sanitario Público de Andalucía",
+    "alcance": "Estrategia de Bioética del Sistema Sanitario Público de Andalucía. Bioética y profesionales. Estrategia de seguridad del paciente. Áreas claves.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-62",
+    "etq": "T62",
+    "titulo": "Enfermería Basada en la Evidencia",
+    "alcance": "Enfermería Basada en la Evidencia. Niveles de evidencia y grados de recomendación. Bases de datos bibliográficas. Instrumentos de la evidencia científica. Guías de Práctica Clínica.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-63",
+    "etq": "T63",
+    "titulo": "Metodología de investigación",
+    "alcance": "Metodología de investigación. Investigación primaria y secundaria. Investigación cualitativa y cuantitativa. Diseños de investigación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-64",
+    "etq": "T64",
+    "titulo": "Consumo. Reclamación, mediación y arbitraje",
+    "alcance": "Consumo. Reclamación, mediación y arbitraje. Junta arbitral de Consumo de la Comunidad Autónoma de Andalucía. Consejo Andaluz de Consumo.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-65",
+    "etq": "T65",
+    "titulo": "Protocolo Andaluz para la Actuación Sanitaria en la Violencia de Género",
+    "alcance": "Protocolo Andaluz para la Actuación Sanitaria en la Violencia de Género.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-66",
+    "etq": "T66",
+    "titulo": "Registro de Mediación Familiar",
+    "alcance": "Registro de Mediación Familiar. Registro de Parejas de Hecho. Familias numerosas y ayudas por partos múltiples. Familias Retornadas. Web de Familias de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-67",
+    "etq": "T67",
+    "titulo": "Enfermería en centros educativos",
+    "alcance": "Enfermería en centros educativos. Programas de hábitos saludables.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-68",
+    "etq": "T68",
+    "titulo": "Plan Integral de Obesidad Infantil de Andalucía",
+    "alcance": "Plan Integral de Obesidad Infantil de Andalucía. Protocolo de atención al sobrepeso y la obesidad infantil en atención primaria de salud. Intervención individual.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-69",
+    "etq": "T69",
+    "titulo": "Modelo de Desarrollo Profesional de Andalucía",
+    "alcance": "Modelo de Desarrollo Profesional de Andalucía. Acreditación de Competencias Profesionales.",
+    "gratis": false
+   },
+   {
+    "id": "jtfenf-70",
+    "etq": "T70",
+    "titulo": "Innovación en Salud. Modelos y Tipos (productos, servicios y procesos)",
+    "alcance": "Innovación en Salud. Modelos y Tipos (productos, servicios y procesos). Acción de innovar (Fases de la innovación).",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "junta-tecnico-facultativo-ingenieria-tecnica-en-topografia",
   "nombre": "Cuerpo Técnico Facultativo, especialidad Ingeniería Técnica en Topografía (A2.2009)",
   "organismo": "Junta de Andalucía",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre",
   "grupo": "A2",
@@ -8518,14 +9010,506 @@
     "Primer ejercicio. Tendrá carácter obligatorio y eliminatorio. El tiempo concedido para la realización de este ejercicio, compuesto de tres partes, será de 210 minutos. La calificación final del ejercicio no podrá superar los 150 puntos y vendrá determinada por la suma de la puntuación obtenida en la segunda y tercera parte del ejercicio.",
     "Segundo ejercicio. Tendrá carácter obligatorio y eliminatorio y consistirá en desarrollar por escrito, durante un tiempo máximo de 90 minutos, un tema elegido por cada aspirante de entre dos extraídos al azar, de los comprendidos en el programa de materias específico del cuerpo y especialidad correspondiente al que hace referencia el apartado 6 de la base primera y que consta en el Anexo II de la presente resolución, tal como se…"
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "jtftop-1",
+    "etq": "T1",
+    "titulo": "La Constitución Española de 1978",
+    "alcance": "La Constitución Española de 1978. Antecedentes. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. Derechos y deberes fundamentales. Los principios rectores de la política social y económica. Garantías y casos de suspensión. El procedimiento de reforma constitucional.",
+    "gratis": true
+   },
+   {
+    "id": "jtftop-2",
+    "etq": "T2",
+    "titulo": "Los órganos constitucionales",
+    "alcance": "Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.",
+    "gratis": true
+   },
+   {
+    "id": "jtftop-3",
+    "etq": "T3",
+    "titulo": "La organización territorial del Estado en la Constitución Española",
+    "alcance": "La organización territorial del Estado en la Constitución Española. Las Comunidades Autónomas: Fundamento constitucional. Los Estatutos de Autonomía. Delimitación de las funciones y competencias del Estado y las Comunidades Autónomas. Las potestades legislativas de las Comunidades Autónomas. La organización de las Comunidades Autónomas.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-4",
+    "etq": "T4",
+    "titulo": "La Administración Local",
+    "alcance": "La Administración Local: regulación constitucional. Tipología de los entes locales. Distribución de competencias entre el Estado y las Comunidades Autónomas sobre Administración Local. La organización territorial de la Comunidad Autónoma de Andalucía. El municipio: organización y competencias. La provincia: organización y competencias. Las relaciones entre la Comunidad Autónoma Andaluza y las Diputaciones provinciale",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-5",
+    "etq": "T5",
+    "titulo": "La Comunidad Autónoma de Andalucía",
+    "alcance": "La Comunidad Autónoma de Andalucía: Antecedentes histórico-culturales. El Estatuto de Autonomía para Andalucía: proceso de elaboración, fundamento, estructura y contenido básico. Competencias de la Comunidad Autónoma. Reforma del Estatuto.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-6",
+    "etq": "T6",
+    "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (I)",
+    "alcance": "Organización Institucional de la Comunidad Autónoma de Andalucía (I): El Parlamento de Andalucía. Composición, atribuciones y funcionamiento. El Tribunal Superior de Justicia de Andalucía. El Defensor del Pueblo de Andalucía. La Cámara de Cuentas de Andalucía. La Oficina Andaluza contra el Fraude y la Corrupción.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-7",
+    "etq": "T7",
+    "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (II)",
+    "alcance": "Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-8",
+    "etq": "T8",
+    "titulo": "La Administración de la Comunidad Autónoma de Andalucía",
+    "alcance": "La Administración de la Comunidad Autónoma de Andalucía. Principios de organización, actuación y atención ciudadana. Los Consejeros, Viceconsejeros, Directores Generales, Secretarios Generales Técnicos y órganos análogos. La organización central y territorial de la Administración de la Junta de Andalucía. Entidades instrumentales de la Administración de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-9",
+    "etq": "T9",
+    "titulo": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea",
+    "alcance": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea. Las instituciones de la Unión Europea. La representación de la Junta de Andalucía ante la Unión Europea. El Derecho de la UE y sus distintos tipos de fuentes.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-10",
+    "etq": "T10",
+    "titulo": "Las libertades fundamentales del mercado interior",
+    "alcance": "Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-11",
+    "etq": "T11",
+    "titulo": "La Administración Pública",
+    "alcance": "La Administración Pública: concepto, caracteres y clasificación. La Administración y el Derecho: El principio de legalidad. Las potestades administrativas. La actividad discrecional de la Administración. El Derecho Administrativo: Concepto y contenido. Autonomía del derecho Administrativo. Criterios de aplicación.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-12",
+    "etq": "T12",
+    "titulo": "Fuentes del Derecho Administrativo",
+    "alcance": "Fuentes del Derecho Administrativo: Concepto y clasificación. Jerarquía normativa. La Ley: Concepto y clases. Disposiciones del Ejecutivo con fuerza de Ley. El Reglamento: Concepto y clasificación. La potestad reglamentaria: Fundamento, titularidad y límites. Procedimiento de elaboración de los Reglamentos. Fuentes subsidiarias e indirectas del Derecho Administrativo.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-13",
+    "etq": "T13",
+    "titulo": "Los órganos administrativos",
+    "alcance": "Los órganos administrativos: Concepto y clases. La competencia: Clases y criterios de delimitación. El acto administrativo: Concepto, clases y elementos. La forma de los actos: La motivación. La eficacia de los actos administrativos: la notificación y la publicación. El silencio administrativo: naturaleza y régimen jurídico. Su regulación en la Comunidad Autónoma. La invalidez y revisión de oficio de los actos admini",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-14",
+    "etq": "T14",
+    "titulo": "El procedimiento administrativo",
+    "alcance": "El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-15",
+    "etq": "T15",
+    "titulo": "La revisión de los actos administrativos",
+    "alcance": "La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-16",
+    "etq": "T16",
+    "titulo": "Los contratos de la Administración",
+    "alcance": "Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-17",
+    "etq": "T17",
+    "titulo": "La responsabilidad patrimonial de la Administración",
+    "alcance": "La responsabilidad patrimonial de la Administración. Competencias de la Junta de Andalucía. El procedimiento. La responsabilidad de las autoridades y del personal. Responsabilidad de la Administración por actos de sus concesionarios y contratistas. La potestad sancionadora de la Administración Pública: principios y procedimiento para su ejercicio.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-18",
+    "etq": "T18",
+    "titulo": "La expropiación forzosa",
+    "alcance": "La expropiación forzosa: regulación constitucional. Competencias de la Junta de Andalucía. Naturaleza y justificación de la potestad expropiatoria. Sujetos, objeto y causa. El procedimiento general. Peculiaridades del procedimiento de urgencia. Procedimientos especiales. La reversión de los bienes objeto de la expropiación.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-19",
+    "etq": "T19",
+    "titulo": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias",
+    "alcance": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias. Concepto, naturaleza y clasificación de las subvenciones. Órganos competentes. El procedimiento de concesión y pago de las subvenciones. Justificación. Reintegro. Control financiero de las subvenciones. Infracciones y sanciones administrativas en materia de subvenciones. La Base de Datos de Subvenciones y Ayudas Públicas de la ",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-20",
+    "etq": "T20",
+    "titulo": "Regulación de la Función Pública de la Junta de Andalucía",
+    "alcance": "Regulación de la Función Pública de la Junta de Andalucía. Normas constitucionales. Carácter de la legislación estatal. La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía: Estructura y contenido. Clases de personal al servicio de la Junta de Andalucía. El personal funcionario: Provisión de puestos, carrera profesional, situaciones administrativas, régimen de incompatibilidades. Normas reguladoras del pe",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-21",
+    "etq": "T21",
+    "titulo": "El presupuesto de la Comunidad Autónoma de Andalucía",
+    "alcance": "El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-22",
+    "etq": "T22",
+    "titulo": "Los sistemas informáticos",
+    "alcance": "Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-23",
+    "etq": "T23",
+    "titulo": "Los sistemas operativos",
+    "alcance": "Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-24",
+    "etq": "T24",
+    "titulo": "La Administración Electrónica",
+    "alcance": "La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-25",
+    "etq": "T25",
+    "titulo": "Las Administraciones Públicas en su entorno y las políticas públicas",
+    "alcance": "Las Administraciones Públicas en su entorno y las políticas públicas. La evaluación de las políticas públicas. La ciudadanía en el centro de la actividad pública y el interés general. La calidad y la atención a la ciudadanía. Evaluación de la calidad de los servicios. Las cartas de servicios. Iniciativas en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-26",
+    "etq": "T26",
+    "titulo": "El régimen jurídico de la protección de los datos de carácter personal",
+    "alcance": "El régimen jurídico de la protección de los datos de carácter personal. Normativa europea y nacional.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-27",
+    "etq": "T27",
+    "titulo": "Transparencia y Gobierno Abierto",
+    "alcance": "Transparencia y Gobierno Abierto. Colaboración y Participación Ciudadana. La Ley de Transparencia Pública de Andalucía. Derechos y Obligaciones. Publicidad Activa. El Derecho de Acceso a la Información Pública. El Consejo de Transparencia y Protección de Datos de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-28",
+    "etq": "T28",
+    "titulo": "Prevención de riesgos laborales",
+    "alcance": "Prevención de riesgos laborales. Normativa estatal de Prevención de Riesgos Laborales: Derechos y obligaciones; Consulta y participación de los trabajadores. Organización de la prevención de riesgos laborales en la Administración de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-29",
+    "etq": "T29",
+    "titulo": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos",
+    "alcance": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos. Discriminación por razón de sexo: discriminación directa e indirecta, discriminación salarial. Acoso por razón de sexo. Discriminación en la publicidad y lenguaje sexista. Igualdad entre mujeres y hombres igualdad de derechos, de trato y de oportunidades. Transversalidad de género. Concepto de mainstreaming: enfoque integ",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-30",
+    "etq": "T30",
+    "titulo": "Normativa sobre igualdad",
+    "alcance": "Normativa sobre igualdad. La igualdad de género en la Constitución y en el Estatuto de Autonomía para Andalucía. Normativa para la promoción de la igualdad de género y para la prevención y protección integral contra la violencia de género en Andalucía. La unidad de igualdad y género: funciones. Pertinencia e impacto de género en la normativa: conceptos y objetivos. Comisión de Impacto de Género en los Presupuestos Pú",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-31",
+    "etq": "T31",
+    "titulo": "El modelo geodésico terrestre",
+    "alcance": "El modelo geodésico terrestre. El elipsoide de revolución. Coordenadas geodésicas espaciales. Geometría diferencial del elipsoide: latitudes y curvaturas del elipsoide. Problemas directo e inverso de la Geodesia. Convergencia de meridianos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-32",
+    "etq": "T32",
+    "titulo": "Coordenadas cartesianas, geodésicas, en una proyección",
+    "alcance": "Coordenadas cartesianas, geodésicas, en una proyección. Coordenadas globales y coordenadas locales. Conversión de coordenadas. El geoide como superficie de referencia altimétrica. Nivel medio del Mar. Altitudes. Conversión de altitudes. Datum horizontal y datum vertical. Cambio de datum.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-33",
+    "etq": "T33",
+    "titulo": "Sistemas y marcos de referencia",
+    "alcance": "Sistemas y marcos de referencia. Principales conceptos: CRS, CRF, TRS, TRF, ICRF, ITRS, ITRF. Transformación entre marcos. ETRS89 y RTRFyy. WGS84 y sus realizaciones. Redes Geodésicas. Definición. Tipos. Redes nacionales. Red española de nivelación de alta precisión.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-34",
+    "etq": "T34",
+    "titulo": "Representación del elipsoide en plano, proyecciones cartográficas",
+    "alcance": "Representación del elipsoide en plano, proyecciones cartográficas. La retícula geográfica, ecuaciones. Transformación de elementos diferenciales, concepto de escala, deformación angular y acimutal. Distorsión por curvatura de las líneas geodésicas en la proyección y su corrección. Clasificación de las proyecciones atendiendo a las deformaciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-35",
+    "etq": "T35",
+    "titulo": "Proyecciones cilíndricas y pseudocilíndricas",
+    "alcance": "Proyecciones cilíndricas y pseudocilíndricas. Proyecciones cilíndricas conformes directa y transversa. Proyección Mercator. Proyección cilíndrica transversa de Gauss-Krüger y UTM: características, desarrollo, convergencia y deformaciones. La proyección cónica conforme de Lambert.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-36",
+    "etq": "T36",
+    "titulo": "Sistemas de Geodesia y Topografía espacial",
+    "alcance": "Sistemas de Geodesia y Topografía espacial. Sistemas GNSS: GPS, GLONASS, EGNOS, Galileo y Beidou. Sistemas de corrección diferencial y de aumentación. Las observaciones. Combinación de datos. Calidad y bondad de las observaciones. Fuentes de error. Métodos de posicionamiento. Procesamiento de datos. La Red Andaluza de Posicionamiento.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-37",
+    "etq": "T37",
+    "titulo": "Medida de ángulos y distancias en Topografía",
+    "alcance": "Medida de ángulos y distancias en Topografía: instrumentos, errores. Métodos de observación. Reducción de las medidas. Calibración y contrastación de instrumentos. Corrección y reducción de medidas.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-38",
+    "etq": "T38",
+    "titulo": "Redes Topográficas: triangulación y trilateración",
+    "alcance": "Redes Topográficas: triangulación y trilateración. Intersección directa. Intersección inversa. Intersección mixta. Cálculo y compensación. Proyecto y observación de redes topográficas. Poligonación y radiación: observación, cálculo y compensación de poligonales. Tolerancias y errores de cierre. Método de radiación.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-39",
+    "etq": "T39",
+    "titulo": "Nivelación trigonométrica",
+    "alcance": "Nivelación trigonométrica. Nivelación geométrica: métodos de observación, correcciones, errores y tolerancias; compensaciones. Ajuste de itinerarios, determinación de alturas con técnicas GNSS e integración con métodos clásicos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-40",
+    "etq": "T40",
+    "titulo": "Levantamientos topográficos",
+    "alcance": "Levantamientos topográficos: red básica y de detalle. Elección de métodos e instrumentos según precisión, escala y extensión. Levantamientos batimétricos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-41",
+    "etq": "T41",
+    "titulo": "Levantamientos topográficos con GNSS",
+    "alcance": "Levantamientos topográficos con GNSS: medición de código y fase. Instrumentación. Métodos de medida: estáticos y cinemáticos; cálculo en posproceso y tiempo real. Transformación de coordenadas.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-42",
+    "etq": "T42",
+    "titulo": "Fundamentos de fotogrametría",
+    "alcance": "Fundamentos de fotogrametría. Definiciones. Método general: proyección central en el espacio y haces perspectivos. La foto como imagen perspectiva. Concepto y parámetros de la orientación interna y externa.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-43",
+    "etq": "T43",
+    "titulo": "El vuelo fotogramétrico",
+    "alcance": "El vuelo fotogramétrico: parámetros del plan de vuelo. Falta de verticalidad. Deriva. Movimientos de la imagen. Vuelo asistido con GNSS y vuelo con sistema GPS/INS.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-44",
+    "etq": "T44",
+    "titulo": "Métodos de transformación entre sistemas geodésicos de referencia clásicos y geocéntricos",
+    "alcance": "Métodos de transformación entre sistemas geodésicos de referencia clásicos y geocéntricos. Transformación de cinco y siete parámetros. Concepto de eliminación de la distorsión de la red.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-45",
+    "etq": "T45",
+    "titulo": "Fotogrametría aérea digital",
+    "alcance": "Fotogrametría aérea digital. Cámaras digitales, escáneres fotogramétricos y otros sensores aereotransportados. Características y procesamiento de imágenes digitales. Correlación de imagen: principios y metodología. Aerotriangulación digital. Control terrestre. Procesos de restitución. Procesos de ortorrectificación.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-46",
+    "etq": "T46",
+    "titulo": "Modelos digitales del terreno",
+    "alcance": "Modelos digitales del terreno: características. Obtención por técnicas fotogramétricas digitales. Estrategias: geometría epipolar, relación jerárquica de imágenes y redundancia. Precisión y control de calidad de los MDT. Corrección y edición interactiva. Obtención de curvas de nivel.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-47",
+    "etq": "T47",
+    "titulo": "Ortofoto digital: concepto y fundamentos matemáticos",
+    "alcance": "Ortofoto digital: concepto y fundamentos matemáticos. Calidad y precisión de la ortofoto. Modelos Digitales de Superficie. Ortofotos verdaderas. Edición y mosaico de ortofotos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-48",
+    "etq": "T48",
+    "titulo": "Fundamentos del sensor LIDAR",
+    "alcance": "Fundamentos del sensor LIDAR. Concepto de rango de penetración y múltiples retornos. Sensores y plataformas. Principio del LIDAR aerotransportado. Calibración y tratamientos de datos LIDAR. Utilización del LIDAR en la obtención de MDT y MDS. Modelos en 3D. Otras aplicaciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-49",
+    "etq": "T49",
+    "titulo": "Teledetección y sistemas de tratamiento digital de imágenes",
+    "alcance": "Teledetección y sistemas de tratamiento digital de imágenes. Plataformas y sensores. Satélites de observación de la tierra. Imágenes hiperespectrales. Fundamentos físicos de la teledetección.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-50",
+    "etq": "T50",
+    "titulo": "Corrección geométrica de imágenes de satélite",
+    "alcance": "Corrección geométrica de imágenes de satélite: modelo polinomial, modelo paramétrico, «Rational polinomial coefficients». Remuestreo. Ajuste en bloque de imágenes de satélite. Aplicaciones topográficas. Equilibrado radiométrico y mosaicado. Obtención de MDE por correlación automática de imágenes. Sensores de alta resolución para cartografía. Cartografía de imágenes: ortoimágenes. Actualización de cartografía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-51",
+    "etq": "T51",
+    "titulo": "Definición de cartografía y mapas",
+    "alcance": "Definición de cartografía y mapas. Mapas: función, características básicas; tipos según escala, según adquisición de los datos (básica y derivada), según función, según tema. Conceptos de cartografía: enfoques geométrico, tecnológico, de presentación, artístico y de comunicación. Fases del proceso cartográfico y su relación con los enfoques citados.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-52",
+    "etq": "T52",
+    "titulo": "Sistemas de producción cartográfica",
+    "alcance": "Sistemas de producción cartográfica: definiciones y objetivos. La cartografía como Sistema de Información. Sistema cartográfico de representación: diseño, redacción, semiología gráfica, color, técnicas cartográficas, reproducción y explotación. Fases generales del sistema de producción cartográfica.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-53",
+    "etq": "T53",
+    "titulo": "Plan de calidad en cartografía",
+    "alcance": "Plan de calidad en cartografía. Definición. Calidad de producto y procesos. Modelos de calidad (definición de la calidad). Control de calidad (comprobación de la calidad). Mejora de la calidad (gestión de la calidad).",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-54",
+    "etq": "T54",
+    "titulo": "Producción de Bases de Datos de Información Geográfica",
+    "alcance": "Producción de Bases de Datos de Información Geográfica: Especificaciones de producto de datos. Normas ISO 19100. Otros organismos de normalización. El Open Geospatial Consortium. Especificaciones de interoperabilidad. Esquema Nacional de Interoperabilidad y Catálogo de Estándares.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-55",
+    "etq": "T55",
+    "titulo": "Sistemas de Información Geográfica",
+    "alcance": "Sistemas de Información Geográfica. Definición y componentes. Tipos. Aplicaciones. Modelo vectorial: espagueti, topología, modelos de red, topología completa, primitivas geométricas; modelo ráster: Métodos de compresión. Ventajas e inconvenientes de los modelos vector/ráster. Orientación a objeto.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-56",
+    "etq": "T56",
+    "titulo": "Fuentes de información, compilación e integración de Información",
+    "alcance": "Fuentes de información, compilación e integración de Información. Tratamiento y armonización de los datos. Captura de datos: Métodos de captura: Digitalización, Fotogrametría. GPS. Trabajo de campo. Importación de datos. Geocodificación. Captura de atributos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-57",
+    "etq": "T57",
+    "titulo": "Edición de datos. Corrección de errores",
+    "alcance": "Edición de datos. Corrección de errores. Métodos de indexación espacial. Explotación de los datos. Actualización. Productos derivados. Generalización.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-58",
+    "etq": "T58",
+    "titulo": "Calidad de datos. Fuentes de error",
+    "alcance": "Calidad de datos. Fuentes de error. Descripción de la calidad. Métodos estadísticos de determinación de la calidad. Calidad de procesos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-59",
+    "etq": "T59",
+    "titulo": "Análisis vectorial. Análisis de redes",
+    "alcance": "Análisis vectorial. Análisis de redes. Teoría de grafos. Camino mínimo, problema del viajante. Análisis de polígonos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-60",
+    "etq": "T60",
+    "titulo": "Análisis Ráster: Autocorrelación espacial, reclasificación y superposición de información geográfica",
+    "alcance": "Análisis Ráster: Autocorrelación espacial, reclasificación y superposición de información geográfica.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-61",
+    "etq": "T61",
+    "titulo": "Modelado de datos. Definición y objetivos",
+    "alcance": "Modelado de datos. Definición y objetivos. UML. Diagrama de clases. Clases, atributos y relaciones. Herencia, composición, agregación y asociaciones lógicas. Estereotipos y tipos de datos de usuario.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-62",
+    "etq": "T62",
+    "titulo": "Infraestructura de Datos Espaciales",
+    "alcance": "Infraestructura de Datos Espaciales. Definición y componentes. Arquitectura de una IDE. Nodo y geoportal. Interoperabilidad. Directiva INSPIRE y la LISIGE. IdeAndalucía. Geoportales de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-63",
+    "etq": "T63",
+    "titulo": "Servicios web de mapas (WMS, WMST), de catálogo (CSW), de descarga de objetos (WFS) y de conjunto de datos (ATOM)",
+    "alcance": "Servicios web de mapas (WMS, WMST), de catálogo (CSW), de descarga de objetos (WFS) y de conjunto de datos (ATOM). Operaciones y parámetros. Servicios INSPIRE.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-64",
+    "etq": "T64",
+    "titulo": "Definición de metadatos",
+    "alcance": "Definición de metadatos. Normas ISO/TC 211 de metadatos. Metadatos INSPIRE. El núcleo español de metadatos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-65",
+    "etq": "T65",
+    "titulo": "Lenguajes de programación",
+    "alcance": "Lenguajes de programación. Tipos de lenguajes. Lenguajes y herramientas para la utilización de redes globales. HTML y XML. GML .",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-66",
+    "etq": "T66",
+    "titulo": "Almacenamiento Estructurado",
+    "alcance": "Almacenamiento Estructurado. Sistemas de Gestión de Bases de Datos. Bases de datos de Información topográfica de Andalucía. La BCA y el MTA. Descripción general del producto y características principales. Modelos de datos. Procesos de producción. Publicación y difusión.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-67",
+    "etq": "T67",
+    "titulo": "Otras bases de datos de información geográfica de Andalucía",
+    "alcance": "Otras bases de datos de información geográfica de Andalucía: DERA, CDAU, NGA.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-68",
+    "etq": "T68",
+    "titulo": "Bases Topográficas Nacionales",
+    "alcance": "Bases Topográficas Nacionales. Mapas Topográficos Nacionales. Modelos de datos. Procesos de producción. Publicación y difusión. Equipamiento Geográfico de Referencia Nacional. Sistema Geodésico de Referencia. Cartografía catastral.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-69",
+    "etq": "T69",
+    "titulo": "Delimitación municipal en Andalucía",
+    "alcance": "Delimitación municipal en Andalucía. Legislación estatal y autonómica aplicable. Actas de deslinde. Replanteo de mojones y líneas de término. Expediente de deslinde. Modificaciones de líneas límite.",
+    "gratis": false
+   },
+   {
+    "id": "jtftop-70",
+    "etq": "T70",
+    "titulo": "La Cartografía en España y Andalucía",
+    "alcance": "La Cartografía en España y Andalucía. Normativa. Las competencias en cartografía y la coordinación interadministrativa. El valor normativo de la cartografía. Sistema cartográfico nacional. El Consejo Superior Geográfico. El Registro central de Cartografía. Actividades cartográficas en las Comunidades Autónomas. La cartografía en Andalucía. El Sistema Estadístico y Cartográfico de Andalucía. La Planificación Cartográf",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "junta-tecnico-facultativo-trabajo-social",
   "nombre": "Cuerpo Técnico Facultativo, especialidad Trabajo Social (A2.2010)",
   "organismo": "Junta de Andalucía",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre",
   "grupo": "A2",
@@ -8634,14 +9618,506 @@
     "Primer ejercicio. Tendrá carácter obligatorio y eliminatorio. El tiempo concedido para la realización de este ejercicio, compuesto de tres partes, será de 210 minutos. La calificación final del ejercicio no podrá superar los 150 puntos y vendrá determinada por la suma de la puntuación obtenida en la segunda y tercera parte del ejercicio.",
     "Segundo ejercicio. Tendrá carácter obligatorio y eliminatorio y consistirá en desarrollar por escrito, durante un tiempo máximo de 90 minutos, un tema elegido por cada aspirante de entre dos extraídos al azar, de los comprendidos en el programa de materias específico del cuerpo y especialidad correspondiente al que hace referencia el apartado 6 de la base primera y que consta en el Anexo II de la presente resolución, tal como se…"
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "jtfts-1",
+    "etq": "T1",
+    "titulo": "La Constitución Española de 1978",
+    "alcance": "La Constitución Española de 1978. Antecedentes. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. Derechos y deberes fundamentales. Los principios rectores de la política social y económica. Garantías y casos de suspensión. El procedimiento de reforma constitucional.",
+    "gratis": true
+   },
+   {
+    "id": "jtfts-2",
+    "etq": "T2",
+    "titulo": "Los órganos constitucionales",
+    "alcance": "Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.",
+    "gratis": true
+   },
+   {
+    "id": "jtfts-3",
+    "etq": "T3",
+    "titulo": "La organización territorial del Estado en la Constitución Española",
+    "alcance": "La organización territorial del Estado en la Constitución Española. Las Comunidades Autónomas: Fundamento constitucional. Los Estatutos de Autonomía. Delimitación de las funciones y competencias del Estado y las Comunidades Autónomas. Las potestades legislativas de las Comunidades Autónomas. La organización de las Comunidades Autónomas.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-4",
+    "etq": "T4",
+    "titulo": "La Administración Local",
+    "alcance": "La Administración Local: regulación constitucional. Tipología de los entes locales. Distribución de competencias entre el Estado y las Comunidades Autónomas sobre Administración Local. La organización territorial de la Comunidad Autónoma de Andalucía. El municipio: organización y competencias. La provincia: organización y competencias. Las relaciones entre la Comunidad Autónoma Andaluza y las Diputaciones provinciale",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-5",
+    "etq": "T5",
+    "titulo": "La Comunidad Autónoma de Andalucía",
+    "alcance": "La Comunidad Autónoma de Andalucía: Antecedentes histórico-culturales. El Estatuto de Autonomía para Andalucía: proceso de elaboración, fundamento, estructura y contenido básico. Competencias de la Comunidad Autónoma. Reforma del Estatuto.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-6",
+    "etq": "T6",
+    "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (I)",
+    "alcance": "Organización Institucional de la Comunidad Autónoma de Andalucía (I): El Parlamento de Andalucía. Composición, atribuciones y funcionamiento. El Tribunal Superior de Justicia de Andalucía. El Defensor del Pueblo de Andalucía. La Cámara de Cuentas de Andalucía. La Oficina Andaluza contra el Fraude y la Corrupción.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-7",
+    "etq": "T7",
+    "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (II)",
+    "alcance": "Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-8",
+    "etq": "T8",
+    "titulo": "La Administración de la Comunidad Autónoma de Andalucía",
+    "alcance": "La Administración de la Comunidad Autónoma de Andalucía. Principios de organización, actuación y atención ciudadana. Los Consejeros, Viceconsejeros, Directores Generales, Secretarios Generales Técnicos y órganos análogos. La organización central y territorial de la Administración de la Junta de Andalucía. Entidades instrumentales de la Administración de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-9",
+    "etq": "T9",
+    "titulo": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea",
+    "alcance": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea. Las instituciones de la Unión Europea. La representación de la Junta de Andalucía ante la Unión Europea. El Derecho de la UE y sus distintos tipos de fuentes.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-10",
+    "etq": "T10",
+    "titulo": "Las libertades fundamentales del mercado interior",
+    "alcance": "Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-11",
+    "etq": "T11",
+    "titulo": "La Administración Pública",
+    "alcance": "La Administración Pública: concepto, caracteres y clasificación. La Administración y el Derecho: El principio de legalidad. Las potestades administrativas. La actividad discrecional de la Administración. El Derecho Administrativo: Concepto y contenido. Autonomía del derecho Administrativo. Criterios de aplicación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-12",
+    "etq": "T12",
+    "titulo": "Fuentes del Derecho Administrativo",
+    "alcance": "Fuentes del Derecho Administrativo: Concepto y clasificación. Jerarquía normativa. La Ley: Concepto y clases. Disposiciones del Ejecutivo con fuerza de Ley. El Reglamento: Concepto y clasificación. La potestad reglamentaria: Fundamento, titularidad y límites. Procedimiento de elaboración de los Reglamentos. Fuentes subsidiarias e indirectas del Derecho Administrativo.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-13",
+    "etq": "T13",
+    "titulo": "Los órganos administrativos",
+    "alcance": "Los órganos administrativos: Concepto y clases. La competencia: Clases y criterios de delimitación. El acto administrativo: Concepto, clases y elementos. La forma de los actos: La motivación. La eficacia de los actos administrativos: la notificación y la publicación. El silencio administrativo: naturaleza y régimen jurídico. Su regulación en la Comunidad Autónoma. La invalidez y revisión de oficio de los actos admini",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-14",
+    "etq": "T14",
+    "titulo": "El procedimiento administrativo",
+    "alcance": "El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-15",
+    "etq": "T15",
+    "titulo": "La revisión de los actos administrativos",
+    "alcance": "La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-16",
+    "etq": "T16",
+    "titulo": "Los contratos de la Administración",
+    "alcance": "Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-17",
+    "etq": "T17",
+    "titulo": "La responsabilidad patrimonial de la Administración",
+    "alcance": "La responsabilidad patrimonial de la Administración. Competencias de la Junta de Andalucía. El procedimiento. La responsabilidad de las autoridades y del personal. Responsabilidad de la Administración por actos de sus concesionarios y contratistas. La potestad sancionadora de la Administración Pública: principios y procedimiento para su ejercicio.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-18",
+    "etq": "T18",
+    "titulo": "La expropiación forzosa",
+    "alcance": "La expropiación forzosa: regulación constitucional. Competencias de la Junta de Andalucía. Naturaleza y justificación de la potestad expropiatoria. Sujetos, objeto y causa. El procedimiento general. Peculiaridades del procedimiento de urgencia. Procedimientos especiales. La reversión de los bienes objeto de la expropiación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-19",
+    "etq": "T19",
+    "titulo": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias",
+    "alcance": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias. Concepto, naturaleza y clasificación de las subvenciones. Órganos competentes. El procedimiento de concesión y pago de las subvenciones. Justificación. Reintegro. Control financiero de las subvenciones. Infracciones y sanciones administrativas en materia de subvenciones. La Base de Datos de Subvenciones y Ayudas Públicas de la ",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-20",
+    "etq": "T20",
+    "titulo": "Regulación de la Función Pública de la Junta de Andalucía",
+    "alcance": "Regulación de la Función Pública de la Junta de Andalucía. Normas constitucionales. Carácter de la legislación estatal. La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía: Estructura y contenido. Clases de personal al servicio de la Junta de Andalucía. El personal funcionario: Provisión de puestos, carrera profesional, situaciones administrativas, régimen de incompatibilidades. Normas reguladoras del pe",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-21",
+    "etq": "T21",
+    "titulo": "El presupuesto de la Comunidad Autónoma de Andalucía",
+    "alcance": "El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-22",
+    "etq": "T22",
+    "titulo": "Los sistemas informáticos",
+    "alcance": "Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-23",
+    "etq": "T23",
+    "titulo": "Los sistemas operativos",
+    "alcance": "Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-24",
+    "etq": "T24",
+    "titulo": "La Administración Electrónica",
+    "alcance": "La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-25",
+    "etq": "T25",
+    "titulo": "Las Administraciones Públicas en su entorno y las políticas públicas",
+    "alcance": "Las Administraciones Públicas en su entorno y las políticas públicas. La evaluación de las políticas públicas. La ciudadanía en el centro de la actividad pública y el interés general. La calidad y la atención a la ciudadanía. Evaluación de la calidad de los servicios. Las cartas de servicios. Iniciativas en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-26",
+    "etq": "T26",
+    "titulo": "El régimen jurídico de la protección de los datos de carácter personal",
+    "alcance": "El régimen jurídico de la protección de los datos de carácter personal. Normativa europea y nacional.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-27",
+    "etq": "T27",
+    "titulo": "Transparencia y Gobierno Abierto",
+    "alcance": "Transparencia y Gobierno Abierto. Colaboración y Participación Ciudadana. La Ley de Transparencia Pública de Andalucía. Derechos y Obligaciones. Publicidad Activa. El Derecho de Acceso a la Información Pública. El Consejo de Transparencia y Protección de Datos de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-28",
+    "etq": "T28",
+    "titulo": "Prevención de riesgos laborales",
+    "alcance": "Prevención de riesgos laborales. Normativa estatal de Prevención de Riesgos Laborales: Derechos y obligaciones; Consulta y participación de los trabajadores. Organización de la prevención de riesgos laborales en la Administración de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-29",
+    "etq": "T29",
+    "titulo": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos",
+    "alcance": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos. Discriminación por razón de sexo: discriminación directa e indirecta, discriminación salarial. Acoso por razón de sexo. Discriminación en la publicidad y lenguaje sexista. Igualdad entre mujeres y hombres igualdad de derechos, de trato y de oportunidades. Transversalidad de género. Concepto de mainstreaming: enfoque integ",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-30",
+    "etq": "T30",
+    "titulo": "Normativa sobre igualdad",
+    "alcance": "Normativa sobre igualdad. La igualdad de género en la Constitución y en el Estatuto de Autonomía para Andalucía. Normativa para la promoción de la igualdad de género y para la prevención y protección integral contra la violencia de género en Andalucía. La unidad de igualdad y género: funciones. Pertinencia e impacto de género en la normativa: conceptos y objetivos. Comisión de Impacto de Género en los Presupuestos Pú",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-31",
+    "etq": "T31",
+    "titulo": "Los Servicios Sociales en España",
+    "alcance": "Los Servicios Sociales en España. Noción constitucional de asistencia social y servicios sociales. Competencias institucionales de las Comunidades Autónomas y del Estado en materia de servicios sociales.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-32",
+    "etq": "T32",
+    "titulo": "Los Servicios Sociales en la Comunidad Autónoma",
+    "alcance": "Los Servicios Sociales en la Comunidad Autónoma. Marco Jurídico y Planificación estratégica. Consejería competente en materia de Servicios Sociales. Competencias y Funciones. La financiación de los Servicios Sociales. Los Consejos de Servicios Sociales. Estructuras de organización y coordinación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-33",
+    "etq": "T33",
+    "titulo": "La ley 9/2016, de 27 de diciembre, de servicios sociales de Andalucía",
+    "alcance": "La ley 9/2016, de 27 de diciembre, de servicios sociales de Andalucía. Régimen jurídico y desarrollo normativo. Titulares del derecho a los servicios sociales. Objetivos de la política de servicios sociales en Andalucía. El derecho subjetivo a los servicios sociales. Derechos de la ciudadanía en relación a los servicios sociales. Derechos y obligaciones de las personas usuarias.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-34",
+    "etq": "T34",
+    "titulo": "Ley reguladora de las Bases de Régimen Local",
+    "alcance": "Ley reguladora de las Bases de Régimen Local. Nuevas Competencias Municipales. Situación actual. Ley 5/2010, de 11 de junio, de autonomía local de Andalucía. Personas en situación de riesgo. Delegación de competencias en Servicios Sociales.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-35",
+    "etq": "T35",
+    "titulo": "Los Servicios Sociales Comunitarios",
+    "alcance": "Los Servicios Sociales Comunitarios. Funciones. Equipos Profesionales. Profesional de Referencia. Los Servicios Sociales Especializados. Funciones. Equipos Profesionales. Prestaciones del Sistema Público de Servicios Sociales en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-36",
+    "etq": "T36",
+    "titulo": "Conceptos básicos para el Trabajo Social",
+    "alcance": "Conceptos básicos para el Trabajo Social. Acción Social, Bienestar Social, Política Social, Servicios Sociales, Sociedad del Bienestar, Trabajo Social. Teorías contemporáneas del Trabajo Social. Modelos de práctica profesional. Corrientes profesionales del trabajo social.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-37",
+    "etq": "T37",
+    "titulo": "La investigación e innovación en servicios sociales",
+    "alcance": "La investigación e innovación en servicios sociales. Diagnóstico, planificación, ejecución y evaluación de los Servicios Sociales. Plan de Investigación e Innovación en Servicios Sociales de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-38",
+    "etq": "T38",
+    "titulo": "El proceso de intervención en la Ley 9/2016, de 27 de diciembre, de servicios sociales de Andalucía",
+    "alcance": "El proceso de intervención en la Ley 9/2016, de 27 de diciembre, de servicios sociales de Andalucía. El Proyecto de intervención social (PRISO). La historia social y el sistema CoheSSiona: bases jurídicas para el tratamiento de datos. Régimen jurídico y obligaciones legales de la Historia Social Única electrónica de Andalucía y accesos a la información. El Decreto 58/2022, de 27 de abril, por el que se regula la estr",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-39",
+    "etq": "T39",
+    "titulo": "La ética aplicada a la intervención social",
+    "alcance": "La ética aplicada a la intervención social. La ética y los servicios sociales en la Ley 9/2016, de 27 de diciembre, de servicios sociales de Andalucía. La estrategia de ética de los servicios sociales de Andalucía. El secreto profesional. Conflictos y deliberación ética en la práctica profesional. Código deontológico.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-40",
+    "etq": "T40",
+    "titulo": "Política Social Europea",
+    "alcance": "Política Social Europea. Estrategia europea 2020: objetivos en el ámbito del empleo y en la lucha contra la pobreza y exclusión social. Programa de la Unión Europea para el Empleo y la Innovación Social. Instrumentos de financiación de la Unión Europea.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-41",
+    "etq": "T41",
+    "titulo": "El Sistema de Seguridad Social en España",
+    "alcance": "El Sistema de Seguridad Social en España. Prestaciones Sociales y niveles de protección. Normativa en materia de Seguridad Social. Fondo de reserva de la Seguridad Social.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-42",
+    "etq": "T42",
+    "titulo": "Concepto de salud y sus determinantes",
+    "alcance": "Concepto de salud y sus determinantes. Los factores de salud que puedan generar problemas de salud. Las desigualdades en salud. Salud Pública. La coordinación entre los dispositivos sanitarios y de servicios sociales para la atención integral del enfermo.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-43",
+    "etq": "T43",
+    "titulo": "Sistema Nacional de Salud",
+    "alcance": "Sistema Nacional de Salud: Organización y Prestaciones. Competencias de las Administraciones Públicas en materia sanitaria. Plan Andaluz de Salud. Ley de Salud Pública de Andalucía: Políticas de protección y promoción de la Salud.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-44",
+    "etq": "T44",
+    "titulo": "Ley Orgánica de Educación",
+    "alcance": "Ley Orgánica de Educación. Implantación en la Comunidad Autónoma de Andalucía. Protocolos de actuación en supuestos de acoso escolar, en casos de maltrato infantil, ante casos de violencia de género en el ámbito educativo, en caso de agresión al profesorado o personal no docente y sobre identidad de género. Comisión de Absentismo Escolar.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-45",
+    "etq": "T45",
+    "titulo": "Concepto de Calidad de vida, según la OMS y Schalock",
+    "alcance": "Concepto de Calidad de vida, según la OMS y Schalock. Calidad de vida individual y gestión de Calidad de los procesos en los Servicios Sociales. Certificación de Servicios Sociales y Acreditación de las Administraciones Públicas.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-46",
+    "etq": "T46",
+    "titulo": "Las instituciones residenciales como instrumentos para la atención a situaciones sociales",
+    "alcance": "Las instituciones residenciales como instrumentos para la atención a situaciones sociales. Criterios científicos y valores sociales de las instituciones residenciales como instrumentos de apoyo a la familia. La calidad de vida en los centros residenciales. La intervención del trabajador social en entornos institucionalizadores.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-47",
+    "etq": "T47",
+    "titulo": "La Atención sociosanitaria",
+    "alcance": "La Atención sociosanitaria. Fundamentos y retos de la atención sociosanitaria. Unidades funcionales, servicios y programas de atención sociosanitaria. Alternativas para la atención sociosanitaria a agudos y cuidados continuados.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-48",
+    "etq": "T48",
+    "titulo": "El reto social ante la dependencia",
+    "alcance": "El reto social ante la dependencia. Marco conceptual. Desarrollo de sistemas de atención para la dependencia en Europa. Situación actual en España y Andalucía. Demanda potencial, principales colectivos e impactos de la dependencia. Modelos de oferta de servicios. Financiación de la dependencia.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-49",
+    "etq": "T49",
+    "titulo": "Concepto de Violencia y Tipología",
+    "alcance": "Concepto de Violencia y Tipología. Violencia de género y familiar. Violencia juvenil, violencia escolar y filioparental. Trata de personas. Violencia contra las minorías. Educación en valores.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-50",
+    "etq": "T50",
+    "titulo": "Gestión de organizaciones",
+    "alcance": "Gestión de organizaciones. Creación y gestión social de organizaciones: Liderazgo, toma de decisiones y técnicas de dirección empresarial. Planificación estratégica. Organización inteligente. Desarrollo organizacional basado en el aprendizaje. Concepto de inteligencia emocional.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-51",
+    "etq": "T51",
+    "titulo": "Voluntariado y acción social no gubernamental (I)",
+    "alcance": "Voluntariado y acción social no gubernamental (I). Concepto de la acción voluntaria. Definición, ámbito de actuación, derechos y deberes. Papel de las organizaciones voluntarias en el desarrollo de servicios sociales. Órganos de participación del Voluntariado. Papel del trabajador/a social en la Iniciativa Social y el Voluntariado.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-52",
+    "etq": "T52",
+    "titulo": "Voluntariado y acción social no gubernamental (II)",
+    "alcance": "Voluntariado y acción social no gubernamental (II). Legislación y marco institucional. Organizaciones voluntarias y tercer sector: Asociaciones y Fundaciones. El Registro de Entidades y Centros de servicios sociales que prestan servicios en Andalucía. Financiación de las Entidades sociales: Subvenciones y conciertos.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-53",
+    "etq": "T53",
+    "titulo": "La exclusión social (I)",
+    "alcance": "La exclusión social (I). Concepto de pobreza, desigualdad y exclusión social. Los procesos de empobrecimiento. Impacto del fenómeno de la globalización. El concepto de rentas mínimas y la inserción social: Características generales. El fenómeno del sinhogarismo: estrategias de intervención a nivel europeo, estatal y andaluz en el ámbito de las personas sin hogar. La intervención del trabajador/a social ante la pobrez",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-54",
+    "etq": "T54",
+    "titulo": "La exclusión social (II)",
+    "alcance": "La exclusión social (II). Estrategias de lucha. El contexto europeo. Legislación Estatal. La renta Mínima de Inserción Social en Andalucía. Plan de Inclusión y/o inserción sociolaboral. Estrategia Regional Andaluza para la Cohesión e Inclusión Social. Intervención en Zonas desfavorecidas (ERACIS).",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-55",
+    "etq": "T55",
+    "titulo": "La familia (I). Modelos familiares en la sociedad actual",
+    "alcance": "La familia (I). Modelos familiares en la sociedad actual. Las familias con factores de riesgo. La familia multiproblemática. Redes de apoyo formales e informales. La mediación familiar en los servicios sociales. La mediación y el arbitraje. Servicios de mediación familiar.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-56",
+    "etq": "T56",
+    "titulo": "La familia (II). Legislación y marco institucional",
+    "alcance": "La familia (II). Legislación y marco institucional. Políticas de Prevención y apoyo a las familias en las distintas Administraciones. Planes de prevención y apoyo a las familias. Ámbito europeo, estatal y autonómico.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-57",
+    "etq": "T57",
+    "titulo": "Infancia y Familias. Legislación Estatal y Autonómica",
+    "alcance": "Infancia y Familias. Legislación Estatal y Autonómica. Derechos y Deberes de los menores. Menores en conflicto social.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-58",
+    "etq": "T58",
+    "titulo": "Infancia y Adolescencia",
+    "alcance": "Infancia y Adolescencia. Competencias en el Ámbito Local. Intervención en el medio. Declaración de la situación de riesgo. Intervención de los Servicios Sociales Comunitarios. Programa de Tratamiento Familiar en la Comunidad Autónoma Andaluza. Competencia y Legislación de la Comunidad Autónoma Andaluza.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-59",
+    "etq": "T59",
+    "titulo": "Infancia y Adolescencia (II)",
+    "alcance": "Infancia y Adolescencia (II). Separación del menor de su medio familiar. Concepto Desamparo, Tutela y Guarda. Acogimiento Residencial y Acogimiento Familiar. La infancia y adolescencia en el sistema de reforma. Justicia Juvenil. Normativa reguladora. Competencias de la justicia juvenil en Andalucía. Medidas que pueden imponer los jueces de menores.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-60",
+    "etq": "T60",
+    "titulo": "Mujer. Servicio de Información",
+    "alcance": "Mujer. Servicio de Información. Detección, Atención y acompañamiento de la mujer víctima de violencia de género. Instituto Andaluz de la Mujer: recursos. Mujeres, menores de edad, víctimas de violencia de género. Coeducación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-61",
+    "etq": "T61",
+    "titulo": "Los derechos, la igualdad de trato y no discriminación de las personas LGTBI y sus familiares en Andalucía",
+    "alcance": "Los derechos, la igualdad de trato y no discriminación de las personas LGTBI y sus familiares en Andalucía. Marco normativo. Políticas públicas para promover la igualdad efectiva de las personas LGTBI. Medidas para garantizar la igualdad real y efectiva y no discriminación por causas de orientación sexual, identidad sexual o expresión de género. Infracciones y Sanciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-62",
+    "etq": "T62",
+    "titulo": "Personas Mayores (I)",
+    "alcance": "Personas Mayores (I). Teoría sobre el envejecimiento. Aspectos demográficos, psicológicos y sociales del envejecimiento. La intervención del Trabajador/a Social en la coordinación de servicios y recursos para atención/bienestar de anciano. Niveles de intervención.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-63",
+    "etq": "T63",
+    "titulo": "Personas mayores (II)",
+    "alcance": "Personas mayores (II). Legislación y marco institucional. Competencias de la Administración Central, Autonómica y Local. Nuevos retos ante la longevidad creciente.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-64",
+    "etq": "T64",
+    "titulo": "Personas con discapacidad (I)",
+    "alcance": "Personas con discapacidad (I). Conceptos básicos. Necesidades y apoyos a las personas con discapacidad a lo largo del ciclo vital. La integración y normalización. Trabajo interdisciplinar en los servicios para las personas con discapacidad.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-65",
+    "etq": "T65",
+    "titulo": "Personas con discapacidad (II)",
+    "alcance": "Personas con discapacidad (II). Legislación y marco institucional. Competencias de la Administración Central. Autonómica y Local: Objetivos y recursos. Servicios y prestaciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-66",
+    "etq": "T66",
+    "titulo": "Minorías étnicas (I)",
+    "alcance": "Minorías étnicas (I). Concepto de etnia. Etnicidad. Los derechos de las minorías étnicas. El derecho a la diversidad. Impacto social de las minorías étnicas como consecuencia de la emigración. La etnia gitana. El trabajador/a social en la atención a las minorías.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-67",
+    "etq": "T67",
+    "titulo": "Minorías étnicas (II)",
+    "alcance": "Minorías étnicas (II). Legislación y marco institucional. Marco estratégico de la UE para la igualdad, la inclusión y la participación de los gitanos. Estrategia Nacional para la Población Gitana. Plan Integral para la Inclusión de la Comunidad Gitana de Andalucía. El Consejo Andaluz del Pueblo Gitano. Intervención de las Entidades Locales en la atención a las minorías étnicas.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-68",
+    "etq": "T68",
+    "titulo": "Movimientos migratorios",
+    "alcance": "Movimientos migratorios. Planteamientos teóricos y metodológicos. Los procesos migratorios. Migraciones y clase social. La población inmigrante con necesidad de intervención social. Población inmigrante regularizada y población inmigrante indocumentada: Necesidades. El/la trabajador/a social en esta área. Legislación estatal y autonómica. Políticas migratorias en Europa. Situación actual. Papel de la iniciativa socia",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-69",
+    "etq": "T69",
+    "titulo": "Drogas y otras adicciones",
+    "alcance": "Drogas y otras adicciones. Drogas legales e ilegales. Adicciones sin sustancias. Aspectos sanitarios, sociales y educativos. Prevención, atención e incorporación social. Papel del trabajador/a social en las actuaciones intersectoriales. Legislación y marco institucional. Competencias de la Administración Central y Autonómica. Plan Andaluz sobre las Drogas. Marco de colaboración con las Corporaciones Locales.",
+    "gratis": false
+   },
+   {
+    "id": "jtfts-70",
+    "etq": "T70",
+    "titulo": "Convocatorias de Subvenciones",
+    "alcance": "Convocatorias de Subvenciones. Tipología de subvenciones en materia de Servicios Sociales en la Junta de Andalucía. Bases Reguladoras, líneas, requisitos y procedimientos.",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "junta-tecnico-facultativo-turismo",
   "nombre": "Cuerpo Técnico Facultativo, especialidad Turismo (A2.2017)",
   "organismo": "Junta de Andalucía",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre",
   "grupo": "A2",
@@ -8750,14 +10226,506 @@
     "Primer ejercicio. Tendrá carácter obligatorio y eliminatorio. El tiempo concedido para la realización de este ejercicio, compuesto de tres partes, será de 210 minutos. La calificación final del ejercicio no podrá superar los 150 puntos y vendrá determinada por la suma de la puntuación obtenida en la segunda y tercera parte del ejercicio.",
     "Segundo ejercicio. Tendrá carácter obligatorio y eliminatorio y consistirá en desarrollar por escrito, durante un tiempo máximo de 90 minutos, un tema elegido por cada aspirante de entre dos extraídos al azar, de los comprendidos en el programa de materias específico del cuerpo y especialidad correspondiente al que hace referencia el apartado 6 de la base primera y que consta en el Anexo II de la presente resolución, tal como se…"
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "jtftur-1",
+    "etq": "T1",
+    "titulo": "La Constitución Española de 1978",
+    "alcance": "La Constitución Española de 1978. Antecedentes. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. Derechos y deberes fundamentales. Los principios rectores de la política social y económica. Garantías y casos de suspensión. El procedimiento de reforma constitucional.",
+    "gratis": true
+   },
+   {
+    "id": "jtftur-2",
+    "etq": "T2",
+    "titulo": "Los órganos constitucionales",
+    "alcance": "Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.",
+    "gratis": true
+   },
+   {
+    "id": "jtftur-3",
+    "etq": "T3",
+    "titulo": "La organización territorial del Estado en la Constitución Española",
+    "alcance": "La organización territorial del Estado en la Constitución Española. Las Comunidades Autónomas: Fundamento constitucional. Los Estatutos de Autonomía. Delimitación de las funciones y competencias del Estado y las Comunidades Autónomas. Las potestades legislativas de las Comunidades Autónomas. La organización de las Comunidades Autónomas.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-4",
+    "etq": "T4",
+    "titulo": "La Administración Local",
+    "alcance": "La Administración Local: regulación constitucional. Tipología de los entes locales. Distribución de competencias entre el Estado y las Comunidades Autónomas sobre Administración Local. La organización territorial de la Comunidad Autónoma de Andalucía. El municipio: organización y competencias. La provincia: organización y competencias. Las relaciones entre la Comunidad Autónoma Andaluza y las Diputaciones provinciale",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-5",
+    "etq": "T5",
+    "titulo": "La Comunidad Autónoma de Andalucía",
+    "alcance": "La Comunidad Autónoma de Andalucía: Antecedentes histórico-culturales. El Estatuto de Autonomía para Andalucía: proceso de elaboración, fundamento, estructura y contenido básico. Competencias de la Comunidad Autónoma. Reforma del Estatuto.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-6",
+    "etq": "T6",
+    "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (I)",
+    "alcance": "Organización Institucional de la Comunidad Autónoma de Andalucía (I): El Parlamento de Andalucía. Composición, atribuciones y funcionamiento. El Tribunal Superior de Justicia de Andalucía. El Defensor del Pueblo de Andalucía. La Cámara de Cuentas de Andalucía. La Oficina Andaluza contra el Fraude y la Corrupción.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-7",
+    "etq": "T7",
+    "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (II)",
+    "alcance": "Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-8",
+    "etq": "T8",
+    "titulo": "La Administración de la Comunidad Autónoma de Andalucía",
+    "alcance": "La Administración de la Comunidad Autónoma de Andalucía. Principios de organización, actuación y atención ciudadana. Los Consejeros, Viceconsejeros, Directores Generales, Secretarios Generales Técnicos y órganos análogos. La organización central y territorial de la Administración de la Junta de Andalucía. Entidades instrumentales de la Administración de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-9",
+    "etq": "T9",
+    "titulo": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea",
+    "alcance": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea. Las instituciones de la Unión Europea. La representación de la Junta de Andalucía ante la Unión Europea. El Derecho de la UE y sus distintos tipos de fuentes.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-10",
+    "etq": "T10",
+    "titulo": "Las libertades fundamentales del mercado interior",
+    "alcance": "Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-11",
+    "etq": "T11",
+    "titulo": "La Administración Pública",
+    "alcance": "La Administración Pública: concepto, caracteres y clasificación. La Administración y el Derecho: El principio de legalidad. Las potestades administrativas. La actividad discrecional de la Administración. El Derecho Administrativo: Concepto y contenido. Autonomía del derecho Administrativo. Criterios de aplicación.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-12",
+    "etq": "T12",
+    "titulo": "Fuentes del Derecho Administrativo",
+    "alcance": "Fuentes del Derecho Administrativo: Concepto y clasificación. Jerarquía normativa. La Ley: Concepto y clases. Disposiciones del Ejecutivo con fuerza de Ley. El Reglamento: Concepto y clasificación. La potestad reglamentaria: Fundamento, titularidad y límites. Procedimiento de elaboración de los Reglamentos. Fuentes subsidiarias e indirectas del Derecho Administrativo.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-13",
+    "etq": "T13",
+    "titulo": "Los órganos administrativos",
+    "alcance": "Los órganos administrativos: Concepto y clases. La competencia: Clases y criterios de delimitación. El acto administrativo: Concepto, clases y elementos. La forma de los actos: La motivación. La eficacia de los actos administrativos: la notificación y la publicación. El silencio administrativo: naturaleza y régimen jurídico. Su regulación en la Comunidad Autónoma. La invalidez y revisión de oficio de los actos admini",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-14",
+    "etq": "T14",
+    "titulo": "El procedimiento administrativo",
+    "alcance": "El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-15",
+    "etq": "T15",
+    "titulo": "La revisión de los actos administrativos",
+    "alcance": "La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-16",
+    "etq": "T16",
+    "titulo": "Los contratos de la Administración",
+    "alcance": "Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-17",
+    "etq": "T17",
+    "titulo": "La responsabilidad patrimonial de la Administración",
+    "alcance": "La responsabilidad patrimonial de la Administración. Competencias de la Junta de Andalucía. El procedimiento. La responsabilidad de las autoridades y del personal. Responsabilidad de la Administración por actos de sus concesionarios y contratistas. La potestad sancionadora de la Administración Pública: principios y procedimiento para su ejercicio.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-18",
+    "etq": "T18",
+    "titulo": "La expropiación forzosa",
+    "alcance": "La expropiación forzosa: regulación constitucional. Competencias de la Junta de Andalucía. Naturaleza y justificación de la potestad expropiatoria. Sujetos, objeto y causa. El procedimiento general. Peculiaridades del procedimiento de urgencia. Procedimientos especiales. La reversión de los bienes objeto de la expropiación.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-19",
+    "etq": "T19",
+    "titulo": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias",
+    "alcance": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias. Concepto, naturaleza y clasificación de las subvenciones. Órganos competentes. El procedimiento de concesión y pago de las subvenciones. Justificación. Reintegro. Control financiero de las subvenciones. Infracciones y sanciones administrativas en materia de subvenciones. La Base de Datos de Subvenciones y Ayudas Públicas de la ",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-20",
+    "etq": "T20",
+    "titulo": "Regulación de la Función Pública de la Junta de Andalucía",
+    "alcance": "Regulación de la Función Pública de la Junta de Andalucía. Normas constitucionales. Carácter de la legislación estatal. La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía: Estructura y contenido. Clases de personal al servicio de la Junta de Andalucía. El personal funcionario: Provisión de puestos, carrera profesional, situaciones administrativas, régimen de incompatibilidades. Normas reguladoras del pe",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-21",
+    "etq": "T21",
+    "titulo": "El presupuesto de la Comunidad Autónoma de Andalucía",
+    "alcance": "El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-22",
+    "etq": "T22",
+    "titulo": "Los sistemas informáticos",
+    "alcance": "Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-23",
+    "etq": "T23",
+    "titulo": "Los sistemas operativos",
+    "alcance": "Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-24",
+    "etq": "T24",
+    "titulo": "La Administración Electrónica",
+    "alcance": "La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-25",
+    "etq": "T25",
+    "titulo": "Las Administraciones Públicas en su entorno y las políticas públicas",
+    "alcance": "Las Administraciones Públicas en su entorno y las políticas públicas. La evaluación de las políticas públicas. La ciudadanía en el centro de la actividad pública y el interés general. La calidad y la atención a la ciudadanía. Evaluación de la calidad de los servicios. Las cartas de servicios. Iniciativas en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-26",
+    "etq": "T26",
+    "titulo": "El régimen jurídico de la protección de los datos de carácter personal",
+    "alcance": "El régimen jurídico de la protección de los datos de carácter personal. Normativa europea y nacional.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-27",
+    "etq": "T27",
+    "titulo": "Transparencia y Gobierno Abierto",
+    "alcance": "Transparencia y Gobierno Abierto. Colaboración y Participación Ciudadana. La Ley de Transparencia Pública de Andalucía. Derechos y Obligaciones. Publicidad Activa. El Derecho de Acceso a la Información Pública. El Consejo de Transparencia y Protección de Datos de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-28",
+    "etq": "T28",
+    "titulo": "Prevención de riesgos laborales",
+    "alcance": "Prevención de riesgos laborales. Normativa estatal de Prevención de Riesgos Laborales: Derechos y obligaciones; Consulta y participación de los trabajadores. Organización de la prevención de riesgos laborales en la Administración de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-29",
+    "etq": "T29",
+    "titulo": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos",
+    "alcance": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos. Discriminación por razón de sexo: discriminación directa e indirecta, discriminación salarial. Acoso por razón de sexo. Discriminación en la publicidad y lenguaje sexista. Igualdad entre mujeres y hombres igualdad de derechos, de trato y de oportunidades. Transversalidad de género. Concepto de mainstreaming: enfoque integ",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-30",
+    "etq": "T30",
+    "titulo": "Normativa sobre igualdad",
+    "alcance": "Normativa sobre igualdad. La igualdad de género en la Constitución y en el Estatuto de Autonomía para Andalucía. Normativa para la promoción de la igualdad de género y para la prevención y protección integral contra la violencia de género en Andalucía. La unidad de igualdad y género: funciones. Pertinencia e impacto de género en la normativa: conceptos y objetivos. Comisión de Impacto de Género en los Presupuestos Pú",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-31",
+    "etq": "T31",
+    "titulo": "La Ley del Turismo de Andalucía",
+    "alcance": "La Ley del Turismo de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-32",
+    "etq": "T32",
+    "titulo": "Estructura orgánica de la Consejería con competencias en materia de turismo",
+    "alcance": "Estructura orgánica de la Consejería con competencias en materia de turismo. Delegación de competencias. Entidades instrumentales adscritas.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-33",
+    "etq": "T33",
+    "titulo": "La concertación en materia turística en Andalucía",
+    "alcance": "La concertación en materia turística en Andalucía. El Pacto Social y Económico por el Impulso de Andalucía y su incidencia en el turismo. La Mesa del Turismo. El Consejo Andaluz del Turismo. Turismo y gobernanza. Fórmulas de participación del sector público-privado en los entes de gestión turística.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-34",
+    "etq": "T34",
+    "titulo": "Planificación y ordenación de los recursos turísticos en Andalucía",
+    "alcance": "Planificación y ordenación de los recursos turísticos en Andalucía: Objetivos generales. Instrumentos y programas de planificación turística. El Plan General del Turismo.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-35",
+    "etq": "T35",
+    "titulo": "Los Planes Turísticos de Grandes Ciudades de Andalucía",
+    "alcance": "Los Planes Turísticos de Grandes Ciudades de Andalucía. Planes Turísticos de Grandes Ciudades aprobados.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-36",
+    "etq": "T36",
+    "titulo": "La figura del Municipio Turístico de Andalucía",
+    "alcance": "La figura del Municipio Turístico de Andalucía. Municipios Turísticos declarados en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-37",
+    "etq": "T37",
+    "titulo": "La Empresa Pública de Turismo de Andalucía",
+    "alcance": "La Empresa Pública de Turismo de Andalucía. Organización y funciones. La promoción turística de Andalucía a través de los instrumentos de planificación.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-38",
+    "etq": "T38",
+    "titulo": "Las Declaraciones de Interés Turístico de Andalucía",
+    "alcance": "Las Declaraciones de Interés Turístico de Andalucía. Fiestas de Interés Turístico Nacional e Internacional. Los Premios Andalucía del Turismo.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-39",
+    "etq": "T39",
+    "titulo": "La ordenación de la oferta turística en Andalucía",
+    "alcance": "La ordenación de la oferta turística en Andalucía: Servicios turísticos y actividades con incidencia en el ámbito turístico. El Registro de Turismo de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-40",
+    "etq": "T40",
+    "titulo": "Los establecimientos de alojamiento turístico en Andalucía I",
+    "alcance": "Los establecimientos de alojamiento turístico en Andalucía I: Los establecimientos hoteleros.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-41",
+    "etq": "T41",
+    "titulo": "Los establecimientos de alojamiento turístico en Andalucía II",
+    "alcance": "Los establecimientos de alojamiento turístico en Andalucía II: Los de apartamentos turísticos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-42",
+    "etq": "T42",
+    "titulo": "Los establecimientos de alojamiento turístico en Andalucía III",
+    "alcance": "Los establecimientos de alojamiento turístico en Andalucía III. Los establecimientos de campamentos de turismo.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-43",
+    "etq": "T43",
+    "titulo": "El servicio de alojamiento turístico en las viviendas de uso turístico",
+    "alcance": "El servicio de alojamiento turístico en las viviendas de uso turístico. La incidencia de las viviendas de uso turístico en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-44",
+    "etq": "T44",
+    "titulo": "El turismo en el medio rural y el turismo activo",
+    "alcance": "El turismo en el medio rural y el turismo activo. Obligaciones y condiciones medioambientales para la práctica de las actividades integrantes del turismo activo. El alojamiento turístico en el medio rural. Las viviendas turísticas de alojamiento rural.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-45",
+    "etq": "T45",
+    "titulo": "Las empresas de intermediación turística en Andalucía",
+    "alcance": "Las empresas de intermediación turística en Andalucía. Los viajes combinados y los servicios de viaje vinculados.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-46",
+    "etq": "T46",
+    "titulo": "La información turística en Andalucía",
+    "alcance": "La información turística en Andalucía. Los guías de turismo en Andalucía. Las Oficinas de Turismo y Puntos de Información Turística. La Red de Oficinas de Turismo de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-47",
+    "etq": "T47",
+    "titulo": "La inspección turística en Andalucía",
+    "alcance": "La inspección turística en Andalucía. Los Planes de Inspección Programada.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-48",
+    "etq": "T48",
+    "titulo": "Régimen sancionador de la actividad turística y medidas de ejecución forzosa",
+    "alcance": "Régimen sancionador de la actividad turística y medidas de ejecución forzosa. Infracciones y sanciones administrativas. Procedimiento sancionador.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-49",
+    "etq": "T49",
+    "titulo": "Subvenciones de la consejería con competencias en materia de turismo I",
+    "alcance": "Subvenciones de la consejería con competencias en materia de turismo I. El Plan Estratégico de Subvenciones. Líneas de ayudas destinadas a empresas.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-50",
+    "etq": "T50",
+    "titulo": "Subvenciones de la consejería con competencias en materia de turismo II",
+    "alcance": "Subvenciones de la consejería con competencias en materia de turismo II. Líneas de ayudas destinadas a Entidades Locales. Otras líneas de ayudas.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-51",
+    "etq": "T51",
+    "titulo": "La Estrategia de Sostenibilidad Turística en Destinos",
+    "alcance": "La Estrategia de Sostenibilidad Turística en Destinos. Programas de Planes Sostenibilidad Turística en Destinos: Convocatorias ordinarias y extraordinarias.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-52",
+    "etq": "T52",
+    "titulo": "El turismo en las estrategias y políticas europeas",
+    "alcance": "El turismo en las estrategias y políticas europeas. Gestión de proyectos europeos en materia de turismo. Financiación de la Unión Europea al sector turístico.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-53",
+    "etq": "T53",
+    "titulo": "Organizaciones e instituciones nacionales e internacionales del sector turístico",
+    "alcance": "Organizaciones e instituciones nacionales e internacionales del sector turístico. Funciones y competencias. La Administración turística en España: Funciones, organigrama y organismos de la Administración General del Estado. La cooperación entre las administraciones públicas.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-54",
+    "etq": "T54",
+    "titulo": "El concepto de turismo y de turista",
+    "alcance": "El concepto de turismo y de turista. Oferta y demanda de turismo. Tipología de turistas. Comportamiento y tendencias de los usuarios de servicios turísticos. Glosario básico del turismo según ONU Turismo.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-55",
+    "etq": "T55",
+    "titulo": "Definición y clasificación de los recursos turísticos",
+    "alcance": "Definición y clasificación de los recursos turísticos. Puesta en valor y aprovechamiento de los recursos turísticos. Principales recursos turísticos de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-56",
+    "etq": "T56",
+    "titulo": "El producto turístico",
+    "alcance": "El producto turístico. Concepto y características. Gestión y ciclo de vida. El paquete turístico. La marca. Principales productos turísticos impulsados por la Consejería competente en materia de turismo.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-57",
+    "etq": "T57",
+    "titulo": "Metodologías y herramientas para el diagnóstico, la planificación y la evaluación en la actividad turística",
+    "alcance": "Metodologías y herramientas para el diagnóstico, la planificación y la evaluación en la actividad turística. Principales organismos y fuentes de información turística en el ámbito nacional e internacional. La gestión y análisis de las estadísticas de turismo en la Consejería con competencias en materia de turismo.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-58",
+    "etq": "T58",
+    "titulo": "Calidad y excelencia turística",
+    "alcance": "Calidad y excelencia turística. La calidad como objetivo estratégico en la planificación turística de la Junta de Andalucía. Principales certificados y distinciones de los establecimientos y espacios turísticos de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-59",
+    "etq": "T59",
+    "titulo": "La estructura del mercado turístico y la demanda turística",
+    "alcance": "La estructura del mercado turístico y la demanda turística. La gestión de la estacionalidad turística. La segmentación de los mercados. Principales segmentos turísticos de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-60",
+    "etq": "T60",
+    "titulo": "Fundamentos del marketing turístico",
+    "alcance": "Fundamentos del marketing turístico. El producto, el precio, la promoción y la distribución. El plan de marketing. El marketing digital.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-61",
+    "etq": "T61",
+    "titulo": "Herramientas para la promoción turística",
+    "alcance": "Herramientas para la promoción turística. Principales ferias nacionales e internacionales de turismo. El papel de internet y las nuevas tecnologías en la promoción turística. Los medios sociales. Los clubes de producto y las agrupaciones empresariales innovadoras.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-62",
+    "etq": "T62",
+    "titulo": "La geografía del turismo",
+    "alcance": "La geografía del turismo. Factores geográficos de la localización turística. Principales flujos y áreas turísticas a nivel mundial y en Andalucía. La distribución y concentración espacial de la oferta turística y su tipología en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-63",
+    "etq": "T63",
+    "titulo": "Turismo y economía. El impacto del turismo en la economía y su relación con otros sectores productivos",
+    "alcance": "Turismo y economía. El impacto del turismo en la economía y su relación con otros sectores productivos. El sector turístico en la actividad económica andaluza. El empleo turístico en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-64",
+    "etq": "T64",
+    "titulo": "Turismo y sociedad. El turismo como elemento de bienestar",
+    "alcance": "Turismo y sociedad. El turismo como elemento de bienestar. El turismo como actividad socioeconómica transformadora de los destinos. Los efectos de la actividad turística sobre la población local. Globalización y turismo.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-65",
+    "etq": "T65",
+    "titulo": "Turismo accesible e inclusivo",
+    "alcance": "Turismo accesible e inclusivo. Accesibilidad universal en el destino. Accesibilidad en los servicios, actividades y establecimientos turísticos en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-66",
+    "etq": "T66",
+    "titulo": "Turismo y territorio",
+    "alcance": "Turismo y territorio. Relación entre turismo, territorio y paisaje. Incidencia de la planificación territorial y urbanística en el turismo en Andalucía. Reconversión y renovación de destinos turísticos.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-67",
+    "etq": "T67",
+    "titulo": "Turismo y medio ambiente",
+    "alcance": "Turismo y medio ambiente. La Red de Espacios Naturales Protegidos de Andalucía. Figuras de protección por la legislación nacional y autonómica. La Red Natura 2000. Figuras de protección por instrumentos y acuerdos internacionales.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-68",
+    "etq": "T68",
+    "titulo": "Turismo y patrimonio cultural",
+    "alcance": "Turismo y patrimonio cultural. El Catálogo General del Patrimonio Histórico Andaluz. Los Bienes de Interés Cultural. Tipología jurídica. El Patrimonio Mundial Cultural y el Patrimonio Cultural Inmaterial de la Humanidad en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-69",
+    "etq": "T69",
+    "titulo": "Turismo e innovación",
+    "alcance": "Turismo e innovación. La transformación digital en el sector turístico. Los destinos turísticos inteligentes. La gestión de datos por parte de la Consejería con competencias en materia de turismo. Iniciativas innovadoras del turismo en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtftur-70",
+    "etq": "T70",
+    "titulo": "Turismo y sostenibilidad",
+    "alcance": "Turismo y sostenibilidad. Concepto de turismo sostenible. El turismo y los objetivos de desarrollo sostenible. Impactos económicos, sociales y medioambientales de la actividad turística. La capacidad de carga turística. La resiliencia de los destinos turísticos. La economía circular en el turismo. Actuaciones en Andalucía sobre cambio climático y turismo.",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "junta-tecnico-facultativo-educacion-social",
   "nombre": "Cuerpo Técnico Facultativo, especialidad Educación Social (A2.2018)",
   "organismo": "Junta de Andalucía",
   "ambito": "Andalucía",
-  "estado": "preparacion",
+  "estado": "disponible",
   "tipo": "Personal funcionario",
   "turno": "Libre",
   "grupo": "A2",
@@ -8866,7 +10834,499 @@
     "Primer ejercicio. Tendrá carácter obligatorio y eliminatorio. El tiempo concedido para la realización de este ejercicio, compuesto de tres partes, será de 210 minutos. La calificación final del ejercicio no podrá superar los 150 puntos y vendrá determinada por la suma de la puntuación obtenida en la segunda y tercera parte del ejercicio.",
     "Segundo ejercicio. Tendrá carácter obligatorio y eliminatorio y consistirá en desarrollar por escrito, durante un tiempo máximo de 90 minutos, un tema elegido por cada aspirante de entre dos extraídos al azar, de los comprendidos en el programa de materias específico del cuerpo y especialidad correspondiente al que hace referencia el apartado 6 de la base primera y que consta en el Anexo II de la presente resolución, tal como se…"
    ]
-  }
+  },
+  "temario": [
+   {
+    "id": "jtfes-1",
+    "etq": "T1",
+    "titulo": "La Constitución Española de 1978",
+    "alcance": "La Constitución Española de 1978. Antecedentes. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. Derechos y deberes fundamentales. Los principios rectores de la política social y económica. Garantías y casos de suspensión. El procedimiento de reforma constitucional.",
+    "gratis": true
+   },
+   {
+    "id": "jtfes-2",
+    "etq": "T2",
+    "titulo": "Los órganos constitucionales",
+    "alcance": "Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.",
+    "gratis": true
+   },
+   {
+    "id": "jtfes-3",
+    "etq": "T3",
+    "titulo": "La organización territorial del Estado en la Constitución Española",
+    "alcance": "La organización territorial del Estado en la Constitución Española. Las Comunidades Autónomas: Fundamento constitucional. Los Estatutos de Autonomía. Delimitación de las funciones y competencias del Estado y las Comunidades Autónomas. Las potestades legislativas de las Comunidades Autónomas. La organización de las Comunidades Autónomas.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-4",
+    "etq": "T4",
+    "titulo": "La Administración Local",
+    "alcance": "La Administración Local: regulación constitucional. Tipología de los entes locales. Distribución de competencias entre el Estado y las Comunidades Autónomas sobre Administración Local. La organización territorial de la Comunidad Autónoma de Andalucía. El municipio: organización y competencias. La provincia: organización y competencias. Las relaciones entre la Comunidad Autónoma Andaluza y las Diputaciones provinciale",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-5",
+    "etq": "T5",
+    "titulo": "La Comunidad Autónoma de Andalucía",
+    "alcance": "La Comunidad Autónoma de Andalucía: Antecedentes histórico-culturales. El Estatuto de Autonomía para Andalucía: proceso de elaboración, fundamento, estructura y contenido básico. Competencias de la Comunidad Autónoma. Reforma del Estatuto.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-6",
+    "etq": "T6",
+    "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (I)",
+    "alcance": "Organización Institucional de la Comunidad Autónoma de Andalucía (I): El Parlamento de Andalucía. Composición, atribuciones y funcionamiento. El Tribunal Superior de Justicia de Andalucía. El Defensor del Pueblo de Andalucía. La Cámara de Cuentas de Andalucía. La Oficina Andaluza contra el Fraude y la Corrupción.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-7",
+    "etq": "T7",
+    "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (II)",
+    "alcance": "Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-8",
+    "etq": "T8",
+    "titulo": "La Administración de la Comunidad Autónoma de Andalucía",
+    "alcance": "La Administración de la Comunidad Autónoma de Andalucía. Principios de organización, actuación y atención ciudadana. Los Consejeros, Viceconsejeros, Directores Generales, Secretarios Generales Técnicos y órganos análogos. La organización central y territorial de la Administración de la Junta de Andalucía. Entidades instrumentales de la Administración de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-9",
+    "etq": "T9",
+    "titulo": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea",
+    "alcance": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea. Las instituciones de la Unión Europea. La representación de la Junta de Andalucía ante la Unión Europea. El Derecho de la UE y sus distintos tipos de fuentes.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-10",
+    "etq": "T10",
+    "titulo": "Las libertades fundamentales del mercado interior",
+    "alcance": "Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-11",
+    "etq": "T11",
+    "titulo": "La Administración Pública",
+    "alcance": "La Administración Pública: concepto, caracteres y clasificación. La Administración y el Derecho: El principio de legalidad. Las potestades administrativas. La actividad discrecional de la Administración. El Derecho Administrativo: Concepto y contenido. Autonomía del derecho Administrativo. Criterios de aplicación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-12",
+    "etq": "T12",
+    "titulo": "Fuentes del Derecho Administrativo",
+    "alcance": "Fuentes del Derecho Administrativo: Concepto y clasificación. Jerarquía normativa. La Ley: Concepto y clases. Disposiciones del Ejecutivo con fuerza de Ley. El Reglamento: Concepto y clasificación. La potestad reglamentaria: Fundamento, titularidad y límites. Procedimiento de elaboración de los Reglamentos. Fuentes subsidiarias e indirectas del Derecho Administrativo.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-13",
+    "etq": "T13",
+    "titulo": "Los órganos administrativos",
+    "alcance": "Los órganos administrativos: Concepto y clases. La competencia: Clases y criterios de delimitación. El acto administrativo: Concepto, clases y elementos. La forma de los actos: La motivación. La eficacia de los actos administrativos: la notificación y la publicación. El silencio administrativo: naturaleza y régimen jurídico. Su regulación en la Comunidad Autónoma. La invalidez y revisión de oficio de los actos admini",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-14",
+    "etq": "T14",
+    "titulo": "El procedimiento administrativo",
+    "alcance": "El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-15",
+    "etq": "T15",
+    "titulo": "La revisión de los actos administrativos",
+    "alcance": "La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-16",
+    "etq": "T16",
+    "titulo": "Los contratos de la Administración",
+    "alcance": "Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-17",
+    "etq": "T17",
+    "titulo": "La responsabilidad patrimonial de la Administración",
+    "alcance": "La responsabilidad patrimonial de la Administración. Competencias de la Junta de Andalucía. El procedimiento. La responsabilidad de las autoridades y del personal. Responsabilidad de la Administración por actos de sus concesionarios y contratistas. La potestad sancionadora de la Administración Pública: principios y procedimiento para su ejercicio.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-18",
+    "etq": "T18",
+    "titulo": "La expropiación forzosa",
+    "alcance": "La expropiación forzosa: regulación constitucional. Competencias de la Junta de Andalucía. Naturaleza y justificación de la potestad expropiatoria. Sujetos, objeto y causa. El procedimiento general. Peculiaridades del procedimiento de urgencia. Procedimientos especiales. La reversión de los bienes objeto de la expropiación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-19",
+    "etq": "T19",
+    "titulo": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias",
+    "alcance": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias. Concepto, naturaleza y clasificación de las subvenciones. Órganos competentes. El procedimiento de concesión y pago de las subvenciones. Justificación. Reintegro. Control financiero de las subvenciones. Infracciones y sanciones administrativas en materia de subvenciones. La Base de Datos de Subvenciones y Ayudas Públicas de la ",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-20",
+    "etq": "T20",
+    "titulo": "Regulación de la Función Pública de la Junta de Andalucía",
+    "alcance": "Regulación de la Función Pública de la Junta de Andalucía. Normas constitucionales. Carácter de la legislación estatal. La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía: Estructura y contenido. Clases de personal al servicio de la Junta de Andalucía. El personal funcionario: Provisión de puestos, carrera profesional, situaciones administrativas, régimen de incompatibilidades. Normas reguladoras del pe",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-21",
+    "etq": "T21",
+    "titulo": "El presupuesto de la Comunidad Autónoma de Andalucía",
+    "alcance": "El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-22",
+    "etq": "T22",
+    "titulo": "Los sistemas informáticos",
+    "alcance": "Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-23",
+    "etq": "T23",
+    "titulo": "Los sistemas operativos",
+    "alcance": "Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-24",
+    "etq": "T24",
+    "titulo": "La Administración Electrónica",
+    "alcance": "La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-25",
+    "etq": "T25",
+    "titulo": "Las Administraciones Públicas en su entorno y las políticas públicas",
+    "alcance": "Las Administraciones Públicas en su entorno y las políticas públicas. La evaluación de las políticas públicas. La ciudadanía en el centro de la actividad pública y el interés general. La calidad y la atención a la ciudadanía. Evaluación de la calidad de los servicios. Las cartas de servicios. Iniciativas en Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-26",
+    "etq": "T26",
+    "titulo": "El régimen jurídico de la protección de los datos de carácter personal",
+    "alcance": "El régimen jurídico de la protección de los datos de carácter personal. Normativa europea y nacional.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-27",
+    "etq": "T27",
+    "titulo": "Transparencia y Gobierno Abierto",
+    "alcance": "Transparencia y Gobierno Abierto. Colaboración y Participación Ciudadana. La Ley de Transparencia Pública de Andalucía. Derechos y Obligaciones. Publicidad Activa. El Derecho de Acceso a la Información Pública. El Consejo de Transparencia y Protección de Datos de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-28",
+    "etq": "T28",
+    "titulo": "Prevención de riesgos laborales",
+    "alcance": "Prevención de riesgos laborales. Normativa estatal de Prevención de Riesgos Laborales: Derechos y obligaciones; Consulta y participación de los trabajadores. Organización de la prevención de riesgos laborales en la Administración de la Junta de Andalucía.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-29",
+    "etq": "T29",
+    "titulo": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos",
+    "alcance": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos. Discriminación por razón de sexo: discriminación directa e indirecta, discriminación salarial. Acoso por razón de sexo. Discriminación en la publicidad y lenguaje sexista. Igualdad entre mujeres y hombres igualdad de derechos, de trato y de oportunidades. Transversalidad de género. Concepto de mainstreaming: enfoque integ",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-30",
+    "etq": "T30",
+    "titulo": "Normativa sobre igualdad",
+    "alcance": "Normativa sobre igualdad. La igualdad de género en la Constitución y en el Estatuto de Autonomía para Andalucía. Normativa para la promoción de la igualdad de género y para la prevención y protección integral contra la violencia de género en Andalucía. La unidad de igualdad y género: funciones. Pertinencia e impacto de género en la normativa: conceptos y objetivos. Comisión de Impacto de Género en los Presupuestos Pú",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-31",
+    "etq": "T31",
+    "titulo": "La Constitución Española",
+    "alcance": "La Constitución Española. Perspectiva social y educativa. La Ley Orgánica de Educación. Derechos y deberes del menor en el marco constitucional y educativo español.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-32",
+    "etq": "T32",
+    "titulo": "El Estatuto de Autonomía",
+    "alcance": "El Estatuto de Autonomía. La Ley de Educación de Andalucía. Derechos y deberes del menor en el marco autonómico.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-33",
+    "etq": "T33",
+    "titulo": "Ley Orgánica reguladora de la responsabilidad penal de los menores",
+    "alcance": "Ley Orgánica reguladora de la responsabilidad penal de los menores. Ámbito de aplicación. Repercusiones e implicaciones socioeducativas que tiene para el/la menor.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-34",
+    "etq": "T34",
+    "titulo": "Evolución de la educación",
+    "alcance": "Evolución de la educación. Los antecedentes hasta la época contemporánea. Espacios educativos fuera de la escuela. La ciudad educadora. Educación a lo largo de la vida. La compensación educativa: normativa, objetivos, recursos y ámbitos de actuación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-35",
+    "etq": "T35",
+    "titulo": "La Pedagogía social: evolución y concepciones",
+    "alcance": "La Pedagogía social: evolución y concepciones. Los paradigmas de investigación en las ciencias sociales. La Educación social como objeto de estudio de la Pedagogía social. Objetivos y perspectivas de la Educación social.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-36",
+    "etq": "T36",
+    "titulo": "La planificación y el desarrollo curricular",
+    "alcance": "La planificación y el desarrollo curricular. Los niveles de concreción curricular. El proyecto educativo de centro. El papel del educador o educadora social en los procesos de planificación y desarrollo curricular.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-37",
+    "etq": "T37",
+    "titulo": "La organización y funcionamiento de los centros educativos",
+    "alcance": "La organización y funcionamiento de los centros educativos. Órganos de gobierno y coordinación docente. El educador/a social y el trabajo de colaboración en el centro educativo.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-38",
+    "etq": "T38",
+    "titulo": "El desarrollo en la primera infancia",
+    "alcance": "El desarrollo en la primera infancia: lenguaje y comunicación, desarrollo social, motor, afectivo, el pensamiento percepto-motor. Implicaciones socioeducativas. Educación para la promoción del desarrollo personal y social en esta etapa. Problemas y dificultades más frecuentes en esta etapa y su respuesta socioeducativa. Acompañamiento socioeducativo a las familias y al profesorado para el desarrollo adecuado de esta ",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-39",
+    "etq": "T39",
+    "titulo": "El desarrollo en la niñez intermedia",
+    "alcance": "El desarrollo en la niñez intermedia: lenguaje y comunicación, desarrollo social, motor, afectivo y el pensamiento concreto. Educación para la promoción del desarrollo personal y social en esta etapa. Problemas y dificultades más frecuentes en esta etapa y su respuesta socioeducativa. Acompañamiento socioeducativo a las familias y al profesorado para el desarrollo adecuado de esta etapa.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-40",
+    "etq": "T40",
+    "titulo": "El desarrollo en la adolescencia y primera juventud",
+    "alcance": "El desarrollo en la adolescencia y primera juventud: cambios que acompañan a la pubertad. El desarrollo cognitivo, afectivo, sexual y moral. Desarrollo social y de la personalidad en la adolescencia. Influencia del grupo de iguales. Educación para la promoción del desarrollo personal y social en esta etapa. Problemas y dificultades más frecuentes en esta etapa y su respuesta socioeducativa. Acompañamiento y apoyo soc",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-41",
+    "etq": "T41",
+    "titulo": "Socialización y aprendizaje",
+    "alcance": "Socialización y aprendizaje. La escuela como institución socializadora: la transmisión de pautas sociales y valores. Tradición y patrimonio cultural en el currículum escolar. Actuación e intervención del educador o educadora social en los procesos de socialización. Los movimientos de renovación pedagógica, las pedagogías alternativas y su incidencia en el desarrollo personal y social. Análisis sistémico de la institu",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-42",
+    "etq": "T42",
+    "titulo": "La dimensión moral de la educación",
+    "alcance": "La dimensión moral de la educación. Actitudes y valores morales a través de las áreas del currículo. La educación del razonamiento y del juicio moral. Actuación e intervención del educador o educadora social en el desarrollo de actitudes y valores morales. Educación para la ciudadanía y para el desarrollo del pensamiento crítico.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-43",
+    "etq": "T43",
+    "titulo": "Educación para la convivencia y para la paz",
+    "alcance": "Educación para la convivencia y para la paz. La educación y el desarrollo de actitudes cooperativas, democráticas y cívicas. La convivencia en los centros educativos. El Proyecto Educativo y el Reglamento de Organización y Funcionamiento. Actuación e intervención del educador o educadora social en el desarrollo de la Educación para la convivencia y para la paz. Planes y programas educativos para la mejora de la convi",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-44",
+    "etq": "T44",
+    "titulo": "Educación para la igualdad y educación en la diversidad",
+    "alcance": "Educación para la igualdad y educación en la diversidad. Educación no discriminatoria. Eliminación de prejuicios sexistas y xenófobos en la escuela. Actuación e intervención del educador o educadora social en el desarrollo de la educación para la igualdad, la coeducación, el desarrollo de valores igualitarios y la prevención de la radicalización.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-45",
+    "etq": "T45",
+    "titulo": "Educación para la salud",
+    "alcance": "Educación para la salud. La escuela como promotora de la salud y el bienestar emocional. Las conductas y los hábitos saludables. Educación afectivo sexual. Prevención de las adicciones. Actuación e intervención del educador o educadora social en el desarrollo de la educación para la salud y educación de los sentimientos.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-46",
+    "etq": "T46",
+    "titulo": "Educación para el ocio y el tiempo libre",
+    "alcance": "Educación para el ocio y el tiempo libre. Modelos y estrategias de intervención desde el campo socioeducativo. Recursos culturales y sociales para el ocio y el tiempo libre. Agentes para la intervención social en el ámbito del tiempo libre. Actuación e intervención del educador o educadora social en el desarrollo de la educación para el ocio y el tiempo libre.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-47",
+    "etq": "T47",
+    "titulo": "Las habilidades y competencias sociales",
+    "alcance": "Las habilidades y competencias sociales. Concepto y aplicación. Desarrollo formativo de las habilidades y competencias sociales por parte del educador o educadora social. La asertividad y los estilos de comunicación pasivos y/o agresivos. Técnicas asertivas y entrenamiento educativo. Regulación de conflictos. La mediación.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-48",
+    "etq": "T48",
+    "titulo": "Aspectos e implicaciones socioeducativas de la diversidad",
+    "alcance": "Aspectos e implicaciones socioeducativas de la diversidad. Condicionantes y características personales del alumnado relevantes para el desarrollo del aprendizaje. Atención a la diversidad desde la Educación social en los centros educativos. Ámbitos de intervención. El enfoque preventivo de los problemas escolares. La escuela inclusiva como respuesta socioeducativa. Programas institucionales para la atención a las nec",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-49",
+    "etq": "T49",
+    "titulo": "El trabajo socioeducativo con alumnado en situación de riesgo y/o desamparo social",
+    "alcance": "El trabajo socioeducativo con alumnado en situación de riesgo y/o desamparo social. Concepto de riesgo social. Evaluación del riesgo social. Procesos de acompañamiento, mentoría y tutorización. Acción con colectivos especialmente vulnerables. Los menores y jóvenes en conflicto social. Intervención con el menor y la comunidad. Coordinación Institucional y programas integrales. Planes y programas socioeducativos para l",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-50",
+    "etq": "T50",
+    "titulo": "Absentismo escolar y su incidencia en el ámbito educativo, social y personal",
+    "alcance": "Absentismo escolar y su incidencia en el ámbito educativo, social y personal. Normativa reguladora sobre el absentismo escolar. Instituciones y organismos con competencia en materia de absentismo escolar. El absentismo escolar y la colaboración social: Voluntariado, ONGs, AMPAS y Ayuntamientos.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-51",
+    "etq": "T51",
+    "titulo": "Causas y motivos del absentismo escolar",
+    "alcance": "Causas y motivos del absentismo escolar. Estructura y agentes sociales que intervienen en la prevención, control y seguimiento del absentismo escolar. Procesos de coordinación en los distintos ámbitos de intervención. Medidas, recursos y programas dirigidos a la prevención, control y seguimiento del absentismo escolar. Implicación de los educadores o educadoras sociales en los procesos de prevención, control y seguim",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-52",
+    "etq": "T52",
+    "titulo": "El maltrato infantil y juvenil",
+    "alcance": "El maltrato infantil y juvenil. Definición y tipos de maltrato en la infancia y en la adolescencia. Detección del maltrato en el ámbito educativo. Acción socioeducativa en situaciones de maltrato infantil y juvenil desde el centro educativo. Normativa, planes y protocolos específicos de acción socioeducativa con alumnado en situación de maltrato infantil o juvenil. Planes integrales y coordinación institucional en ma",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-53",
+    "etq": "T53",
+    "titulo": "Organización y estructura del sistema de orientación y apoyo en Andalucía",
+    "alcance": "Organización y estructura del sistema de orientación y apoyo en Andalucía. Los Equipos de Orientación Educativa. Los Departamentos de Orientación. Funciones principales del tutor y la tutora en el centro educativo. El rol del educador o educadora social en la acción tutorial y apoyo a las familias. La coordinación con los equipos y departamentos de orientación educativa y otras instituciones.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-54",
+    "etq": "T54",
+    "titulo": "El/la educador/a social como apoyo técnico especializado en el desarrollo de medidas preventivas, habilitadoras y compensadoras",
+    "alcance": "El/la educador/a social como apoyo técnico especializado en el desarrollo de medidas preventivas, habilitadoras y compensadoras. El asesoramiento colaborativo y la atención compartida con el alumnado en situación de riesgo. La orientación profesional y el papel del educador y de la educadora social en los procesos de toma de decisión vocacional. Coordinación con el equipo o departamento de orientación en los centros ",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-55",
+    "etq": "T55",
+    "titulo": "Competencias profesionales del educador y la educadora social",
+    "alcance": "Competencias profesionales del educador y la educadora social. Ámbitos, sectores y áreas de intervención del educador o educadora social. Modelos de intervención. El educador o educadora social dentro de un equipo multiprofesional. Técnicas de observación aplicadas a la educación social: la entrevista como instrumento para el análisis de la realidad de los aspectos personales, familiares y sociales. La estrategia de ",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-56",
+    "etq": "T56",
+    "titulo": "El educador o educadora social en el ámbito educativo",
+    "alcance": "El educador o educadora social en el ámbito educativo. Justificación y motivos para la intervención socioeducativa. Ámbitos y funciones del educador y la educadora social en el ámbito educativo. Organización, planificación y modelos de intervención del educador o educadora social en el ámbito educativo.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-57",
+    "etq": "T57",
+    "titulo": "Métodos y técnicas de intervención socioeducativa en el ámbito escolar",
+    "alcance": "Métodos y técnicas de intervención socioeducativa en el ámbito escolar. El estudio de necesidades. Diseño, planificación y metodología en la intervención socioeducativa. La integralidad de las acciones como referente para la intervención socioeducativa. El estudio de casos.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-58",
+    "etq": "T58",
+    "titulo": "La investigación en Educación social",
+    "alcance": "La investigación en Educación social. El rol de investigador/a del educador/a social. Paradigmas y métodos. Estrategias y técnicas de recogida de datos. Análisis de datos. La investigación-acciónparticipativa. El informe de investigación. Investigación sobre problemas y cuestiones fundamentales relacionadas con el sistema educativo.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-59",
+    "etq": "T59",
+    "titulo": "El sistema público de servicios sociales en Andalucía",
+    "alcance": "El sistema público de servicios sociales en Andalucía. La Ley 9/2016, de 27 de diciembre de servicios sociales de Andalucía. Régimen jurídico, desarrollo normativo y planificación estratégica. Estructura funcional y territorial. Catálogo de Prestaciones de los servicios sociales. Proceso de Intervención (PRISO). Los equipos profesionales de los servicios sociales. La Historia Social Única Electrónica, como instrument",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-60",
+    "etq": "T60",
+    "titulo": "La educación inclusiva",
+    "alcance": "La educación inclusiva. Estrategias y procesos que favorecen la inclusión educativa y social. El aprendizaje dialógico y las Comunidades de Aprendizaje. El papel del educador o educadora social en los procesos de inclusión.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-61",
+    "etq": "T61",
+    "titulo": "El proceso de evaluación en el ámbito socioeducativo",
+    "alcance": "El proceso de evaluación en el ámbito socioeducativo. Concepciones y paradigmas de la evaluación. Técnicas e instrumentos de evaluación en el ámbito socioeducativo. El educador o educadora social como evaluador de programas.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-62",
+    "etq": "T62",
+    "titulo": "La intervención familiar del educador o educadora social",
+    "alcance": "La intervención familiar del educador o educadora social. La familia como agente de socialización. El papel educativo de la familia. Tipología de familias. La familia desde el punto de vista educativo, sociológico, antropológico, psicológico y jurídico. Cambios en las familias, roles. Violencia intrafamiliar: repercusiones en el ámbito educativo. Propuestas de acción socioeducativa. El papel de la familia en el proce",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-63",
+    "etq": "T63",
+    "titulo": "La dinamización sociofamiliar en la Comunidad Educativa",
+    "alcance": "La dinamización sociofamiliar en la Comunidad Educativa. Trabajos individuales, entrevistas grupales, talleres y escuelas de familias. Familias y asociacionismo en el ámbito educativo: el papel del educador y la educadora social en la orientación y formación para las asociaciones de madres y padres. El papel de las familias en las comunidades de aprendizaje.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-64",
+    "etq": "T64",
+    "titulo": "El educador/a social en contextos multiculturales",
+    "alcance": "El educador/a social en contextos multiculturales. Los procesos de mediación intercultural. La Educación Intercultural en el ámbito educativo. Estrategias, metodología y técnicas de intervención para la convivencia en contextos multiculturales. La población gitana: necesidades y procesos de inclusión escolar o social. El educador o educadora social como animador sociocultural.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-65",
+    "etq": "T65",
+    "titulo": "Pedagogía de grupos. Tipología, estructura y evolución de los grupos",
+    "alcance": "Pedagogía de grupos. Tipología, estructura y evolución de los grupos. Los procesos de comunicación en los grupos. Factores de cohesión grupal. Principales técnicas de dinamización grupal. Implicaciones de la dinámica de grupos en relación con la intervención socioeducativa. El educador o educadora social como dinamizador/a social en el ámbito escolar.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-66",
+    "etq": "T66",
+    "titulo": "Las redes sociales. Características y elementos de las redes sociales",
+    "alcance": "Las redes sociales. Características y elementos de las redes sociales. Redes sociales en el contexto urbano y rural. La Comunidad Educativa como red social: agentes, relaciones de comunicación y estrategias para la formación. Factores que favorecen las relaciones en la Comunidad Educativa.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-67",
+    "etq": "T67",
+    "titulo": "Los agentes de colaboración social",
+    "alcance": "Los agentes de colaboración social. El voluntariado y las organizaciones no gubernamentales. Coordinación y seguimiento de los programas institucionales: absentismo y abandono prematuro del sistema escolar, alumnado en situación de riesgo, participación y colaboración familiar.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-68",
+    "etq": "T68",
+    "titulo": "El papel del/la educador o educadora social en la participación del alumnado",
+    "alcance": "El papel del/la educador o educadora social en la participación del alumnado. Espacios de participación del alumnado en el sistema educativo. Normativa y programas de referencia. Estrategias de dinamización de la participación del alumnado en la comunidad educativa y en el territorio. El asociacionismo en los centros educativos. Modelos y estrategias comunitarias de participación infantil y juvenil.",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-69",
+    "etq": "T69",
+    "titulo": "Educación de personas adultas y educación permanente como ámbito de acción de la Educación social",
+    "alcance": "Educación de personas adultas y educación permanente como ámbito de acción de la Educación social. La educación a lo largo de la vida y sus implicaciones en el sistema educativo. El modelo social en la educación permanente. La educación permanente y de personas adultas en la normativa estatal y de Andalucía. Modelos y programas de intervención socioeducativa en la educación de adultos y la educación permanente. La or",
+    "gratis": false
+   },
+   {
+    "id": "jtfes-70",
+    "etq": "T70",
+    "titulo": "Las zonas en riesgo de exclusión social",
+    "alcance": "Las zonas en riesgo de exclusión social. Iniciativas institucionales para la intervención comunitaria integral. La intervención del educador o educadora social en una zona socioculturalmente desfavorecida: estrategias y técnicas para el análisis de necesidades sociales y educativas. Modelos y estrategias de intervención. Estrategia Regional Andaluza para la Cohesión e Inclusión Social. Intervención en Zonas desfavore",
+    "gratis": false
+   }
+  ]
  },
  {
   "id": "junta-superior-de-administracion-administracion-general",
@@ -9988,7 +12448,7 @@
     "etq": "T2",
     "titulo": "Los órganos constitucionales (I)",
     "alcance": "Los órganos constitucionales (I). La Corona y la Casa Real. El Poder Legislativo. Las Cortes Generales. Composición, elección, atribuciones y disolución. Funcionamiento de las Cámaras. Los órganos de control dependientes de las Cortes Generales: El Tribunal de Cuentas y el Defensor del Pueblo.",
-    "gratis": false
+    "gratis": true
    },
    {
     "id": "jsgf-3",
