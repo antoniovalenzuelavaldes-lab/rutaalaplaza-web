@@ -140,7 +140,7 @@ def main():
             y += 175
         im.save(os.path.join(out, f"dia-{i}-pregunta.png"), optimize=True)
         # --- imagen de la respuesta
-        im, d = lienzo(f"Test del día · {tema}", "Más tests con la cita literal: rutaalaplaza.com")
+        im, d = lienzo(f"Test del día · {tema}", "Más tests explicados con la ley: rutaalaplaza.com")
         corr = "ABCD"[p["c"]]
         d.text((60, 200), "LA RESPUESTA", font=fuente(SANS_B, 34), fill=GRANADA)
         y = bloque(d, 60, 260, f"{corr}) {p['o'][p['c']]}", SERIF_B, 60, 960, 330, PINO) + 30
@@ -163,9 +163,9 @@ def main():
             corto_x = corto_x[:187].rsplit(" ", 1)[0] + "…"
         textos.append(f"\n## Día {i} · {tema}\n")
         textos.append(f"**Instagram (pie del carrusel):**\n\n> Test del día #{i} · {tema}. ¿Cuál es la correcta? Respóndelo en comentarios y desliza para ver la respuesta y lo que dice la norma. "
-                      f"Tests con la cita literal de la norma en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia\n")
-        textos.append(f"**X (menos de 280 caracteres):**\n\n> {corto_x}\n> {opciones[:0]}Respuesta y cita de la norma: {enlace.format(r='x')}\n")
-        textos.append(f"**Telegram o WhatsApp (canal propio):**\n\n> 📚 Test del día #{i}\n> {pregunta}\n> {opciones}\n> Respuesta con la cita de la norma mañana. Más tests: {enlace.format(r='telegram')}\n")
+                      f"Tests que explican cada respuesta con la ley, en el enlace de la biografía. #PTGAS #oposicionesuniversidad #PASuniversidad #opositores #oposicionesandalucia\n")
+        textos.append(f"**X (menos de 280 caracteres):**\n\n> {corto_x}\n> {opciones[:0]}Respuesta explicada con la ley: {enlace.format(r='x')}\n")
+        textos.append(f"**Telegram o WhatsApp (canal propio):**\n\n> 📚 Test del día #{i}\n> {pregunta}\n> {opciones}\n> Respuesta explicada con la ley, mañana. Más tests: {enlace.format(r='telegram')}\n")
         print(f"día {i}: {p['q'][:70]}…")
     open(os.path.join(out, "textos.md"), "w", encoding="utf8").write("\n".join(textos))
 
@@ -180,11 +180,11 @@ def main():
     db.ellipse((90, 150, 250, 310), fill=GRANADA)
     db.text((290, 140), "Ruta a la Plaza", font=fuente(SERIF_B, 96), fill="white")
     db.text((290, 270), "Oposiciones de las universidades de Andalucía", font=fuente(SANS, 52), fill="#CFE3DB")
-    db.text((290, 350), "Convocatorias · temario · tests con cita de la norma", font=fuente(SANS, 38), fill="#CFE3DB")
+    db.text((290, 350), "Convocatorias · temario · tests explicados con la ley", font=fuente(SANS, 38), fill="#CFE3DB")
     ba.save(os.path.join(AQUI, "perfil", "banner-1500x500.png"), optimize=True)
     bios = {
-        "Instagram (máx. 150)": "Convocatorias PTGAS de las universidades de Andalucía · Temario y tests con la cita de la norma · Avisos de cambios 👇",
-        "X (máx. 160)": "Convocatorias de oposiciones PTGAS (PAS) de las universidades andaluzas, con plazos, programa y avisos de cambios. Tests con cita de la norma.",
+        "Instagram (máx. 150)": "Convocatorias PTGAS de las universidades de Andalucía · Temario y tests explicados con la ley · Avisos de cambios 👇",
+        "X (máx. 160)": "Convocatorias de oposiciones PTGAS (PAS) de las universidades andaluzas, con plazos, programa y avisos de cambios. Tests explicados con la ley.",
         "Telegram, descripción del canal (máx. 255)": "Convocatorias de oposiciones del personal de administración y servicios (PTGAS) de las 10 universidades públicas de Andalucía: plazos, programa y cambios oficiales. Más en rutaalaplaza.com/oposiciones/",
         "WhatsApp, descripción del canal (máx. 255)": "Aviso de cada convocatoria nueva y de cada cambio oficial (correcciones, listas, fechas de examen) de las oposiciones PTGAS de las universidades de Andalucía. Fuente: BOE y BOJA.",
     }

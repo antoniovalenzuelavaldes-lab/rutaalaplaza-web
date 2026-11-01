@@ -191,9 +191,9 @@ def pag_proceso(o, opos, uni, proc, hoy, temario_ugr):
     tem = o.get("temario") or (temario_ugr if o["estado"] == "disponible" else None)
     if o["estado"] == "disponible" and tem:
         propio = any("gratis" in t for t in tem)   # temarios nuevos: dos temas abiertos y el resto se publica al comprar
-        intro = (f'En {MARCA} tienes los dos primeros temas de esta oposición abiertos, con apuntes por artículos y tests con la cita literal de la norma. '
+        intro = (f'En {MARCA} tienes los dos primeros temas de esta oposición abiertos, con apuntes por artículos y tests que explican cada respuesta con la ley. '
                  f'El programa completo tiene {len(tem)} temas: el resto se desbloquea con la compra, con simulacros, plan de estudio y audio.') if propio else                 (f'En {MARCA} tienes preparados los {len(tem)} temas de esta oposición, con apuntes por artículos, '
-                 f'tests con la cita literal de la norma, simulacros, plan de estudio y audio. Los dos primeros son gratuitos.')
+                 f'tests que explican cada respuesta con la ley, simulacros, plan de estudio y audio. Los dos primeros son gratuitos.')
         cuerpo += (f'<h2>Temario de la oposición de {e(n)}</h2><p>{e(intro)}</p>'
                    f'<ul class="l">{"".join("<li><strong>" + e(t["titulo"]) + "</strong> <span class=muted>— " + e(t["alcance"][:240]) + "</span></li>" for t in tem)}</ul>')
     if pr or o["estado"] == "disponible":
@@ -201,7 +201,7 @@ def pag_proceso(o, opos, uni, proc, hoy, temario_ugr):
                 "Estudia cada tema con la norma delante: es lo que se pregunta en el examen.",
                 "Haz tests por temas desde el principio, no solo al final, y repasa cada fallo con su explicación."]
         if o["estado"] == "disponible":
-            prep.append("Combina apuntes, tests con la cita de la norma y audio para repasar en cualquier sitio; los dos primeros temas son gratis.")
+            prep.append("Combina apuntes, tests que explican cada respuesta con la ley y audio para repasar en cualquier sitio; los dos primeros temas son gratis.")
         prep.append("Fija una fecha para cada bloque y guarda las últimas semanas para simulacros completos con tiempo.")
         cuerpo += f'<h2>Cómo preparar esta oposición</h2><ol>{"".join("<li>" + e(x) + "</li>" for x in prep)}</ol>'
     faq = [("¿Cuántas plazas tiene?", f"{o['plazas']}, de {o['tipo'].lower()}, por el turno {o['turno'].lower()}."),
@@ -210,7 +210,7 @@ def pag_proceso(o, opos, uni, proc, hoy, temario_ugr):
            ("¿Puedo enterarme de los cambios?", "Sí: suscríbete a la oposición y te avisamos por correo de correcciones, listas de admitidos y fecha del examen.")]
     cuerpo += "<h2>Preguntas frecuentes</h2>" + "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in faq)
     cuerpo += (f'<div class="card"><h2 style="margin-top:0">{"Estudia esta oposición" if o["estado"] == "disponible" else "Sigue esta convocatoria"}</h2>'
-               f'<p>{"Empieza gratis con los dos primeros temas, haz tests con la cita de la norma y sigue un plan de estudio hasta el examen." if o["estado"] == "disponible" else "Todavía no tenemos el temario de esta oposición. Suscríbete y te avisamos por correo de los cambios que se publiquen en el BOE o el BOJA y de cuándo esté el temario."}</p>'
+               f'<p>{"Empieza gratis con los dos primeros temas, haz tests que explican cada respuesta con la ley y sigue un plan de estudio hasta el examen." if o["estado"] == "disponible" else "Todavía no tenemos el temario de esta oposición. Suscríbete y te avisamos por correo de los cambios que se publiquen en el BOE o el BOJA y de cuándo esté el temario."}</p>'
                f'<div class="row"><a class="btn acc" href="/#/oposicion/{e(o["id"])}">{"Ver el temario" if o["estado"] == "disponible" else "Avisarme de las novedades"}</a>'
                f'<a class="btn ghost" href="{e(o["enlace"]["u"])}" rel="noopener" target="_blank">{e(o["enlace"]["t"])}</a></div></div>')
     otras = [x for x in opos if x["organismo"] == org and x["id"] != o["id"]]
@@ -291,7 +291,7 @@ def pag_hub(opos, uni, proc, hoy):
                'El turno libre está abierto a cualquier persona que cumpla los requisitos.</p></details>'
                '<details><summary>¿Cómo sé si ha cambiado algo de mi convocatoria?</summary><p>Suscríbete a la oposición en Ruta a la Plaza y te avisamos por correo cuando se publique una corrección, '
                'una lista de admitidos o la fecha del examen.</p></details>'
-               '<div class="card"><h2 style="margin-top:0">Prepara tu oposición</h2><p>Apuntes por artículos, tests con la cita literal de la norma, simulacros, plan de estudio y audio. '
+               '<div class="card"><h2 style="margin-top:0">Prepara tu oposición</h2><p>Apuntes por artículos, tests que explican cada respuesta con la ley, simulacros, plan de estudio y audio. '
                'Disponible ahora: Escala de Auxiliares de Archivos, Bibliotecas y Museos de la Universidad de Granada, con los dos primeros temas gratis.</p>'
                '<div class="row"><a class="btn acc" href="/#/oposiciones">Ver oposiciones y empezar</a></div></div>')
     ld = {"@context": "https://schema.org", "@type": "ItemList", "name": "Universidades públicas de Andalucía",
@@ -334,7 +334,7 @@ def bloque_inicio(opos, uni, proc, hoy):
     li = "".join(f'<li><a href="{e(uni[n])}">Oposiciones {e(n)}</a></li>' for n, _ in UNIVERSIDADES)
     la = "".join(f'<li><a href="{e(proc[o["id"]])}">{e(o["nombre"])} · {e(o["organismo"])}</a></li>' for o in ab[:12])
     return ('<section id="seo-inicial" style="max-width:880px;margin:0 auto;padding:24px 0"><h1>Oposiciones en Andalucía: universidades y Junta de Andalucía. Convocatorias, temario y tests</h1>'
-            '<p>Convocatorias del personal de administración y servicios (PAS) de las universidades públicas andaluzas y de los cuerpos de la Junta de Andalucía, con apuntes por artículos, tests con la cita literal de la norma, '
+            '<p>Convocatorias del personal de administración y servicios (PAS) de las universidades públicas andaluzas y de los cuerpos de la Junta de Andalucía, con apuntes por artículos, tests que explican cada respuesta con la ley, '
             'simulacros y plan de estudio. Disponible: Escala de Auxiliares de Archivos, Bibliotecas y Museos de la Universidad de Granada, con 2 temas gratis.</p>'
             f'<h2>Universidades</h2><ul>{li}</ul><h2>Junta de Andalucía</h2><ul><li><a href="/oposiciones/junta-de-andalucia/">Oposiciones de la Junta de Andalucía</a></li></ul><h2>Convocatorias con plazo abierto</h2><ul>{la}</ul>'
             '<p><a href="/oposiciones/abiertas/">Oposiciones abiertas ahora</a> · <a href="/oposiciones/">Ver todas las convocatorias</a></p><noscript><p>Para estudiar los temas necesitas activar JavaScript.</p></noscript></section>')
@@ -358,7 +358,7 @@ def imagenes(docs):
     d.text((175, 82), MARCA, font=fuente(g, 64), fill="white")
     d.text((70, 230), "Oposiciones en las", font=fuente(g, 76), fill="white")
     d.text((70, 330), "universidades de Andalucía", font=fuente(g, 76), fill="white")
-    d.text((70, 470), "Convocatorias · temario · tests con cita de la norma", font=fuente(s, 38), fill="#CFE3DB")
+    d.text((70, 470), "Convocatorias · temario · tests que explican cada respuesta", font=fuente(s, 38), fill="#CFE3DB")
     d.text((70, 530), "rutaalaplaza.com", font=fuente(s, 34), fill="#CFE3DB")
     im.save(os.path.join(docs, "og.png"), optimize=True)
     ic = Image.new("RGBA", (96, 96), (0, 0, 0, 0)); di = ImageDraw.Draw(ic)

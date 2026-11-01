@@ -95,7 +95,7 @@ def main():
             print("Se acabaron los 30 tests del día preparados: no se publica nada (el boletín sale los lunes).")
             return
         f = os.path.join(AQUI, "test-del-dia", f"dia-{n}-{modo}.png")
-        pie = pie_del_dia(n) if modo == "pregunta" else f"✅ Respuesta del test del día #{n}. Más tests con la cita literal de la norma: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia"
+        pie = pie_del_dia(n) if modo == "pregunta" else f"✅ Respuesta del test del día #{n}. Más tests explicados con la ley: https://rutaalaplaza.com/?utm_source=telegram&utm_campaign=test-del-dia"
         enviar(canal, foto=f, pie=pie)
     elif modo == "boletin":
         main_boletin(canal)

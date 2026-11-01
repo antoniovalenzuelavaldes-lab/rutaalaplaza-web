@@ -1,11 +1,11 @@
 # Mensajes listos para copiar
 
 ## 1. Para compartir el canal con amigos y compañeros (WhatsApp, un mensaje a cada uno o a grupos propios)
-Hola, he empezado un canal de Telegram con las oposiciones del personal de administración y servicios de las universidades andaluzas: avisa de las convocatorias abiertas y cada día publica una pregunta de test con la cita de la norma. Es gratis y sin spam: t.me/rutaalaplaza
+Hola, he empezado un canal de Telegram con las oposiciones del personal de administración y servicios de las universidades andaluzas: avisa de las convocatorias abiertas y cada día publica una pregunta de test explicada con la ley. Es gratis y sin spam: t.me/rutaalaplaza
 Si conoces a alguien que se esté preparando una, ¿se lo puedes pasar?
 
 ## 2. Para el administrador de un grupo de Facebook o Telegram de opositores (pedir permiso ANTES de publicar)
-Hola, ¿qué tal? Soy [nombre] y he creado un canal gratuito que avisa de las convocatorias del PAS/PTGAS de las universidades andaluzas (plazos, programa y cambios oficiales, con enlace al BOE/BOJA) y publica una pregunta de test al día con la cita literal de la norma. Creo que puede ser útil para vuestros miembros. ¿Me dejáis compartirlo en el grupo (una vez, sin publicidad añadida)? Si preferís otra forma, me adapto. Gracias.
+Hola, ¿qué tal? Soy [nombre] y he creado un canal gratuito que avisa de las convocatorias del PAS/PTGAS de las universidades andaluzas (plazos, programa y cambios oficiales, con enlace al BOE/BOJA) y publica una pregunta de test al día explicada con la ley. Creo que puede ser útil para vuestros miembros. ¿Me dejáis compartirlo en el grupo (una vez, sin publicidad añadida)? Si preferís otra forma, me adapto. Gracias.
 
 ## 3. Para webs y academias aliadas (OpositaTest, Redopositor, PreparaOposiciones, oposiciones.es)
 Asunto: Convocatorias PTGAS de universidades andaluzas: un recurso gratuito para vuestros lectores
@@ -35,7 +35,7 @@ Dónde encontrar el contacto de cada sección sindical: en la web de cada univer
 Nombre: Ruta a la Plaza · Oposiciones PTGAS
 Enlace: t.me/rutaalaplaza
 Categoría: Educación / Oposiciones / Empleo público
-Descripción corta (la misma del canal): Convocatorias de oposiciones del personal de administración y servicios (PTGAS) de las 10 universidades públicas de Andalucía: plazos, programa y cambios oficiales. Un test al día con la cita de la norma.
+Descripción corta (la misma del canal): Convocatorias de oposiciones del personal de administración y servicios (PTGAS) de las 10 universidades públicas de Andalucía: plazos, programa y cambios oficiales. Un test al día explicado con la ley.
 Idioma: español · País: España
 Directorios a probar (comprobar su formulario de alta): TGStat, Telemetr, tlgrm.eu.
 
