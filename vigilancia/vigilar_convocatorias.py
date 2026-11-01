@@ -82,6 +82,24 @@ def es_convocatoria(titulo):
     return es_pas(titulo) and not RE_CORRECCION.search(titulo) and bool(RE_CONVOCA.search(titulo) and RE_PROCESO.search(titulo))
 
 
+# Junta de Andalucía (Administración General): acceso a sus cuerpos, convocado por la Dirección General de Recursos Humanos y Función Pública
+RE_JUNTA = re.compile(r"Direcci[oó]n General de Recursos Humanos y Funci[oó]n P[uú]blica|Instituto Andaluz de Administraci[oó]n P[uú]blica", re.I)
+RE_JUNTA_CUERPO = re.compile(r"\bcuerpos?\b|procesos? selectivos?|pruebas selectivas", re.I)
+
+
+def es_junta(titulo):
+    """Publicaciones de la Junta sobre procesos selectivos de sus cuerpos (convocatorias, listas, tribunales, resultados…)."""
+    return bool(RE_JUNTA.search(titulo) and RE_JUNTA_CUERPO.search(titulo)) and not RE_NO_PAS.search(titulo)
+
+
+def es_convocatoria_junta(titulo):
+    """Convocatoria de ACCESO (libre o promoción interna) a cuerpos de la Administración General. Las de personal laboral (categorías
+    profesionales, concursos) no se crean solas: salen en el informe para revisarlas."""
+    return (es_junta(titulo) and not RE_CORRECCION.search(titulo) and bool(re.search(r"por la que se convocan?\b", titulo, re.I))
+            and bool(re.search(r"acceso libre|promoci[oó]n interna", titulo, re.I)) and bool(re.search(r"\bcuerpos?\b", titulo, re.I))
+            and not re.search(r"laboral|categor[ií]as? profesional|bolsa", titulo, re.I))
+
+
 # ---------------------------------------------------------------- clasificación de cambios
 TIPOS = [   # (clave, patrón, texto para el suscriptor)
     ("correccion", RE_CORRECCION, "Se ha publicado una corrección de errores de la convocatoria."),
@@ -110,7 +128,7 @@ def procesos_de(titulo, opos):
     nt = norm(titulo)
     cand = []
     for o in opos:
-        if norm(o["organismo"]) not in nt:
+        if norm(o["organismo"]) not in nt and not (o["organismo"] == "Junta de Andalucía" and es_junta(titulo)):   # los títulos del IAAP no nombran a la Junta
             continue
         claves = [norm(c) for c in o.get("claves", [])]
         if claves and all(c in nt for c in claves):
@@ -159,7 +177,7 @@ def boja_boletin(anio, n):
     out = []
     for m in re.finditer(r'<div class="item[^"]*">\s*<p>(.*?)</p>.*?href="(/boja/\d{4}/\d+/\d+)"', t, re.S):
         titulo = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", m.group(1)))).strip()
-        if es_pas(titulo):
+        if es_pas(titulo) or es_junta(titulo):
             out.append({"id": "BOJA " + m.group(2)[len("/boja/"):], "fuente": "BOJA", "fecha": fecha, "titulo": titulo,
                         "url": "https://www.juntadeandalucia.es" + m.group(2)})
     return True, fecha, out
@@ -368,7 +386,7 @@ def main():
         if c["id"] in vistos:
             continue
         procesos = procesos_de(c["titulo"], opos)
-        if es_convocatoria(c["titulo"]):
+        if es_convocatoria(c["titulo"]) or es_convocatoria_junta(c["titulo"]):
             if not procesos:
                 nuevas.append(c)
         elif procesos:
@@ -384,15 +402,20 @@ def main():
             if procesos_de(c["titulo"], opos):   # la misma convocatoria salió en BOE y BOJA: ya la hemos creado en esta vuelta
                 continue
             try:
-                f = ficha_auto.crear(c, opos)
+                if es_convocatoria_junta(c["titulo"]):
+                    import ficha_junta
+                    fichas = ficha_junta.crear(c, opos)   # una ficha por especialidad de la misma resolución
+                else:
+                    fichas = [ficha_auto.crear(c, opos)]
             except Exception as e:
                 c["motivo"] = str(e)
                 sin_crear.append(c)
                 print(f"  ! no se pudo crear la ficha de {c['id']}: {e}", file=sys.stderr)
                 continue
-            auto.append(f)
-            opos.append(f)
-            creadas.append((c, f))
+            for f in fichas:
+                auto.append(f)
+                opos.append(f)
+                creadas.append((c, f))
         nuevas = sin_crear
         if creadas:
             os.makedirs(os.path.dirname(os.path.abspath(a.auto)), exist_ok=True)

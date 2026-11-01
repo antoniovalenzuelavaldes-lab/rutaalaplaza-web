@@ -31,6 +31,7 @@ UNIVERSIDADES = [  # (nombre completo, localidad para el texto)
     ("Universidad de Málaga", "Málaga"), ("Universidad Pablo de Olavide", "Sevilla"), ("Universidad de Sevilla", "Sevilla"),
     ("Universidad Internacional de Andalucía", "Andalucía"),
 ]
+OTROS = [("Junta de Andalucía", "Andalucía")]   # administraciones que no son universidades (fase 1: Administración General de la Junta)
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 # Universidades sin convocatoria publicada: lo que se sabe, con su fuente oficial.
 NOTA_UNI = {
@@ -69,10 +70,10 @@ def abierta(o, hoy):
 
 def rutas(opos):
     """Dirección de cada universidad y de cada oposición (sin repeticiones)."""
-    uni = {n: f"/oposiciones/{slug(n)}/" for n, _ in UNIVERSIDADES}
+    uni = {n: f"/oposiciones/{slug(n)}/" for n, _ in UNIVERSIDADES + OTROS}
     proc, usadas = {}, set()
     for o in opos:
-        nombre = o["nombre"].split(" · ")[-1]   # si hay «escala · puesto», la parte más concreta
+        nombre = o.get("slug") or o["nombre"].split(" · ")[-1]   # si hay «escala · puesto», la parte más concreta (o el slug propio de la ficha)
         s = f"{slug(o['organismo'])}/{slug(nombre, 70)}"
         base, k = s, 2
         while s in usadas:
@@ -167,7 +168,7 @@ def pag_proceso(o, opos, uni, proc, hoy, temario_ugr):
     desc = (f"Oposición de {n} en la {org}: {o['plazas']}, {o['tipo'].lower()} por turno {o['turno'].lower()}. "
             f"{o['convocatoria']}. Plazo, programa del examen y enlace a la convocatoria oficial.")
     g = f", grupo {o['grupo'].replace('Grupo ', '')}" if o.get("grupo") else ""
-    filas = [("Universidad", org), ("Escala o categoría", n), ("Tipo de personal", o["tipo"]), ("Turno", o["turno"]),
+    filas = [("Universidad" if org.startswith("Universidad") else "Organismo", org), ("Escala o categoría", n), ("Tipo de personal", o["tipo"]), ("Turno", o["turno"]),
              ("Grupo", o.get("grupo", "").replace("Grupo ", "")), ("Plazas", o["plazas"]), ("Convocatoria", o["convocatoria"]),
              ("Examen", o.get("examen", ""))]
     dl = "".join(f"<dt>{e(a)}</dt><dd>{e(b)}</dd>" for a, b in filas if b)
@@ -224,12 +225,17 @@ def pag_uni(nombre, ciudad, opos, uni, proc, hoy):
     lista = [o for o in opos if o["organismo"] == nombre]
     ab = [o for o in lista if abierta(o, hoy)]
     ce = [o for o in lista if not abierta(o, hoy)]
-    titulo = f"Oposiciones {nombre} 2026: convocatorias PAS/PTGAS"
+    es_uni = nombre.startswith("Universidad")
+    titulo = f"Oposiciones {nombre} 2026: convocatorias PAS/PTGAS" if es_uni else f"Oposiciones {nombre} 2026: convocatorias de la Administración General"
     desc = (f"Convocatorias de oposiciones del personal de administración y servicios (PAS) de la {nombre}: "
-            f"{len(ab)} con plazo abierto y {len(ce)} cerradas. Plazas, plazos, programa y temario.") if lista else \
-           f"Oposiciones del personal de administración y servicios (PAS) de la {nombre}: estado de las convocatorias de 2026."
+            f"{len(ab)} con plazo abierto y {len(ce)} cerradas. Plazas, plazos, programa y temario." if es_uni else
+            f"Convocatorias de oposiciones de la {nombre} (cuerpos de la Administración General): "
+            f"{len(ab)} con plazo abierto y {len(ce)} cerradas. Plazas, plazos, programa y enlace oficial al BOJA.") if lista else \
+           f"Oposiciones de la {nombre}: estado de las convocatorias de 2026."
     cuerpo = (f'<p class="lead">Convocatorias de oposiciones del <strong>personal técnico, de gestión y de administración y servicios (PAS o PTGAS)</strong> '
-              f'de la {e(nombre)}. Aquí tienes los procesos selectivos publicados en el BOE y el BOJA, con sus plazas, su plazo de solicitud y su programa.</p>')
+              f'de la {e(nombre)}. Aquí tienes los procesos selectivos publicados en el BOE y el BOJA, con sus plazas, su plazo de solicitud y su programa.</p>') if es_uni else \
+             (f'<p class="lead">Convocatorias de <strong>oposiciones a los cuerpos de la Administración General</strong> de la {e(nombre)}, publicadas en el BOJA: '
+              f'plazas, plazo de solicitud, programa de materias y ejercicios, con enlace a la convocatoria oficial.</p>')
     if lista:
         if ab:
             cuerpo += f'<h2>Oposiciones con plazo de solicitud abierto en la {e(nombre)}</h2>' + "".join(tarjeta(o, proc, hoy) for o in ab)
@@ -242,7 +248,7 @@ def pag_uni(nombre, ciudad, opos, uni, proc, hoy):
         cuerpo += f'<div class="card"><p style="margin:0">{e(t)} <a href="{e(u)}" rel="noopener" target="_blank">{e(n)}</a>.</p></div>'
     cuerpo += (f'<div class="card"><h2 style="margin-top:0">Avisos de las convocatorias de la {e(nombre)}</h2><p>Suscríbete a una oposición y te escribimos cuando haya novedades oficiales '
                f'(correcciones, listas de admitidos, fecha del examen).</p><div class="row"><a class="btn acc" href="/#/oposiciones">Ver oposiciones y suscribirme</a></div></div>'
-               f'<p><a href="/oposiciones/">Oposiciones en todas las universidades de Andalucía</a></p>')
+               f'<p><a href="/oposiciones/">Todas las oposiciones de Andalucía: universidades y Junta</a></p>')
     migas = [("Inicio", "/"), ("Oposiciones", "/oposiciones/"), (nombre, uni[nombre])]
     return pagina(uni[nombre], titulo, desc, f"Oposiciones de la {nombre}: convocatorias del PTGAS (PAS)", cuerpo, migas)
 
@@ -264,7 +270,14 @@ def pag_hub(opos, uni, proc, hoy):
         a = sum(1 for o in k if abierta(o, hoy))
         cuerpo += (f'<div class="card"><h3 style="margin:.1em 0"><a href="{e(uni[n])}">Oposiciones {e(n)}</a></h3>'
                    f'<p class="muted" style="margin:0">{len(k)} convocatorias · {a} abiertas</p></div>')
-    cuerpo += '</div><h2>Qué es el PTGAS (antes PAS): personal técnico, de gestión y de administración y servicios</h2>'
+    cuerpo += '</div>'
+    for n, c in OTROS:
+        k = [o for o in opos if o["organismo"] == n]
+        if k:
+            a = sum(1 for o in k if abierta(o, hoy))
+            cuerpo += (f'<h2>Oposiciones de la {e(n)}</h2><div class="grid"><div class="card"><h3 style="margin:.1em 0"><a href="{e(uni[n])}">Oposiciones {e(n)}</a></h3>'
+                       f'<p class="muted" style="margin:0">{len(k)} convocatorias · {a} abiertas · cuerpos de la Administración General</p></div></div>')
+    cuerpo += '<h2>Qué es el PTGAS (antes PAS): personal técnico, de gestión y de administración y servicios</h2>'
     cuerpo += ('<p>El personal técnico, de gestión y de administración y servicios (PTGAS, sigla que usa la Ley Orgánica del Sistema Universitario y que sustituye a la antigua PAS) de las universidades es el que se ocupa de la gestión, la administración, '
                'las bibliotecas, los archivos, los laboratorios y los servicios técnicos. Se accede mediante procesos selectivos de concurso-oposición '
                '(o por promoción interna) que cada universidad convoca y publica en el BOE y el BOJA.</p>')
@@ -377,7 +390,7 @@ def generar(opos, docs, hoy=None, temario_ugr=None, goatcounter=None):
     shutil.rmtree(destino, ignore_errors=True)
     paginas = {"/oposiciones/": pag_hub(opos, uni, proc, hoy)}
     paginas["/oposiciones/abiertas/"] = pag_abiertas(opos, uni, proc, hoy)
-    for n, c in UNIVERSIDADES:
+    for n, c in UNIVERSIDADES + OTROS:
         paginas[uni[n]] = pag_uni(n, c, opos, uni, proc, hoy)
     for o in opos:
         paginas[proc[o["id"]]] = pag_proceso(o, opos, uni, proc, hoy, temario_ugr if o["estado"] == "disponible" else None)
