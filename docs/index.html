@@ -155,6 +155,7 @@ details.sub>.week{margin-top:6px}
 .dots i.now{outline:2px solid var(--accent)}
 select,input[type=date]{font:inherit;padding:8px 10px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);max-width:100%}
 .factura table{width:100%}
+.linea{border-bottom:1px solid #999;height:1.9em}.hueco{margin:8px 0;break-inside:avoid}.hueco .sol{display:none}body.ver-sol .hueco .sol{display:block}.tabla-ficha{width:100%;border-collapse:collapse}.tabla-ficha th,.tabla-ficha td{text-align:left;padding:5px 8px;border-bottom:1px solid #ccc}.fallo{break-inside:avoid;margin:10px 0;padding-bottom:8px;border-bottom:1px solid #ccc}
 @media print{.top,.tabs,footer,.noprint,.toast{display:none!important}body{background:#fff;color:#000;padding:0}.card{border:0;padding:0}.aviso{border:2px solid #000}}
 </style>
 </head>
@@ -544,12 +545,14 @@ function vTests(app){
   if(!SES)return gate(app,'Test y simulacros');
   {const oa=opoActual();if(!oa||oa.estado!=='disponible')return sinOpo(app,'Test y simulacros')}
   const n=nFallos(),tot=TEMARIO.reduce((a,t)=>a+(disp(t.id)?t.n:0),0);
-  app.innerHTML=`<div><h1>Test</h1><p class="muted" style="margin-top:6px">${tot} preguntas disponibles${ACC?'':' (los temas gratuitos)'}. Se corrigen como en el examen: un fallo resta 0,25 y lo que dejas en blanco no resta.</p></div>
+  const gm=leeT();
+  app.innerHTML=`${gm?tarjetaT(gm,'Descartarlo'):''}<div><h1>Test</h1><p class="muted" style="margin-top:6px">${tot} preguntas disponibles${ACC?'':' (los temas gratuitos)'}. Se corrigen como en el examen: un fallo resta 0,25 y lo que dejas en blanco no resta.</p></div>
   <section class="grid2"><div class="card stack"><h3>Simulacro</h3><p class="muted">Hasta 100 preguntas con el reparto del examen (unas 30 del bloque general y 70 del específico), un minuto por pregunta y corrección al final.${ACC?'':' Con el temario completo se parece al examen real; ahora solo incluye los temas gratuitos.'}</p><div><a class="btn acc" href="#/test/sim">Empezar simulacro</a></div></div>
-  <div class="card stack"><h3>Repaso de fallos</h3><p class="muted">${n?`Tienes ${n} preguntas falladas guardadas. Acertarlas las saca de la lista.`:'Aún no tienes fallos guardados.'}</p><div>${n?'<a class="btn" href="#/test/fallos">Repasar fallos</a>':'<button type="button" class="btn" disabled>Repasar fallos</button>'}</div></div>
+  <div class="card stack"><h3>Repaso de fallos</h3><p class="muted">${n?`Tienes ${n} preguntas falladas guardadas. Acertarlas las saca de la lista.`:'Aún no tienes fallos guardados.'}</p><div>${n?'<a class="btn" href="#/test/fallos">Repasar fallos</a> <a class="btn ghost" href="#/mis-fallos">Hoja para imprimir</a>':'<button type="button" class="btn" disabled>Repasar fallos</button>'}</div></div>
   <div class="card stack"><h3>Bloque general</h3><p class="muted">50 preguntas mezcladas de los temas generales que tengas disponibles.</p><div><a class="btn ghost" href="#/test/general">Empezar</a></div></div>
   <div class="card stack"><h3>Por temas</h3><p class="muted">Elige un tema para hacer su test completo.</p><div class="row">${TEMARIO.filter(t=>disp(t.id)).map(t=>`<a class="btn ghost sm" href="#/test/${t.id}">${letra(t)}${t.num}</a>`).join('')}</div></div></section>
-  ${resultados()}`}
+  ${resultados()}`;
+  if(gm){$('#t-seguir').onclick=()=>{window.__seguirT=true;location.hash='#/test/'+gm.id};$('#t-nuevo').onclick=()=>{borraT();render()}}}
 
 /* ---------- Tema ---------- */
 async function cargaTema(id){if(FULL[id])return FULL[id];const t=await tokenValido();if(!t||!SES||!SES.uid)throw new Error('sesion');
@@ -583,13 +586,85 @@ function vTema(app,id){let t=completo(id);
   <section class="card clave stack"><h2>Para recordar</h2><p class="muted" style="margin:0;font-size:.85em">Resumen nuestro, no cita literal.</p><ul style="margin:0;padding-left:1.2em">${t.clave.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></section>
   <p class="muted">Fuente: ${t.fuentes.map(esc).join('; ')}.</p>
   ${t.fuentes.some(f=>/wikipedia/i.test(f))?'<div class="aviso"><strong>Licencia de este tema.</strong> Una parte de este tema está adaptada de textos de Wikipedia (con cambios, para facilitar el estudio) y se ofrece con la misma licencia, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noopener">Creative Commons Reconocimiento-CompartirIgual 4.0</a>: puedes copiarla y compartirla citando la fuente y manteniendo esa licencia. Las fuentes concretas figuran arriba y en cada pregunta.</div>':''}
-  <div class="row"><a class="btn acc" href="#/test/${id}">${t.preguntas.length>NTEST?`Hacer un test (${NTEST} de ${t.preguntas.length} preguntas)`:`Hacer el test (${t.preguntas.length} preguntas)`}</a><a class="btn ghost" href="#/">Volver</a></div>`;
+  <div class="row"><a class="btn acc" href="#/test/${id}">${t.preguntas.length>NTEST?`Hacer un test (${NTEST} de ${t.preguntas.length} preguntas)`:`Hacer el test (${t.preguntas.length} preguntas)`}</a><a class="btn ghost" href="#/ficha/${id}">Ficha de repaso</a><a class="btn ghost" href="#/plantilla/${id}">Plantilla en blanco</a><a class="btn ghost" href="#/">Volver</a></div>`;
   const a=t.audio===true&&$('#aud');if(a)audioUrl(id).then(u=>{a.src=u}).catch(()=>{a.outerHTML='<p class="muted">No se ha podido cargar el audio.</p>'})}
+
+/* ---------- Plantillas de resumen para estudio (imprimibles): ficha de repaso, «lo que tú fallas» y plantilla en blanco ---------- */
+// Solo usan temas a los que el usuario ya tiene acceso (completo(id)); nada de contenido de pago sin ACC.
+const etqRef=(k,a)=>(LEYES[k]||k)+(a==='doc'?'':/^[0-9]/.test(a)?', art. '+a:', '+a.charAt(0)+a.slice(1).toLowerCase().replace(' iii',' III'));
+function refsTema(t){const m=new Map();(t.preguntas||[]).forEach(p=>{const[k,a,c]=p.ref||[];if(!k||a==='doc')return;const id=k+'|'+a;
+  const e=m.get(id)||{k,a,n:0,citas:[]};e.n++;if(c&&!e.citas.includes(c))e.citas.push(c);m.set(id,e)});
+  return [...m.values()].sort((x,y)=>y.n-x.n)}
+const AVISO_RES=`<div class="aviso aviso-resumen"><strong>Esto es un resumen nuestro, no el texto de la ley.</strong> Puede omitir matices; las citas entre comillas son fragmentos literales de la norma. Para citar o para el examen, consulta siempre el texto oficial del BOE.</div>`;
+const barraImp=(volver,extra='')=>`<div class="row noprint"><button type="button" class="btn acc" onclick="window.print()">Imprimir o guardar en PDF</button>${extra}<a class="btn ghost" href="${volver}">Volver</a></div>`;
+function sinTema(app,id){const b=BLOQ.find(x=>x.id===id);
+  app.innerHTML=`<p><a href="#temario">← Temario</a></p><section class="card stack"><h1>${b?esc(b.titulo):'Tema no disponible'}</h1><p>${b?'Esta hoja forma parte del temario completo.':'No encontramos ese tema.'}</p><div class="row"><a class="btn ghost" href="#temario">Ver el temario</a>${b&&PAGOS_ON&&!ACC?'<a class="btn acc" href="#/comprar">Desbloquear el temario completo</a>':''}</div></section>`}
+function aseguraTema(app,id,vista){
+  if(ACC&&esBloq(id)&&!FULLERR[id]){app.innerHTML='<p>Cargando el tema…</p>';const h='#/'+vista+'/'+id;
+    cargaTema(id).then(()=>{if(location.hash===h)render()}).catch(()=>{FULLERR[id]=true;if(location.hash===h)render()});return}
+  sinTema(app,id)}
+function vFicha(app,id){const t=completo(id);if(!t){aseguraTema(app,id,'ficha');return}
+  const refs=refsTema(t).slice(0,10);
+  app.innerHTML=`<p class="noprint"><a href="#/tema/${id}">← Tema</a></p>
+  <header class="stack"><div class="eyebrow">Ficha de repaso · Tema ${esc(etqTema(t,id))}</div><h1>${esc(t.titulo)}</h1><p class="muted">${esc(t.alcance)}</p></header>
+  ${barraImp('#/tema/'+id,'<a class="btn ghost" href="#/plantilla/'+id+'">Plantilla en blanco</a>')}
+  ${AVISO_RES}
+  <section class="card clave stack"><h2>Para recordar</h2><ul style="margin:0;padding-left:1.2em">${(t.clave||[]).map(c=>`<li>${esc(c)}</li>`).join('')}</ul></section>
+  ${refs.length?`<section class="card stack"><h2>Artículos más preguntados</h2><p class="muted" style="margin:0;font-size:.9em">Los que más salen en las ${t.preguntas.length} preguntas de este tema.</p>
+    <table class="tabla-ficha"><thead><tr><th>Norma y artículo</th><th>Preguntas</th></tr></thead><tbody>${refs.map(r=>`<tr><td>${esc(etqRef(r.k,r.a))}</td><td>${r.n}</td></tr>`).join('')}</tbody></table></section>`:''}
+  <section class="card stack"><h2>Mis notas</h2>${'<div class="linea"></div>'.repeat(10)}</section>
+  <p class="muted">Fuente: ${(t.fuentes||[]).map(esc).join('; ')}.</p>`}
+function vPlantilla(app,id){const t=completo(id);if(!t){aseguraTema(app,id,'plantilla');return}
+  const refs=refsTema(t).sort((x,y)=>(x.k+x.a).localeCompare(y.k+y.a,'es',{numeric:true}));
+  app.innerHTML=`<p class="noprint"><a href="#/tema/${id}">← Tema</a></p>
+  <header class="stack"><div class="eyebrow">Plantilla para rellenar · Tema ${esc(etqTema(t,id))}</div><h1>${esc(t.titulo)}</h1>
+  <p class="muted">Rellénala de memoria, con tus palabras. Después pulsa «Ver solución» para comparar.</p></header>
+  ${barraImp('#/tema/'+id,'<button type="button" class="btn ghost" id="vsol">Ver solución</button>')}
+  ${AVISO_RES}
+  <section class="card stack"><h2>Apartados del tema</h2>${(t.apuntes||[]).map(a=>`<div class="hueco"><strong>${esc(a.h)}</strong><div class="linea"></div><div class="linea"></div></div>`).join('')}</section>
+  ${refs.length?`<section class="card stack"><h2>Artículos: ¿qué dice cada uno?</h2>${refs.map(r=>`<div class="hueco"><strong>${esc(etqRef(r.k,r.a))}</strong><div class="linea"></div><div class="sol">${r.citas.slice(0,2).map(c=>`<p class="cita"><q>${esc(c)}</q></p>`).join('')}</div></div>`).join('')}</section>`:''}
+  <section class="card stack"><h2>Para recordar</h2>${(t.clave||[]).map((c,i)=>`<div class="hueco"><strong>Idea ${i+1}</strong><div class="linea"></div><div class="sol"><p>${esc(c)}</p></div></div>`).join('')}</section>`;
+  document.body.classList.remove('ver-sol');
+  const b=$('#vsol');if(b)b.onclick=()=>{const v=document.body.classList.toggle('ver-sol');b.textContent=v?'Ocultar solución':'Ver solución'}}
+async function vFallosHoja(app){
+  if(!SES)return gate(app,'Lo que tú fallas');
+  if(ACC&&BLOQ.some(b=>!FULL[b.id])){app.innerHTML='<p>Cargando tus temas…</p>';try{await cargaTodos()}catch(e){}if(location.hash!=='#/mis-fallos')return}
+  const g=new Map();let tot=0;
+  TEMARIO.forEach(tt=>{const c=completo(tt.id);if(!c||!c.preguntas)return;
+    c.preguntas.forEach((p,n)=>{if(S.fallos[tt.id+':'+n]){if(!g.has(tt.id))g.set(tt.id,{t:c,ps:[]});g.get(tt.id).ps.push(p);tot++}})});
+  app.innerHTML=`<p class="noprint"><a href="#/tests">← Test</a></p>
+  <header class="stack"><h1>Lo que tú fallas</h1><p class="muted">${tot?`${tot} preguntas falladas, con la cita literal de la norma. Acertarlas en un test las quita de aquí.`:'Aún no tienes fallos guardados. Haz un test y volverás aquí con lo que conviene repasar.'}</p></header>
+  ${tot?barraImp('#/tests'):''}${tot?AVISO_RES:''}
+  ${[...g.values()].map(({t,ps})=>`<section class="card stack"><h2>Tema ${esc(etqTema(t,t.id))}: ${esc(t.titulo)}</h2>
+    ${ps.map(p=>`<div class="fallo"><p><strong>${esc(p.q)}</strong></p><p>Respuesta correcta: ${esc(p.o[p.c])}</p><p class="muted" style="font-size:.9em">${esc(p.e)}</p>${citaHtml(p)}</div>`).join('')}</section>`).join('')}`}
 
 /* ---------- Test ---------- */
 let T=null;
 function crearT(id,ps,x={}){return {id,solo:false,muestra:false,mixto:false,fin:false,i:0,res:[],fb:false,t0:Date.now(),limite:0,iv:null,
-  qs:mezcla(ps).map(p=>{const o=mezcla([0,1,2,3]);return {...p,opts:o.map(k=>p.o[k]),corr:o.indexOf(p.c)}}),...x}}
+  qs:mezcla(ps).map(p=>{const o=mezcla([0,1,2,3]);return {...p,ord:o,opts:o.map(k=>p.o[k]),corr:o.indexOf(p.c)}}),...x}}
+/* Test a medias: si sales de un test sin terminarlo se guarda en este dispositivo (qué preguntas, en qué orden, qué has respondido y el tiempo gastado)
+   y al volver se pregunta si seguir con él o empezar uno nuevo. Solo se guardan referencias (tema y nº de pregunta), nunca el texto. */
+const KT=KEY+'-test';
+function guardaT(){try{if(!T||T.cargando||T.fin||!T.qs||!T.qs.length||!T.res.some(Boolean))return;
+  localStorage.setItem(KT,JSON.stringify({id:T.id,solo:T.solo,muestra:T.muestra,mixto:T.mixto,i:T.i,res:T.res,fb:T.fb,limite:T.limite,usado:Date.now()-T.t0,uid:(SES&&SES.uid)||null,t:Date.now(),
+    qs:T.qs.map(q=>({tid:q.tid,n:q.n,ord:q.ord}))}))}catch(e){}}
+function leeT(){try{const g=JSON.parse(localStorage.getItem(KT)||'null');if(!g||!g.qs||!g.qs.length||g.qs.some(q=>!q.ord))return null;
+  if((g.uid||null)!==((SES&&SES.uid)||null))return null;return g}catch(e){return null}}
+function borraT(){try{localStorage.removeItem(KT)}catch(e){}}
+function nombreT(id){if(MODOS[id])return MODOS[id];const t=info(id);return t?'Test del tema «'+t.titulo+'»':'Test'}
+async function reanudaT(g){
+  if(g.mixto)await cargaTodos();else if(ACC&&esBloq(g.id)&&!FULL[g.id])await cargaTema(g.id);
+  const qs=g.qs.map(x=>{const t=info(x.tid)||{},c=completo(x.tid),src=g.muestra?t.muestra:((c&&c.preguntas)||t.preguntas),p=src&&src[x.n];if(!p)throw new Error('falta');
+    return {...p,n:x.n,tid:x.tid,bloque:t.bloque,ord:x.ord,opts:x.ord.map(k=>p.o[k]),corr:x.ord.indexOf(p.c)}});
+  T={id:g.id,solo:!!g.solo,muestra:!!g.muestra,mixto:!!g.mixto,fin:false,i:Math.min(g.i||0,qs.length-1),res:g.res||[],fb:!!g.fb,t0:Date.now()-(g.usado||0),limite:g.limite||0,iv:null,qs}}
+function seguirT(g){const app=$('#app');app.innerHTML='<p>Recuperando tu test…</p>';
+  reanudaT(g).then(()=>{if(location.hash!=='#/test/'+g.id)location.hash='#/test/'+g.id;else render()})
+    .catch(()=>{borraT();T=null;toast('No se ha podido recuperar el test anterior. Empieza uno nuevo.');render()})}
+function tarjetaT(g,nuevoTxt){const hechas=(g.res||[]).filter(Boolean).length,d=new Date(g.t||Date.now());
+  return `<section class="card stack" id="t-medias"><div class="eyebrow">Test a medias</div><h2 style="margin:0">${esc(nombreT(g.id))}</h2>
+  <p>Lo dejaste el ${d.toLocaleDateString('es-ES')} a las ${d.toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'})}: ${hechas} de ${g.qs.length} preguntas respondidas.${g.limite?' El cronómetro se quedó parado donde lo dejaste.':''}</p>
+  <div class="row"><button type="button" class="btn acc" id="t-seguir">Seguir con ese test</button><button type="button" class="btn ghost" id="t-nuevo">${nuevoTxt}</button></div>
+  <p class="muted" style="margin:0;font-size:.85em">Si empiezas uno nuevo, el test a medias se descarta (lo que ya respondiste sigue contando en tus fallos y estadísticas).</p></section>`}
 /* Cada intento de un tema saca NTEST preguntas del banco: primero las falladas, luego las que aún no has visto y, si faltan, el resto al azar. */
 const NTEST=30;
 function seleccionTest(ps){const k=p=>p.tid+':'+p.n,fa=mezcla(ps.filter(p=>S.fallos[k(p)])),vi=S.vistas||{},
@@ -622,6 +697,10 @@ function registra(q,sel){marcar();if(sel!==null)S.npreg++;
   if(!T.muestra&&sel!==null){const k=q.tid+':'+q.n;(S.vistas=S.vistas||{})[k]=1;if(sel===q.corr)delete S.fallos[k];else S.fallos[k]=1}
   guardar()}
 function vTest(app,id){
+  if(!T){const g=leeT();
+    if(g){if(window.__seguirT){window.__seguirT=false;return seguirT(g)}
+      app.innerHTML=`<p><a href="#/tests">← Test</a></p>`+tarjetaT(g,g.id===id?'Empezar uno nuevo':'Descartarlo y empezar este');
+      $('#t-seguir').onclick=()=>seguirT(g);$('#t-nuevo').onclick=()=>{borraT();vTest(app,id)};return}}
   const modo=!!MODOS[id];
   if(modo){
     if(!SES){location.hash='#/tests';return}
@@ -644,12 +723,12 @@ function vTest(app,id){
     <div aria-live="polite">${T.fb?`<div class="fb ${r.sel===q.corr?'ok':'ko'}"><strong>${r.sel===null?'En blanco.':r.sel===q.corr?'¡Correcto!':'Incorrecto.'}</strong> La respuesta es ${L[q.corr]}. ${esc(q.e)}${citaHtml(q)}</div>
       <p style="margin-top:12px"><button type="button" class="btn acc" id="sig">${T.i>=T.qs.length-1?'Ver resultado':'Siguiente'}</button></p>`:''}</div>
   </section>`;
-  app.querySelectorAll('[data-o]').forEach(b=>b.onclick=()=>{const s=+b.dataset.o;T.res[T.i]={sel:s<0?null:s};T.fb=true;registra(q,s<0?null:s);vTest(app,id);const s2=$('#sig');s2&&s2.focus()});
-  const sg=$('#sig');if(sg)sg.onclick=()=>{if(T.i>=T.qs.length-1){terminar(id);return}T.i++;T.fb=false;vTest(app,id);window.scrollTo(0,0)};
+  app.querySelectorAll('[data-o]').forEach(b=>b.onclick=()=>{const s=+b.dataset.o;T.res[T.i]={sel:s<0?null:s};T.fb=true;registra(q,s<0?null:s);guardaT();vTest(app,id);const s2=$('#sig');s2&&s2.focus()});
+  const sg=$('#sig');if(sg)sg.onclick=()=>{if(T.i>=T.qs.length-1){terminar(id);return}T.i++;T.fb=false;guardaT();vTest(app,id);window.scrollTo(0,0)};
   if(T.limite){if(!T.iv)T.iv=setInterval(pintaCron,1000);pintaCron()}}
 function terminar(id){let ok=0,ko=0,bl=0;const mal=[],malQs=[];
   T.qs.forEach((q,i)=>{const r=T.res[i];if(!r||r.sel===null)bl++;else if(r.sel===q.corr)ok++;else{ko++;mal.push(q.n);malQs.push(q)}});
-  const n=T.qs.length,p=pct(ok,ko,n);T.r={ok,ko,bl,n,p,mal,malQs};T.fin=true;T.mostrar=true;paraCron();
+  const n=T.qs.length,p=pct(ok,ko,n);T.r={ok,ko,bl,n,p,mal,malQs};T.fin=true;T.mostrar=true;paraCron();borraT();
   if(!T.solo){
     if(id==='sim'){S.sims.push({pct:p,ok,ko,bl,n,t:Date.now()});S.sims=S.sims.slice(-20)}
     else if(!T.mixto){const reg={pct:p,ok,ko,bl,n,t:Date.now()};if(T.muestra)reg.m=1;(S.tests[id]=S.tests[id]||[]).push(reg);S.tests[id]=S.tests[id].slice(-20)}}
@@ -709,7 +788,7 @@ async function crearCuenta(email,pass){
 async function entrar(email,pass){ponSesion(await api('/auth/v1/token?grant_type=password',{method:'POST',body:{email,password:pass}}))}
 async function recuperar(email){await api('/auth/v1/recover?redirect_to='+redir(),{method:'POST',body:{email}})}
 async function nuevaClave(pass){await api('/auth/v1/user',{method:'PUT',token:await tokenValido(),body:{password:pass}})}
-async function salir(){const t=SES&&SES.at;SES=null;guardaSes();nube='local';ACC=null;ACCHASTA=null;for(const k in FULL)delete FULL[k];
+async function salir(){const t=SES&&SES.at;borraT();SES=null;guardaSes();nube='local';ACC=null;ACCHASTA=null;for(const k in FULL)delete FULL[k];
   if(t){try{await api('/auth/v1/logout',{method:'POST',token:t})}catch(e){}}pintaCuenta()}
 function msgError(e){const c=e.code||'';
   if(c==='invalid_credentials')return'Correo o contraseña incorrectos.';
@@ -877,15 +956,16 @@ function vContacto(app,tipo,id){
 function render(){const app=$('#app'),h=location.hash.replace(/^#\/?/,'').split('/');
   if(sincTemario()===false){pintaCuenta();pintaNav();return}
   pintaCuenta();pintaNav();
-  if(h[0]==='tema')vTema(app,h[1]);else if(h[0]==='test')vTest(app,h[1]);else if(h[0]==='cuenta')vCuenta(app);else if(h[0]==='comprar')vComprar(app);else if(h[0]==='gracias')vGracias(app);
+  if(h[0]==='tema')vTema(app,h[1]);else if(h[0]==='test')vTest(app,h[1]);else if(h[0]==='ficha')vFicha(app,h[1]);else if(h[0]==='plantilla')vPlantilla(app,h[1]);else if(h[0]==='mis-fallos')vFallosHoja(app);else if(h[0]==='cuenta')vCuenta(app);else if(h[0]==='comprar')vComprar(app);else if(h[0]==='gracias')vGracias(app);
   else if(h[0]==='hoy')vHoy(app);else if(h[0]==='temario')vTemario(app);else if(h[0]==='tests')vTests(app);else if(h[0]==='plan')vPlan(app);else if(h[0]==='proceso')vProceso(app,h[1]);
   else if(h[0]==='oposiciones')vOposiciones(app,h);else if(h[0]==='oposicion')vOpo(app,h[1]);
   else if(h[0]==='contacto')vContacto(app,h[1],h[2]);else if(h[0]==='confirmar'||h[0]==='baja')vToken(app,h[1],h[0]);else if(h[0]==='factura')vFactura(app,h[1]);
   else if(SES&&!h[0])vHoy(app);else vInicio(app);
-  const ancla=!['tema','test','tests','cuenta','comprar','gracias','hoy','temario','plan','proceso','oposiciones','oposicion','confirmar','baja','factura'].includes(h[0])&&h[0]&&document.getElementById(h[0]);   // enlaces internos: #gratis, #temario
+  const ancla=!['tema','test','tests','ficha','plantilla','mis-fallos','cuenta','comprar','gracias','hoy','temario','plan','proceso','oposiciones','oposicion','confirmar','baja','factura'].includes(h[0])&&h[0]&&document.getElementById(h[0]);   // enlaces internos: #gratis, #temario
   if(ancla)ancla.scrollIntoView();else if(h[0]!=='test'||!T)window.scrollTo(0,0)}
-window.addEventListener('hashchange',()=>{if(!location.hash.startsWith('#/test/')){paraCron();T=null}render()});
-$('#borrar').onclick=()=>{if(confirm('¿Borrar el progreso guardado en este dispositivo?')){paraCron();T=null;S=Object.assign(nuevoS(),{examDate:S.examDate});try{localStorage.removeItem(KEY)}catch(e){}if(SES){S.upd=Date.now();subir().catch(()=>{})}toast('Progreso borrado');render()}};
+window.addEventListener('hashchange',()=>{if(!location.hash.startsWith('#/test/')){guardaT();paraCron();T=null}render()});
+window.addEventListener('pagehide',guardaT);
+$('#borrar').onclick=()=>{if(confirm('¿Borrar el progreso guardado en este dispositivo?')){paraCron();T=null;borraT();S=Object.assign(nuevoS(),{examDate:S.examDate});try{localStorage.removeItem(KEY)}catch(e){}if(SES){S.upd=Date.now();subir().catch(()=>{})}toast('Progreso borrado');render()}};
 const pp=$('#pie-pagos');if(pp&&PAGOS_ON)pp.innerHTML=' · <a href="legal/condiciones.html">Condiciones de contratación</a> · <a href="legal/desistimiento.html">Desistimiento</a>';
 capturaEnlace();render();cargaAuto();if(SES)sincroniza();
 
