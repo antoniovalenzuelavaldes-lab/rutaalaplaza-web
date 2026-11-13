@@ -180,7 +180,9 @@ let ACC=null,ACCHASTA=null;
 const FULL={},FULLERR={};   // ACC: acceso de pago (null=sin comprobar). FULL: temas de pago cargados desde Supabase tras comprobar el acceso (RLS)
 const info=id=>TEMAS[id]||FULL[id]||BLOQ.find(t=>t.id===id)||null;   // tema abierto, de pago desbloqueado, o bloqueado (solo muestra)
 const completo=id=>TEMAS[id]||FULL[id]||null, esBloq=id=>BLOQ.some(t=>t.id===id);
-const KEY='ruta-demo-v1', PEN=4;
+const BASE='ruta-demo-v1', PEN=4;
+let KEY=BASE;   // la demo pública usa un almacén APARTE para no mezclarse con el progreso real del dispositivo
+try{const q=JSON.parse(localStorage.getItem(BASE+'-ses')||'null');if(/^#\/demo/.test(location.hash)||(q&&q.email==='demo@rutaalaplaza.com'))KEY=BASE+'-d'}catch(e){}
 const $=s=>document.querySelector(s);
 const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function nuevoS(){return {leidos:{},tests:{},fallos:{},vistas:{},checks:{},act:{},sims:[],npreg:0,examDate:'2027-03-01',inicio:null,hechos:[],nombre:'',opoSel:null,sinSab:false,sinDom:false}}
@@ -714,7 +716,7 @@ function vResultado(app){const r=T.r,id=T.id,nota=Math.max(0,r.ok-r.ko/PEN)/r.n*
 
 
 /* ---------- Cuenta (Supabase propio por API REST; correo y contraseña; sin librerías de terceros) ---------- */
-const CFG=window.RUTA_CFG||{}, AUTH_ON=!!(CFG.url&&CFG.key), PAGOS_ON=AUTH_ON&&!!CFG.pagos, PRECIO=DATOS.precio, VCOND=DATOS.versionCondiciones, VPRIV=CFG.versionPrivacidad||'2026-10-28', KS=KEY+'-ses', MINPASS=8;
+const CFG=window.RUTA_CFG||{}, AUTH_ON=!!(CFG.url&&CFG.key), PAGOS_ON=AUTH_ON&&!!CFG.pagos, PRECIO=DATOS.precio, VCOND=DATOS.versionCondiciones, VPRIV=CFG.versionPrivacidad||'2026-10-28', KS=BASE+'-ses', MINPASS=8;
 try{SES=JSON.parse(localStorage.getItem(KS)||'null')}catch(e){}
 function guardaSes(){try{SES?localStorage.setItem(KS,JSON.stringify(SES)):localStorage.removeItem(KS)}catch(e){}}
 function ponSesion(j){SES={at:j.access_token,rt:j.refresh_token,exp:j.expires_at||Math.floor(Date.now()/1000)+(j.expires_in||3600),uid:j.user?j.user.id:null,email:j.user?j.user.email:null};guardaSes()}
@@ -732,6 +734,7 @@ const DEMO_MAIL='demo@rutaalaplaza.com', esDemo=()=>!!(SES&&SES.email===DEMO_MAI
 async function entrarDemo(){
   if(!CFG.demo){location.hash='#/';return}
   if(!esDemo()){try{ponSesion(await api('/auth/v1/token?grant_type=password',{method:'POST',body:{email:DEMO_MAIL,password:CFG.demo}}))}catch(e){return false}}
+  if(KEY!==BASE+'-d'){location.hash='#/hoy';location.reload();return true}
   S.opoSel=OPO_UGR;guardar();nube='demo';await cargaAcceso();pintaCuenta();return true}
 function vDemo(app){app.innerHTML='<section class="card stack"><h1>Abriendo la demo…</h1><p class="muted">Un momento: te damos acceso completo al temario de la oposición de la UGR.</p></section>';
   entrarDemo().then(ok=>{if(location.hash!=='#/demo')return;if(ok)location.hash='#/hoy';else app.innerHTML='<section class="card stack"><h1>La demo no está disponible</h1><p>Inténtalo de nuevo en unos minutos.</p><div class="row"><a class="btn" href="#/">Volver al inicio</a></div></section>'})}
@@ -753,7 +756,7 @@ function pintaCuenta(){const c=$('#chip-nube'),b=$('#cta-cuenta');if(!c||!b)retu
   b.textContent=SES?'Mi cuenta':'Entrar o registrarme';b.hidden=(!AUTH_ON&&!SES)||esDemo();if(b.style)b.style.display=b.hidden?'none':'';
   const u=$('#chip-user'),s=$('#cta-salir');
   if(u){u.hidden=!SES;u.textContent=SES?(esDemo()?'Demo · acceso completo':(SES.email||'Sesión iniciada')):'';u.title=SES?'Sesión iniciada como '+(SES.email||''):''}
-  if(s){s.hidden=!SES;s.textContent=esDemo()?'Salir de la demo':'Salir';s.onclick=async()=>{await salir();location.hash='#/'}}
+  if(s){s.hidden=!SES;s.textContent=esDemo()?'Salir de la demo':'Salir';s.onclick=async()=>{const d=esDemo();await salir();location.hash='#/';if(d)location.reload()}}
   let bd=document.getElementById('banda-demo');
   if(esDemo()&&!bd){bd=document.createElement('div');bd.id='banda-demo';bd.className='aviso noprint';bd.style.cssText='margin:8px auto;max-width:1100px';
     bd.innerHTML='<strong>Estás en la demo.</strong> Tienes acceso completo al temario de la oposición UGR (Auxiliares de Archivos, Bibliotecas y Museos) sin registrarte. Tu progreso se guarda solo en este dispositivo. <a href="#/oposicion/'+OPO_UGR+'">Ver la oposición</a> · <a href="#/comprar">Quiero el temario completo</a>';
