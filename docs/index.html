@@ -744,7 +744,7 @@ async function cargaAcceso(){ACC=false;ACCHASTA=null;const t=await tokenValido()
   try{const a=await api('/rest/v1/accesos?user_id=eq.'+SES.uid+'&select=hasta',{token:t});
     if(a&&a[0]&&(!a[0].hasta||new Date(a[0].hasta)>new Date())){ACC=true;ACCHASTA=a[0].hasta?new Date(a[0].hasta).toLocaleDateString('es-ES'):null}}catch(e){}
   return ACC}
-async function sincroniza(){if(esDemo()){nube='demo';await cargaAcceso();pintaCuenta();if(!T&&!/^#\/test/.test(location.hash))render();return}
+async function sincroniza(){if(esDemo()){nube='demo';if(S.opoSel!==OPO_UGR){S.opoSel=OPO_UGR;guardar()}await cargaAcceso();pintaCuenta();if(!T&&!/^#\/test/.test(location.hash))render();return}
   const t=await tokenValido();if(!t){nube='local';pintaCuenta();return}
   try{if(!SES.uid||!SES.email){const u=await api('/auth/v1/user',{token:t});SES.uid=u.id;SES.email=u.email;guardaSes()}
     const r=await api('/rest/v1/progreso?user_id=eq.'+SES.uid+'&select=estado,upd',{token:t});
