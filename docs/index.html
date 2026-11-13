@@ -162,7 +162,7 @@ select,input[type=date]{font:inherit;padding:8px 10px;border-radius:10px;border:
 <body>
 <div class="top"><div class="top-in">
   <a class="brand" href="#/"><i></i>Ruta a la Plaza</a>
-  <span class="chip" id="chip-plan">2 temas gratis</span><span class="chip mono" id="chip-dias" hidden></span><span class="chip" id="chip-nube" hidden></span><a class="btn ghost sm" id="cta-cuenta" href="#/cuenta">Entrar</a>
+  <span class="chip" id="chip-plan">2 temas gratis</span><span class="chip mono" id="chip-dias" hidden></span><span class="chip" id="chip-nube" hidden></span><span class="chip" id="chip-user" hidden style="max-width:210px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></span><a class="btn ghost sm" id="cta-cuenta" href="#/cuenta">Entrar</a><button type="button" class="btn ghost sm" id="cta-salir" hidden>Salir</button>
 </div>
 <nav class="tabs" id="tabs" aria-label="Secciones"></nav></div>
 <div class="wrap"><main id="app"><section id="seo-inicial" style="max-width:880px;margin:0 auto;padding:24px 0"><h1>Oposiciones en Andalucía: universidades y Junta de Andalucía. Convocatorias, temario y tests</h1><p>Convocatorias del personal de administración y servicios (PAS) de las universidades públicas andaluzas y de los cuerpos de la Junta de Andalucía, con apuntes por artículos, tests que explican cada respuesta con la ley, simulacros y plan de estudio. Disponible: Escala de Auxiliares de Archivos, Bibliotecas y Museos de la Universidad de Granada, con 2 temas gratis.</p><h2>Universidades</h2><ul><li><a href="/oposiciones/universidad-de-almeria/">Oposiciones Universidad de Almería</a></li><li><a href="/oposiciones/universidad-de-cadiz/">Oposiciones Universidad de Cádiz</a></li><li><a href="/oposiciones/universidad-de-cordoba/">Oposiciones Universidad de Córdoba</a></li><li><a href="/oposiciones/universidad-de-granada/">Oposiciones Universidad de Granada</a></li><li><a href="/oposiciones/universidad-de-huelva/">Oposiciones Universidad de Huelva</a></li><li><a href="/oposiciones/universidad-de-jaen/">Oposiciones Universidad de Jaén</a></li><li><a href="/oposiciones/universidad-de-malaga/">Oposiciones Universidad de Málaga</a></li><li><a href="/oposiciones/universidad-pablo-de-olavide/">Oposiciones Universidad Pablo de Olavide</a></li><li><a href="/oposiciones/universidad-de-sevilla/">Oposiciones Universidad de Sevilla</a></li><li><a href="/oposiciones/universidad-internacional-de-andalucia/">Oposiciones Universidad Internacional de Andalucía</a></li></ul><h2>Junta de Andalucía</h2><ul><li><a href="/oposiciones/junta-de-andalucia/">Oposiciones de la Junta de Andalucía</a></li></ul><h2>Convocatorias con plazo abierto</h2><ul><li><a href="/oposiciones/universidad-de-jaen/tecnico-a-especialista-de-prevencion-de-riesgos-laborales/">Técnico/a Especialista de Prevención de Riesgos Laborales, Medioambiente y Sostenibilidad · Universidad de Jaén</a></li><li><a href="/oposiciones/universidad-de-cadiz/tecnico-especialista-de-servicios-tecnicos-de-obras-equipamiento-y/">Técnico Especialista de Servicios Técnicos de Obras, Equipamiento y Mantenimiento · Universidad de Cádiz</a></li><li><a href="/oposiciones/junta-de-andalucia/superior-facultativo-arquitectura/">Cuerpo Superior Facultativo, especialidad Arquitectura (A1.2001) · Junta de Andalucía</a></li><li><a href="/oposiciones/junta-de-andalucia/superior-facultativo-ingenieria-agronoma/">Cuerpo Superior Facultativo, especialidad Ingeniería Agrónoma (A1.2002) · Junta de Andalucía</a></li><li><a href="/oposiciones/junta-de-andalucia/superior-facultativo-ingenieria-de-camino-canales-y-puertos/">Cuerpo Superior Facultativo, especialidad Ingeniería de Camino, Canales y Puertos (A1.2003) · Junta de Andalucía</a></li><li><a href="/oposiciones/junta-de-andalucia/superior-facultativo-ingenieria-industrial/">Cuerpo Superior Facultativo, especialidad Ingeniería Industrial (A1.2004) · Junta de Andalucía</a></li><li><a href="/oposiciones/junta-de-andalucia/superior-facultativo-ingenieria-de-minas/">Cuerpo Superior Facultativo, especialidad Ingeniería de Minas (A1.2005) · Junta de Andalucía</a></li><li><a href="/oposiciones/junta-de-andalucia/superior-facultativo-ingenieria-de-montes/">Cuerpo Superior Facultativo, especialidad Ingeniería de Montes (A1.2006) · Junta de Andalucía</a></li><li><a href="/oposiciones/junta-de-andalucia/superior-facultativo-biologia/">Cuerpo Superior Facultativo, especialidad Biología (A1.2007) · Junta de Andalucía</a></li><li><a href="/oposiciones/junta-de-andalucia/superior-facultativo-medicina/">Cuerpo Superior Facultativo, especialidad Medicina (A1.2009) · Junta de Andalucía</a></li><li><a href="/oposiciones/junta-de-andalucia/superior-facultativo-veterinaria/">Cuerpo Superior Facultativo, especialidad Veterinaria (A1.2012) · Junta de Andalucía</a></li><li><a href="/oposiciones/junta-de-andalucia/superior-facultativo-geografia/">Cuerpo Superior Facultativo, especialidad Geografía (A1.2013) · Junta de Andalucía</a></li></ul><p><a href="/oposiciones/abiertas/">Oposiciones abiertas ahora</a> · <a href="/oposiciones/">Ver todas las convocatorias</a></p><noscript><p>Para estudiar los temas necesitas activar JavaScript.</p></noscript></section></main>
@@ -341,7 +341,7 @@ function vInicio(app){
     <div class="eyebrow">Preparación de oposiciones</div>
     <h1>Te ayudamos con tu oposición</h1>
     <p class="lead">Convocatorias de <strong>universidades</strong> y de la <strong>Junta de Andalucía</strong>, con su programa oficial. Prueba <strong>gratis los dos primeros temas</strong> de las oposiciones con temario: apuntes por artículos, tests y audio.</p>
-    <div class="row"><a class="btn acc" href="#oposiciones">Ver las oposiciones</a>${AUTH_ON&&!SES?`<a class="btn ghost" href="#/cuenta">Registrarme gratis</a>`:''}</div>
+    <div class="row"><a class="btn acc" href="#oposiciones">Ver las oposiciones</a>${AUTH_ON&&!SES?`<a class="btn ghost" href="#/cuenta">Registrarme gratis</a>`:''}${CFG.demo&&!esDemo()?`<a class="btn ghost" href="#/demo">Probar la demo completa</a>`:''}</div>
     <p class="muted mono">${OPOS.length} procesos en el listado · ${OPOS.filter(o=>opoEstado(o)==='abierta').length} con plazo abierto · ${OPOS.filter(o=>o.estado==='disponible').length} con temario</p>
   </section>
   ${listaOpos()}
@@ -727,21 +727,38 @@ async function api(path,{method='GET',body,token,prefer}={}){
 async function tokenValido(){if(!SES)return null;if(SES.exp-60>Date.now()/1000)return SES.at;
   try{const j=await api('/auth/v1/token?grant_type=refresh_token',{method:'POST',body:{refresh_token:SES.rt}});ponSesion(j);return SES.at}
   catch(e){if(e.status===400||e.status===401||e.status===403){SES=null;guardaSes();nube='local';pintaCuenta()}return null}}
-async function subir(){const t=await tokenValido();if(!t||!SES||!SES.uid)return;
+const DEMO_MAIL='demo@rutaalaplaza.com', esDemo=()=>!!(SES&&SES.email===DEMO_MAIL);
+/* DEMO PUBLICA (#/demo): entra sola con un usuario ficticio con acceso completo; su progreso NO se guarda en la nube. Clave publica a proposito (herramientas/demo_usuario.py) */
+async function entrarDemo(){
+  if(!CFG.demo){location.hash='#/';return}
+  if(!esDemo()){try{ponSesion(await api('/auth/v1/token?grant_type=password',{method:'POST',body:{email:DEMO_MAIL,password:CFG.demo}}))}catch(e){return false}}
+  S.opoSel=OPO_UGR;guardar();nube='demo';await cargaAcceso();pintaCuenta();return true}
+function vDemo(app){app.innerHTML='<section class="card stack"><h1>Abriendo la demo…</h1><p class="muted">Un momento: te damos acceso completo al temario de la oposición de la UGR.</p></section>';
+  entrarDemo().then(ok=>{if(location.hash!=='#/demo')return;if(ok)location.hash='#/hoy';else app.innerHTML='<section class="card stack"><h1>La demo no está disponible</h1><p>Inténtalo de nuevo en unos minutos.</p><div class="row"><a class="btn" href="#/">Volver al inicio</a></div></section>'})}
+async function subir(){const t=await tokenValido();if(!t||!SES||!SES.uid||esDemo())return;
   await api('/rest/v1/progreso',{method:'POST',token:t,prefer:'resolution=merge-duplicates',body:{user_id:SES.uid,estado:S,upd:S.upd||0}})}
 async function cargaAcceso(){ACC=false;ACCHASTA=null;const t=await tokenValido();if(!t||!SES||!SES.uid||!PAGOS_ON)return ACC;
   try{const a=await api('/rest/v1/accesos?user_id=eq.'+SES.uid+'&select=hasta',{token:t});
     if(a&&a[0]&&(!a[0].hasta||new Date(a[0].hasta)>new Date())){ACC=true;ACCHASTA=a[0].hasta?new Date(a[0].hasta).toLocaleDateString('es-ES'):null}}catch(e){}
   return ACC}
-async function sincroniza(){const t=await tokenValido();if(!t){nube='local';pintaCuenta();return}
+async function sincroniza(){if(esDemo()){nube='demo';await cargaAcceso();pintaCuenta();if(!T&&!/^#\/test/.test(location.hash))render();return}
+  const t=await tokenValido();if(!t){nube='local';pintaCuenta();return}
   try{if(!SES.uid||!SES.email){const u=await api('/auth/v1/user',{token:t});SES.uid=u.id;SES.email=u.email;guardaSes()}
     const r=await api('/rest/v1/progreso?user_id=eq.'+SES.uid+'&select=estado,upd',{token:t});
     if(r&&r[0]&&(r[0].upd||0)>(S.upd||0)){S=Object.assign(nuevoS(),r[0].estado,{upd:r[0].upd});try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
     await subir();nube='ok'}catch(e){nube='error'}
   await cargaAcceso();pintaCuenta();if(!T&&!/^#\/test/.test(location.hash))render()}
 function pintaCuenta(){const c=$('#chip-nube'),b=$('#cta-cuenta');if(!c||!b)return;
-  c.hidden=!SES;c.textContent=nube==='ok'?'sincronizada':nube==='error'?'sin conexión':'conectando…';
-  b.textContent=SES?'Mi cuenta':'Entrar o registrarme';b.hidden=!AUTH_ON&&!SES}
+  c.hidden=!SES||esDemo();c.textContent=nube==='ok'?'sincronizada':nube==='error'?'sin conexión':'conectando…';
+  b.textContent=SES?'Mi cuenta':'Entrar o registrarme';b.hidden=(!AUTH_ON&&!SES)||esDemo();if(b.style)b.style.display=b.hidden?'none':'';
+  const u=$('#chip-user'),s=$('#cta-salir');
+  if(u){u.hidden=!SES;u.textContent=SES?(esDemo()?'Demo · acceso completo':(SES.email||'Sesión iniciada')):'';u.title=SES?'Sesión iniciada como '+(SES.email||''):''}
+  if(s){s.hidden=!SES;s.textContent=esDemo()?'Salir de la demo':'Salir';s.onclick=async()=>{await salir();location.hash='#/'}}
+  let bd=document.getElementById('banda-demo');
+  if(esDemo()&&!bd){bd=document.createElement('div');bd.id='banda-demo';bd.className='aviso noprint';bd.style.cssText='margin:8px auto;max-width:1100px';
+    bd.innerHTML='<strong>Estás en la demo.</strong> Tienes acceso completo al temario de la oposición UGR (Auxiliares de Archivos, Bibliotecas y Museos) sin registrarte. Tu progreso se guarda solo en este dispositivo. <a href="#/oposicion/'+OPO_UGR+'">Ver la oposición</a> · <a href="#/comprar">Quiero el temario completo</a>';
+    const t=document.querySelector('.top');t.parentNode.insertBefore(bd,t.nextSibling)}
+  else if(!esDemo()&&bd)bd.remove()}
 const redir=()=>encodeURIComponent(location.origin+location.pathname);
 function capturaEnlace(){const h=location.hash;if(!/access_token=|error_description=|error_code=/.test(h))return;   // vuelta del correo (confirmación o recuperación)
   const p=new URLSearchParams(h.replace(/^#\/?/,''));const at=p.get('access_token'),tipo=p.get('type');
@@ -923,6 +940,8 @@ function vContacto(app,tipo,id){
       throw new Error('envio')}
     catch(e){r.textContent='No hemos podido enviarlo. Inténtalo de nuevo en unos minutos.';r.hidden=false;b.disabled=false;b.textContent='Enviar'}});}
 function render(){const app=$('#app'),h=location.hash.replace(/^#\/?/,'').split('/');
+  if(h[0]==='demo'&&CFG.demo){pintaCuenta();pintaNav();vDemo(app);return}
+  if(esDemo()&&['cuenta','factura'].includes(h[0])){location.hash='#/hoy';return}
   if(sincTemario()===false){pintaCuenta();pintaNav();return}
   pintaCuenta();pintaNav();
   if(h[0]==='tema')vTema(app,h[1]);else if(h[0]==='test')vTest(app,h[1]);else if(h[0]==='mis-fallos')vFallosHoja(app);else if(h[0]==='cuenta')vCuenta(app);else if(h[0]==='comprar')vComprar(app);else if(h[0]==='gracias')vGracias(app);
@@ -930,7 +949,7 @@ function render(){const app=$('#app'),h=location.hash.replace(/^#\/?/,'').split(
   else if(h[0]==='oposiciones')vOposiciones(app,h);else if(h[0]==='oposicion')vOpo(app,h[1]);
   else if(h[0]==='contacto')vContacto(app,h[1],h[2]);else if(h[0]==='confirmar'||h[0]==='baja')vToken(app,h[1],h[0]);else if(h[0]==='factura')vFactura(app,h[1]);
   else if(SES&&!h[0])vHoy(app);else vInicio(app);
-  const ancla=!['tema','test','tests','mis-fallos','cuenta','comprar','gracias','hoy','temario','plan','proceso','oposiciones','oposicion','confirmar','baja','factura'].includes(h[0])&&h[0]&&document.getElementById(h[0]);   // enlaces internos: #gratis, #temario
+  const ancla=!['demo','tema','test','tests','mis-fallos','cuenta','comprar','gracias','hoy','temario','plan','proceso','oposiciones','oposicion','confirmar','baja','factura'].includes(h[0])&&h[0]&&document.getElementById(h[0]);   // enlaces internos: #gratis, #temario
   if(ancla)ancla.scrollIntoView();else if(h[0]!=='test'||!T)window.scrollTo(0,0)}
 window.addEventListener('hashchange',()=>{if(!location.hash.startsWith('#/test/')){guardaT();paraCron();T=null}render()});
 window.addEventListener('pagehide',guardaT);

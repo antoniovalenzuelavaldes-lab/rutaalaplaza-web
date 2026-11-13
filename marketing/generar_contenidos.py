@@ -16,7 +16,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(AQUI)
-CONTENIDO = r"C:\Proyectos\Oposiciones UGR Lourdes\contenido"
+CONTENIDO = r"C:\Proyectos\14.ruta-a-la-plaza\Oposiciones UGR Lourdes\contenido"
 F = r"C:\Windows\Fonts"
 PINO, GRANADA, FONDO, TINTA, SUAVE = "#1D5A49", "#A3202D", "#F1F5F0", "#14231E", "#566962"
 

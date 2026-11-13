@@ -6,8 +6,8 @@ Uso:
   python publicar_telegram.py boletin          # texto del boletín semanal de convocatorias abiertas
   python publicar_telegram.py prueba           # solo comprueba el bot y el canal, sin publicar
   Añade --seco para ver lo que se publicaría sin enviar nada.
-El token del bot se lee de la variable TELEGRAM_BOT_TOKEN o de C:\Proyectos\secretos\telegram_token.txt; el canal, de TELEGRAM_CANAL
-(p. ej. @rutaalaplaza) o de C:\Proyectos\secretos\telegram_canal.txt. Nunca se imprime el token. «Hoy» = días desde marketing/inicio.txt (AAAA-MM-DD) + 1."""
+El token del bot se lee de la variable TELEGRAM_BOT_TOKEN o de C:\Proyectos\01.secretos\telegram_token.txt; el canal, de TELEGRAM_CANAL
+(p. ej. @rutaalaplaza) o de C:\Proyectos\01.secretos\telegram_canal.txt. Nunca se imprime el token. «Hoy» = días desde marketing/inicio.txt (AAAA-MM-DD) + 1."""
 import datetime as dt
 import json
 import os
@@ -32,7 +32,7 @@ def leer(nombre_env, fichero):
 
 
 def api(metodo, campos=None, fichero=None):
-    token = leer("TELEGRAM_BOT_TOKEN", r"C:\Proyectos\secretos\telegram_token.txt") or leer("", "~/.telegram_token")
+    token = leer("TELEGRAM_BOT_TOKEN", r"C:\Proyectos\01.secretos\telegram_token.txt") or leer("", "~/.telegram_token")
     if not token:
         sys.exit("Falta el token del bot (TELEGRAM_BOT_TOKEN o secretos/telegram_token.txt)")
     url = f"https://api.telegram.org/bot{token}/{metodo}"
@@ -78,7 +78,7 @@ def enviar(canal, texto=None, foto=None, pie=None):
 
 def main():
     modo = args[0] if args else "prueba"
-    canal = leer("TELEGRAM_CANAL", r"C:\Proyectos\secretos\telegram_canal.txt")
+    canal = leer("TELEGRAM_CANAL", r"C:\Proyectos\01.secretos\telegram_canal.txt")
     if modo == "prueba":
         me = api("getMe")
         print("bot:", me.get("result", {}).get("username") if me.get("ok") else me.get("description"))
