@@ -907,6 +907,8 @@ function vContacto(app,tipo,id){
     activacion:['No se me ha activado el acceso','Acabo de pagar y no se ha activado el temario completo. Correo de mi cuenta: '+((SES&&SES.email)||'')],
     general:['Consulta o sugerencia','']}[tipo]||['Consulta o sugerencia',''];
   app.innerHTML=`<p><a href="#/">← Inicio</a></p><section class="card stack"><h1 style="font-size:1.6rem">Escríbenos</h1><p class="muted">${esc(T[1]||'Te responderemos al correo que indiques.')}</p>
+  <div class="row" style="gap:10px;flex-wrap:wrap"><a class="btn acc" href="https://wa.me/34615174997?text=${encodeURIComponent('Hola, os escribo desde rutaalaplaza.com')}" target="_blank" rel="noopener">Escríbenos por WhatsApp</a><a class="btn ghost" href="mailto:${esc(DATOS.contacto)}">${esc(DATOS.contacto)}</a></div>
+  <h2 style="font-size:1.1rem;margin:.6em 0 0">O déjanos un mensaje</h2>
   <form id="fc" class="stack" style="max-width:520px"><label>Nombre<input name="nombre" required maxlength="80" autocomplete="name"></label>
   <label>Tu correo<input name="email" type="email" required maxlength="120" autocomplete="email" value="${esc((SES&&SES.email)||'')}"></label>
   <label>Mensaje<textarea name="mensaje" rows="4" required maxlength="1500">${tipo==='borrar'||tipo==='activacion'?esc(T[1]):''}</textarea></label>
