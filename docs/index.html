@@ -266,8 +266,8 @@ function gate(app,titulo){app.innerHTML=`<section class="card stack"><h1>${esc(t
   ${AUTH_ON?'<div class="row"><a class="btn acc" href="#/cuenta">Crear cuenta o entrar</a></div>':''}
   <p class="muted">Mientras tanto puedes estudiar y hacer el test de los temas gratuitos sin cuenta.</p></section>`}
 function pintaNav(){const h=location.hash.replace(/^#\/?/,'').split('/')[0];
-  const k=['tema','temario'].includes(h)?'temario':['test','tests'].includes(h)?'tests':['hoy','plan','proceso'].includes(h)?h:['oposiciones','oposicion'].includes(h)?'oposiciones':(h===''&&SES?'hoy':'');
-  const tb=$('#tabs');if(tb)tb.innerHTML=[['oposiciones','Oposiciones'],['hoy','Hoy'],['temario','Temario'],['tests','Test'],['plan','Plan'],['proceso','Resumen']].map(([x,n])=>`<a href="#/${x}" ${k===x?'aria-current="page"':''}>${n}</a>`).join('');
+  const k=['tema','temario'].includes(h)?'temario':['test','tests'].includes(h)?'tests':['hoy','plan','proceso'].includes(h)?h:h==='mis-cursos'?'mis-cursos':['oposiciones','oposicion'].includes(h)?'oposiciones':(h===''&&SES?'hoy':'');
+  const tb=$('#tabs');if(tb)tb.innerHTML=[['oposiciones','Oposiciones'],...((PLANCURSOS||OPOS.some(o=>o.privado))?[['mis-cursos','Mi plan']]:[]),['hoy','Hoy'],['temario','Temario'],['tests','Test'],['plan','Plan'],['proceso','Resumen']].map(([x,n])=>`<a href="#/${x}" ${k===x?'aria-current="page"':''}>${n}</a>`).join('');
   const d=$('#chip-dias');if(d){d.hidden=!SES;d.textContent=diasTxt()}
   const p=$('#chip-plan');if(p)p.textContent=ACC?'temario completo':'2 temas gratis'}
 
@@ -319,7 +319,8 @@ function tarjetaOpo(o){if(o.privado)return tarjetaCurso(o);const ok=o.estado==='
     <div class="row"><a class="btn ${ok?'acc':'ghost'} sm" href="#/oposicion/${esc(o.id)}">${ok?'Ver el temario':'Ver la ficha'}</a><a class="btn ghost sm" href="${esc(o.enlace.u)}" target="_blank" rel="noopener">${esc(o.enlace.t)}</a></div></article>`}
 function pintaLista(){const c=$('#lista-opos');if(!c)return;const l=opoFiltradas();
   const n=$('#cuenta-opos');if(n)n.textContent=`${l.length} ${l.length===1?'proceso':'procesos'}${FILTRO.cat||FILTRO.uni||FILTRO.est||FILTRO.tipo?' con estos filtros':''}`;
-  c.innerHTML=l.length?l.map(tarjetaOpo).join(''):`<div class="card flat"><p class="muted" style="margin:0">No hay procesos con estos filtros${FILTRO.uni==='Universidad de Málaga'?'. La Universidad de Málaga tiene plazas previstas en su oferta de empleo público de 2026, pero aún no ha publicado la convocatoria.':'.'}</p></div>`}
+  const plan=FILTRO.cat==='cursos'&&PLANCURSOS?`<article class="card opo-card stack"><div class="eyebrow">Mis cursos</div><h3>${esc(PLANCURSOS.titulo)}</h3><p class="muted" style="margin:0">Fechas, estudio día a día, decisión del 30/11 y las dos ramas (EIP en diciembre o en marzo).</p><div class="row"><a class="btn acc sm" href="#/mis-cursos">Ver mi plan</a></div></article>`:'';
+  c.innerHTML=plan+(l.length?l.map(tarjetaOpo).join(''):`<div class="card flat"><p class="muted" style="margin:0">No hay procesos con estos filtros${FILTRO.uni==='Universidad de Málaga'?'. La Universidad de Málaga tiene plazas previstas en su oferta de empleo público de 2026, pero aún no ha publicado la convocatoria.':'.'}</p></div>`)}
 function listaOpos(){const nAb=OPOS.filter(o=>opoEstado(o)==='abierta').length;
   return `<section class="stack" aria-labelledby="oposiciones"><h2 id="oposiciones">Oposiciones del personal de administración y servicios</h2>
   <p class="muted">Procesos selectivos de las 10 universidades públicas de Andalucía, de la Junta de Andalucía y del Servicio Andaluz de Salud, recogidos del BOE y el BOJA. ${nAb} con el plazo de solicitud abierto. Cuando una oposición tiene el temario preparado puedes estudiarla aquí; las demás aparecen como fichas informativas.</p>
@@ -401,6 +402,16 @@ function vToken(app,tk,accion){
 
 function vOposiciones(app,h){const ct=CATS.find(c=>h&&c.id===h[1]);FILTRO.cat=ct?ct.id:'';if(ct&&FILTRO.uni&&!ct.test({organismo:FILTRO.uni}))FILTRO.uni='';app.innerHTML=`<p><a href="#/">← Inicio</a></p>${listaOpos()}`;ligaFiltros()}
 
+function bloquePlan(b){
+  if(b.p)return `<p>${esc(b.p)}</p>`;
+  if(b.ul)return `<ul style="margin:0;padding-left:1.2em;display:grid;gap:6px">${b.ul.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
+  if(b.tabla)return `<div style="overflow-x:auto"><table style="border-collapse:collapse;width:100%;font-size:.95rem"><thead><tr>${b.tabla.cab.map(c=>`<th style="text-align:left;padding:6px 8px;border-bottom:2px solid var(--line)">${esc(c)}</th>`).join('')}</tr></thead><tbody>${b.tabla.filas.map(f=>`<tr>${f.map((c,i)=>`<td style="padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top;${i===0?'font-weight:600;white-space:nowrap':''}">${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  return ''}
+function vPlanCursos(app){
+  if(!PLANCURSOS){app.innerHTML='<p><a href="#/oposiciones/cursos">← Mis cursos</a></p><section class="card stack"><p class="muted">No hay ningún plan disponible para tu cuenta.</p></section>';return}
+  const P=PLANCURSOS;
+  app.innerHTML=`<p><a href="#/oposiciones/cursos">← Mis cursos</a></p><section class="hero"><div class="eyebrow">Mis cursos · actualizado el ${esc(P.actualizado||'')}</div><h1>${esc(P.titulo)}</h1></section>
+  ${P.secciones.map(s=>`<section class="card stack"><h2 style="margin:0">${esc(s.t)}</h2>${s.b.map(bloquePlan).join('')}</section>`).join('')}`}
 function vCursoPrivado(app,o){const tarjeta=tid=>{const t=TEMAS[tid],m=mejor(tid),n=(S.tests[tid]||[]).length;
     return `<article class="card tema stack"><div class="eyebrow">${esc(t.bloque)} · tema ${etqTema(t,tid)}</div><h3>${esc(t.titulo)}</h3>
       <p class="muted">${esc(t.alcance)} · ${t.preguntas.length} preguntas</p>${barra((m||0)/100)}
@@ -408,7 +419,7 @@ function vCursoPrivado(app,o){const tarjeta=tid=>{const t=TEMAS[tid],m=mejor(tid
       <div class="row"><a class="btn" href="#/tema/${tid}">Estudiar</a><a class="btn ghost" href="#/test/${tid}">Hacer el test</a></div></article>`};
   app.innerHTML=`<p><a href="#/oposiciones">← Oposiciones</a></p><section class="hero"><div class="eyebrow">${esc(o.organismo)} · curso privado</div><h1>${esc(o.nombre)}</h1><p class="lead">${esc(o.descripcion||'')}</p>
     ${(o.notas||[]).length?`<ul class="opo-datos" style="font-size:1rem">${o.notas.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
-    <div class="row"><a class="btn acc" href="#/hoy">Ir a Hoy</a><a class="btn ghost" href="#/test/sim">Simulacro</a></div></section>
+    <div class="row"><a class="btn acc" href="#/hoy">Ir a Hoy</a><a class="btn ghost" href="#/test/sim">Simulacro</a>${PLANCURSOS?'<a class="btn ghost" href="#/mis-cursos">Mi plan</a>':''}</div></section>
   <section class="stack"><h2>Temario</h2><div class="grid2">${ORDEN.map(tarjeta).join('')}</div></section>`}
 function vOpo(app,id){const o=OPOS.find(x=>x.id===id);if(!o){location.hash='#/oposiciones';return}
   elegirOpo(o.id);if(o.privado)return vCursoPrivado(app,o);
@@ -757,12 +768,13 @@ async function cargaAcceso(){ACC=false;ACCHASTA=null;const t=await tokenValido()
   try{const a=await api('/rest/v1/accesos?user_id=eq.'+SES.uid+'&select=hasta',{token:t});
     if(a&&a[0]&&(!a[0].hasta||new Date(a[0].hasta)>new Date())){ACC=true;ACCHASTA=a[0].hasta?new Date(a[0].hasta).toLocaleDateString('es-ES'):null}}catch(e){}
   return ACC}
+let PLANCURSOS=null;
 async function cargaPrivados(){const t=await tokenValido();if(!t||!SES||!SES.uid||esDemo())return;
   try{const r=await api('/rest/v1/cursos_privados?select=id,ficha,datos',{token:t});let n=0;
-    (r||[]).forEach(c=>{if(!c||!c.id||!c.datos||!c.datos.temas)return;if(!OPOS.some(x=>x.id===c.id))OPOS.push(Object.assign({},c.ficha,{id:c.id,privado:true,estado:'disponible'}));
+    (r||[]).forEach(c=>{if(c&&c.datos&&c.datos.plan){PLANCURSOS=c.datos.plan;n++;return}if(!c||!c.id||!c.datos||!c.datos.temas)return;if(!OPOS.some(x=>x.id===c.id))OPOS.push(Object.assign({},c.ficha,{id:c.id,privado:true,estado:'disponible'}));
       if(c.datos.leyes)Object.assign(LEYES,c.datos.leyes);if(c.datos.leyes_boe)Object.assign(BOEID,c.datos.leyes_boe);TEMS[c.id]={ids:Object.keys(c.datos.temas)};CARG['t-'+c.id]=c.datos;n++});
     return n}catch(e){return 0}}
-function quitaPrivados(){for(let i=OPOS.length-1;i>=0;i--)if(OPOS[i].privado){delete TEMS[OPOS[i].id];delete CARG['t-'+OPOS[i].id];OPOS.splice(i,1)}if(S.opoSel&&!OPOS.some(x=>x.id===S.opoSel))S.opoSel=null}
+function quitaPrivados(){PLANCURSOS=null;for(let i=OPOS.length-1;i>=0;i--)if(OPOS[i].privado){delete TEMS[OPOS[i].id];delete CARG['t-'+OPOS[i].id];OPOS.splice(i,1)}if(S.opoSel&&!OPOS.some(x=>x.id===S.opoSel))S.opoSel=null}
 async function sincroniza(){if(esDemo()){nube='demo';if(S.opoSel!==OPO_UGR){S.opoSel=OPO_UGR;guardar()}await cargaAcceso();pintaCuenta();if(!T&&!/^#\/test/.test(location.hash))render();return}
   const t=await tokenValido();if(!t){nube='local';pintaCuenta();return}
   try{if(!SES.uid||!SES.email){const u=await api('/auth/v1/user',{token:t});SES.uid=u.id;SES.email=u.email;guardaSes()}
@@ -968,10 +980,10 @@ function render(){const app=$('#app'),h=location.hash.replace(/^#\/?/,'').split(
   pintaCuenta();pintaNav();
   if(h[0]==='tema')vTema(app,h[1]);else if(h[0]==='test')vTest(app,h[1]);else if(h[0]==='mis-fallos')vFallosHoja(app);else if(h[0]==='cuenta')vCuenta(app);else if(h[0]==='comprar')vComprar(app);else if(h[0]==='gracias')vGracias(app);
   else if(h[0]==='hoy')vHoy(app);else if(h[0]==='temario')vTemario(app);else if(h[0]==='tests')vTests(app);else if(h[0]==='plan')vPlan(app);else if(h[0]==='proceso')vProceso(app,h[1]);
-  else if(h[0]==='oposiciones')vOposiciones(app,h);else if(h[0]==='oposicion')vOpo(app,h[1]);
+  else if(h[0]==='mis-cursos')vPlanCursos(app);else if(h[0]==='oposiciones')vOposiciones(app,h);else if(h[0]==='oposicion')vOpo(app,h[1]);
   else if(h[0]==='contacto')vContacto(app,h[1],h[2]);else if(h[0]==='confirmar'||h[0]==='baja')vToken(app,h[1],h[0]);else if(h[0]==='factura')vFactura(app,h[1]);
   else if(SES&&!h[0])vHoy(app);else vInicio(app);
-  const ancla=!['demo','tema','test','tests','mis-fallos','cuenta','comprar','gracias','hoy','temario','plan','proceso','oposiciones','oposicion','confirmar','baja','factura'].includes(h[0])&&h[0]&&document.getElementById(h[0]);   // enlaces internos: #gratis, #temario
+  const ancla=!['demo','mis-cursos','tema','test','tests','mis-fallos','cuenta','comprar','gracias','hoy','temario','plan','proceso','oposiciones','oposicion','confirmar','baja','factura'].includes(h[0])&&h[0]&&document.getElementById(h[0]);   // enlaces internos: #gratis, #temario
   if(ancla)ancla.scrollIntoView();else if(h[0]!=='test'||!T)window.scrollTo(0,0)}
 window.addEventListener('hashchange',()=>{if(!location.hash.startsWith('#/test/')){guardaT();paraCron();T=null}render()});
 window.addEventListener('pagehide',guardaT);
