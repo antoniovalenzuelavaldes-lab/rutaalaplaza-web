@@ -299,7 +299,7 @@ function htmlPrograma(o){
 const UNIS=['Universidad de Almería','Universidad de Cádiz','Universidad de Córdoba','Universidad de Granada','Universidad de Huelva','Universidad de Jaén','Universidad de Málaga','Universidad Pablo de Olavide','Universidad de Sevilla','Universidad Internacional de Andalucía','Junta de Andalucía','Servicio Andaluz de Salud'];
 let OPOS_ACT=DATOS.oposActualizado;   // fecha de la ultima revision; el proceso diario publica una mas reciente en ultimo-escaneo.json
 const fechaLarga=iso=>fmt(pf(iso.slice(0,10)),{day:'numeric',month:'long',year:'numeric'});
-const CATS=[{id:'universidades',nombre:'Universidades',test:o=>/^Universidad/.test(o.organismo)},{id:'junta',nombre:'Junta de Andalucía',test:o=>o.organismo==='Junta de Andalucía'},{id:'sas',nombre:'Servicio Andaluz de Salud',test:o=>o.organismo==='Servicio Andaluz de Salud'}];   // tipos de oposición: al añadir otro (Justicia, SAS…) basta una línea aquí
+const CATS=[{id:'universidades',nombre:'Universidades',test:o=>/^Universidad/.test(o.organismo)},{id:'junta',nombre:'Junta de Andalucía',test:o=>o.organismo==='Junta de Andalucía'},{id:'sas',nombre:'Servicio Andaluz de Salud',test:o=>o.organismo==='Servicio Andaluz de Salud'},{id:'cursos',nombre:'Mis cursos',test:o=>!!o.privado}];   // tipos de oposición: al añadir otro (Justicia, SAS…) basta una línea aquí
 let FILTRO={cat:'',uni:'',est:'',tipo:''};
 const catActual=()=>CATS.find(c=>c.id===FILTRO.cat);
 const opoEstado=o=>o.plazoPorAbrir||(o.plazoFin&&hoyStr()<=o.plazoFin)?'abierta':'cerrada';
@@ -308,7 +308,10 @@ function opoPlazo(o){if(o.plazoPorAbrir)return'Plazo por abrir: empieza al publi
 function opoFiltradas(){const ct=catActual();return OPOS.filter(o=>(!ct||ct.test(o))&&(!FILTRO.uni||o.organismo===FILTRO.uni)&&(!FILTRO.est||opoEstado(o)===FILTRO.est)&&(!FILTRO.tipo||o.tipo===FILTRO.tipo))
   .sort((a,b)=>(opoEstado(a)==='abierta'?0:1)-(opoEstado(b)==='abierta'?0:1)||(b.publicado||'').localeCompare(a.publicado||''))}
 function opoDatos(o){return [o.tipo,o.turno,o.grupo&&('Grupo '+o.grupo.replace(/^Grupo /,'')),o.plazas,'Convocatoria: '+o.convocatoria,o.examen].filter(Boolean)}
-function tarjetaOpo(o){const ok=o.estado==='disponible',ab=opoEstado(o)==='abierta';
+function tarjetaCurso(o){return `<article class="card opo-card stack"><div class="row" style="justify-content:space-between;align-items:start;gap:8px"><div class="eyebrow">${esc(o.organismo)}</div><span class="pill ok">curso privado</span></div>
+    <h3>${esc(o.nombre)}</h3><p class="muted" style="margin:0">${esc(o.descripcion||'')}</p>
+    <div class="row"><a class="btn acc sm" href="#/oposicion/${esc(o.id)}">Ver el temario</a></div></article>`}
+function tarjetaOpo(o){if(o.privado)return tarjetaCurso(o);const ok=o.estado==='disponible',ab=opoEstado(o)==='abierta';
   return `<article class="card opo-card stack"><div class="row" style="justify-content:space-between;align-items:start;gap:8px"><div class="eyebrow">${esc(o.organismo)}</div><span class="row" style="gap:6px">${ok?'<span class="pill ok">temario disponible</span>':o.programa||o.conPrograma?'<span class="pill warn">programa</span>':''}<span class="pill ${ab?'ok':''}">${ab?'abierta':'cerrada'}</span></span></div>
     <h3>${esc(o.nombre)}</h3>
     <ul class="opo-datos">${opoDatos(o).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
@@ -398,8 +401,17 @@ function vToken(app,tk,accion){
 
 function vOposiciones(app,h){const ct=CATS.find(c=>h&&c.id===h[1]);FILTRO.cat=ct?ct.id:'';if(ct&&FILTRO.uni&&!ct.test({organismo:FILTRO.uni}))FILTRO.uni='';app.innerHTML=`<p><a href="#/">← Inicio</a></p>${listaOpos()}`;ligaFiltros()}
 
+function vCursoPrivado(app,o){const tarjeta=tid=>{const t=TEMAS[tid],m=mejor(tid),n=(S.tests[tid]||[]).length;
+    return `<article class="card tema stack"><div class="eyebrow">${esc(t.bloque)} · tema ${etqTema(t,tid)}</div><h3>${esc(t.titulo)}</h3>
+      <p class="muted">${esc(t.alcance)} · ${t.preguntas.length} preguntas</p>${barra((m||0)/100)}
+      <p class="muted mono">${m===null?'sin tests todavía':'mejor resultado '+m+' % · '+n+' '+(n===1?'intento':'intentos')}${S.leidos[tid]?' · apuntes leídos':''}</p>
+      <div class="row"><a class="btn" href="#/tema/${tid}">Estudiar</a><a class="btn ghost" href="#/test/${tid}">Hacer el test</a></div></article>`};
+  app.innerHTML=`<p><a href="#/oposiciones">← Oposiciones</a></p><section class="hero"><div class="eyebrow">${esc(o.organismo)} · curso privado</div><h1>${esc(o.nombre)}</h1><p class="lead">${esc(o.descripcion||'')}</p>
+    ${(o.notas||[]).length?`<ul class="opo-datos" style="font-size:1rem">${o.notas.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
+    <div class="row"><a class="btn acc" href="#/hoy">Ir a Hoy</a><a class="btn ghost" href="#/test/sim">Simulacro</a></div></section>
+  <section class="stack"><h2>Temario</h2><div class="grid2">${ORDEN.map(tarjeta).join('')}</div></section>`}
 function vOpo(app,id){const o=OPOS.find(x=>x.id===id);if(!o){location.hash='#/oposiciones';return}
-  elegirOpo(o.id);
+  elegirOpo(o.id);if(o.privado)return vCursoPrivado(app,o);
   const datos=[...opoDatos(o),opoPlazo(o)].filter(Boolean);
   const cab=`<p><a href="#/oposiciones">← Oposiciones</a></p>
   <section class="hero"><div class="eyebrow">${esc(o.organismo)} · ${esc(o.ambito)}</div><h1>${esc(o.nombre)}</h1>
@@ -516,6 +528,7 @@ function vProceso(app,id){
   if(id&&!o){location.hash='#/oposiciones';return}
   if(!o)return sinOpo(app,'Resumen del proceso');
   elegirOpo(o.id);
+  if(o.privado){location.hash='#/oposicion/'+o.id;return}
   const cab=`<section class="card opo"><p class="eyebrow">Resumen del proceso · oposición seleccionada</p><h1 style="font-size:clamp(1.4rem,4.5vw,2rem)">${esc(o.nombre)}</h1><p>${esc(o.organismo)} · ${esc(o.convocatoria)}</p>
     <div class="row" style="margin-top:10px"><a class="btn ghost sm" href="#/oposicion/${esc(o.id)}">Ver la ficha</a><a class="btn ghost sm" href="#/oposiciones">Cambiar de oposición</a></div></section>`;
   if(o.id===OPO_UGR){app.innerHTML=cab+`
@@ -657,7 +670,7 @@ async function preparaMixto(modo){
   else ps=pool.filter(p=>S.fallos[p.tid+':'+p.n]);
   if(!ps.length)throw new Error('vacio');
   return crearT(modo,ps,{mixto:true,limite:modo==='sim'?ps.length*60000:0})}
-function citaHtml(p){const [k,a,c]=p.ref;return `<p class="cita">${esc(LEYES[k]||k)}${a==='doc'?'':/^[0-9]/.test(a)?', art. '+esc(a):', '+esc(a.charAt(0)+a.slice(1).toLowerCase().replace(' iii',' III'))}: <q>${esc(c)}</q></p>`}
+function citaHtml(p){if(!p.ref)return '';const [k,a,c]=p.ref;return `<p class="cita">${esc(LEYES[k]||k)}${a==='doc'?'':/^[0-9]/.test(a)?', art. '+esc(a):', '+esc(a.charAt(0)+a.slice(1).toLowerCase().replace(' iii',' III'))}: <q>${esc(c)}</q></p>`}
 function paraCron(){if(T&&T.iv){clearInterval(T.iv);T.iv=null}}
 function pintaCron(){const c=$('#cron');if(!c||!T||!T.limite||T.fin)return;const r=Math.max(0,T.limite-(Date.now()-T.t0));
   c.textContent=String(Math.floor(r/60000)).padStart(2,'0')+':'+String(Math.floor(r/1000)%60).padStart(2,'0');
@@ -744,13 +757,19 @@ async function cargaAcceso(){ACC=false;ACCHASTA=null;const t=await tokenValido()
   try{const a=await api('/rest/v1/accesos?user_id=eq.'+SES.uid+'&select=hasta',{token:t});
     if(a&&a[0]&&(!a[0].hasta||new Date(a[0].hasta)>new Date())){ACC=true;ACCHASTA=a[0].hasta?new Date(a[0].hasta).toLocaleDateString('es-ES'):null}}catch(e){}
   return ACC}
+async function cargaPrivados(){const t=await tokenValido();if(!t||!SES||!SES.uid||esDemo())return;
+  try{const r=await api('/rest/v1/cursos_privados?select=id,ficha,datos',{token:t});let n=0;
+    (r||[]).forEach(c=>{if(!c||!c.id||!c.datos||!c.datos.temas)return;if(!OPOS.some(x=>x.id===c.id))OPOS.push(Object.assign({},c.ficha,{id:c.id,privado:true,estado:'disponible'}));
+      if(c.datos.leyes)Object.assign(LEYES,c.datos.leyes);if(c.datos.leyes_boe)Object.assign(BOEID,c.datos.leyes_boe);TEMS[c.id]={ids:Object.keys(c.datos.temas)};CARG['t-'+c.id]=c.datos;n++});
+    return n}catch(e){return 0}}
+function quitaPrivados(){for(let i=OPOS.length-1;i>=0;i--)if(OPOS[i].privado){delete TEMS[OPOS[i].id];delete CARG['t-'+OPOS[i].id];OPOS.splice(i,1)}if(S.opoSel&&!OPOS.some(x=>x.id===S.opoSel))S.opoSel=null}
 async function sincroniza(){if(esDemo()){nube='demo';if(S.opoSel!==OPO_UGR){S.opoSel=OPO_UGR;guardar()}await cargaAcceso();pintaCuenta();if(!T&&!/^#\/test/.test(location.hash))render();return}
   const t=await tokenValido();if(!t){nube='local';pintaCuenta();return}
   try{if(!SES.uid||!SES.email){const u=await api('/auth/v1/user',{token:t});SES.uid=u.id;SES.email=u.email;guardaSes()}
     const r=await api('/rest/v1/progreso?user_id=eq.'+SES.uid+'&select=estado,upd',{token:t});
     if(r&&r[0]&&(r[0].upd||0)>(S.upd||0)){S=Object.assign(nuevoS(),r[0].estado,{upd:r[0].upd});try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
     await subir();nube='ok'}catch(e){nube='error'}
-  await cargaAcceso();pintaCuenta();if(!T&&!/^#\/test/.test(location.hash))render()}
+  await cargaAcceso();await cargaPrivados();pintaCuenta();if(!T&&!/^#\/test/.test(location.hash))render()}
 function pintaCuenta(){const c=$('#chip-nube'),b=$('#cta-cuenta');if(!c||!b)return;
   c.hidden=!SES||esDemo();c.textContent=nube==='ok'?'sincronizada':nube==='error'?'sin conexión':'conectando…';
   b.textContent=SES?'Mi cuenta':'Entrar o registrarme';b.hidden=(!AUTH_ON&&!SES)||esDemo();if(b.style)b.style.display=b.hidden?'none':'';
@@ -775,7 +794,7 @@ async function crearCuenta(email,pass){
 async function entrar(email,pass){ponSesion(await api('/auth/v1/token?grant_type=password',{method:'POST',body:{email,password:pass}}))}
 async function recuperar(email){await api('/auth/v1/recover?redirect_to='+redir(),{method:'POST',body:{email}})}
 async function nuevaClave(pass){await api('/auth/v1/user',{method:'PUT',token:await tokenValido(),body:{password:pass}})}
-async function salir(){const t=SES&&SES.at;borraT();SES=null;guardaSes();nube='local';ACC=null;ACCHASTA=null;for(const k in FULL)delete FULL[k];
+async function salir(){const t=SES&&SES.at;quitaPrivados();borraT();SES=null;guardaSes();nube='local';ACC=null;ACCHASTA=null;for(const k in FULL)delete FULL[k];
   if(t){try{await api('/auth/v1/logout',{method:'POST',token:t})}catch(e){}}pintaCuenta()}
 function msgError(e){const c=e.code||'';
   if(c==='invalid_credentials')return'Correo o contraseña incorrectos.';
