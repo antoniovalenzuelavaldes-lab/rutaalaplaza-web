@@ -196,7 +196,8 @@ function md(t){const L=esc(t).split('\n');let h='',ul=false;const inl=s=>s.repla
   for(const l of L){if(/^- /.test(l)){if(!ul){h+='<ul>';ul=true}h+='<li>'+inl(l.slice(2))+'</li>'}else{if(ul){h+='</ul>';ul=false}if(l.trim())h+='<p>'+inl(l)+'</p>'}}
   return h+(ul?'</ul>':'')}
 function mezcla(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-const pct=(ok,ko,n)=>Math.max(0,Math.round((ok-ko/PEN)/n*100));
+let SIMCFG=null,PENV=PEN;   // SIMCFG: simulacro propio de un curso privado {n,minutos,aprobar,penal,pesos}
+const pct=(ok,ko,n)=>Math.max(0,Math.round((ok-ko/PENV)/n*100));
 const mejor=id=>{const t=S.tests[id]||[];return t.length?Math.max(...t.map(x=>x.pct)):null};
 
 /* ---------- Estudio: progreso, plan y racha ---------- */
@@ -209,11 +210,11 @@ function cargaDatos(clave,url){if(CARG[clave])return true;
   CARGANDO[clave]=1;fetch(url+'?v='+DATOS.v).then(r=>r.ok?r.json():Promise.reject()).then(j=>{CARG[clave]=j}).catch(()=>{CARG[clave]=false}).then(()=>{delete CARGANDO[clave];render()});
   return false}
 function fijaTemario(id){const d=id&&CARG['t-'+id];
-  if(d){TEMAS=d.temas;ORDEN=d.orden;BLOQ=[];PEND=d.pendientes;TOT=d.totales;TEMARIO=d.temario;ESPT=d.espTitulo||''}
-  else{({TEMAS,ORDEN,BLOQ,TOT,TEMARIO,PEND,ESPT}=TEMS_UGR)}}
+  if(d){TEMAS=d.temas;ORDEN=d.orden;BLOQ=[];PEND=d.pendientes;TOT=d.totales;TEMARIO=d.temario;ESPT=d.espTitulo||'';SIMCFG=d.sim||null;PENV=SIMCFG&&SIMCFG.penal===false?1e12:PEN}
+  else{({TEMAS,ORDEN,BLOQ,TOT,TEMARIO,PEND,ESPT}=TEMS_UGR);SIMCFG=null;PENV=PEN}}
 const opoDeTema=id=>Object.keys(TEMS).find(k=>TEMS[k].ids.includes(id))||null;
 function sincTemario(){const h=location.hash.replace(/^#\/?/,'').split('/');let k=null;
-  if((h[0]==='tema'||h[0]==='test')&&h[1]){k=opoDeTema(h[1]);if(!k){fijaTemario(null);if(S.opoSel&&TEMS[S.opoSel]){S.opoSel=OPO_UGR;guardar()}return}}   // un tema que no es de otra oposicion es de la UGR
+  if((h[0]==='tema'||h[0]==='test')&&h[1]){k=MODOS[h[1]]?((S.opoSel&&TEMS[S.opoSel])?S.opoSel:null):opoDeTema(h[1]);if(!k){fijaTemario(null);if(S.opoSel&&TEMS[S.opoSel]){S.opoSel=OPO_UGR;guardar()}return}}   // un tema que no es de otra oposicion es de la UGR
   if(!k&&h[0]==='oposicion'&&TEMS[h[1]])k=h[1];
   if(!k&&S.opoSel&&TEMS[S.opoSel])k=S.opoSel;
   if(k&&S.opoSel!==k){S.opoSel=k;guardar()}
@@ -573,7 +574,7 @@ function vTests(app){
   const n=nFallos(),tot=TEMARIO.reduce((a,t)=>a+(disp(t.id)?t.n:0),0);
   const gm=leeT();
   app.innerHTML=`${gm?tarjetaT(gm,'Descartarlo'):''}<div><h1>Test</h1><p class="muted" style="margin-top:6px">${tot} preguntas disponibles${ACC?'':' (los temas gratuitos)'}. Se corrigen como en el examen: un fallo resta 0,25 y lo que dejas en blanco no resta.</p></div>
-  <section class="grid2"><div class="card stack"><h3>Simulacro</h3><p class="muted">Hasta 100 preguntas con el reparto del examen (unas 30 del bloque general y 70 del específico), un minuto por pregunta y corrección al final.${ACC?'':' Con el temario completo se parece al examen real; ahora solo incluye los temas gratuitos.'}</p><div><a class="btn acc" href="#/test/sim">Empezar simulacro</a></div></div>
+  <section class="grid2"><div class="card stack"><h3>Simulacro</h3><p class="muted">${SIMCFG?`${SIMCFG.n} preguntas con el reparto por módulos del examen oficial, ${SIMCFG.minutos} minutos y corrección al final. Se aprueba con el ${SIMCFG.aprobar} %${SIMCFG.penal===false?' y los errores no restan':''}.`:'Hasta 100 preguntas con el reparto del examen (unas 30 del bloque general y 70 del específico), un minuto por pregunta y corrección al final.'}${ACC||SIMCFG?'':' Con el temario completo se parece al examen real; ahora solo incluye los temas gratuitos.'}</p><div><a class="btn acc" href="#/test/sim">Empezar simulacro</a></div></div>
   <div class="card stack"><h3>Repaso de fallos</h3><p class="muted">${n?`Tienes ${n} preguntas falladas guardadas. Acertarlas las saca de la lista.`:'Aún no tienes fallos guardados.'}</p><div>${n?'<a class="btn" href="#/test/fallos">Repasar fallos</a> <a class="btn ghost" href="#/mis-fallos">Hoja para imprimir</a>':'<button type="button" class="btn" disabled>Repasar fallos</button>'}</div></div>
   <div class="card stack"><h3>Bloque general</h3><p class="muted">50 preguntas mezcladas de los temas generales que tengas disponibles.</p><div><a class="btn ghost" href="#/test/general">Empezar</a></div></div>
   <div class="card stack"><h3>Por temas</h3><p class="muted">Elige un tema para hacer su test completo.</p><div class="row">${TEMARIO.filter(t=>disp(t.id)).map(t=>`<a class="btn ghost sm" href="#/test/${t.id}">${letra(t)}${t.num}</a>`).join('')}</div></div></section>
@@ -676,11 +677,19 @@ async function preparaMixto(modo){
   await cargaTodos();
   const pool=[];TEMARIO.forEach(t=>{const c=completo(t.id);if(c&&c.preguntas)c.preguntas.forEach((p,n)=>pool.push({...p,n,tid:t.id,bloque:t.bloque}))});
   const gen=pool.filter(p=>p.bloque==='General'),esp=pool.filter(p=>p.bloque!=='General');let ps;
-  if(modo==='sim'){const e=Math.min(70,esp.length),g=Math.min(Math.max(30,100-e),gen.length);ps=[...mezcla(gen).slice(0,g),...mezcla(esp).slice(0,e)]}
+  if(modo==='sim'&&SIMCFG){const N=SIMCFG.n,pes=SIMCFG.pesos,mod=p=>(p.bloque.match(/^M[óo]dulo\s+(\d+)/)||[])[1]||'0',por={};
+    pool.forEach(p=>{(por[mod(p)]=por[mod(p)]||[]).push(p)});
+    if(!Object.keys(pes).length){ps=mezcla(pool).slice(0,N)}else{const cuota={};let tot=0;Object.keys(pes).forEach(k=>{cuota[k]=Math.round(N*pes[k]);tot+=cuota[k]});
+    while(tot<N){const k=Object.keys(pes).sort((a,b)=>pes[b]-pes[a])[tot%Object.keys(pes).length];cuota[k]++;tot++}
+    while(tot>N){const k=Object.keys(pes).sort((a,b)=>cuota[b]-cuota[a])[0];cuota[k]--;tot--}
+    ps=[];const usados=new Set();Object.keys(pes).forEach(k=>{mezcla(por[k]||[]).slice(0,cuota[k]).forEach(p=>{ps.push(p);usados.add(p)})});
+    if(ps.length<N)mezcla(pool.filter(p=>!usados.has(p))).slice(0,N-ps.length).forEach(p=>ps.push(p));
+    ps=mezcla(ps)}}
+  else if(modo==='sim'){const e=Math.min(70,esp.length),g=Math.min(Math.max(30,100-e),gen.length);ps=[...mezcla(gen).slice(0,g),...mezcla(esp).slice(0,e)]}
   else if(modo==='general')ps=mezcla(gen).slice(0,50);
   else ps=pool.filter(p=>S.fallos[p.tid+':'+p.n]);
   if(!ps.length)throw new Error('vacio');
-  return crearT(modo,ps,{mixto:true,limite:modo==='sim'?ps.length*60000:0})}
+  return crearT(modo,ps,{mixto:true,limite:modo==='sim'?(SIMCFG?SIMCFG.minutos*60000:ps.length*60000):0})}
 function citaHtml(p){if(!p.ref)return '';const [k,a,c]=p.ref;return `<p class="cita">${esc(LEYES[k]||k)}${a==='doc'?'':/^[0-9]/.test(a)?', art. '+esc(a):', '+esc(a.charAt(0)+a.slice(1).toLowerCase().replace(' iii',' III'))}: <q>${esc(c)}</q></p>`}
 function paraCron(){if(T&&T.iv){clearInterval(T.iv);T.iv=null}}
 function pintaCron(){const c=$('#cron');if(!c||!T||!T.limite||T.fin)return;const r=Math.max(0,T.limite-(Date.now()-T.t0));
@@ -727,11 +736,11 @@ function terminar(id){let ok=0,ko=0,bl=0;const mal=[],malQs=[];
     else if(!T.mixto){const reg={pct:p,ok,ko,bl,n,t:Date.now()};if(T.muestra)reg.m=1;(S.tests[id]=S.tests[id]||[]).push(reg);S.tests[id]=S.tests[id].slice(-20)}}
   marcar();guardar();
   vResultado($('#app'))}
-function vResultado(app){const r=T.r,id=T.id,nota=Math.max(0,r.ok-r.ko/PEN)/r.n*10;
+function vResultado(app){const r=T.r,id=T.id,nota=Math.max(0,r.ok-r.ko/PENV)/r.n*10;const nec=SIMCFG?Math.ceil(r.n*SIMCFG.aprobar/100):0;
   app.innerHTML=`
   <section class="card stack"><div class="eyebrow">Resultado${MODOS[id]?' · '+esc(MODOS[id]):''}</div>
     <p class="big">${r.p} %</p>
-    <p>${r.ok} aciertos · ${r.ko} fallos · ${r.bl} en blanco de ${r.n} preguntas. Con la fórmula del examen (cada fallo resta 0,25 aciertos) equivale a <strong>${nota.toFixed(1).replace('.',',')} sobre 10</strong>.</p>
+    <p>${r.ok} aciertos · ${r.ko} fallos · ${r.bl} en blanco de ${r.n} preguntas. ${SIMCFG&&SIMCFG.penal===false?`Los errores no restan: se aprueba con el ${SIMCFG.aprobar} % (${nec} aciertos de ${r.n}). <strong>${r.ok>=nec?'Aprobado':'Suspenso por '+(nec-r.ok)+' '+(nec-r.ok===1?'acierto':'aciertos')}</strong>.`:`Con la fórmula del examen (cada fallo resta 0,25 aciertos) equivale a <strong>${nota.toFixed(1).replace('.',',')} sobre 10</strong>.`}</p>
     <p class="muted">${r.p>=75?'Buen nivel: tema casi dominado. Repasa los fallos y sigue.':r.p>=60?'Vas bien, pero repasa los apuntes de lo que has fallado.':'Todavía flojo: vuelve a los apuntes y repite el test.'}</p>
     <div class="row">${r.mal.length?`<button type="button" class="btn acc" id="rep">Repasar mis ${r.mal.length} fallos</button>`:''}<button type="button" class="btn" id="otra">Repetir el test</button>${TEMAS[id]?`<a class="btn ghost" href="#/tema/${id}">Apuntes</a>`:''}${MODOS[id]?'<a class="btn ghost" href="#/tests">Más tests</a>':''}<a class="btn ghost" href="#/">Inicio</a></div></section>
   ${T.muestra?`<section class="aviso"><h2>Esto era una muestra</h2><p style="margin-top:6px">El tema completo incluye ${info(id).n} preguntas explicadas con la ley y los apuntes. Este tema está bloqueado en la versión gratuita.</p></section>`:''}`;
