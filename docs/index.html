@@ -73,6 +73,15 @@ h2[id]{scroll-margin-top:12px}
 .apunte ul{margin:6px 0;padding-left:1.2em}
 .apunte li{margin:5px 0}
 .apunte p{margin:6px 0}
+.apunte ul ul,.expl ul ul{margin:2px 0;padding-left:1.2em}
+.apunte ol,.expl ol{margin:6px 0;padding-left:1.4em}.apunte h4,.expl h4{margin:14px 0 4px;font-size:1rem}
+.formula{font-family:var(--f-mono);font-size:.95rem;background:var(--surface2);border:1px solid var(--line);border-radius:8px;padding:8px 14px;margin:8px 0 8px 14px;overflow-x:auto;line-height:1.7}
+.ejemplo{border-left:4px solid var(--gold);background:var(--surface2);border-radius:0 10px 10px 0;padding:6px 14px 8px;margin:10px 0 12px 14px}
+.ejemplo>*:first-child{margin-top:4px}.ejemplo .formula{margin-left:0;background:var(--surface)}
+.tabla{overflow-x:auto;margin:10px 0}.tabla table{border-collapse:collapse;min-width:60%;font-size:.93rem}
+.tabla th,.tabla td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}.tabla th{background:var(--surface2)}
+code{font-family:var(--f-mono);font-size:.92em;background:var(--surface2);padding:1px 5px;border-radius:5px}
+.expl p{margin:6px 0}.expl ul,.expl ol{margin:6px 0;padding-left:1.2em}.expl .formula{margin-left:0}
 .clave li{margin:6px 0}
 .nota{border-left:4px solid var(--accent);padding:6px 12px;background:var(--surface2);border-radius:0 8px 8px 0;margin:8px 0}
 .opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;border:1.5px solid var(--line);background:var(--surface);border-radius:10px;padding:12px 14px;margin:8px 0}
@@ -193,9 +202,27 @@ let SES=null,nube='local',saveT=null;
 function guardar(){if(!S.inicio)S.inicio=hoyStr();S.upd=Date.now();try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}
   clearTimeout(saveT);if(SES)saveT=setTimeout(()=>subir().then(()=>{nube='ok';pintaCuenta()}).catch(()=>{nube='error';pintaCuenta()}),1500)}
 function toast(t){const e=document.createElement('div');e.className='toast';e.setAttribute('role','status');e.textContent=t;document.body.appendChild(e);setTimeout(()=>e.remove(),2600)}
-function md(t){const L=esc(t).split('\n');let h='',ul=false;const inl=s=>s.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
-  for(const l of L){if(/^- /.test(l)){if(!ul){h+='<ul>';ul=true}h+='<li>'+inl(l.slice(2))+'</li>'}else{if(ul){h+='</ul>';ul=false}if(l.trim())h+='<p>'+inl(l)+'</p>'}}
-  return h+(ul?'</ul>':'')}
+function md(t){
+  const inl=x=>x.replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+  const render=L=>{let h='',i=0;
+    while(i<L.length){const l=L[i];
+      if(!l.trim()){i++;continue}
+      if(/^&gt;( |$)/.test(l)){const b=[];while(i<L.length&&/^&gt;( |$)/.test(L[i])){b.push(L[i].replace(/^&gt; ?/,''));i++}
+        h+='<div class="ejemplo">'+render(b)+'</div>';continue}
+      if(/^ {4,}(?!([-*]|\d+\.) )\S/.test(l)){const b=[];while(i<L.length&&/^ {4,}(?!([-*]|\d+\.) )\S/.test(L[i])){b.push(L[i].trim());i++}
+        h+='<div class="formula">'+b.map(inl).join('<br>')+'</div>';continue}
+      if(/^\|/.test(l)){const b=[];while(i<L.length&&/^\|/.test(L[i])){b.push(L[i]);i++}
+        const f=b.filter(x=>!/^\|[\s:|-]+\|?$/.test(x)).map(x=>x.replace(/^\||\|$/g,'').split('|').map(c=>inl(c.trim())));
+        h+='<div class="tabla"><table><thead><tr>'+f[0].map(c=>'<th>'+c+'</th>').join('')+'</tr></thead><tbody>'+f.slice(1).map(r=>'<tr>'+r.map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';continue}
+      if(/^#{3,4} /.test(l)){h+='<h4>'+inl(l.replace(/^#+ /,''))+'</h4>';i++;continue}
+      if(/^\s*([-*]|\d+\.) /.test(l)){const ord=/^\s*\d+\. /.test(l);let html=ord?'<ol>':'<ul>',nivel=0;
+        while(i<L.length&&/^\s*([-*]|\d+\.) /.test(L[i])){const m=L[i].match(/^(\s*)([-*]|\d+\.) (.*)$/),n=m[1].length>=2?1:0;
+          if(n>nivel){html+='<ul>';nivel=1}else if(n<nivel){html+='</ul>';nivel=0}
+          html+='<li>'+inl(m[3])+'</li>';i++}
+        if(nivel)html+='</ul>';h+=html+(ord?'</ol>':'</ul>');continue}
+      h+='<p>'+inl(l)+'</p>';i++}
+    return h};
+  return render(esc(t).split('\n'))}
 function mezcla(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 let SIMCFG=null,PENV=PEN;   // SIMCFG: simulacro propio de un curso privado {n,minutos,aprobar,penal,pesos}
 const pct=(ok,ko,n)=>Math.max(0,Math.round((ok-ko/PENV)/n*100));
@@ -667,7 +694,7 @@ async function vFallosHoja(app){
   <header class="stack"><h1>Lo que tú fallas</h1><p class="muted">${tot?`${tot} preguntas falladas, con la cita literal de la norma. Acertarlas en un test las quita de aquí.`:'Aún no tienes fallos guardados. Haz un test y volverás aquí con lo que conviene repasar.'}</p></header>
   ${tot?barraImp('#/tests'):''}${tot?AVISO_RES:''}
   ${[...g.values()].map(({t,ps})=>`<section class="card stack"><h2>Tema ${esc(etqTema(t,t.id))}: ${esc(t.titulo)}</h2>
-    ${ps.map(p=>`<div class="fallo"><p><strong>${esc(p.q)}</strong></p><p>Respuesta correcta: ${esc(p.o[p.c])}</p><p class="muted" style="font-size:.9em">${esc(p.e)}</p>${citaHtml(p)}</div>`).join('')}</section>`).join('')}`}
+    ${ps.map(p=>`<div class="fallo"><p><strong>${esc(p.q)}</strong></p><p>Respuesta correcta: ${esc(p.o[p.c])}</p><div class="muted expl" style="font-size:.9em">${md(p.e)}</div>${citaHtml(p)}</div>`).join('')}</section>`).join('')}`}
 
 /* ---------- Test ---------- */
 let T=null;
@@ -762,7 +789,7 @@ function vTest(app,id){
     <div role="group" aria-label="Opciones">${q.opts.map((o,i)=>{const cls=fb?(i===q.corr?' ok':(r&&r.sel===i?' ko':'')):(examen&&r&&r.sel===i?' sel':'');
       return `<button type="button" class="opt${cls}" data-o="${i}" ${fb?'disabled':''}${examen&&r&&r.sel===i?' aria-pressed="true"':''}><span class="l">${L[i]}</span><span>${esc(o)}</span></button>`}).join('')}</div>
     ${fb?'':`<button type="button" class="btn ghost sm" data-o="-1">${examen&&r&&r.sel===null?'En blanco (pulsa una opción para contestar)':'No lo sé (en blanco)'}</button>`}
-    <div aria-live="polite">${fb?`<div class="fb ${r.sel===q.corr?'ok':'ko'}"><strong>${r.sel===null?'En blanco.':r.sel===q.corr?'¡Correcto!':'Incorrecto.'}</strong> La respuesta es ${L[q.corr]}. ${esc(q.e)}${citaHtml(q)}</div>`:''}</div>
+    <div aria-live="polite">${fb?`<div class="fb ${r.sel===q.corr?'ok':'ko'}"><strong>${r.sel===null?'En blanco.':r.sel===q.corr?'¡Correcto!':'Incorrecto.'}</strong> La respuesta es ${L[q.corr]}.<div class="expl">${md(q.e)}</div>${citaHtml(q)}</div>`:''}</div>
     <div class="row" style="margin-top:14px;gap:8px">${T.i>0?'<button type="button" class="btn ghost" id="ant">← Anterior</button>':''}
       ${ult?`<button type="button" class="btn ${r?'acc':''}" id="sig">${todas?'Ver resultado':'Terminar ('+(T.qs.length-nCont)+' sin contestar)'}</button>`:`<button type="button" class="btn ${r?'acc':'ghost'}" id="sig">${r?'Siguiente →':'Saltar →'}</button>`}
       ${examen&&!ult?`<button type="button" class="btn ghost sm" id="fin">Terminar el examen${todas?'':' ('+(T.qs.length-nCont)+' sin contestar)'}</button>`:''}</div>
