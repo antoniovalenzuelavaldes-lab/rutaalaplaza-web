@@ -283,7 +283,8 @@ function cargaAuto(){if(typeof fetch!=='function')return;
     if(n&&/^#\/(oposiciones|oposicion\/|$)/.test(location.hash||'#/'))render()}).catch(()=>{})}
 const OPO_UGR='ugr-auxiliares-archivos-bibliotecas';   // la unica con temario por ahora
 function elegirOpo(id){if(S.opoSel!==id){S.opoSel=id;guardar()}fijaTemario(id)}
-function opoActual(){   // la oposicion seleccionada; quien ya estudiaba antes de existir la seleccion sigue con la de la UGR
+function opoActual(){
+  if(!S.opoSel&&S.focoOpo)S.opoSel=S.focoOpo;   // con un foco fijado, nunca se vuelve sola a la oposicion por defecto   // la oposicion seleccionada; quien ya estudiaba antes de existir la seleccion sigue con la de la UGR
   if(!S.opoSel&&(S.npreg||Object.keys(S.tests).length||Object.keys(S.leidos).length))S.opoSel=OPO_UGR;
   return OPOS.find(o=>o.id===S.opoSel)||null}
 function sinOpo(app,titulo){const o=opoActual();
@@ -830,9 +831,9 @@ async function cargaPrivados(){const t=await tokenValido();if(!t||!SES||!SES.uid
     (r||[]).forEach(c=>{if(c&&c.datos&&c.datos.plan){PLANCURSOS=c.datos.plan;n++;return}if(!c||!c.id||!c.datos||!c.datos.temas)return;if(!OPOS.some(x=>x.id===c.id))OPOS.push(Object.assign({},c.ficha,{id:c.id,privado:true,estado:'disponible'}));
       if(c.datos.leyes)Object.assign(LEYES,c.datos.leyes);if(c.datos.leyes_boe)Object.assign(BOEID,c.datos.leyes_boe);TEMS[c.id]={ids:Object.keys(c.datos.temas)};CARG['t-'+c.id]=c.datos;n++});
     if(PLANCURSOS&&PLANCURSOS.foco&&TEMS[PLANCURSOS.foco]){const key=PLANCURSOS.foco+':'+(PLANCURSOS.version||'');
-      if(S.focoAplicado!==key){S.focoAplicado=key;S.opoSel=PLANCURSOS.foco;if(PLANCURSOS.fecha)S.examDate=PLANCURSOS.fecha;S.inicio=hoyStr();S.hechos=[];guardar()}}
+      if(S.focoAplicado!==key){S.focoAplicado=key;S.focoOpo=PLANCURSOS.foco;S.opoSel=PLANCURSOS.foco;if(PLANCURSOS.fecha)S.examDate=PLANCURSOS.fecha;S.inicio=hoyStr();S.hechos=[];guardar()}}
     return n}catch(e){return 0}}
-function quitaPrivados(){PLANCURSOS=null;for(let i=OPOS.length-1;i>=0;i--)if(OPOS[i].privado){delete TEMS[OPOS[i].id];delete CARG['t-'+OPOS[i].id];OPOS.splice(i,1)}if(S.opoSel&&!OPOS.some(x=>x.id===S.opoSel))S.opoSel=null}
+function quitaPrivados(){PLANCURSOS=null;for(let i=OPOS.length-1;i>=0;i--)if(OPOS[i].privado){delete TEMS[OPOS[i].id];delete CARG['t-'+OPOS[i].id];OPOS.splice(i,1)}}
 async function sincroniza(){if(esDemo()){nube='demo';if(S.opoSel!==OPO_UGR){S.opoSel=OPO_UGR;guardar()}await cargaAcceso();pintaCuenta();if(!T&&!/^#\/test/.test(location.hash))render();return}
   const t=await tokenValido();if(!t){nube='local';pintaCuenta();return}
   try{if(!SES.uid||!SES.email){const u=await api('/auth/v1/user',{token:t});SES.uid=u.id;SES.email=u.email;guardaSes()}
